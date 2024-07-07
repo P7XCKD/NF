@@ -1,2 +1,2 @@
-# NF
+# NF = Notes Factory 
 NotesHub Notebook
