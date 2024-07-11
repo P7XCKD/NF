@@ -1,6 +1,6 @@
 e
 
-
+```mermaid
 graph LR
     subgraph Input
         A[User enters number of elements (n)] --> B{Array creation (arr[n])}
