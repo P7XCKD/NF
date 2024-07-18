@@ -29,3 +29,16 @@ Source Code (C#, VB.NET, etc.)
         |
         v
   Native Code Execution
+
+3
+
+
+| Parameter           | Managed Code                         | Unmanaged Code                     |
+|---------------------|--------------------------------------|------------------------------------|
+| **Memory Management** | Handled by CLR (Garbage Collection) | Manual memory management          |
+| **Security**        | Enforced by CLR                      | Developer must ensure security     |
+| **Execution**       | Runs within CLR environment          | Runs directly on OS                |
+| **Performance**     | Slightly slower due to overhead      | Generally faster                   |
+| **Interoperability**| Can call unmanaged code              | Needs special handling to call managed code |
+| **Error Handling**  | CLR provides robust error handling   | Must be implemented by the developer |
+
