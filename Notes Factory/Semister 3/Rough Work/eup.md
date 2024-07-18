@@ -10,18 +10,3 @@
 
 2
 The **Common Language Runtime (CLR)** is a core component of the .NET Framework that provides services like memory management, security enforcement, exception handling, and garbage collection, ensuring the smooth execution and management of .NET applications.
-```mermaid
-graph TD
-    A[Source Code (C#, VB.NET, etc.)]
-    B[Compiler]
-    C[Intermediate Language (IL)]
-    D[Assembly (DLL/EXE)]
-    E[CLR (JIT Compilation)]
-    F[Native Code Execution]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-```
