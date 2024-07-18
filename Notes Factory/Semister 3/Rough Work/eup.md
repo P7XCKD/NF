@@ -42,3 +42,10 @@ Source Code (C#, VB.NET, etc.)
 | **Interoperability**| Can call unmanaged code              | Needs special handling to call managed code |
 | **Error Handling**  | CLR provides robust error handling   | Must be implemented by the developer |
 
+4
+1. **IntelliSense**: Code completion and syntax highlighting.
+2. **Debugger**: Advanced debugging tools.
+3. **Integrated Tools**: Built-in support for version control, databases, and more.
+4. **Templates**: Predefined project templates for quick setup.
+5. **Extensions**: Wide range of plugins and extensions.
+6. **Cross-Platform Development**: Supports multiple platforms like Windows, macOS, Linux.
