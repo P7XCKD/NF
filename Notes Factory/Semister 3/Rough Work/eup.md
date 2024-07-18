@@ -52,3 +52,5 @@ Source Code (C#, VB.NET, etc.)
 
 5
 **Events** in programming refer to occurrences or actions recognized by software, commonly used in graphical user interfaces (GUIs) to trigger specific functions or methods in response to user interactions such as button clicks or key presses, facilitating interactive application behavior.
+
+An **event handler** in programming is a function or method that responds to events triggered by user actions or system events. It is specifically assigned to handle a particular event, such as a button click or a key press, executing predefined actions or behaviors in response to those events.
