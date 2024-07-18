@@ -56,3 +56,5 @@ Source Code (C#, VB.NET, etc.)
 An **event handler** in programming is a function or method that responds to events triggered by user actions or system events. It is specifically assigned to handle a particular event, such as a button click or a key press, executing predefined actions or behaviors in response to those events.
 
 A **Graphical User Interface (GUI)** is a visual interface that allows users to interact with a computer or software using graphical elements like windows, icons, buttons, and menus, making it more user-friendly compared to text-based interfaces.
+
+**Event-driven programming** is a programming paradigm where the flow of the program is determined by events such as user actions (mouse clicks, key presses) or sensor outputs. Event handlers are used to respond to these events, allowing for interactive and responsive applications.
