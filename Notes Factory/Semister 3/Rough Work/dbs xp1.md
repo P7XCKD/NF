@@ -8,6 +8,19 @@ An Entity-Relationship (ER) model is crucial for database design. It maps out da
 
 The ER model is a conceptual framework that describes a database's structure using entities, attributes, and relationships. Developed by Peter Chen, it visually represents how data entities interact, making it easier to organize and understand complex data relationships before creating the database.
 
+
+### Data Models
+
+A data model is a framework that defines how data is structured, stored, and related within a database. It helps organize and manage data efficiently.
+
+### Types of Data Models
+
+1. **Hierarchical Model**: Data is organized in a tree-like structure with parent-child relationships.
+2. **Network Model**: Data is arranged in a graph with multiple parent-child links.
+3. **Relational Model**: Data is stored in tables with rows and columns, widely used in SQL databases.
+4. **Entity-Relationship (ER) Model**: Uses entities, attributes, and relationships to represent data, used for designing databases.
+5. **Object-Oriented Model**: Combines data and behavior using objects, similar to object-oriented programming.
+
 ### Components of ER Model (in Table)
 
 | Component     | Description                                                               |
