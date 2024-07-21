@@ -5,10 +5,13 @@ erDiagram
         date DateOfBirth
         string Email
     }
-
-    STUDENT {
+    
+    STUDENT ||--o{ NAME : has
+    
+    NAME {
         string FirstName
         string LastName
     }
-
+    
+    NAME }o--|| STUDENT : isPartOf
 ```
