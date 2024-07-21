@@ -15,12 +15,15 @@ A data model is a framework that defines how data is structured, stored, and rel
 
 ### Types of Data Models
 
-1. **Hierarchical Model**: Data is organized in a tree-like structure with parent-child relationships.
-2. **Network Model**: Data is arranged in a graph with multiple parent-child links.
-3. **Relational Model**: Data is stored in tables with rows and columns, widely used in SQL databases.
-4. **Entity-Relationship (ER) Model**: Uses entities, attributes, and relationships to represent data, used for designing databases.
-5. **Object-Oriented Model**: Combines data and behavior using objects, similar to object-oriented programming.
+1. **Hierarchical Model**: Organizes data in a tree-like structure with parent-child relationships. Each parent can have multiple children, but each child has only one parent (e.g., file systems).
 
+2. **Network Model**: Allows more complex relationships by enabling multiple parent-child relationships. Data is organized in a graph structure, where nodes represent entities and edges represent relationships (e.g., network databases).
+
+3. **Relational Model**: Uses tables (relations) to represent data and their relationships. Each table consists of rows (records) and columns (attributes). This model is highly flexible and widely used in databases (e.g., SQL databases).
+
+4. **Entity-Relationship (ER) Model**: Represents data using entities (objects), attributes (properties), and relationships between entities. It's a conceptual model used for database design.
+
+5. **Object-Oriented Model**: Integrates data and its behavior by using objects, similar to object-oriented programming. It allows complex data types and relationships (e.g., object-oriented databases).
 ### Components of ER Model (in Table)
 
 | Component     | Description                                                               |
