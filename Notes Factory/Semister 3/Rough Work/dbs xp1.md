@@ -1,3 +1,5 @@
+theory
+
 ### Why We Need ER Model
 
 An Entity-Relationship (ER) model is crucial for database design. It maps out data entities, their attributes, and relationships, ensuring data consistency and simplifying database planning. This model serves as a blueprint for constructing an efficient database and facilitates communication among stakeholders.
@@ -15,3 +17,4 @@ The ER model is a conceptual framework that describes a database's structure usi
 | Relationship  | A link between entities showing their interaction (e.g., Purchases).      |
 | Primary Key   | A unique identifier for an entity instance (e.g., Customer ID).           |
 | Cardinality   | The numerical relationship between entities (e.g., One-to-Many).          |
+
