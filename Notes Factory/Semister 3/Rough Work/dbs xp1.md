@@ -18,4 +18,6 @@ The ER model is a conceptual framework that describes a database's structure usi
 | Primary Key   | A unique identifier for an entity instance (e.g., Customer ID).           |
 | Cardinality   | The numerical relationship between entities (e.g., One-to-Many).          |
 
+![image](.attachments/2b683cab09cd8e9fbb4e43dfd39ed8002b149b7e.jpg) 
+
 
