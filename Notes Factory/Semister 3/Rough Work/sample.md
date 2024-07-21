@@ -22,8 +22,9 @@ erDiagram
         int CourseID FK
     }
 
-    STUDENT ||--o{ ENROLLMENT : "Enrolls"
-    COURSE ||--o{ ENROLLMENT : "Enrolls"
-    STUDENT ||--|| ENROLLMENT : "EnrollmentDetails"
-    COURSE ||--|| ENROLLMENT : "EnrollmentDetails"
-    ```
+    STUDENT ||--o{ ENROLLMENT : Enrolls
+    COURSE ||--o{ ENROLLMENT : Enrolls
+    STUDENT ||--|| ENROLLMENT : EnrollmentDetails
+    COURSE ||--|| ENROLLMENT : EnrollmentDetails
+
+```
