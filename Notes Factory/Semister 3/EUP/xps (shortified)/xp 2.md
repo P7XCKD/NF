@@ -16,7 +16,9 @@ procedure (codes, write this stuffs down)
 
 
 ![image](.attachments/a6bf715dbef03831943f31cade709cb333f66b45.jpg) 
-
+![image](.attachments/575c825444fa5c8b72f6b2739d55516d57c6a0de.jpg) 
+}
+//add this extra bracket on above code
 
 2. **Textbox Clear and Show Details Code:**
    The clear code resets the username and password fields when the "Clear" button is clicked. The show details code makes a group box visible when the "Show Details" button is clicked, displaying additional user details.
