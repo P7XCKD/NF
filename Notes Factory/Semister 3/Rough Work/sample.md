@@ -5,7 +5,7 @@ erDiagram
         first_name
         last_name
         birth_date
-        email
+        emaail
     }
     
     COURSE {
