@@ -6,7 +6,7 @@ An Entity-Relationship (ER) model is crucial for database design. It maps out da
 
 ### What is ER Model
 
-The ER model is a conceptual framework that describes a database's structure using entities, attributes, and relationships. Developed by Peter Chen, it visually represents how data entities interact, making it easier to organize and understand complex data relationships before creating the database.
+The ER model is a conceptual framework that describes a database's structure using entities, attributes, and relationships. it visually represents how data entities interact, making it easier to organize and understand complex data relationships before creating the database.
 
 
 ### Data Models
