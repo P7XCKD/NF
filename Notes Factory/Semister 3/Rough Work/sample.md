@@ -5,8 +5,7 @@ erDiagram
         first_name
         last_name
         birth_date
-        emaail
-    }
+        emaai   }
     
     COURSE {
         course_id PK
