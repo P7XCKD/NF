@@ -20,4 +20,6 @@ procedure (codes, write this stuffs down)
 
 2. **Textbox Clear and Show Details Code:**
    The clear code resets the username and password fields when the "Clear" button is clicked. The show details code makes a group box visible when the "Show Details" button is clicked, displaying additional user details.
-![image](.attachments/63c2e1b5c19e16753cca1dcd3b12ff3a64fcd300.jpg) 
+![image](.attachments/63c2e1b5c19e16753cca1dcd3b12ff3a64fcd300.jpg)
+
+conclusion: hence we  successfully designed a login form and validated it's data
