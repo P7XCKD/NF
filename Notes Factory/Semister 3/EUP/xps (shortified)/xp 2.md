@@ -10,5 +10,5 @@ The design and validation of a login form involves implementing key concepts of 
 
 procedure (codes, write this stuffs down)
 ![image](.attachments/a6bf715dbef03831943f31cade709cb333f66b45.jpg) 
-![image](.attachments/b0122af0abd1310c6011fcfed99d86dcea0839e2.jpg) 
+
 ![image](.attachments/63c2e1b5c19e16753cca1dcd3b12ff3a64fcd300.jpg) 
