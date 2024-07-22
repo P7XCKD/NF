@@ -9,6 +9,15 @@ The design and validation of a login form involves implementing key concepts of 
 ![image](.attachments/de4c2d54c6cd68a8385ad23c243a26754d28ecb3.jpg)
 
 procedure (codes, write this stuffs down)
+### Procedure
+
+1. **Validation Code:**
+   This code checks if the username and password fields are filled, meet length requirements, and contain no uppercase letters. It displays error messages for invalid inputs.
+
+
 ![image](.attachments/a6bf715dbef03831943f31cade709cb333f66b45.jpg) 
 
+
+2. **Textbox Clear and Show Details Code:**
+   The clear code resets the username and password fields when the "Clear" button is clicked. The show details code makes a group box visible when the "Show Details" button is clicked, displaying additional user details.
 ![image](.attachments/63c2e1b5c19e16753cca1dcd3b12ff3a64fcd300.jpg) 
