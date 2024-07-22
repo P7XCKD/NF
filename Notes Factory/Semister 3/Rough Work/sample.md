@@ -1,7 +1,7 @@
 ```mermaid
 erDiagram
     STUDENT {
-        student_idd PK
+        studentid
         first_name
         last_name
         birth_date
