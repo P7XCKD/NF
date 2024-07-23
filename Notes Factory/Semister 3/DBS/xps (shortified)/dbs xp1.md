@@ -36,5 +36,5 @@ A data model is a framework that defines how data is structured, stored, and rel
 
 ![image](.attachments/2b683cab09cd8e9fbb4e43dfd39ed8002b149b7e.jpg) 
 
-procedure (at your own risk, not verified/correct)
+procedure
 ![image](.attachments/5591c64f8df27103fba4b004c1d21c8bc631e2ab.png)
