@@ -50,3 +50,7 @@ Steps to install Visual Studio IDE:
 8. **Launch Visual Studio**:
    - Once installation is complete, click the "Launch" button to start Visual Studio.
   
+![image](.attachments/4af5ed36249ba7f51c542967ee8b1df8ea7b9a1d.jpg) 
+![image](.attachments/2d2bbc39c434eff6e5d471b75634e331c2149a51.png) 
+![image](.attachments/c7a8c09f0a18cc7d499383b17906de7e97206882.png) 
+![image](.attachments/85fe3a0a02d09c070d65fa9dfb4f995956d2a895.png) 
