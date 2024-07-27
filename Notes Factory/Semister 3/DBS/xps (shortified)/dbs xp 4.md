@@ -1,4 +1,4 @@
-## Experiment 4: Implementation of Alter, Update, Delete, and Drop
+
 
 ### Aim:
 To implement ALTER, UPDATE, DELETE, and DROP commands.
