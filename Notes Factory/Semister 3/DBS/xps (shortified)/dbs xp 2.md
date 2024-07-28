@@ -154,4 +154,4 @@ CREATE TABLE student (
 );
 ```
 
-Conclusion: hence, we successfully created of table with constraint and insertion of data.
+Conclusion: hence, we successfully created table with constraint and insertion of data.
