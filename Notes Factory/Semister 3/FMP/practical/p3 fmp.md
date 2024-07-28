@@ -169,7 +169,7 @@ end
 ```
 output: fffe
 
-wap to count and display no. of 1 in 8bit
+wap to count and display no. of 1 in 8bit (This needs to be corrected)
 ```alp
 .model small
 
