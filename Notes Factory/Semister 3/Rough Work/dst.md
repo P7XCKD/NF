@@ -46,7 +46,7 @@ Sure, here's the step-by-step conversion of the infix expression to postfix nota
 | 12   | -     | ( + / ( -     | a b c + d |
 | 13   | e     | ( + / ( -     | a b c + d e|
 | 14   | )     | ( + /         | a b c + d e -|
-| 15   | )     | (             | a b c + d e - /|
+| 15   | )     | ( +            | a b c + d e - /|
 | 16   | )     |               | a b c + d e - / +|
 
 **Final Postfix Expression**: `a b c + d e - / +`
