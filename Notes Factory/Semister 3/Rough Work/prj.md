@@ -29,3 +29,4 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 5. how is java platform independent 
 -> Java is platform-independent because it uses an intermediate form called Java Byte Code. When you write a Java program, it gets compiled into byte code, not machine-specific code. For example, if you write a Java program on a Windows computer, it will be compiled into byte code. You can then run this byte code on a Linux computer or a Mac, as long as there is a Java Virtual Machine (JVM) installed. The JVM interprets the byte code and runs the program, regardless of the underlying operating system. This is what makes Java programs able to run on different platforms without modification.
+   ![image](.attachments/9c14f3fb4f7cd50225e2d3be517b9561aa9866bd.png) 
