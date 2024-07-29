@@ -20,8 +20,8 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 ### Role of JVM in Execution
 
-1. **Compilation**: Converts `.java` file to `.class` file.
+1. **Compilation**: Converts `.java` to `.class` file.
 2. **Class Loader**: Loads `.class` files.
-3. **Memory Allocation**: Divides memory into heap and stack.
+3. **Memory Allocation**: Manages heap (for objects) and stack (for method calls and variables).
 4. **Execution**: Runs `main` method.
-5. **Garbage Collection**: Reclaims memory after execution.
+5. **Garbage Collection**: Reclaims memory from unused objects.
