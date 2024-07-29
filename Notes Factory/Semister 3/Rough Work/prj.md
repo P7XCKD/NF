@@ -16,15 +16,12 @@
 
 ### Need for Java Program Execution
 
-To execute a Java program, the source code must be compiled into bytecode and run by the Java Virtual Machine (JVM). This ensures platform independence and efficient execution.
+To run a Java program, the source code must be compiled into bytecode and executed by the JVM.
 
-### Role of JVM in Java Program Execution
+### Role of JVM in Execution
 
-1. **Class Loading**: The JVM loads the compiled `.class` files into memory via the ClassLoader.
-2. **Bytecode Verification**: It checks the bytecode for security and correctness.
-3. **Memory Allocation**: The JVM allocates memory into the heap (for objects) and the stack (for methods and local variables). Static members are also loaded.
-4. **Execution**: The JVM identifies and executes the `main` method, with the JIT compiler optimizing performance by converting bytecode to machine code.
-5. **Error Handling**: If the `main` method is absent, the JVM throws an error and halts execution.
-6. **Garbage Collection**: The JVM's garbage collector reclaims memory from unused objects post-execution.
-
-This process ensures secure and efficient execution of Java programs.
+1. **Compilation**: Converts `.java` file to `.class` file.
+2. **Class Loader**: Loads `.class` files.
+3. **Memory Allocation**: Divides memory into heap and stack.
+4. **Execution**: Runs `main` method.
+5. **Garbage Collection**: Reclaims memory after execution.
