@@ -47,4 +47,3 @@ public  static void main (String[] args)  is essential for your program to run, 
 
 - **String[] args**: This is an array of `String` objects. It allows the program to accept arguments from the command line when it is run.
 
-In summary, `public static void main(String[] args)` is the method that the Java runtime calls to start your program. It must be written exactly this way for the program to run.
