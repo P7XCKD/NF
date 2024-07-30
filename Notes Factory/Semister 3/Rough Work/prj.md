@@ -57,11 +57,71 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 Each section organizes different aspects of the code, helping in structure and readability.
 ***
-8.
+8. define a class and give it's example
+
+   ### Defining a Class in Java
+
+A class in Java is a blueprint for creating objects. It defines the attributes (fields) and behaviors (methods) that the objects created from the class will have.
+
+#### Syntax:
+```java
+class ClassName {
+    // Fields
+    type fieldName;
+    
+    // Constructor
+    ClassName(parameters) {
+        // Initialization code
+    }
+    
+    // Methods
+    returnType methodName(parameters) {
+        // Method code
+    }
+}
+```
+
+### Example:
+```java
+class Car {
+    // Fields
+    String color;
+    String model;
+    int year;
+    
+    // Constructor
+    Car(String color, String model, int year) {
+        this.color = color;
+        this.model = model;
+        this.year = year;
+    }
+    
+    // Method
+    void displayInfo() {
+        System.out.println("Color: " + color);
+        System.out.println("Model: " + model);
+        System.out.println("Year: " + year);
+    }
+    
+    public static void main(String[] args) {
+        // Creating an object of Car
+        Car myCar = new Car("Red", "Toyota", 2020);
+        
+        // Calling method
+        myCar.displayInfo();
+    }
+}
+```
+
+### Explanation:
+- **Fields**: `color`, `model`, and `year` represent the attributes of the Car.
+- **Constructor**: Initializes the fields with the provided values.
+- **Method**: `displayInfo()` prints the car's details.
+- **Main Method**: Creates an object of `Car` and calls `displayInfo()` to display its attributes.
 ***
 9.
 ***
-10
+10.
 ***
 
 
