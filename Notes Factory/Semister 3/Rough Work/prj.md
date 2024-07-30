@@ -35,7 +35,7 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 11. explain the meaning of public  static void main (String[] args)
 ->
-public  static void main (String[] args)  is essential for your program to run, as it is the specific entry point that the Java runtime environment looks for when starting your application.
+```public  static void main (String[] args) ```  is essential for your program to run, as it is the specific entry point that the Java runtime environment looks for when starting your application.
 
 - **public**: This keyword means that the method is accessible from anywhere in the program. It's public to allow the Java runtime to call it from outside the class.
   
