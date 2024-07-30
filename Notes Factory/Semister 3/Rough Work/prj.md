@@ -29,4 +29,22 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 5. how is java platform independent 
 -> Java is platform-independent because it uses an intermediate form called Java Byte Code. When you write a Java program, it gets compiled into byte code, not machine-specific code. For example, if you write a Java program on a Windows computer, it will be compiled into byte code. You can then run this byte code on a Linux computer or a Mac, as long as there is a Java Virtual Machine (JVM) installed. The JVM interprets the byte code and runs the program, regardless of the underlying operating system. This is what makes Java programs able to run on different platforms without modification.
-   ![image](.attachments/9c14f3fb4f7cd50225e2d3be517b9561aa9866bd.png) 
+   ![image](.attachments/9c14f3fb4f7cd50225e2d3be517b9561aa9866bd.png)
+
+***
+
+11. explain the meaning of public  static void main (String[] args)
+->
+public  static void main (String[] args)  is essential for your program to run, as it is the specific entry point that the Java runtime environment looks for when starting your application.
+
+- **public**: This keyword means that the method is accessible from anywhere in the program. It's public to allow the Java runtime to call it from outside the class.
+  
+- **static**: This means that the method belongs to the class itself, not to instances of the class. This allows the Java runtime to call this method without having to create an instance of the class.
+
+- **void**: This indicates that the method does not return any value.
+
+- **main**: This is the name of the method. It's special because the Java runtime looks for this method when starting the program.
+
+- **String[] args**: This is an array of `String` objects. It allows the program to accept arguments from the command line when it is run.
+
+In summary, `public static void main(String[] args)` is the method that the Java runtime calls to start your program. It must be written exactly this way for the program to run.
