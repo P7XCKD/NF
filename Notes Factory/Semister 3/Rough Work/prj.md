@@ -57,6 +57,13 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 Each section organizes different aspects of the code, helping in structure and readability.
 ***
+8.
+***
+9.
+***
+10
+***
+
 
 11. explain the meaning of public  static void main (String[] args)
 ->
