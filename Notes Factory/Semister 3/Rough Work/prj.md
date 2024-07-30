@@ -119,7 +119,44 @@ class Car {
 - **Method**: `displayInfo()` prints the car's details.
 - **Main Method**: Creates an object of `Car` and calls `displayInfo()` to display its attributes.
 ***
-9.
+9. define an object with suitable example
+   In Java, an object is an instance of a class, encapsulating fields (attributes) and methods (functions). To define and use an object:
+
+1. **Define a Class**: Create a class with attributes and methods.
+2. **Instantiate the Class**: Create an object using the `new` keyword.
+3. **Set Attributes**: Assign values to the object's fields.
+4. **Call Methods**: Invoke methods to perform actions or access information.
+
+**Example**:
+
+```java
+public class Car {
+    String color;
+    String model;
+    int year;
+
+    void displayDetails() {
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Year: " + year);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car(); // 1
+        myCar.color = "Red"; // 2
+        myCar.model = "Toyota Corolla"; // 3
+        myCar.year = 2020; // 4
+        myCar.displayDetails(); // 5
+    }
+}
+```
+
+**Explanation**:
+1. **Create an Object**: `Car myCar = new Car();`
+2. **Set Attributes**: `myCar.color`, `myCar.model`, `myCar.year`
+3. **Call Method**: `myCar.displayDetails()`
 ***
 10.
 ***
