@@ -38,7 +38,7 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 - **Java is platform-independent**: Its programs are compiled into bytecode, which can be executed on any platform with a compatible JVM, following the "write once, run anywhere" principle.
 ***
-  7.
+  7. give the structure of java program ![image](.attachments/257e30605670752c80610c270fde15ae80616a5c.png) 
 ***
 
 11. explain the meaning of public  static void main (String[] args)
