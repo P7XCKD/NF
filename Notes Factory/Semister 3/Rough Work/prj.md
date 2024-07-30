@@ -158,7 +158,20 @@ public class Main {
 2. **Set Attributes**: `myCar.color`, `myCar.model`, `myCar.year`
 3. **Call Method**: `myCar.displayDetails()`
 ***
-10.
+10. explain the role of new keyword in object creation
+->
+**Definition**:
+In Java, the `new` keyword is used to create an instance of a class. It allocates memory for the object, initializes it using the class constructor, and returns a reference to the object.
+
+**Example**:
+```java
+Car myCar = new Car();
+```
+
+**How It Works**:
+1. **Memory Allocation**: `new Car()` allocates memory for a new `Car` object.
+2. **Initialization**: The `Car` constructor initializes the new object.
+3. **Reference Assignment**: The reference to the new object is assigned to `myCar`, which can then be used to access the object's attributes and methods.
 ***
 
 
