@@ -38,7 +38,24 @@ To run a Java program, the source code must be compiled into bytecode and execut
 
 - **Java is platform-independent**: Its programs are compiled into bytecode, which can be executed on any platform with a compatible JVM, following the "write once, run anywhere" principle.
 ***
-  7. give the structure of java program ![image](.attachments/257e30605670752c80610c270fde15ae80616a5c.png) 
+  7. give the structure of java program ![image](.attachments/257e30605670752c80610c270fde15ae80616a5c.png)
+     ### Structure of a Java Program
+
+- **Documentation Section**: Comments that describe the program.
+
+- **Package Statement**: Defines a package for organizing classes.
+
+- **Import Statements**: Import other Java classes needed for the program.
+
+- **Interface Section**: Declares interfaces implemented by the class.
+
+- **Class Definition**: Defines the main class of the program.
+
+- **Main Method**: Entry point of the program where execution begins.
+
+- **Method Definitions**: Additional methods/functions used in the program.
+
+Each section organizes different aspects of the code, helping in structure and readability.
 ***
 
 11. explain the meaning of public  static void main (String[] args)
