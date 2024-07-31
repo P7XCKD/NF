@@ -22,4 +22,9 @@ Aggregative operators allow performing computations or summarizations on data re
    - **Syntax**: `MAX(Column name)`
    - **Example**: `SELECT MAX(Sal) FROM emp;`
    - **Group By Example**: `SELECT deptno, MAX(sal) FROM emp GROUP BY deptno;`
-  
+
+| DEPTNO | MAX(SAL) |
+|--------|----------|
+| 10     | 5000     |
+| 20     | 3000     |
+| 30     | 2850     |
