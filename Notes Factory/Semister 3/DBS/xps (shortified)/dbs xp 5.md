@@ -4,32 +4,48 @@
 Implementation of Aggregate and Character Functions
 
 ### Theory:
-Aggregative operators allow performing computations or summarizations on data retrieved from a database using SQL. Examples include MIN, MAX, SUM, AVG, and COUNT.
+Aggregative operators perform computations or summarizations on data using SQL. Examples include MIN, MAX, SUM, AVG, and COUNT.
 
-1. **Count**: Returns the count of tuples (row) in a column. Using `DISTINCT` returns only the count of unique tuples.
+1. **Count**: Returns the count of tuples (rows) in a column. Using `DISTINCT` returns only the count of unique tuples.
    - **Syntax**: `COUNT(Column name)`
-   - **Example**: `SELECT COUNT(Sal) FROM emp;`
+   - **Example**: 
+     ```sql
+     SELECT COUNT(Sal) FROM emp;
+     ```
 
 2. **SUM**: Returns the sum of all values in a column.
    - **Syntax**: `SUM(Column name)`
-   - **Example**: `SELECT SUM(Sal) FROM emp;`
+   - **Example**: 
+     ```sql
+     SELECT SUM(Sal) FROM emp;
+     ```
 
 3. **AVG**: Returns the average value of a column's values.
    - **Syntax**: `AVG(Column name)`
-   - **Example**: `SELECT AVG(Sal) FROM emp;`
+   - **Example**: 
+     ```sql
+     SELECT AVG(Sal) FROM emp;
+     ```
 
 4. **MAX**: Returns the maximum value of a column.
    - **Syntax**: `MAX(Column name)`
-   - **Example**: `SELECT MAX(Sal) FROM emp;`
-   - **Group By Example**: `SELECT deptno, MAX(sal) FROM emp GROUP BY deptno;`
+   - **Example**: 
+     ```sql
+     SELECT MAX(Sal) FROM emp;
+     ```
+   - **Group By Example**: 
+     ```sql
+     SELECT deptno, MAX(sal) FROM emp GROUP BY deptno;
+     ```
 
-| DEPTNO | MAX(SAL) |
-|--------|----------|
-| 10     | 5000     |
-| 20     | 3000     |
-| 30     | 2850     |
+   - **Result**:
+     | DEPTNO | MAX(SAL) |
+     |--------|----------|
+     | 10     | 5000     |
+     | 20     | 3000     |
+     | 30     | 2850     |
 
-   - **Example**:
+   - **Filtered Example**: 
      ```sql
      SELECT deptno, MAX(sal) 
      FROM emp 
@@ -41,9 +57,9 @@ Aggregative operators allow performing computations or summarizations on data re
      |--------|----------|
      | 30     | 2850     |
 
-5. **MIN Function**:
-   - **Usage**: Returns the minimum value of a column.
-   - **Example**:
+5. **MIN**: Returns the minimum value of a column.
+   - **Syntax**: `MIN(Column name)`
+   - **Example**: 
      ```sql
      SELECT deptno, MIN(sal) 
      FROM emp 
@@ -81,5 +97,5 @@ Aggregative operators allow performing computations or summarizations on data re
      SELECT replace('jack and jue', 'j', 'bl') FROM dual;
      ```
 
-     Conclusion:
-  hence , we successfully performed Implementation of Aggregate and Character Functions
+### Conclusion:
+We successfully performed the implementation of aggregate and character functions.
