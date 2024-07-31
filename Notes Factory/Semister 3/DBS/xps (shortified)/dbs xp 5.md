@@ -28,3 +28,55 @@ Aggregative operators allow performing computations or summarizations on data re
 | 10     | 5000     |
 | 20     | 3000     |
 | 30     | 2850     |
+
+   - **Example**:
+     ```sql
+     SELECT deptno, MAX(sal) 
+     FROM emp 
+     GROUP BY deptno 
+     HAVING MAX(sal) < 3000;
+     ```
+   - **Result**:
+     | DEPTNO | MAX(SAL) |
+     |--------|----------|
+     | 30     | 2850     |
+
+2. **MIN Function**:
+   - **Usage**: Returns the minimum value of a column.
+   - **Example**:
+     ```sql
+     SELECT deptno, MIN(sal) 
+     FROM emp 
+     GROUP BY deptno 
+     HAVING MIN(sal) > 1000;
+     ```
+   - **Result**:
+     | DEPTNO | MIN(SAL) |
+     |--------|----------|
+     | 10     | 1300     |
+
+3. **Character Functions**:
+   - **initcap(char)**: Capitalizes the first letter of each word.
+     ```sql
+     SELECT initcap('hello') FROM dual;
+     ```
+   - **lower(char)**: Converts all characters to lowercase.
+     ```sql
+     SELECT lower('HELLO') FROM dual;
+     ```
+   - **upper(char)**: Converts all characters to uppercase.
+     ```sql
+     SELECT upper('hello') FROM dual;
+     ```
+   - **ltrim(char, [set])**: Trims characters from the left.
+     ```sql
+     SELECT ltrim('cseit', 'cse') FROM dual;
+     ```
+   - **rtrim(char, [set])**: Trims characters from the right.
+     ```sql
+     SELECT rtrim('cseit', 'it') FROM dual;
+     ```
+   - **replace(char, search)**: Replaces occurrences of a substring.
+     ```sql
+     SELECT replace('jack and jue', 'j', 'bl') FROM dual;
+     ```
