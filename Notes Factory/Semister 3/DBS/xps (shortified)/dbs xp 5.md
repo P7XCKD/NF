@@ -80,3 +80,6 @@ Aggregative operators allow performing computations or summarizations on data re
      ```sql
      SELECT replace('jack and jue', 'j', 'bl') FROM dual;
      ```
+
+     Conclusion:
+  hence , we successfully performed Implementation of Aggregate and Character Functions
