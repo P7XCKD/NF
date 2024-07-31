@@ -6,7 +6,7 @@ Implementation of Aggregate and Character Functions
 ### Theory:
 Aggregative operators allow performing computations or summarizations on data retrieved from a database using SQL. Examples include MIN, MAX, SUM, AVG, and COUNT.
 
-1. **Count**: Returns the count of tuples in a column. Using `DISTINCT` returns only the count of unique tuples.
+1. **Count**: Returns the count of tuples (row) in a column. Using `DISTINCT` returns only the count of unique tuples.
    - **Syntax**: `COUNT(Column name)`
    - **Example**: `SELECT COUNT(Sal) FROM emp;`
 
