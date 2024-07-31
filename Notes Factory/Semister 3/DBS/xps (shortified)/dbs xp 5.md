@@ -41,7 +41,7 @@ Aggregative operators allow performing computations or summarizations on data re
      |--------|----------|
      | 30     | 2850     |
 
-2. **MIN Function**:
+5. **MIN Function**:
    - **Usage**: Returns the minimum value of a column.
    - **Example**:
      ```sql
@@ -55,7 +55,7 @@ Aggregative operators allow performing computations or summarizations on data re
      |--------|----------|
      | 10     | 1300     |
 
-3. **Character Functions**:
+6. **Character Functions**:
    - **initcap(char)**: Capitalizes the first letter of each word.
      ```sql
      SELECT initcap('hello') FROM dual;
