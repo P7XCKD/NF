@@ -59,3 +59,4 @@ An outer join returns all the rows returned by a simple join as well as those ro
   - **Right Outer Join**
   - **Full Outer Join**
 ***
+conclusion: hence we implemented different types of joints
