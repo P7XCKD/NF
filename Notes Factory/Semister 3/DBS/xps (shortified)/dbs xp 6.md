@@ -100,3 +100,5 @@ Implementation of various clauses in SQL
   CREATE INDEX id1 ON emp(empno, dept_no);
   ```
 ***
+conclusion: hence we successfully 
+Implemented various clauses in SQL
