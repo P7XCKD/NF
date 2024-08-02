@@ -112,3 +112,6 @@ Execution of string, comparison, and set operations.
 - **Intersect:** Returns rows that are common to both queries.
 - **Minus:** Returns all distinct rows selected by the first query but not by the second.
 ***
+
+conclusion: hence we successfully 
+Executed of string, comparison, and set operations.
