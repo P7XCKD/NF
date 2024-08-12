@@ -1,3 +1,6 @@
+
+---
+
 # EUP Experiment 4
 
 ## Aim
@@ -5,11 +8,11 @@ Designing of Windows Form using custom controls.
 
 ## Theory
 
-### **ProgressBar**
-
 **Difference between Classic and Custom Controls:**
-- **Classic Controls**: Standard control provided by .NET Framework with predefined appearance and behavior. Limited customization options.
-- **Custom Controls**: User-defined controls that extend functionality and appearance of the ProgressBar, allowing more customization.
+- **Classic Controls**: Standard controls provided by .NET Framework with predefined appearance and behavior. Limited customization options.
+- **Custom Controls**: User-defined controls that extend functionality and appearance, allowing more customization and control over display and behavior.
+
+### **ProgressBar**
 
 **Properties:**
 - **Value**: Current progress value.
@@ -27,10 +30,6 @@ Designing of Windows Form using custom controls.
 
 ### **ListView**
 
-**Difference between Classic and Custom Controls:**
-- **Classic Controls**: Provides a simple list interface with predefined item display.
-- **Custom Controls**: Allows for advanced customization of item display, sorting, and grouping.
-
 **Properties:**
 - **View**: Determines the display mode (details, list, etc.).
 - **FullRowSelect**: Specifies if the entire row is selected.
@@ -47,10 +46,6 @@ Designing of Windows Form using custom controls.
 
 ### **ImageList**
 
-**Difference between Classic and Custom Controls:**
-- **Classic Controls**: Provides a simple way to manage and display images.
-- **Custom Controls**: Allows more control over image management, including custom image rendering and image manipulation.
-
 **Properties:**
 - **Images**: Collection of images.
 - **ImageSize**: Size of each image in the list.
@@ -62,10 +57,6 @@ Designing of Windows Form using custom controls.
 - **None**: ImageList does not have specific events.
 
 ### **TreeView**
-
-**Difference between Classic and Custom Controls:**
-- **Classic Controls**: Displays hierarchical data in a tree structure with basic customization.
-- **Custom Controls**: Offers advanced customization for node appearance, behavior, and interaction.
 
 **Properties:**
 - **Nodes**: Collection of TreeNode objects.
@@ -82,10 +73,6 @@ Designing of Windows Form using custom controls.
 - **NodeMouseDoubleClick**: Triggered when a node is double-clicked.
 
 ### **MenuStrip and StatusStrip**
-
-**Difference between Classic and Custom Controls:**
-- **Classic Controls**: Provides a standard menu and status bar with predefined styles and behavior.
-- **Custom Controls**: Allows for extensive customization of menu items and status information display.
 
 **Properties:**
 - **MenuStrip**:
@@ -116,4 +103,7 @@ Designing of Windows Form using custom controls.
   - **Resize**: Triggered when the StatusStrip is resized.
 
 ## Conclusion
- hence we successfully performed Designing of Windows Form using custom controls.
+Hence, we successfully performed the Designing of Windows Form using custom controls.
+
+--- 
+
