@@ -1211,5 +1211,242 @@ public class MethodOverridingDemo {
 | Type of Polymorphism       | Static                                       | Dynamic                                       |
 | Example                    | Method overloading: same method name, different parameters | Method overriding: same method signature in subclass |
 ***
+### XTRAS (Quick Read)
+#### Decision Making in Java
 
+**Simple `if` Statement**  
+The `if` statement executes a block of code if a specified condition is true.  
+**Syntax:**
+```java
+if (condition) {
+    // code to execute if condition is true
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int num = 10;
+        if (num > 5) {
+            System.out.println("Number is greater than 5");
+        }
+    }
+}
+```
+
+**`if...else` Statement**  
+The `if...else` statement executes one block of code if the condition is true and another block if it is false.  
+**Syntax:**
+```java
+if (condition) {
+    // code to execute if condition is true
+} else {
+    // code to execute if condition is false
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int num = 4;
+        if (num > 5) {
+            System.out.println("Number is greater than 5");
+        } else {
+            System.out.println("Number is not greater than 5");
+        }
+    }
+}
+```
+
+**`else if` Ladder**  
+The `else if` ladder is used to check multiple conditions sequentially.  
+**Syntax:**
+```java
+if (condition1) {
+    // code to execute if condition1 is true
+} else if (condition2) {
+    // code to execute if condition2 is true
+} else {
+    // code to execute if all conditions are false
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int num = 3;
+        if (num > 5) {
+            System.out.println("Number is greater than 5");
+        } else if (num == 5) {
+            System.out.println("Number is equal to 5");
+        } else {
+            System.out.println("Number is less than 5");
+        }
+    }
+}
+```
+
+**`switch` Statement**  
+The `switch` statement executes a block of code based on the value of a variable.  
+**Syntax:**
+```java
+switch (variable) {
+    case value1:
+        // code to execute if variable equals value1
+        break;
+    case value2:
+        // code to execute if variable equals value2
+        break;
+    // additional cases
+    default:
+        // code to execute if variable doesn't match any case
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int day = 3;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+}
+```
+
+**Conditional Operator (Ternary Operator)**  
+The conditional operator is a shorthand for `if...else` and takes three operands.  
+**Syntax:**
+```java
+condition ? expression1 : expression2;
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int num = 10;
+        System.out.println(num > 5 ? "Number is greater than 5" : "Number is not greater than 5");
+    }
+}
+```
+
+### Decision Making with Loops
+
+**`while` Loop**  
+The `while` loop executes a block of code as long as the specified condition is true.  
+**Syntax:**
+```java
+while (condition) {
+    // code to execute
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+```
+
+**`do...while` Loop**  
+The `do...while` loop is similar to the `while` loop but guarantees the block of code is executed at least once.  
+**Syntax:**
+```java
+do {
+    // code to execute
+} while (condition);
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 5);
+    }
+}
+```
+
+**`for` Loop**  
+The `for` loop is used to iterate over a range or sequence and is more compact than a `while` loop.  
+**Syntax:**
+```java
+for (initialization; condition; increment) {
+    // code to execute
+}
+```
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+### Jumps in Loops: `break` and `continue`
+
+**`break` Statement**  
+The `break` statement exits from a loop or switch statement prematurely.  
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+                break;
+            }
+            System.out.println(i);
+        }
+    }
+}
+```
+
+**`continue` Statement**  
+The `continue` statement skips the remaining code inside the loop for the current iteration and proceeds to the next iteration.  
+**Example:**
+```java
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+```
+***
 ## by PR7BZ
