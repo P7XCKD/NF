@@ -1211,3 +1211,5 @@ public class MethodOverridingDemo {
 | Type of Polymorphism       | Static                                       | Dynamic                                       |
 | Example                    | Method overloading: same method name, different parameters | Method overriding: same method signature in subclass |
 ***
+
+## by PR7BZ
