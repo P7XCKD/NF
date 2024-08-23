@@ -1,5 +1,10 @@
 > [!attention] Efficiency 10%
 
+
+
+
+
+
 ---
 
 **Course**: Programming in JAVA  
