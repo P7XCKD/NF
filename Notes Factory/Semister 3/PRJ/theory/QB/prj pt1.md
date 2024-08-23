@@ -90,7 +90,6 @@ public class Cast {
 
 The main principles of Object-Oriented Programming (OOP) are:
 
-Here's a simplified explanation of encapsulation with a basic example:
 
 1. **Encapsulation:** Combining data (variables) and methods (functions) into a single unit (class) and restricting access to some of the object's components.
 
