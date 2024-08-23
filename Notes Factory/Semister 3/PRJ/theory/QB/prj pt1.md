@@ -919,6 +919,7 @@ Here is the table summarizing the access levels of Java access modifiers:
 ***
 
 **23. Explain constructor chaining with example program. [4m]**
+(in code use super keyword !!! need to be fix this question only)
 
 Constructor chaining in Java is the process of calling one constructor from another within the same class or a subclass. This helps to avoid code duplication and allows for more flexible object initialization.
 
