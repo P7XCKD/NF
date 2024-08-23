@@ -645,7 +645,7 @@ public class Book {
 
 A one-dimensional (1D) array is a linear structure that holds elements of the same type in a single line, with each element accessed by its index starting from 0.
 ### Compile-Time and Run-Time Behavior
-
+> [!attention] This Answer is wrong will be correct (as in example part when you take user input, 2nd array will use scanner thingy)
 -   **Compile-Time**: (PRE DEFINED INPUT) At compile time, the array is defined with a specified size and type. The compiler checks the array declaration and initialization for correctness.
     
 -   **Run-Time**:(USER INPUT) At run time, the array is allocated memory based on its size. Elements can be accessed and modified using their indices.
