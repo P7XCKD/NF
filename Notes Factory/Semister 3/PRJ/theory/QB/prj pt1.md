@@ -914,7 +914,7 @@ Here is the table summarizing the access levels of Java access modifiers:
 |-----------------|--------------|----------------|-----------------|-------------|
 | **Private**     | Yes          | No             | No              | No          |
 | **Default**     | Yes          | Yes            | No              | No          |
-| **Protected**   | Yes          | Yes            | Yes             | Yes         |
+| **Protected**   | Yes          | Yes            | No       | Yes         |
 | **Public**      | Yes          | Yes            | Yes             | Yes         |
 ***
 
