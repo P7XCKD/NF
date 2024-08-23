@@ -1,3 +1,4 @@
+> [!attention] Efficiency 10%
 
 ---
 
