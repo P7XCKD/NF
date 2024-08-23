@@ -794,13 +794,13 @@ import java.util.Scanner;
 
 public class UserInputExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Name: ");
-        String name = scanner.nextLine(); // Read a string input
+        String name = sc.nextLine(); // Read a string input
 
         System.out.print("Age: ");
-        int age = scanner.nextInt(); // Read an integer input
+        int age = sc.nextInt(); // Read an integer input
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
