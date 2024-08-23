@@ -203,9 +203,8 @@ Literals are the data items that have fixed values. They can be classified as:
 
 **6. Justify Java as a platform-independent language while JVM is platform-dependent. [4M]**
 
-- **JVM is platform-dependent**: It is tailored to interact with the specific operating system and hardware it runs on, requiring different implementations for different platforms (e.g., Windows, macOS, Linux).
+Java is considered platform-independent because Java programs, once compiled into bytecode, can run on any operating system that has a Java Virtual Machine (JVM). The JVM interprets the bytecode into machine code that the host system can execute, allowing the same Java program to run on different platforms without modification. However, Java is also platform-dependent because the JVM itself is specific to each operating system, meaning you need a different JVM for each platform (e.g., Windows, macOS, Linux). Thus, while Java code is platform-independent, the JVM is platform-dependent.
 
-- **Java is platform-independent**: Its programs are compiled into bytecode, which can be executed on any platform with a compatible JVM, following the "write once, run anywhere" principle.
    ![image](.attachments/6cf738d2763dc73222dfe6346825572d68e11268.webp)
 ***
 **7. Explain arithmetic/logical/relational operator with example OR with example program [4m]**
