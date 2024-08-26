@@ -377,7 +377,7 @@ Car myCar = new Car(); // Creates a new Car object
 - **Reference Assignment**: `myCar` holds the reference to the new `Car` object.
 ***
 **11.Explain the process of Object creation in java.[6M]**
-
+(NEED TO REPAIR THIS ANSWER )
 
 ```java
 // Step 1: Define the class
