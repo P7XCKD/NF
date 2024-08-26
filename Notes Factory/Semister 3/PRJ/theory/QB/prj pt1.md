@@ -2,7 +2,11 @@
 ### Notes Factory
 
 
-> [!attention] comments are just for understanding, no write them in exam 
+> [!attention] comments are just for understanding, no write them in exam
+
+
+
+(need to add question called dynamic method dispatch as per 6 mark)
 
 
 **1. Describe primitive data types of Java with appropriate code snippets. [4M]**
