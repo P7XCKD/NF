@@ -1,6 +1,6 @@
 
 # EUP Experiment 5
-
+> [!attention] OUTDATED, YOU CAN COPY THEORY PART
 ## Aim
 Create a custom dialog box and design an MDI (Multiple Document Interface) application with a menu.
 
