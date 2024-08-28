@@ -1,4 +1,3 @@
-Here's the updated version:
 
 ---
 
@@ -14,6 +13,7 @@ Designing of Windows Form using custom controls.
 - **Custom Controls**: User-defined controls that extend functionality and appearance, allowing more customization and control over display and behavior.
 
 ### **ProgressBar**
+A control that visually represents the progress of a task.
 
 **Properties:**
 - Value
@@ -30,6 +30,7 @@ Designing of Windows Form using custom controls.
 - MouseLeave
 
 ### **ListView**
+A control that displays a list of items with optional icons.
 
 **Properties:**
 - View
@@ -46,6 +47,7 @@ Designing of Windows Form using custom controls.
 - ItemActivate
 
 ### **ImageList**
+A control that holds a collection of images for use in other controls like `ListView` and `TreeView`.
 
 **Properties:**
 - Images
@@ -58,6 +60,7 @@ Designing of Windows Form using custom controls.
 - None
 
 ### **TreeView**
+A control that displays a hierarchical collection of items (nodes).
 
 **Properties:**
 - Nodes
@@ -74,6 +77,8 @@ Designing of Windows Form using custom controls.
 - NodeMouseDoubleClick
 
 ### **MenuStrip and StatusStrip**
+- **MenuStrip**: A control that provides a menu bar for Windows Forms.
+- **StatusStrip**: A control that provides a status bar at the bottom of a form.
 
 **Properties:**
 - **MenuStrip**:
