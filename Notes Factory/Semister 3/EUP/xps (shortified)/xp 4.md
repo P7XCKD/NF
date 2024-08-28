@@ -1,7 +1,7 @@
 
 
 # EUP Experiment 4
-
+> [!attention] CODE AND OUTPUT ARE LEFT
 ## Aim
 Designing of Windows Form using custom controls.
 
