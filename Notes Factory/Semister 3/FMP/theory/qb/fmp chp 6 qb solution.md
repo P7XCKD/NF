@@ -172,6 +172,9 @@ in order to overcome this problem, Branch prediction logic is used in the Pentiu
 
 ***
 > [!question] xplain branch prediction logic of Pentium processor[6 marks]
+
+
+
 #answer
 ### Branch Prediction Logic
  
