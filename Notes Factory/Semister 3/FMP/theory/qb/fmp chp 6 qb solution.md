@@ -1,6 +1,10 @@
 ## fmp chapter 6 (Introduction to Pentium Processor) QB Solution
 ### Notes Factory
 ***
+> [!attention] I can neither confirm nor deny the authenticity of this question bank solution,  in relation to what you write from here in exams
+> -Pr7bz
+
+
 
 > [!faq]  list and define the features of Pentium processor  [4-6 marks]
 
