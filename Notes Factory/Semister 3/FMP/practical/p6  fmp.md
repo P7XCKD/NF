@@ -1,3 +1,5 @@
+as per noname ascending and descending code has a critical flaw in it, so unless this glitch itself fix it am not gonna touch it
+blame noname
 
 sorting assending
 ```alp
