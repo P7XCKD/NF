@@ -5,7 +5,7 @@
 ## Theory:
 
 ### Multiple Inheritance using Interfaces:
-Java does not support multiple inheritance with classes but enables a form of multiple inheritance through interfaces. An interface in Java is a reference type that can contain method signatures and static final variables. A class can implement multiple interfaces, inheriting the method signatures from each, and must provide concrete implementations for these methods. This allows a class to incorporate functionalities from various sources, facilitating the combination of methods from multiple interfaces.
+In Java, while classes cannot use multiple inheritance directly, interfaces provide a way to achieve a similar effect. An interface in Java is a reference type that can declare method signatures and constants but cannot implement methods. A class can implement multiple interfaces, thereby inheriting the abstract methods from all of them and providing concrete implementations. This allows for combining functionalities from different sources and facilitates a form of multiple inheritance by enabling a class to conform to various interfaces.
 
 **Syntax**:
 ```java
@@ -43,7 +43,7 @@ class C implements A, B {
 ```
 
 ### Dynamic Method Dispatch:
-Dynamic method dispatch in Java allows for the resolution of method calls at runtime based on the actual type of the object, rather than the reference type. This mechanism supports method overriding, where a subclass provides a specific implementation of a method already defined in its superclass. At runtime, Java dynamically selects the appropriate method implementation to execute, depending on the object's actual class.
+Dynamic method dispatch in Java refers to the process of resolving method calls at runtime based on the actual object's type, rather than the type of reference used to call the method. This is achieved through method overriding, where a subclass provides its own implementation of a method defined in its superclass. The Java Virtual Machine (JVM) uses the actual object's class to determine which method to execute, allowing for flexible and dynamic method resolution.
 
 **Syntax**:
 ```java
@@ -78,7 +78,7 @@ obj.display();  // Output: B
 ```
 
 ### Runtime Polymorphism:
-Runtime polymorphism allows a reference variable of a superclass to refer to an object of a subclass. The method that gets executed is determined at runtime based on the actual object type, not the reference type. This feature enables flexible method calls and supports dynamic method resolution, providing the ability to override methods in subclasses and ensuring that the most specific method implementation is called.
+Runtime polymorphism in Java allows a superclass reference to point to a subclass object, enabling the method that gets executed to be determined at runtime based on the actual object's type. This mechanism supports method overriding and allows a single reference type to call methods of multiple subclasses, providing the flexibility to execute the most specific method implementation available at runtime.
 
 **Syntax**:
 ```java
@@ -255,4 +255,4 @@ BalanceAccount Balance: ₹2000.0
 ```
 
 ### Conclusion:
-hence we successfully Applied the concept of interfaces to achieve multiple inheritance and dynamic method dispatch in Java.
+Hence, we successfully applied the concept of interfaces to achieve multiple inheritance and dynamic method dispatch in Java.
