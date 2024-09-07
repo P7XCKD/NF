@@ -114,4 +114,4 @@ Execution of string, comparison, and set operations.
 ***
 
 conclusion: hence we successfully 
-Executed of string, comparison, and set operations.
+Executed string, comparison, and set operations.
