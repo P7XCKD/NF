@@ -99,7 +99,15 @@ namespace probzbase4
 
 
 ```
+***
+to think someone would pay attention to all these files even if looking over it roughly to spot this message.
+you have found easter egg
+this easter egg has the most beautiful message for you
+Go to Google and search up the below phrase
+(focus meaning urban)
+and click on the urban dictionary website and look carefully on the very first result
 
+***
 form 2
 ```csharp
 using System;
