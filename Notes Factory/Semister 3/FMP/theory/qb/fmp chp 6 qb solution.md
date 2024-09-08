@@ -87,7 +87,7 @@ so the role of Prefetch buffers is to maintain a steady flow of instructions, mi
 **Prefetch Unit:**
 - Implements a five-stage pipeline.
 - Contains two independent 32-byte prefetch buffers.
-- both buffers operates indecently but not at same time
+- **both buffers work separately**, but **they don't work at the same time**.
 
 **Branch Prediction Unit:**
 - Predicts branch instructions to minimize pipeline stalls.
