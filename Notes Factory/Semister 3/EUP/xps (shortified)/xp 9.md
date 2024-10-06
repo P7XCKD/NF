@@ -1,4 +1,6 @@
+### Output
 ![image](.attachments/18fc27deff262a69cd08b224ec72aa49c1a3a871.jpg) 
+### Code
 ```csharp
 using System;
 using System.Collections.Generic;
