@@ -43,8 +43,6 @@ namespace WindowsFormsApp12
         }
     }
 }
-
-
 ```
 
 form2.cs
@@ -103,7 +101,5 @@ namespace WindowsFormsApp12
         }
     }
 }
-
-
 ```
 ***
