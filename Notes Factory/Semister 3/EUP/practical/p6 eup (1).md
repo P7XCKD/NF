@@ -1,9 +1,7 @@
 
 ![image](.attachments/257cacbec3116e395f29c169e50bcd90d2b1a663.png) 
 ![image](.attachments/2d35d2c676052176a14de0923df84a66aecfa85d.png) 
-![image](.attachments/189c5353447879f8e9163dc406b2a5ef5941157c.png) 
 
-![image](.attachments/e486ae548197ee1e9b5d331fcfcfaed3eba223fa.png) 
 
 form1 
 ```csharp
