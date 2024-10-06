@@ -80,7 +80,6 @@ namespace WindowsFormsApp23
                     dataGridView1.DataSource = dt;
                     conn.Close();
             }
-        }
-            
+        }         
     }
 }
