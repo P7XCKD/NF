@@ -31,9 +31,7 @@ namespace exp9
             T1.Nodes[0].Nodes[1].Nodes.Add("Great Grand Child");
         }
 
-       
-
-        private void button1_Click(object sender, EventArgs e)
+           private void button1_Click(object sender, EventArgs e)
         {
             Form F2= new Form2();
             F2.Show();
