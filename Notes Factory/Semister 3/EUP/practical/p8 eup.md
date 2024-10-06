@@ -72,8 +72,6 @@ namespace WindowsFormsApp12
         }
     }
 }
-
-
 ```
 form3.cs
 ```csharp
