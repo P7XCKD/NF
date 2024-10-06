@@ -1,7 +1,4 @@
-# p6 eup
 
-![image](.attachments/e9fa558763fd1be1971f1c3916b590b62d4aaa89.png) 
-![image](.attachments/f2b471e8fc6dc784fb68587aa42046786b073841.png) 
 ![image](.attachments/257cacbec3116e395f29c169e50bcd90d2b1a663.png) 
 ![image](.attachments/2d35d2c676052176a14de0923df84a66aecfa85d.png) 
 ![image](.attachments/189c5353447879f8e9163dc406b2a5ef5941157c.png) 
