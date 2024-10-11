@@ -1,4 +1,4 @@
-# PT-2 PRJ QB SOLUTION 
+# PT-2 PRJ QB SOLUTION BY PR7BZ
 ***Q.1 Describe the working of following with snippets***
 - **a)** try
 - **b)** throw
