@@ -41,7 +41,8 @@
             throw new ArithmeticException("You must be at least 18.");
         }
         System.out.println("Access granted.");
-    }} 
+    }
+  } 
     ```
 
 - **c)** throws  
