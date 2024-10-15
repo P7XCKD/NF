@@ -196,11 +196,12 @@ import java.util.Scanner;
 
 public class SquareRootCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number to find its square root: ");
-        
+        // Predefined input
+        double number = 16; // Change this value as needed
+
+        System.out.print("Calculating the square root of: " + number + "\n");
+
         try {
-            double number = scanner.nextDouble();
             if (number < 0) {
                 throw new ArithmeticException("Cannot calculate the square root of a negative number.");
             }
@@ -210,13 +211,9 @@ public class SquareRootCalculator {
             System.out.println("Error: " + e.getMessage());
         } catch (Exception e) {
             System.out.println("Invalid input. Please enter a valid number.");
-        } finally {
-            scanner.close();
         }
     }
 }
-
-
 ```
 2. Write a Java program to read Employee experience (years) (lower limit = 0, upper limit = 40) and generate an exception if it is 41 or above.  
 #answer  
