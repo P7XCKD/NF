@@ -42,9 +42,7 @@
         }
         System.out.println("Access granted.");
     }
-}
-
-  ```
+} ```
 
 - **c)** throws  
   **Explanation**: The `throws` keyword is used to declare that a method might throw one or more exceptions, but it doesn't actually throw them itself.
