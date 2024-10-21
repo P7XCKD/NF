@@ -21,11 +21,3 @@ public class MyFrame1 extends Frame
 ![image](.attachments/0a968369f48a6f68ea9173d2112bf5789a4c22f0.png) 
 ***
 
-MyEventFrame.java
-```java
-import java.awt.event.*;
-import java.awt;
-
-public class MyEventFrame extends Frame implements MouseListner
-
-```
