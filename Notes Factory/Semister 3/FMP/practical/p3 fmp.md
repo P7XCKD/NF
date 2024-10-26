@@ -186,7 +186,7 @@ mov bl,b
 
 mov cl,08h
 i4: rcr al,01h
-dec c1
+dec cl
 
 jnc i2
 inc bl
