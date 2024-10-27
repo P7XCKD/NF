@@ -311,3 +311,85 @@ int main(){
 
 
 ```
+### push and pop
+
+```c
+#include <stdio.h>
+
+int choice, item;
+int MAX_STACK = 10;
+int top = -1;
+
+void push(int arr[], int item);
+void pop(int arr[]);
+void peep(int arr[]);
+void printStack(int arr[]);
+
+void main() {
+    int stack[MAX_STACK];
+    int uch = 1;
+    while (uch == 1) {
+        printf("Enter 1 for Push operation\n");
+        printf("Enter 2 for Pop operation\n");
+        printf("Enter 3 for Peep operation\n");
+        printf("Enter 4 for Print operation\n");
+        printf("Enter Your Choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                printf("Enter the number to be pushed: ");
+                scanf("%d", &item);
+                push(stack, item);
+                break;
+            case 2:
+                pop(stack);
+                break;
+            case 3:
+                peep(stack);
+                break;
+            case 4:
+                printStack(stack);
+                break;
+            default:
+                printf("Invalid Choice\n");
+        }
+        printf("Do you want to continue? Enter 1 for Yes, 0 for No: ");
+        scanf("%d", &uch);
+    }
+}
+
+void push(int arr[], int item) {
+    if (top == MAX_STACK - 1) {
+        printf("Stack Overflow\n");
+    } else {
+        arr[++top] = item;
+        printf("%d pushed into stack\n", item);
+    }
+}
+
+void pop(int arr[]) {
+    if (top == -1) {
+        printf("Stack Underflow\n");
+    } else {
+        printf("%d popped from stack\n", arr[top--]);
+    }
+}
+
+void peep(int arr[]) {
+    if (top == -1) {
+        printf("No elements to display!\n");
+    } else {
+        printf("Top element is %d\n", arr[top]);
+    }
+}
+
+void printStack(int arr[]) {
+    printf("Stack: ");
+    for (int i = 0; i <= top; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+```
