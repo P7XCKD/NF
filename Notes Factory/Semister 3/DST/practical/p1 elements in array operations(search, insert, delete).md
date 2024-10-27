@@ -143,4 +143,58 @@ int main() {
 }
 ```
 
+
+### Algorithm: Inserting New Element in an Array  
+**Procedure**: **INSERT(LA, N, K, ITEM)**  
+- **Description**:
+  - **LA** is a linear array containing **N elements**.
+  - **K** is a positive integer such that **K <= N**.
+  - This algorithm inserts an element, **ITEM**, into the **Kth position** in **LA**.
+
+---
+
+1. **Initialization**:  
+   - **SET J = N**
+
+2. **Repeat Steps 3 and 4 while J >= K**
+
+3. **Move Jth Element Downward**:  
+   - **SET LA[J + 1] = LA[J]**
+
+4. **Decrease Counter**:  
+   - **SET J = J – 1**
+   - **End of Step 2 loop**
+
+5. **Insert Element**:  
+   - **SET LA[K] := ITEM**
+
+6. **Update Array Size**:  
+   - **SET N = N + 1**
+
+7. **Exit**
+
+---
+
+### Algorithm: Deleting an Element from an Array  
+**Procedure**: **DELETE(LA, N, K, ITEM)**  
+- **Description**:
+  - **LA** is a linear array containing **N elements**.
+  - **K** is a positive integer such that **K <= N**.
+  - This algorithm deletes the **Kth element** from **LA**.
+
+---
+
+1. **Set ITEM**:  
+   - **SET ITEM := LA[K]**
+
+2. **Repeat for J = K to N - 1**  
+   - **Move J+1st Element Upward**:  
+     - **SET LA[J] := LA[J + 1]**
+   - **End of loop**
+
+3. **Reset Array Size**:  
+   - **SET N := N - 1**
+
+4. **Exit**
+
     
