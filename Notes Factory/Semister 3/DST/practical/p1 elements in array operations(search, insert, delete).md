@@ -142,7 +142,32 @@ int main() {
     return 0;
 }
 ```
+### Algorithm: Searching for an Element in an Array  
+**Procedure**: **SEARCH(LA, N, SEARCH, FOUND)**  
+- **Description**:
+  - **LA** is a linear array with **N elements**.
+  - **SEARCH** is the element to be located in **LA**.
+  - **FOUND** tracks if the element **SEARCH** is present in **LA**.
 
+---
+
+1. **Initialize**  
+   - Set **FOUND := 0**
+
+2. **Repeat Steps 3 to 4 for i = 0 to N - 1**
+
+3. **Check if Element Matches**  
+   - If **LA[i] == SEARCH**, then:
+     - Print **"Element SEARCH found at index i"**
+     - Increment **FOUND by 1**
+
+4. **End of Loop**
+
+5. **Check if Element Was Not Found**  
+   - If **FOUND == 0**, then:
+     - Print **"Element SEARCH not found in the array"**
+
+6. **Exit**
 
 ### Algorithm: Inserting New Element in an Array  
 **Procedure**: **INSERT(LA, N, K, ITEM)**  
