@@ -3,7 +3,6 @@
 •Linked Lists
 •Infix to postfix
 Since I hv skipped those topics
-> Contents
 
 ### INSERTION IN ARRAY:
 ```c
