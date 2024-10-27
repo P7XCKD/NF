@@ -154,3 +154,56 @@ void binarySearch(int arr[], int len, int item) {
 }
 
 ```
+
+***
+### selection sort
+```c
+#include <stdio.h>
+
+int n = 0;
+
+int min(int arr[], int len, int index);
+void selectionSort(int arr[], int len);
+
+void main() {
+    printf("Enter the length of array: ");
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        printf("Enter number %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+    selectionSort(arr, n);
+}
+
+int min(int arr[], int len, int index) {
+    int minIndex = index;
+    for (int j = index + 1; j < len; j++) {
+        if (arr[j] < arr[minIndex]) {
+            minIndex = j;
+        }
+    }
+    return minIndex;
+}
+
+void selectionSort(int arr[], int len) {
+    for (int i = 0; i < len - 1; i++) {
+        int loc = min(arr, len, i);
+        int temp = arr[i];
+        arr[i] = arr[loc];
+        arr[loc] = temp;
+        
+        printf("\nPass %d: ", i + 1);
+        for (int j = 0; j < len; j++) {
+            printf("%d ", arr[j]);
+        }
+    }
+
+    printf("\nSorted Array: ");
+    for (int i = 0; i < len; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+```
