@@ -109,3 +109,48 @@ void searchItem(int arr[], int len, int item) {
   ```
 
 ***
+### binary search
+```c
+#include <stdio.h>
+
+int n = 0, item;
+
+void binarySearch(int arr[], int len, int item);
+
+void main() {
+    printf("Enter the length of array: ");
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        printf("Enter number %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+    printf("Enter the item to be searched within the array: ");
+    scanf("%d", &item);
+    binarySearch(arr, n, item);
+}
+
+void binarySearch(int arr[], int len, int item) {
+    int lb = 0, ub = len - 1;
+    int mid;
+    int flag = -1;
+    
+    while (lb <= ub) {
+        mid = (lb + ub) / 2;
+        if (arr[mid] > item) {
+            ub = mid - 1;
+        } else if (arr[mid] < item) {
+            lb = mid + 1;
+        } else {
+            flag = mid;
+            break;
+        }
+    }
+    if (flag == -1) {
+        printf("No element found in the array!\n");
+    } else {
+        printf("Element found at position %d\n", flag + 1);
+    }
+}
+
+```
