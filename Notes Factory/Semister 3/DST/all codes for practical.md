@@ -34,4 +34,36 @@ void insert(int arr[], int len, int item, int pos) {
     }
 }
 ```
-2) 
+***
+- Array deletion of an element 
+```c
+#include <stdio.h>
+
+int n = 0, pos;
+
+void delete(int arr[], int len, int pos);
+
+void main() {
+    printf("Enter the length of array: ");
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        printf("Enter the element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+    printf("Enter the position at which the element needs to be deleted: ");
+    scanf("%d", &pos);
+    delete(arr, n, pos);
+}
+
+void delete(int arr[], int len, int pos) {
+    int index = pos - 1;
+    for (int i = index; i < len - 1; i++) {
+        arr[i] = arr[i + 1];
+    }
+    printf("Array after Deletion: ");
+    for (int i = 0; i < len - 1; i++) {
+        printf("%d ", arr[i]);
+    }
+}
+```
