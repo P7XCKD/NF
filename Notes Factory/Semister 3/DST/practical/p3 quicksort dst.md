@@ -140,7 +140,7 @@ quick_sort(a, loc+1, end);
 
 ```
 
-### Procedure: QUICK(A, N, BEG, END, LOC)
+### Algorithm: QUICK(A, N, BEG, END, LOC)
 
 - **Description**: 
   - Here, **A** is an array with **N elements**.
