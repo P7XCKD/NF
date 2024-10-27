@@ -138,7 +138,80 @@ quick_sort(a, loc+1, end);
 }
 }
 
-
-
-
 ```
+
+### Procedure: QUICK(A, N, BEG, END, LOC)
+
+- **Description**: 
+  - Here, **A** is an array with **N elements**.
+  - **BEG** and **END** contain the boundary values of the sublist within **A** where the procedure applies.
+  - **LOC** keeps track of the position of the **first element (A[BEG])** during the procedure.
+  - **LEFT** and **RIGHT** represent the unscanned list boundaries.
+
+---
+
+1. **Initialize**  
+   - Set **LEFT := BEG**, **RIGHT := END**, and **LOC := BEG**.
+
+---
+
+2. **Scan from Right to Left**  
+   - (a) **While A[LOC] ≤ A[RIGHT] and LOC ≠ RIGHT**:
+       - Set **RIGHT := RIGHT – 1**.
+       - **End of loop**
+   - (b) If **LOC = RIGHT**, then **Return**.
+   - (c) If **A[LOC] > A[RIGHT]**, then:
+     - (i) **Interchange A[LOC] and A[RIGHT]**:
+       - **TEMP := A[LOC], A[LOC] := A[RIGHT], A[RIGHT] := TEMP**
+     - (ii) Set **LOC := RIGHT**
+     - (iii) **Go to Step 3**
+     - **End of If structure**
+
+---
+
+3. **Scan from Left to Right**  
+   - (a) **While A[LEFT] ≤ A[LOC] and LEFT ≠ LOC**:
+       - Set **LEFT := LEFT + 1**
+       - **End of loop**
+   - (b) If **LOC = LEFT**, then **Return**.
+   - (c) If **A[LEFT] > A[LOC]**, then:
+     - (i) **Interchange A[LEFT] and A[LOC]**:
+       - **TEMP := A[LOC], A[LOC] := A[LEFT], A[LEFT] := TEMP**
+     - (ii) Set **LOC := RIGHT**
+     - (iii) **Go to Step 2**
+     - **End of If structure**
+
+---
+
+### Algorithm: Quicksort for Array A with N Elements
+
+1. **Initialize**: Set **TOP := NULL**
+
+2. **Push boundary values of A onto stacks** (for lists with 2 or more elements)
+   - If **N > 1**, then:
+     - Set **TOP := TOP + 1**
+     - **LOWER[1] := 1**, **UPPER[1] := N**
+
+3. **Repeat Steps 4 to 7 while TOP ≠ NULL**
+
+4. **Pop sublist from Stacks**
+   - Set **BEG := LOWER[TOP]**, **END := UPPER[TOP]**
+   - Set **TOP := TOP – 1**
+
+5. **Call QUICK(A, N, BEG, END, LOC)**
+
+6. **Push Left sublist onto stacks** (if it has 2 or more elements)
+   - If **BEG < LOC – 1**, then:
+     - Set **TOP := TOP + 1**
+     - **LOWER[TOP] := BEG**
+     - **UPPER[TOP] := LOC – 1**
+     - **End of If structure**
+
+7. **Push Right sublist onto stacks** (if it has 2 or more elements)
+   - If **LOC + 1 < END**, then:
+     - Set **TOP := TOP + 1**
+     - **LOWER[TOP] := LOC + 1**
+     - **UPPER[TOP] := END**
+     - **End of If structure**
+
+8. **Exit**
