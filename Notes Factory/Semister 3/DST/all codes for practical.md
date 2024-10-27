@@ -1,4 +1,5 @@
-1.)ARRAY INSERTION OF AN ELEMENT
+-  ARRAY INSERTION OF AN ELEMENT
+
 ```c
 #include <stdio.h>
 
@@ -33,3 +34,4 @@ void insert(int arr[], int len, int item, int pos) {
     }
 }
 ```
+2) 
