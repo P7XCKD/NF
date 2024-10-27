@@ -393,3 +393,89 @@ void printStack(int arr[]) {
 }
 
 ```
+
+### insertion and deletion element in queue
+```c
+#include <stdio.h>
+
+void printQueue(int arr[], int n);
+
+void main() {
+    int n;
+    printf("Enter the maximum size of queue: ");
+    scanf("%d", &n);
+    int arr[n];
+    int uch = 1;
+    int rear = -1;
+    int front = -1;
+    int choice;
+
+    for (int i = 0; i < n; i++) {
+        arr[i] = 0; // initialize the queue
+    }
+
+    while (uch == 1) {
+        printf("\nEnter 1 to insert element");
+        printf("\nEnter 2 to delete element");
+        printf("\nEnter 3 to print queue\n");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                if (front == 0 && rear == n - 1) {
+                    printf("Queue Overflow!\n");
+                    return;
+                }
+                int item;
+                printf("Enter the element to insert: ");
+                scanf("%d", &item);
+                if (front == -1 && rear == -1) {
+                    front = 0;
+                    rear = 0;
+                } else if (rear == n - 1) {
+                    rear = 0;
+                } else {
+                    rear = rear + 1;
+                }
+                arr[rear] = item;
+                printf("Item %d inserted at position %d\n", item, rear);
+                printQueue(arr, n);
+                break;
+            case 2:
+                if (front == -1 && rear == -1) {
+                    printf("Queue Underflow!\n");
+                    return;
+                }
+                int num = arr[front];
+                arr[front] = 0;
+                if (front == rear) {
+                    front = -1;
+                    rear = -1;
+                } else if (front == n - 1) {
+                    front = 0;
+                } else {
+                    front = front + 1;
+                }
+                printf("Item %d deleted from queue\n", num);
+                printQueue(arr, n);
+                break;
+            case 3:
+                printQueue(arr, n);
+                break;
+            default:
+                printf("Invalid Choice!\n");
+        }
+        printf("Enter 1 to continue, 0 to exit: ");
+        scanf("%d", &uch);
+    }
+}
+
+void printQueue(int arr[], int n) {
+    printf("QUEUE: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+```
