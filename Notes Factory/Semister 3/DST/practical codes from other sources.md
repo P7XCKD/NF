@@ -595,3 +595,168 @@ void main() {
 }
 
 ```
+
+### operations on linked list insertion and deletion 
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+struct Node* createNode(struct Node* s) {
+    int n;
+    printf("Enter the node value: ");
+    scanf("%d", &n);
+    struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    temp->data = n;
+    temp->next = NULL;
+    struct Node* start = s;
+
+    if (start == NULL) {
+        start = temp;
+        printf("First Node Created\n");
+        return start;
+    }
+
+    struct Node* travel = s;
+    while (travel->next != NULL) {
+        travel = travel->next;
+    }
+    travel->next = temp;
+    return start;
+}
+
+struct Node* insertNode(struct Node* s) {
+    printf("Welcome to insert node operation\n");
+    int num, choice;
+    struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    printf("Enter the node value: ");
+    scanf("%d", &temp->data);
+    temp->next = NULL;
+    struct Node* start = s;
+    struct Node* travel = s;
+
+    printf("Enter the options for the following choices:\n");
+    printf("1 - Insert at the beginning\n");
+    printf("2 - Insert at the end\n");
+    printf("3 - Insert after specified node data\n");
+    scanf("%d", &choice);
+
+    switch (choice) {
+        case 1:
+            temp->next = start;
+            start = temp;
+            break;
+        case 2:
+            while (travel->next != NULL) {
+                travel = travel->next;
+            }
+            travel->next = temp;
+            break;
+        case 3:
+            printf("Enter the data part after which you want to enter the new node: ");
+            scanf("%d", &num);
+            while (travel->data != num && travel->next != NULL) {
+                travel = travel->next;
+            }
+            if (travel->data == num) {
+                temp->next = travel->next;
+                travel->next = temp;
+            } else {
+                printf("As desired node not found, we cannot add the new node\n");
+                free(temp);
+            }
+            break;
+        default:
+            printf("Invalid Option\n");
+            free(temp);
+            break;
+    }
+    return start;
+}
+
+struct Node* delNode(struct Node* s) {
+    int num;
+    struct Node* travel = s;
+    struct Node* start = s;
+
+    if (travel == NULL) {
+        printf("Linked List is empty\n");
+        return NULL;
+    }
+
+    printf("Enter the node data to be deleted: ");
+    scanf("%d", &num);
+    struct Node* prev = NULL;
+
+    while (travel->data != num && travel->next != NULL) {
+        prev = travel;
+        travel = travel->next;
+    }
+
+    if (travel->data == num) {
+        if (travel == start) {
+            start = travel->next;
+        } else {
+            prev->next = travel->next;
+        }
+        free(travel);
+        printf("Node with value %d deleted\n", num);
+    } else {
+        printf("Node with value %d not found\n", num);
+    }
+    return start;
+}
+
+void displayNodes(struct Node* s) {
+    struct Node* travel = s;
+    printf("The list of nodes is as follows:\n");
+    while (travel != NULL) {
+        printf("%d ", travel->data);
+        travel = travel->next;
+    }
+    printf("\n");
+}
+
+int main() {
+    struct Node* head = NULL;
+    int choice;
+
+    do {
+        printf("1 - Create Node\n");
+        printf("2 - Insert Node\n");
+        printf("3 - Delete Node\n");
+        printf("4 - Display Nodes\n");
+        printf("5 - Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                head = createNode(head);
+                break;
+            case 2:
+                head = insertNode(head);
+                break;
+            case 3:
+                head = delNode(head);
+                break;
+            case 4:
+                displayNodes(head);
+                break;
+            case 5:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid choice. Please try again.\n");
+        }
+    } while (choice != 5);
+
+    return 0;
+}
+
+```
