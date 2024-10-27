@@ -207,3 +207,65 @@ void selectionSort(int arr[], int len) {
 }
 
 ```
+
+***
+### quick sort
+```c
+#include <stdio.h>
+
+int pass = 1;
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void printArray(int arr[], int len) {
+    printf("Pass %d: ", pass++);
+    for (int i = 0; i < len; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+int partition(int arr[], int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
+    }
+    swap(&arr[i + 1], &arr[high]);
+    return i + 1;
+}
+
+void quickSort(int arr[], int low, int high, int len) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        printArray(arr, len);
+        quickSort(arr, low, pi - 1, len);
+        quickSort(arr, pi + 1, high, len);
+    }
+}
+
+void main() {
+    int n;
+    printf("Enter the length of array: ");
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        printf("Enter number %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+    quickSort(arr, 0, n - 1, n);
+    printf("Sorted Array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+```
