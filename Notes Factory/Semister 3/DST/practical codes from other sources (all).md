@@ -1,4 +1,4 @@
-> [!attention] Not Tested
+> [!attention] SOME CODES ARE WRONG
 
 
 ### ARRAY INSERTION OF AN ELEMENT
