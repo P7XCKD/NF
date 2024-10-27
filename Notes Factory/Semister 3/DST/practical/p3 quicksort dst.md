@@ -1,4 +1,4 @@
-v1
+v1 pre-defined input
 ```c
 #include <stdio.h>
 
@@ -68,7 +68,7 @@ int main() {
 }
 ```
 
-v2
+v2 user input
 ```c
 #include <stdio.h>
 #include <conio.h>
