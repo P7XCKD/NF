@@ -2,41 +2,40 @@
 
 insertion sort
 ```C
-#include<stdio.h>
-int main(){
-     int a[100];
-     int n;
-     int k;
-     int temp;
-     int ptr;
-     printf("Enter number of elements: ");
-     scanf("%d",& n);
-     for(int i = 0; i <n ; i++){
-        printf("Enter Element[%d]: ", i);
-        scanf("%d", &a[i]);
-     }
-     for(k =0; k<n; k++){
-        temp = a[k];
-        ptr = k-1;
-        while(temp < a[ptr]){
-            a[ptr+1] = a[ptr];
-            ptr = ptr-1;
-        }
-        a[ptr+1] = temp;
-         printf("Elements after Pass %d: \n ", k);
-        for(int u=0; u<n; u++){
-           printf("%d ", a[u]);
-            if(u >= n){
-                break;
+#include <stdio.h>
+
+int main() {
+    int arr[10];
+    int n, i, j, loc, temp;
+
+    printf("Enter the no. of elements:-");
+    scanf("%d", &n);
+    printf("Enter the elements:-");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Print the unsorted array:-");
+    for (i = 0; i < n; i++) {
+        printf("%d\n", arr[i]);
+    }
+
+    for (i = 1; i < n; i++) {
+        loc = i;
+        temp = arr[i];
+        for (j = i - 1; j >= 0; j--) {
+            if (temp < arr[j]) {
+                loc = j;
+                arr[j + 1] = arr[j];
             }
         }
-        printf("\n");
-     }
-     for(int j = 0; j <n; j++){
-        printf("Element %d is: %d \n", j, a[j]);
-     }
-     return 0;
+        arr[loc] = temp;
+    }
+
+    printf("\nPrint the sorted array:-");
+    for (i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
 }
-
-
-```
