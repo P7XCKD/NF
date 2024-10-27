@@ -1,4 +1,4 @@
-INSERTION IN ARRAY:
+### INSERTION IN ARRAY:
 ```c
 #include <stdio.h>
 
@@ -51,7 +51,7 @@ int main() {
 }
 
 ```
-DELETION IN ARRAY:
+### DELETION IN ARRAY:
 ```c
 #include <stdio.h>
 
@@ -98,7 +98,7 @@ int main() {
 }
 ```
 
-LINEAR SEARCH:
+### LINEAR SEARCH:
 ```c
 #include <stdio.h>
 
@@ -133,11 +133,12 @@ int main() {
     printf("\n");
     return 0;
 }
-|``
+```
 
 
 
-BINARY SEARCH:
+### BINARY SEARCH:
+```c
 #include <stdio.h>
 
 int main() {
@@ -195,7 +196,7 @@ int main() {
 }
 ```
 
-BUBBLE SORT:
+### BUBBLE SORT:
 ```c
 #include <stdio.h>
 
@@ -232,7 +233,7 @@ int main() {
 }
 ```
 
-SELECTION SORT:
+### SELECTION SORT:
 ```c
 #include <stdio.h>
 
@@ -276,7 +277,7 @@ int min(int *arr, int k, int n) {
     return min;
 }
 ```
-INSERTION SORT:
+### INSERTION SORT:
 ```c
 #include <stdio.h>
 
@@ -317,31 +318,245 @@ int main() {
 }
 ```
 
-QUICK SORT:
+### QUICK SORT:
 ```c
 #include <stdio.h>
 #include <conio.h>
 #define size 100
-
 int partition(int a[], int beg, int end);
 void quick_sort(int a[], int beg, int end);
-
-void main() {
+void main()
+{
     int arr[size], i, n;
-
     printf("\n Enter the number of elements in the array: ");
     scanf("%d", &n);
     printf("\n Enter the elements of the array: ");
-    for (i = 0; i < n; i++) {
+    for(i=0;i<n;i++)
+    {
         scanf("%d", &arr[i]);
     }
-
-    quick_sort(arr, 0, n - 1);
+    quick_sort(arr, 0, n-1);
     printf("\n The sorted array is: \n");
-    for (i = 0; i < n; i++)
+    for(i=0;i<n;i++)
         printf(" %d\t", arr[i]);
     getch();
 }
+int partition(int a[], int beg, int end)
+{
+    int left, right, temp, loc, flag;
+    loc = left = beg;
+    right = end;
+    flag = 0;
+    while(flag != 1)
+    {
+        while((a[loc] <= a[right]) && (loc!=right))
+            right--;
+        if(loc==right)
+            flag =1;
+        else if(a[loc]>a[right])
+        {
+            temp = a[loc];
+            a[loc] = a[right];
+            a[right] = temp;
+            loc = right;
+        }
+        if(flag!=1)
+        {
+            while((a[loc] >= a[left]) && (loc!=left))
+                left++;
+            if(loc==left)
+                flag =1;
+            else if(a[loc] <a[left])
+            {
+                temp = a[loc];
+                a[loc] = a[left];
+                a[left] = temp;
+                loc = left;
+            }
+        }
+    }
+    return loc;
+}
+void quick_sort(int a[], int beg, int end)
+{
+    int loc;
+    if(beg<end)
+    {
+        loc = partition(a, beg, end);
+        quick_sort(a, beg, loc-1);
+        quick_sort(a, loc+1, end);
+    }
+}
+```
 
-int partition(int a[], int beg, int end) {
-    int left, right,
+
+### stack push pop and peep
+```c
+#include <stdio.h>
+
+int stack[100], top = -1, n, MAX = 100;
+
+void push();
+void pop();
+void show();
+void peep();
+
+int main()
+{
+    int choice = 0;
+
+    printf("Enter the number of elements in the stack (max %d): ", MAX);
+    scanf("%d", &n);
+
+    if (n > MAX) {
+        printf("The number of elements cannot exceed %d.\n", MAX);
+        return 1;
+    }
+
+    printf("Enter %d elements to initialize the stack:\n", n);
+    for (int i = 0; i < n; i++) {
+        int value;
+        printf("Element %d: ", i + 1);
+        scanf("%d", &value);
+        stack[++top] = value;
+    }
+
+    while (choice != 5) {
+        printf("\nChoose one from the below options...\n");
+        printf("1. Push\n2. Pop\n3. Show\n4. Peep\n5. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                push();
+                break;
+            case 2:
+                pop();
+                break;
+            case 3:
+                show();
+                break;
+            case 4:
+                peep();
+                break;
+            case 5:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Please enter a valid choice.\n");
+        }
+    }
+
+    return 0;
+}
+
+void push() {
+    int val;
+
+    if (top >= MAX - 1) {
+        printf("Overflow: Stack is full.\n");
+    } else {
+        printf("Enter the value to push: ");
+        scanf("%d", &val);
+        stack[++top] = val;
+    }
+}
+
+void pop() {
+    if (top == -1) {
+        printf("Underflow: Stack is empty.\n");
+    } else {
+        printf("Popped value: %d\n", stack[top--]);
+    }
+}
+
+void peep() {
+    if (top == -1) {
+        printf("No elements to display.\n");
+    } else {
+        printf("Top element is: %d\n", stack[top]);
+    }
+}
+
+void show() {
+    if (top == -1) {
+        printf("Stack is empty.\n");
+    } else {
+        printf("Stack elements are:\n");
+        for (int i = 0; i <= top; i++) {
+            printf("%d\n", stack[i]);
+        }
+    }
+}
+
+```
+
+### queue insertion and deletion 
+
+```c
+#include <stdio.h>
+
+int main() {
+    int q[100];
+    int n;
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+    int front = 0;
+    int rear = 0;
+    int io;
+    int item;
+
+    for (int i = 0; i < 10000; i++) {
+        printf("What do you want to do? 1 for insert 2 for delete\n");
+        scanf("%d", &io);
+        switch (io) {
+            case 1:
+                item = 0;
+                printf("What do you want to insert?\n");
+                scanf("%d", &item);
+                if ((front == 1 && rear == n) || front == rear + 1) {
+                    printf("Queue overflow.\n");
+                } else {
+                    if (front == 0) {
+                        front = front + 1;
+                        rear = rear + 1;
+                        q[rear] = item;
+                    } else if (rear == n) {
+                        rear = 1;
+                        q[rear] = item;
+                    } else {
+                        rear = rear + 1;
+                        q[rear] = item;
+                    }
+                }
+                for (int i = 1; i <= n; i++) {
+                    printf("Element %d: %d\n", i, q[i]);
+                }
+                break;
+            case 2:
+                item = q[front];
+                if (front == 0) {
+                    printf("Queue underflow.\n");
+                } else {
+                    if (front == rear) {
+                        front = 0;
+                        rear = 0;
+                    } else if (front == n) {
+                        front = 1;
+                    } else {
+                        front = front + 1;
+                    }
+                }
+                for (int i = front; i <= n; i++) {
+                    printf("Element %d: %d\n", i, q[i]);
+                }
+                break;
+            default:
+                printf("Invalid choice.\n");
+                break;
+        }
+    }
+}
+
+```
