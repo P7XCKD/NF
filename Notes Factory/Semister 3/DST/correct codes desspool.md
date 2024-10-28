@@ -506,63 +506,82 @@ void show() {
 int main() {
     int q[100];
     int n;
+
     printf("Enter number of elements: ");
     scanf("%d", &n);
-    int front = 0;
-    int rear = 0;
+
+    // Initialize array to zero
+    for (int i = 0; i < 100; i++) {
+        q[i] = 0;
+    }
+
+    int front = -1;
+    int rear = -1;
     int io;
     int item;
 
     for (int i = 0; i < 10000; i++) {
         printf("What do you want to do? 1 for insert 2 for delete\n");
         scanf("%d", &io);
+
         switch (io) {
-            case 1:
-                item = 0;
+            case 1: // Insert operation
                 printf("What do you want to insert?\n");
                 scanf("%d", &item);
-                if ((front == 1 && rear == n) || front == rear + 1) {
+
+                // Check for overflow
+                if ((front == 0 && rear == n - 1) || (rear + 1 == front)) {
                     printf("Queue overflow.\n");
                 } else {
-                    if (front == 0) {
-                        front = front + 1;
-                        rear = rear + 1;
-                        q[rear] = item;
-                    } else if (rear == n) {
-                        rear = 1;
-                        q[rear] = item;
-                    } else {
-                        rear = rear + 1;
-                        q[rear] = item;
-                    }
-                }
-                for (int i = 1; i <= n; i++) {
-                    printf("Element %d: %d\n", i, q[i]);
-                }
-                break;
-            case 2:
-                item = q[front];
-                if (front == 0) {
-                    printf("Queue underflow.\n");
-                } else {
-                    if (front == rear) {
+                    if (front == -1) { // First insertion
                         front = 0;
                         rear = 0;
-                    } else if (front == n) {
-                        front = 1;
-                    } else {
-                        front = front + 1;
+                    } else if (rear == n - 1) { // Wrap-around
+                        rear = 0;
+                    } else { // Normal insertion
+                        rear++;
                     }
+                    q[rear] = item;
                 }
-                for (int i = front; i <= n; i++) {
-                    printf("Element %d: %d\n", i, q[i]);
+
+                // Display queue contents using a for loop from 1 to n
+                printf("Queue contents:\n");
+                for (int i = 1; i <= n; i++) {
+                    printf("Element %d: %d\n", i, q[i - 1]);
                 }
                 break;
+
+            case 2: // Delete operation
+                // Check for underflow
+                if (front == -1) {
+                    printf("Queue underflow.\n");
+                } else {
+                    item = q[front];
+                    printf("Deleted item: %d\n", item);
+
+                    if (front == rear) { // Queue becomes empty
+                        front = -1;
+                        rear = -1;
+                    } else if (front == n - 1) { // Wrap-around
+                        front = 0;
+                    } else { // Normal deletion
+                        front++;
+                    }
+                }
+
+                // Display queue contents using a for loop from 1 to n
+                printf("Queue contents:\n");
+                for (int i = 1; i <= n; i++) {
+                    printf("Element %d: %d\n", i, q[i - 1]);
+                }
+                break;
+
             default:
-                printf("Invalid choice.\n");
+                printf("Invalid input.\n");
                 break;
         }
     }
 }
+
 
 ```
