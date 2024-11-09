@@ -541,18 +541,18 @@ The `String` class in Java represents a sequence of characters and provides vari
   > [!hint] OR instead do this
   > YOU CAN EXPLAIN IT USING COMBINED CODE WHICH REPRESENTS EXAMPLE OF ALL ABOVE METHODS
 ```java
-public class exhautsing {
+public class Exhausting {
     public static void main(String[] args) {
         // Initial string
         String str = "  Hello World  ";
 
         // 1. length()
-        int length = str.length(); // length = 17
+        int length = str.length(); // length = 15
         System.out.println("Length: " + length);
 
         // 2. charAt(int index)
-        char ch = str.charAt(6); // ch = 'W'
-        System.out.println("Character at index 6: " + ch);
+        char ch = str.charAt(7); // Corrected to index 7 to get 'W'
+        System.out.println("Character at index 7: " + ch);
 
         // 3. substring(int beginIndex, int endIndex)
         String sub = str.substring(2, 7); // sub = "Hello"
@@ -575,14 +575,13 @@ public class exhautsing {
         System.out.println("Replaced: " + replaced);
 
         // 8. split(String regex)
-        String[] parts = str.split(" "); // parts = ["", "", "Hello", "World", ""]
+        String[] parts = str.split(" ");
         System.out.println("Split by space:");
         for (String part : parts) {
-            System.out.println(part);
+            System.out.println("[" + part + "]");
         }
     }
 }
-
 
 ```
 **15. Explain parameterized constructor in with example program. OR explain constructor overloading.**
