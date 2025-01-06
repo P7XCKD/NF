@@ -1,4 +1,4 @@
-ALLOWAND DENY PERMS for a specific folder/app in windows using properties> security and change user permissions
+ALLOW AND DENY PERMS for a specific folder/app in windows using properties> security and change user permissions
 
 then log out and sign in again to check 
 ![image](.attachments/0a506799257a78bcf513342b99ac3bb7a7729c4b.png) 
