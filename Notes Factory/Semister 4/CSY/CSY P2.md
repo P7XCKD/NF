@@ -14,7 +14,6 @@ Windows allows you to manage access to folders or apps by modifying user or grou
 
 2. **Access Security Settings**  
    - Go to the **Security** tab and click **Edit** under the "Group or user names" section.  
-
 ![image](.attachments/0a506799257a78bcf513342b99ac3bb7a7729c4b.png) 
 
 3. **Modify Permissions**  
