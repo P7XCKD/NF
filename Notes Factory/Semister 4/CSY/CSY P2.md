@@ -21,6 +21,7 @@ Windows allows you to manage access to folders or apps by modifying user or grou
    - Select the user or group.  
    - Check **Allow** or **Deny** boxes for specific permissions (e.g., Read, Write).  
 ![image](.attachments/be3ffe57d37016574dc47ae3d4925a9e32805f0e.png)
+<br>
 4. **Apply Changes**  
    - Click **Apply**, then **OK** to save the changes.  
 
