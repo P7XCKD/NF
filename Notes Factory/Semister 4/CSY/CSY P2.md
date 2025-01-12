@@ -16,6 +16,7 @@ Windows allows you to manage access to folders or apps by modifying user or grou
    - Go to the **Security** tab and click **Edit** under the "Group or user names" section.  
 ![image](.attachments/0a506799257a78bcf513342b99ac3bb7a7729c4b.png) 
 
+
 3. **Modify Permissions**  
    - Select the user or group.  
    - Check **Allow** or **Deny** boxes for specific permissions (e.g., Read, Write).  
@@ -27,6 +28,7 @@ Windows allows you to manage access to folders or apps by modifying user or grou
    - Log out of the current user account.  
    - Log in again to ensure permissions are updated and enforced.  
 ![image](.attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif)
+
 **Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
 
 
