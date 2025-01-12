@@ -1,3 +1,10 @@
+Start implementation of fcfc
+
+1.you can use queue
+2.take arrival time in sequence
+3.calculate all parameters
+
+
 ```c
 #include <stdio.h>
 
