@@ -2,7 +2,7 @@
 
 ### Aim : Implementing Authentication using any library.
 
-## **Theory**  
+### **Theory**  
 Windows allows you to manage access to folders or apps by modifying user or group permissions. These permissions, such as **Allow** or **Deny**, define what actions users can perform on the specified resource (e.g., read, write, modify). These settings are controlled through the **Security tab** in the folder or application's **Properties**. Changes are enforced immediately, but user log-out and re-login ensure that permissions are refreshed.
 
 ---
