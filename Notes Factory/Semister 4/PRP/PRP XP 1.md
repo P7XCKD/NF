@@ -25,7 +25,8 @@ Key features of Python:
 #### Steps to Install Python on Windows:
 1. **Select version of Python to install:**  
    - Download the official Python `.exe` installer from the Python website.  
-   - Choose the version based on your needs.  
+   - Choose the version based on your needs.
+   [com.google.android.apps.docs.editors.kix.editors.clipboard?uuid=79353ffe-f892-4ad5-8eea-df6b5b8a357e](.attachments/dd64cfae64a81038e76b130cf1a1b5c7e36bacca.clipboard?uuid=79353ffe-f892-4ad5-8eea-df6b5b8a357e) 
 
 2. **Download Python executable installer:**  
    - Visit the official Python website and go to the *Downloads for Windows* section.  
