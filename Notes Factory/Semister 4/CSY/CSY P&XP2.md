@@ -23,7 +23,6 @@ Windows allows you to manage access to folders or apps by modifying user or grou
 ![image](.attachments/be3ffe57d37016574dc47ae3d4925a9e32805f0e.png)
 <br>
 
-<span style="display: flex; justify-content: space-between; align-items: center;">
 
 <table>
   <tr>
