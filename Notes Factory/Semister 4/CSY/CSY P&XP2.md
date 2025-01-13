@@ -25,10 +25,13 @@ Windows allows you to manage access to folders or apps by modifying user or grou
 4. **Apply Changes**  
    - Click **Apply**, then **OK** to save the changes.  
 
-5. **Log Out and Re-Log In**  
-   - Log out of the current user account.  
-   - Log in again to ensure permissions are updated and enforced.  
-![image](.attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif)
+  **5. Log Out and Re-Log In**  
+- Log out of the current user account.  
+- Log in again to ensure permissions are updated and enforced.  
+
+<div style="float: right; margin-left: 10px;">
+    <img src=".attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif" alt="Logout illustration" width="250">
+</div>
 
 **Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
 
