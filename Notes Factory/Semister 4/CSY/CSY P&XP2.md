@@ -38,6 +38,8 @@ Windows allows you to manage access to folders or apps by modifying user or grou
   </tr>
 </table>
 
+***
+
 **Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
 
 
