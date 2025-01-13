@@ -27,7 +27,7 @@ Key features of Python:
    - Download the official Python `.exe` installer from the Python website.  
    - Choose the version based on your needs.
 
-[!image](.attachments/dd64cfae64a81038e76b130cf1a1b5c7e36bacca.dragdrop?uuid=45b07ef7-ec0e-4fc9-a067-3f33d1d7423c) 
+ 
     
 
 2. **Download Python executable installer:**  
