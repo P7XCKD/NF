@@ -22,16 +22,18 @@ Windows allows you to manage access to folders or apps by modifying user or grou
    - Check **Allow** or **Deny** boxes for specific permissions (e.g., Read, Write).  
 ![image](.attachments/be3ffe57d37016574dc47ae3d4925a9e32805f0e.png)
 <br>
-4. **Apply Changes**  
-   - Click **Apply**, then **OK** to save the changes.  
 
-  **5. Log Out and Re-Log In**  
-- Log out of the current user account.  
-- Log in again to ensure permissions are updated and enforced.  
-
-<div style="float: right; margin-left: 10px;">
-    <img src=".attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif" alt="Logout illustration" width="250">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    **5. Log Out and Re-Log In**  
+    - Log out of the current user account.  
+    - Log in again to ensure permissions are updated and enforced.
+  </div>
+  <div>
+    <img src=".attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif" alt="Logout illustration" width="200">
+  </div>
 </div>
+
 
 **Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
 
