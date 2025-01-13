@@ -30,7 +30,7 @@ Windows allows you to manage access to folders or apps by modifying user or grou
    - Log in again to ensure permissions are updated and enforced.  
 ![image](.attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif)
 
-**Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
+```**Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. ```
 
 
 
