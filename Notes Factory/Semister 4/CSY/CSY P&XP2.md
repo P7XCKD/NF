@@ -24,8 +24,7 @@ Windows allows you to manage access to folders or apps by modifying user or grou
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <div>
-   
+  <div>   
     **5. Log Out and Re-Log In**  
     - Log out of the current user account.  
     - Log in again to ensure permissions are updated and enforced.
