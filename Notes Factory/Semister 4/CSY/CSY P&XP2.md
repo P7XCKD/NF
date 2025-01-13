@@ -23,16 +23,20 @@ Windows allows you to manage access to folders or apps by modifying user or grou
 ![image](.attachments/be3ffe57d37016574dc47ae3d4925a9e32805f0e.png)
 <br>
 
-**5. Log Out and Re-Log In**  
+<span style="display: flex; justify-content: space-between; align-items: center;">
 
-<span style="display: inline-block; width: 70%; vertical-align: top;">
+**5. Log Out and Re-Log In**
+
+<span style="text-align: left; width: 70%;">
 - Log out of the current user account.  
 - Log in again to ensure permissions are updated and enforced.
 </span>
-<span style="display: inline-block; width: 28%; text-align: right;">
-<img src=".attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif" alt="Logout illustration" width="150">
+
+<span style="text-align: right; width: 28%;">
+<img src=".attachments/f9b94c3a332f270aaa02bbd0be129b85ac812606.jfif" alt="Logout illustration" width="100">
 </span>
 
+</span>
 
 **Note**: **Deny** permissions override **Allow** permissions if both are applied to the same user/group. 
 
