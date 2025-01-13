@@ -18,11 +18,11 @@ Key features of Python:
 - Supports modules and packages, encouraging modularity and code reuse.  
 - Available for free in source or binary form for all major platforms, along with an extensive standard library.
 
----
 
-## PROCEDURE:
 
-### Steps to Install Python on Windows:
+### Procedure:
+
+#### Steps to Install Python on Windows:
 1. **Select version of Python to install:**  
    - Download the official Python `.exe` installer from the Python website.  
    - Choose the version based on your needs.  
