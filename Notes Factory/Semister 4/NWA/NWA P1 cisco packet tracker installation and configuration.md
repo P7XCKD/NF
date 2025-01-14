@@ -23,7 +23,7 @@ with screenshots
 
 
 ***
-# course:  [Free Computer Networking Course by Cisco: Start Learning Now (netacad.com)](https://www.netacad.com/courses/networking-basics?courseLang=en-US)
+## course:  [Free Computer Networking Course by Cisco: Start Learning Now (netacad.com)](https://www.netacad.com/courses/networking-basics?courseLang=en-US)
 
 ### practical notes
 
