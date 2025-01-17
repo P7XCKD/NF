@@ -70,7 +70,7 @@ int main() {
 }
 ```
 
-Brian Version
+Brian Version for Non Premtive FCFS
 ```c
 #include <stdio.h>
 
@@ -172,3 +172,92 @@ int main() {
 
     return 0;
 }
+```
+***
+
+Preemptive Priority FCFS
+
+```c
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+    int n, i, smallest, time, end_time;
+    int arrival_time[100], burst_time[100], priority[100], remaining_time[100];
+    int completion_time[100], waiting_time[100], turnaround_time[100];
+    int total_waiting_time = 0, total_turnaround_time = 0;
+
+    
+    // Input number of processes
+    printf("Enter the number of processes: ");
+    scanf("%d", &n);
+
+    // Input arrival time, burst time, and priority for each process
+    printf("Enter Arrival Time, Burst Time, and Priority for each process:\n");
+    for (i = 0; i < n; i++) {
+        printf("Process %d:\n", i + 1);
+        printf("Arrival Time: ");
+        scanf("%d", &arrival_time[i]);
+        printf("Burst Time: ");
+        scanf("%d", &burst_time[i]);
+        printf("Priority (Lower value = Higher priority): ");
+        scanf("%d", &priority[i]);
+        remaining_time[i] = burst_time[i]; // Initialize remaining time
+    }
+
+    // Initialize variables
+    int completed = 0, current_time = 0;
+    smallest = -1; // Indicates the process with the highest priority (lower value)
+
+    // Processing starts
+    while (completed != n) {
+        smallest = -1;
+        int min_priority = INT_MAX;
+
+        // Find the process with the highest priority that has arrived
+        for (i = 0; i < n; i++) {
+            if (arrival_time[i] <= current_time && remaining_time[i] > 0 && priority[i] < min_priority) {
+                smallest = i;
+                min_priority = priority[i];
+            }
+        }
+
+        if (smallest == -1) {
+            current_time++; // No process is ready to execute
+            continue;
+        }
+
+        // Process the selected process
+        remaining_time[smallest]--;
+        current_time++;
+
+        // If the process is completed
+        if (remaining_time[smallest] == 0) {
+            completed++;
+            end_time = current_time;
+            completion_time[smallest] = end_time;
+            turnaround_time[smallest] = completion_time[smallest] - arrival_time[smallest];
+            waiting_time[smallest] = turnaround_time[smallest] - burst_time[smallest];
+            total_waiting_time += waiting_time[smallest];
+            total_turnaround_time += turnaround_time[smallest];
+        }
+    }
+
+    // Write the results to the file
+    fprintf(file, "Process\tAT\tBT\tP\tCT\tWT\tTAT\n");
+    for (i = 0; i < n; i++) {
+        printf(file, "P%d\t%d\t%d\t%d\t%d\t%d\t%d\n",
+                i + 1, arrival_time[i], burst_time[i], priority[i], completion_time[i], waiting_time[i], turnaround_time[i]);
+    }
+
+    printf(file, "\nAverage Waiting Time: %.2f\n", (float)total_waiting_time / n);
+    printf(file, "Average Turnaround Time: %.2f\n", (float)total_turnaround_time / n);
+
+    // Close the file
+    fclose(file);
+
+    printf("Priority preemptive scheduling results have been written to 'priority_preemptive_output.txt'.\n");
+
+    return 0;
+}
+```
