@@ -28,6 +28,7 @@ const authenticateUser = async (username,password) => {
     const match = await bcrypt.compare(password,hashedPassword);
     if (match) {
         console.log("Authorization Succesful! Logged In Successfully!");
+      console.log(hashedPassword);
     } else {
         console.log("Authorization Failed!");
     }
