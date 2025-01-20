@@ -63,3 +63,7 @@ const displaymenu = () => {
 }
 displaymenu();
 ```
+
+***
+output
+![image](.attachments/a819b4b06ef5323d27616f188e164d14bf606d4d.jpeg) 
