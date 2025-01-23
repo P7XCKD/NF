@@ -80,7 +80,4 @@ def dupl(a):
 # remove duplicates from list
 now = [1,22,44,33,22,44,30]
 print("remove duplicate elements",dupl(now))
-
-
-
 ```
