@@ -97,8 +97,12 @@ Authentication is a critical aspect of modern applications to ensure secure acce
    displayMenu();
    ```
 
-##
-
+## output
+1
+Enter a Username: user1  
+Enter a Password: password123  
+User user1 Registered Successfully!
+2
 Enter Username: user1  
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
