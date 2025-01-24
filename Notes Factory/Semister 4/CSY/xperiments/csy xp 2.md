@@ -20,7 +20,7 @@ Authentication is a critical aspect of modern applications to ensure secure acce
 2. ** Code:**  
    
 
-   ```javascript
+   ```nodejs
    const bcrypt = require("bcryptjs");
    const readline = require("readline");
 
