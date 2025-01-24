@@ -95,7 +95,7 @@ Authentication is a critical aspect of modern applications to ensure secure acce
    displayMenu(); ```
 
 
-```
+```html
 Enter Username: user1  
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
