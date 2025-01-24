@@ -17,10 +17,12 @@ Authentication is a critical aspect of modern applications to ensure secure acce
      npm install bcryptjs
      ```
 
-2. ** Code:**  
+2. **Code**
+
+   
    
 
-   ```nodejs
+   ```javascript
    const bcrypt = require("bcryptjs");
    const readline = require("readline");
 
@@ -92,10 +94,11 @@ Authentication is a critical aspect of modern applications to ensure secure acce
        });
    };
 
-   displayMenu(); ```
+   displayMenu(); 
+```
 
 
-```html
+```plaintexf
 Enter Username: user1  
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
