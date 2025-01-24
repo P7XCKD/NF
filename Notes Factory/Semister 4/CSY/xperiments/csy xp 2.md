@@ -17,8 +17,8 @@ Authentication is a critical aspect of modern applications to ensure secure acce
      npm install bcryptjs
      ```
 
-2. **Write Code:**  
-   Below is the implementation of a menu-driven authentication system using `bcryptjs`:  
+2. ** Code:**  
+   
 
    ```javascript
    const bcrypt = require("bcryptjs");
