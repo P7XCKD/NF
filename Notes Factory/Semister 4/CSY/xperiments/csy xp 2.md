@@ -96,10 +96,11 @@ Authentication is a critical aspect of modern applications to ensure secure acce
 
    displayMenu(); 
 ```
+***
 
-
-```plaintexf
+```
 Enter Username: user1  
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
 Stored Hashed Password: $2a$10$abc123...
+```
