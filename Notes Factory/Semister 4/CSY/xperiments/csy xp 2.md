@@ -107,3 +107,8 @@ Enter Username: user1
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
 Stored Hashed Password: $2a$10$abc123...
+
+
+***
+conclusion: hence we Implemented
+Authentication using any library.  
