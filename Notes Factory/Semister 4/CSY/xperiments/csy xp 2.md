@@ -94,7 +94,8 @@ Authentication is a critical aspect of modern applications to ensure secure acce
        });
    };
 
-   displayMenu(); ```
+   displayMenu();
+   ```
 
 ##
 
