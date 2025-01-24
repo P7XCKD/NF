@@ -98,6 +98,7 @@ Authentication is a critical aspect of modern applications to ensure secure acce
    ```
 
 ## output
+```
 1
 Enter a Username: user1  
 Enter a Password: password123  
@@ -107,7 +108,7 @@ Enter Username: user1
 Enter the Password: password123  
 Authorization Successful! Logged In Successfully!  
 Stored Hashed Password: $2a$10$abc123...
-
+```
 
 ***
 conclusion: hence we Implemented
