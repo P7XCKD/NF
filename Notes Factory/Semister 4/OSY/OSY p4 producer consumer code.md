@@ -89,3 +89,91 @@ int main() {
     return 0;
 }
 ```
+
+
+2nd code fiend version
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#define MAX 5
+
+int queue[MAX];
+int front = 0;
+int rear = -1;
+int itemCount = 0;
+int itemProduced = 1;
+
+bool isQueueFull() {
+    return itemCount == MAX;
+}
+
+bool isQueueEmpty() {
+    return itemCount == 0;
+}
+
+void addItem(int value) {
+    if (isQueueFull()) {
+        printf("Buffer is full! Cannot produce more items.\n");
+        return;
+    }
+    rear = (rear + 1) % MAX;
+    queue[rear] = value;
+    itemCount++;
+    printf("\nProducer produces item: %d\n", value);
+    printf("Items in queue: %d\n", itemCount);
+    printf("Empty spots: %d\n", MAX - itemCount);
+}
+
+int removeItem() {
+    if (isQueueEmpty()) {
+        printf("Buffer is empty! Cannot consume any items.\n");
+        return -1;
+    }
+    int value = queue[front];
+    front = (front + 1) % MAX;
+    itemCount--;
+    return value;
+}
+
+void produce() {
+    addItem(itemProduced);
+    itemProduced++;
+}
+
+void consume() {
+    int consumedItem = removeItem();
+    if (consumedItem != -1) {
+        printf("\nConsumer consumes item: %d\n", consumedItem);
+        printf("Items in queue: %d\n", itemCount);
+        printf("Empty spots: %d\n", MAX - itemCount);
+    }
+}
+
+int main() {
+    int choice;
+
+    while (1) {
+        printf("\n1. Produce Item\n2. Consume Item\n3. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                produce();
+                break;
+            case 2:
+                consume();
+                break;
+            case 3:
+                exit(0);
+            default:
+                printf("Invalid choice, try again.\n");
+        }
+    }
+
+    return 0;
+}
+
+```
