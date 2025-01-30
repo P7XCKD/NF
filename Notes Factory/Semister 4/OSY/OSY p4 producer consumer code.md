@@ -177,3 +177,119 @@ int main() {
 }
 
 ```
+
+v3
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+int mutex = 1;
+int empty;
+int full = 0;
+int *queue; // Dynamic array for the buffer
+int front = 0;
+int rear = -1;
+int itemCount = 0;
+int buffer = 0;
+int MAX;
+
+bool isFull() {
+    return itemCount == MAX;
+}
+
+bool isEmpty() {
+    return itemCount == 0;
+}
+
+void insertData(int data) {
+    if (!isFull()) {
+        if (rear == MAX - 1) {
+            rear = -1;
+        }
+        queue[++rear] = data;
+        itemCount++;
+    }
+}
+
+int deleteData() {
+    int data = queue[front++];
+    if (front == MAX) {
+        front = 0;
+    }
+    itemCount--;
+    return data;
+}
+
+void producer() {
+    --mutex;
+    --empty;
+    insertData(itemCount);
+    printf("\nProducer produces item: %d\n", itemCount);
+    ++full;
+    ++buffer;
+    ++mutex;
+    printf("Count: %d\n", itemCount);
+    printf("Buffer Count: %d\n", buffer);
+    printf("Empty Count: %d\n", empty);
+}
+
+void consumer() {
+    --mutex;
+    --full;
+    int x = deleteData();
+    printf("\nConsumer consumes item: %d\n", x + 1);
+    ++empty;
+    --buffer;
+    ++mutex;
+    printf("Count: %d\n", itemCount);
+    printf("Buffer Count: %d\n", buffer);
+    printf("Empty Count: %d\n", empty);
+}
+
+int main() {
+    int n, i;
+
+    // Take user input for buffer size
+    printf("Enter the buffer size: ");
+    scanf("%d", &MAX);
+
+    // Initialize the buffer and semaphores
+    queue = (int *)malloc(MAX * sizeof(int));
+    empty = MAX;
+
+    printf("\n1. Press 1 for Producer"
+           "\n2. Press 2 for Consumer"
+           "\n3. Press 3 for Exit\n");
+
+    while (1) {
+        printf("\nEnter your choice: ");
+        scanf("%d", &n);
+
+        switch (n) {
+        case 1:
+            if ((mutex == 1) && (empty != 0)) {
+                producer();
+            } else if (buffer == MAX) {
+                printf("Buffer is full!\n");
+            }
+            break;
+        case 2:
+            if ((mutex == 1) && (full != 0)) {
+                consumer();
+            } else if (buffer == 0) {
+                printf("Buffer is empty!\n");
+            }
+            break;
+        case 3:
+            free(queue); // Free the dynamically allocated memory
+            exit(0);
+            break;
+        default:
+            printf("Invalid choice! Please enter 1, 2, or 3.\n");
+        }
+    }
+}
+
+```
