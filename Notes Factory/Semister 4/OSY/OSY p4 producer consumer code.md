@@ -295,3 +295,142 @@ int main() {
 }
 
 ```
+
+ v4
+ ```c
+#include <stdio.h>
+
+
+
+int producer(int buffer[], int in, int count, int size) {
+
+    int item;
+
+    if (count < size) {
+
+        printf("Enter the item to insert: ");
+
+        scanf("%d", &item);
+
+
+
+        buffer[in] = item;
+
+        in = (in + 1) % size;
+
+        count++;
+
+        printf("Item inserted: %d\n", item);
+
+    } else {
+
+        printf("Buffer is Full\n");
+
+    }
+
+    return in;
+
+}
+
+
+
+int consumer(int buffer[], int out, int count, int size) {
+
+    int item;
+
+    if (count > 0) {
+
+        item = buffer[out];
+
+        out = (out + 1) % size;
+
+        count--;
+
+        printf("Item consumed: %d\n", item);
+
+    } else {
+
+        printf("Buffer is Empty\n");
+
+    }
+
+    return out;
+
+}
+
+
+
+int main() {
+
+    int size;
+
+    printf("Enter the size of buffer: ");
+
+    scanf("%d", &size);
+
+
+
+    int buffer[size];
+
+    int in = 0, out = 0, count = 0;
+
+    int choice;
+
+
+
+
+
+    while (1) {
+
+
+
+        printf("\nEnter choice:\n");
+
+        printf("1. Producer (Insert Item)\n");
+
+        printf("2. Consumer (Remove Item)\n");
+
+        printf("3. Exit\n");
+
+        scanf("%d", &choice);
+
+
+
+        if (choice == 1) {
+
+
+
+            in = producer(buffer, in, count, size);
+
+            count++;
+
+        } else if (choice == 2) {
+
+
+
+            out = consumer(buffer, out, count, size);
+
+            count--;
+
+        } else if (choice == 3) {
+
+            printf("Exiting program\n");
+
+            break;
+
+        } else {
+
+            printf("Invalid choice. Please try again.\n");
+
+        }
+
+    }
+
+
+
+    return 0;
+
+}
+
+ 
+ ```
