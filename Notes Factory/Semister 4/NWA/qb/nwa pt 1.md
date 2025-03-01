@@ -213,26 +213,26 @@ Skills Needed:
 - **Compliance** – Ensure adherence to industry standards, legal regulations, and best practices.  
 ***
 
-# **WLAN/VLAN Design (6/8)**  
+Q 7 **WLAN/VLAN Design (6/8)**  
 
-## **1. VLAN Configuration Based on Topology**  
+#### **1. VLAN Configuration Based on Topology**  
 
 ![Basic Vlan topology1](https://computernetworking747640215.wordpress.com/wp-content/uploads/2018/07/basic-vlan-topology1.png?w=525)  
 
 ---
 
-## **2. Network Topology Overview**  
+#### **2. Network Topology Overview**  
 
-### **Devices Used:**  
+#### **Devices Used:**  
 - **Router1**  
 - **Switch42**  
 - **PC-A, PC-B, PC-C, PC-D**  
 
-### **VLAN Assignments:**  
+#### **VLAN Assignments:**  
 - **VLAN 10:** PC-A and PC-B  
 - **VLAN 20:** PC-C and PC-D  
 
-### **Connections:**  
+#### **Connections:**  
 - **Router to Switch:** Trunk link (`fa0/0` on Router1 to `fa0/5` on Switch)  
 - **Switch to PCs:** Access links  
   - `fa0/1` → **PC-A** (VLAN 10)  
@@ -242,7 +242,7 @@ Skills Needed:
 
 ---
 
-## **3. VLAN Configuration on Switch**  
+### **3. VLAN Configuration on Switch**  
 
 1. **Create VLANs and Assign Ports**  
    - Create **VLAN 10** (Management) and **VLAN 20** (HR).  
@@ -259,7 +259,6 @@ Skills Needed:
 enable
 configure terminal
 
-! Create subinterfaces for VLANs
 interface GigabitEthernet0/0.10
  encapsulation dot1Q 10
  ip address 192.168.10.1 255.255.255.0
