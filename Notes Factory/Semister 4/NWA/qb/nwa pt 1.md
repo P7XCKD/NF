@@ -346,7 +346,9 @@ write memory
 
 > [!attention] There can be toplogy given and from that topology you need to identify and then list and explain
 
-![image](.attachments/237db844d96a12c8bcba46d12db591cf797a812c.jpg "You will have to draw the topology like this  or you can directly draw  mesh/star/bus topology likewise (IT DEPENDS on question" )
+ "You will have to draw the topology like this  or you can directly draw  mesh/star/bus topology likewise (IT DEPENDS on question" 
+ 
+![image](.attachments/329a31072e355c9f3a0baf65dbaadf85847b7185.jpg) 
 
 
 ### **1. Physical Layout in Packet Tracer**  
