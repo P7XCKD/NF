@@ -346,80 +346,79 @@ write memory
 
 > [!attention] There can be toplogy given and from that topology you need to identify and then list and explain
 
-![image](.attachments/237db844d96a12c8bcba46d12db591cf797a812c.jpg "You will have to draw the topology like this  or you can directly draw  mesh/star/bus topology likewise (IT DEPENDS on question") 
-### **Implementation Steps**
+![image](.attachments/237db844d96a12c8bcba46d12db591cf797a812c.jpg "You will have to draw the topology like this  or you can directly draw  mesh/star/bus topology likewise (IT DEPENDS on question")  
 
-### **1. Physical Layout in Packet Tracer**
+### **1. Physical Layout in Packet Tracer**  
 
-1.  Open **Cisco Packet Tracer** and create the topology as shown in the image.
-2.  Place the following devices:
-    -   **1 Router** (Router0)
-    -   **1 Switch**
-    -   **6 PCs** (PC0, PC1, PC2, PC3, PC4, PC5)
-    -   **1 Network Printer (Printer0)**
-3.  Use the following cables to connect the devices:
-    -   **Router to Switch** → **Straight-through cable** (GigabitEthernet0/1 on Router0 to FastEthernet0/1 on Switch)
-    -   **Switch to PCs** → **Straight-through cable** (FastEthernet ports on Switch to Ethernet ports on PCs)
-    -   **Switch to Printer** → **Straight-through cable** (FastEthernet0/7 on Switch to Printer0)
+### **Devices Used:**  
+- **Router0**  
+- **Switch0**  
+- **PC0, PC1, PC2, PC3, PC4, PC5**  
+- **Printer0**  
 
-***
+### **Connections:**  
+- **Router to Switch** → Straight-through cable *(GigabitEthernet0/1 on Router0 to FastEthernet0/1 on Switch0)*  
+- **Switch to PCs** → Straight-through cable *(FastEthernet ports on Switch0 to Ethernet ports on PCs)*  
+- **Switch to Printer** → Straight-through cable *(FastEthernet0/7 on Switch0 to Printer0)*  
 
-### **2. Router Configuration**
+---
 
-1.  Access the router's CLI (`enable` → `configure terminal`).
-2.  Assign an IP address to the **GigabitEthernet 0/1** interface:
-    
-    ```
-    interface GigabitEthernet0/1
-    ip address 192.168.1.1 255.255.255.0
-    no shutdown
-    exit
-    ```
-    
-3.  Enable **DHCP** to assign IP addresses dynamically:
+### **2. Router Configuration**  
 
-   ```cisco
-ip dhcp pool SOHO-Network
- network 192.168.1.0 255.255.255.0
- default-router 192.168.1.1
- dns-server 8.8.8.8
- address range 192.168.1.100 192.168.1.200
+### **Access the Router CLI:**  
+```cisco
+enable
+configure terminal
 ```
 
+### **Assign IP Address to GigabitEthernet 0/1:**  
+```cisco
+interface GigabitEthernet0/1
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+```
 
-    
+### **Enable DHCP:**  
+```cisco
+ip dhcp pool SOHO-Network
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+dns-server 8.8.8.8
+address range 192.168.1.100 192.168.1.200
+```
 
-***
+---
 
-### **3. Printer Configuration**
+### **3. Printer Configuration**  
+- **Assign a static IP** → **192.168.1.2**  
 
-1.  Assign a **static IP address** to Printer0: **192.168.1.2**
+---
 
-***
+### **4. IP Addressing Plan (Example for 2 PCs)**  
 
-### **4. IP Addressing Plan for PCs**
+| **Device** | **IP Address** | **Subnet Mask** | **Default Gateway** | **DNS Server** |  
+|-----------|--------------|----------------|----------------|-------------|  
+| **PC0**   | 192.168.1.100 (DHCP) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |  
+| **PC1**   | 192.168.1.101 (DHCP) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |  
 
-| **Device** | **IP Address** | **Subnet Mask** | **Default Gateway** | **DNS Server** |
-| --- | --- | --- | --- | --- |
-| **PC0** | Assigned by DHCP (e.g., 192.168.1.100) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
-| **PC1** | Assigned by DHCP (e.g., 192.168.1.101) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
-| **PC2** | Assigned by DHCP (e.g., 192.168.1.102) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
-| **PC3** | Assigned by DHCP (e.g., 192.168.1.103) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
-| **PC4** | Assigned by DHCP (e.g., 192.168.1.104) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
-| **PC5** | Assigned by DHCP (e.g., 192.168.1.105) | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 |
+---
 
-***
+### **5. Routing Table (Static Routes Not Required in Local SOHO)**  
 
-### **5. Test Connectivity**
+| **Destination Network** | **Subnet Mask** | **Next Hop** |  
+|----------------------|----------------|------------|  
+| 192.168.1.0 | 255.255.255.0 | Connected (GigabitEthernet0/1) |  
 
-1.  **Check DHCP Assignment**
-    
-    -   Use `ipconfig` on any PC to verify that it receives an IP dynamically.
-2.  **Ping Tests**
-    
-    -   **From any PC**, ping **192.168.1.1** (Router) to confirm LAN connectivity.
-    -   **From any PC**, ping **192.168.1.2** (Printer) to verify printer access.
+---
 
+### **6. Test Connectivity**  
+
+1. **Check DHCP Assignment** → Use `ipconfig` on any PC to verify assigned IP.  
+2. **Ping Tests** → From any PC:  
+   - Ping `192.168.1.1` (Router) → Confirms LAN connectivity.  
+   - Ping `192.168.1.2` (Printer) → Confirms printer access.
+   - 
 ***
 ***Q.9 State the difference between Hub and Switch (Min Four points) (4 marks)***
 #answer
