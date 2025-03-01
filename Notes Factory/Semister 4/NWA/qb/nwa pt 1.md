@@ -649,7 +649,6 @@ When a user types **`www.example.com`** in a browser, the query is sent to a **r
 ***Q.21 State the Role of Root DNS server, Authoritative DNS server, and TLD DNS Server (4/6/8 marks)***
 #answer
 ```8 marks version```
-Q.21 State the Role of Root DNS Server, Authoritative DNS Server, and TLD DNS Server (8 marks)
 
 The Domain Name System (DNS) is a process that translates human-readable domain names into IP addresses, allowing users to access websites easily. It operates through a hierarchical structure involving multiple DNS servers, each playing a specific role in resolving domain names efficiently. The three key components of this system are the Root DNS Server, TLD DNS Server, and Authoritative DNS Server.
 
