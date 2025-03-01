@@ -534,7 +534,7 @@ The DHCP address negotiation process is crucial for network connectivity which  
 ***Q.18 Draw and explain with flowchart the Lease Renewal Process of DHCP (8 marks)***
 #answer
 
-![image](.attachments/646c5af03051e0192edacb1ca8f862aabb33e4ca.jpg "Lease Renewal Process") 
+![image](.attachments/b44302c88b9694785f88f5520d4faa77eb671602.jpg) 
 
 This flowchart describes the process of DHCP (Dynamic Host Configuration Protocol) lease renewal, which allows a network device (client) to maintain its IP address without interruption. The process is designed to be robust, handling various scenarios including server availability and lease expiration.
  * Renewing State (T1): The client first attempts to renew its lease at time T1, before it expires. It unicasts a DHCPREQUEST directly to the server that originally granted the lease (binding server).
