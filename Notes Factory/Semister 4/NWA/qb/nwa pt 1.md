@@ -734,23 +734,36 @@ The **Network Layer** (Layer 3 of the OSI Model) is responsible for **packet del
 #answer  
 
 
-Routing protocols are classified into two main types based on their area of operation:
 
-#### **1. Interior Gateway Protocols (IGP)**
+Routing protocols help determine the **optimal path** for data transmission. They are categorized based on their scope and functionality.  
 
-IGP operates **within a single Autonomous System (AS)**, such as an organization's internal network. It helps in efficient communication between routers inside the same AS. Common IGP protocols include:
+---
 
--   **RIP (Routing Information Protocol)** – Uses **distance vector** routing.
--   **OSPF (Open Shortest Path First)** – Uses **link-state** routing for better scalability.
--   **EIGRP (Enhanced Interior Gateway Routing Protocol)** – A hybrid protocol combining features of both distance vector and link-state protocols.
+#### **1. Classification of Routing Protocols**  
 
-#### **2. Exterior Gateway Protocols (EGP)**
+| **Type** | **Description** | **Examples** |  
+|----------|---------------|--------------|  
+| **Static Routing** | Manually configured routes, suitable for small networks. | No specific protocol (manual entry) |  
+| **Interior Gateway Protocols (IGP)** | Operates **within** a single Autonomous System (AS), used for internal routing. | RIP, OSPF, EIGRP |  
+| **Exterior Gateway Protocols (EGP)** | Operates **between** different Autonomous Systems (AS), used for inter-domain routing. | BGP |  
 
-EGP operates **between different Autonomous Systems**, facilitating communication across the internet. It helps in establishing connections between networks owned by **different organizations**. The most widely used EGP protocol is:
+---
 
--   **BGP (Border Gateway Protocol)** – Ensures efficient routing and traffic management between ISPs and large networks globally.
+#### **2. Comparison of IGP and EGP**  
 
-By using IGP for internal routing and EGP for external routing, networks maintain efficient **data transmission and internet connectivity**.
+| **Feature** | **IGP (Interior Gateway Protocols)** | **EGP (Exterior Gateway Protocols)** |  
+|------------|---------------------------------|------------------------------|  
+| **Scope** | Used **within** an Autonomous System (AS) | Used **between** Autonomous Systems (AS) |  
+| **Use Case** | Internal networks (organizations, ISPs) | Internet-wide routing between ISPs |  
+| **Examples** | RIP, OSPF, EIGRP | BGP |  
+| **Scalability** | Suitable for **small to medium** networks | Designed for **large-scale** networks |  
+| **Routing Algorithm** | Uses **distance-vector** or **link-state** methods | Uses **path-vector** method |  
+
+---
+
+- **IGP protocols** (RIP, OSPF, EIGRP) are used for **internal network routing** within an organization.  
+- **EGP protocols** (BGP) handle **global internet routing** between ISPs.  
+- The choice of protocol depends on **network size, control requirements, and scalability needs**.
 ***
 ***Q.25 Explain the concept of metric routing (4)***  
 #answer  
