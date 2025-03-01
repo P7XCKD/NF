@@ -689,30 +689,47 @@ This structured DNS hierarchy ensures efficient, scalable, and secure domain res
 ***
 ***Q.23 Define the terms Delivery, forwarding and Routing on Network Layer (4/6)***  
 #answer  
+The **Network Layer** (Layer 3 of the OSI Model) is responsible for **packet delivery, forwarding, and routing** between networks. It ensures efficient communication by determining the best path for data transmission.  
+
+#### **1. Delivery**  
+- The process of successfully transferring **data packets** from the sender to the intended recipient **without errors**.  
+
+**Example:**  
+- When a user accesses a website, the requested data is delivered from the web server to the user’s browser.  
+
+**Types of Delivery:**  
+- **Direct Delivery:** Sender and receiver are in the **same network** (e.g., LAN).  
+  - *Example:* A computer sending a file to another in the same office network.  
+- **Indirect Delivery:** Sender and receiver are in **different networks**, requiring routers.  
+  - *Example:* An email sent from a corporate network to a Gmail user.  
+
+---
+
+#### **2. Forwarding**  
+- The process of **moving packets** between network interfaces within a router, ensuring they reach the correct destination.  
+
+ **Example:**  
+- When a user in India sends a request to a U.S.-based website, routers forward the request along the optimal path.  
+
+**Key Components:**  
+- **Routing Table:** Maintains available routes and next-hop information.  
+- **Next-Hop Selection:** Determines the best path for the packet.  
+
+---
+
+#### **3. Routing**  
+- The **decision-making process** of selecting the **optimal path** for packet transmission across networks.  
+
+ **Example:**  
+- When accessing a U.S.-hosted website from Europe, routers use **BGP (Border Gateway Protocol)** to find the fastest route.  
+
+**Types of Routing:**  
+- **Static Routing:** Manually configured, best for **small networks**.  
+- **Dynamic Routing:** Uses protocols like **OSPF, BGP, RIP** to update and optimize routes.  
+
+---
 
 
-#### **1. Delivery**
-
-Delivery refers to the process of transferring data packets to their intended **final destination**. It can be classified into two types:
-
--   **Direct Delivery:** Occurs when the sender and receiver are on the **same network**, allowing the packet to reach the destination without intermediaries.
--   **Indirect Delivery:** Happens when the sender and receiver are on **different networks**, requiring packets to pass through one or more **routers**.
-
-#### **2. Forwarding**
-
-Forwarding is the process of **moving a packet** from one network interface to another **within a router**. It ensures that packets reach the correct next hop towards their destination. Key aspects include:
-
--   **Routing Table Lookup:** The router checks its **routing table** to determine the next hop.
--   **Efficient Packet Switching:** Forwarding ensures packets are sent through the most **efficient path** within a network.
-
-#### **3. Routing**
-
-Routing is the process of determining the **best path** for a packet to travel across multiple networks. It involves:
-
--   **Routing Protocols:** Such as **RIP, OSPF, and BGP**, which help routers build and maintain **dynamic routing tables**.
--   **Path Selection:** Choosing the most **efficient and reliable route** to ensure optimal data transmission.
-
-***
 ***Q.24 Classify the routing protocols and explain IGP and EGP (4/6)***  
 #answer  
 
