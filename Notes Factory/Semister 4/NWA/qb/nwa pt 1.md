@@ -171,22 +171,13 @@ Skills Needed:
 
 ***Q.4 List the jobs related to Computer Network and certification required (4 marks)***
 #solvify:
-- **Network-related jobs** primarily focus on managing, maintaining, and designing networks for secure and efficient data communication.  
 
-**Jobs Related to Computer Networking:**  
-- Network Administrator  
-- Network Engineer  
-- Network Security Specialist  
-- Wireless Network Engineer  
-- Cloud Network Engineer  
-- Network Support Technician  
-
-**Certifications Required:**  
-1. **Cisco Certified Internetwork Expert (CCIE)** – Advanced network engineering and design.  
-2. **Cisco Certified Design Expert (CCDE)** – Specialized in designing scalable and resilient networks.  
-3. **AWS Certified Advanced Networking** – Cloud network design and management.  
-4. **CompTIA Network+** – Foundational certification for network basics.  
-5. **Juniper Networks Certified Design Specialist (JNCDS)** – Focused on Juniper technologies.  
+| **Job Role**                   | **Description**                                              | **Required Certification**                     |  
+|---------------------------------|--------------------------------------------------------------|----------------------------------------------|  
+| **Network Administrator**       | Manages daily network operations, security, and troubleshooting.  | **CCNA (Cisco Certified Network Associate)** |  
+| **Network Engineer**            | Designs, implements, and maintains network infrastructures.  | **CCNP (Cisco Certified Network Professional)** |  
+| **Network Security Specialist** | Protects network systems from cyber threats and vulnerabilities. | **CEH (Certified Ethical Hacker)** |  
+| **Cloud Network Engineer**      | Works with cloud-based networking solutions and security.  | **AWS Certified Advanced Networking** |
 
 ---
 ***Q.5 List and explain the devices connected on the Network (4/6 marks)***
