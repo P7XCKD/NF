@@ -58,22 +58,66 @@
 ***
 
 ***Q.2 List the responsibility and skills required for the Network Administrator (4/6/8 marks)***
-(is it even possible to answer to answer this short content question as per 6-8 marks
-if yes then gibe solution else readjust)
+
 #solvify:
-- **Network Administrator** mainly manages network hardware, software, and security.  
-Following are the responsibilities and skills required for a network administrator:  
 
-**Responsibilities:**  
-- Install and configure network hardware and software.  
-- Monitor network performance and troubleshoot issues.  
-- Manage firewalls, routers, and switches.  
-- Maintain network security protocols.  
+Network Administrator is responsible for managing network infrastructure, ensuring smooth connectivity, and maintaining security.
+Below are the responsibilities and skills required for a network administrator:
 
-**Skills Needed:**  
-- Networking fundamentals.  
-- Cisco/Juniper knowledge.  
-- Troubleshooting.  
+
+Responsibilities:
+
+1. Installation & Configuration – Set up and configure network hardware (routers, switches, firewalls) and software.
+
+
+2. Monitoring & Troubleshooting – Regularly monitor network performance, identify issues, and troubleshoot failures to prevent downtime.
+
+
+3. Security Management – Implement security policies, manage firewalls, VPNs, and intrusion detection/prevention systems.
+
+
+4. Network Maintenance – Perform regular updates, patch vulnerabilities, and ensure network devices function optimally.
+
+
+5. User Access Control – Manage authentication, permissions, and ensure only authorized users can access network resources.
+
+
+6. Documentation & Backup – Maintain records of network configurations, topologies, and implement data backup strategies.
+
+
+7. Disaster Recovery Planning – Ensure network resilience by planning for failover, redundancy, and recovery mechanisms.
+
+
+8. Collaboration with IT Teams – Work alongside other IT professionals to integrate network solutions with applications and services.
+
+
+
+Skills Needed:
+
+1. Networking Fundamentals – Understanding of OSI model, TCP/IP, DNS, DHCP, and subnetting.
+
+
+2. Hardware & Vendor Knowledge – Proficiency with Cisco, Juniper, and other network equipment.
+
+
+3. Troubleshooting Expertise – Diagnosing network issues using tools like Wireshark, Ping, Traceroute.
+
+
+4. Network Security Skills – Knowledge of firewalls, IDS/IPS, VPNs, and cybersecurity best practices.
+
+
+5. Cloud Networking – Familiarity with AWS, Azure, or Google Cloud networking concepts.
+
+
+6. Automation & Scripting – Using Python, Bash, or PowerShell for network automation.
+
+
+7. Certifications (Preferred) – CCNA, CCNP, CompTIA Network+, or similar networking certifications.
+
+
+
+This expanded version ensures that the content is detailed and comprehensive, making it suitable for an 8-mark response.
+
 ***
 ***Q.3 List the responsibility and skills required for the Network Architect/designer (4/6/8 marks)***
 (is it even possible to answer to answer this short content question as per 6-8 marks
