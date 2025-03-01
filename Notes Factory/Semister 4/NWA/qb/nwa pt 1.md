@@ -62,8 +62,6 @@
 #solvify:
 
 Network Administrator is responsible for managing network infrastructure, ensuring smooth connectivity, and maintaining security.
-Below are the responsibilities and skills required for a network administrator:
-
 
 Responsibilities:
 
