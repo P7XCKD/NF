@@ -116,22 +116,55 @@ Skills Needed:
 
 ***
 ***Q.3 List the responsibility and skills required for the Network Architect/designer (4/6/8 marks)***
-(is it even possible to answer to answer this short content question as per 6-8 marks
-if yes then gibe solution else readjust)
-#solvify:
-- **Network Architect/Designer** is responsible for designing and building complex and scalable network systems.  
-- Following are the responsibilities and skills required:  
 
-**Responsibilities:**  
-- Develop long-term strategies for network infrastructure.  
-- Design scalable and resilient networks.  
-- Oversee the implementation of complex network projects.  
+#sovify
 
-**Skills Needed:**  
-- Advanced network design.  
-- Leadership.  
-- Enterprise networking expertise.  
-- Certifications like CCIE.  
+A Network Architect/Designer is responsible for designing and building complex, scalable, and secure network systems to meet an organization’s requirements.
+
+Responsibilities:
+
+1. Network Infrastructure Planning – Develop long-term strategies for network scalability, resilience, and performance optimization.
+
+
+2. Network Design & Implementation – Design LAN, WAN, cloud, and hybrid network architectures with redundancy and security considerations.
+
+
+3. Technology Selection – Evaluate and recommend networking hardware and software (routers, switches, firewalls, SD-WAN).
+
+
+4. Security & Compliance – Implement security best practices, firewalls, VPNs, and ensure compliance with industry standards.
+
+
+5. Performance Monitoring & Optimization – Analyze traffic patterns, ensure minimal latency, and optimize data routing.
+
+
+6. Collaboration & Documentation – Work with IT teams for network deployment and maintain network design documentation.
+
+
+
+Skills Needed:
+
+1. Advanced Network Design – Expertise in designing enterprise-level networks with high availability.
+
+
+2. Routing & Switching Expertise – Deep knowledge of routing protocols (OSPF, BGP, EIGRP) and switching technologies.
+
+
+3. Cloud & Virtualization – Proficiency in AWS, Azure, SDN (Software-Defined Networking), and virtualization tools.
+
+
+4. Security & Compliance – Knowledge of cybersecurity best practices, firewall configurations, and network segmentation.
+
+
+5. Analytical & Problem-Solving Skills – Ability to troubleshoot complex network issues and optimize performance.
+
+
+6. Certifications (Preferred) – CCIE, CCDE, AWS Certified Advanced Networking, or equivalent.
+
+
+
+
+
 
 ---
 
