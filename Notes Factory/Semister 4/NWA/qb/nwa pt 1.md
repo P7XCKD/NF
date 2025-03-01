@@ -648,12 +648,32 @@ When a user types **`www.example.com`** in a browser, the query is sent to a **r
 
 ***Q.21 State the Role of Root DNS server, Authoritative DNS server, and TLD DNS Server (4/6/8 marks)***
 #answer
-```6 marks version```
-The **Root DNS Server** plays a crucial role as the starting point in the DNS resolution process. It does not store domain-specific records but directs queries to the appropriate **TLD DNS Server** based on the requested domain extension, such as .com or .org. Its role is to act as the backbone of the DNS hierarchy, ensuring efficient query routing.
+```8 marks version```
+Q.21 State the Role of Root DNS Server, Authoritative DNS Server, and TLD DNS Server (8 marks)
 
-The **TLD DNS Server** is responsible for managing domain information within a specific top-level domain. Its role is to forward queries to the **Authoritative DNS Server** that holds the records for a specific domain, ensuring that the correct server is reached for further resolution.
+The Domain Name System (DNS) is a process that translates human-readable domain names into IP addresses, allowing users to access websites easily. It operates through a hierarchical structure involving multiple DNS servers, each playing a specific role in resolving domain names efficiently. The three key components of this system are the Root DNS Server, TLD DNS Server, and Authoritative DNS Server.
 
-The **Authoritative DNS Server** plays the role of the final source of truth in the DNS resolution process. It stores actual DNS records, such as A, MX, and CNAME, and provides the final resolution of domain names to their corresponding IP addresses. This ensures accurate and updated responses to DNS queries.
+The Root DNS Server is the first step in the DNS resolution process. It does not store domain-specific IP addresses but directs queries to the appropriate Top-Level Domain (TLD) DNS Server based on the domain extension, such as .com, .org, or .edu. There are 13 globally distributed root servers, ensuring redundancy, fault tolerance, and efficient query handling. This server forms the backbone of the internet's DNS infrastructure, enabling the proper routing of domain resolution requests.
+
+The TLD DNS Server manages domain names within a specific top-level domain (TLD), such as .com, .net, or .org. When a query reaches the TLD server, it does not provide the final IP address but instead directs the request to the Authoritative DNS Server responsible for the specific domain. This classification helps organize and streamline domain resolution, ensuring faster responses and reducing DNS query loads.
+
+The Authoritative DNS Server is the final authority for a domain name. It stores and maintains the actual DNS records, including A (IPv4 address), AAAA (IPv6 address), MX (Mail Exchange), and CNAME (Canonical Name) records. When a request reaches the authoritative DNS server, it provides the correct IP address associated with the domain name, allowing the user's browser to establish a connection. This ensures that the domain resolution process is accurate, secure, and up to date.
+
+Example of DNS Query Flow:
+
+A user enters www.example.com in a web browser.
+
+The request is sent to a Root DNS Server, which directs it to the .com TLD DNS Server.
+
+The TLD DNS Server forwards the query to the Authoritative DNS Server for example.com.
+
+The Authoritative DNS Server responds with the IP address of example.com.
+
+The browser uses the IP address to establish a connection and load the website.
+
+
+This structured DNS hierarchy ensures efficient, scalable, and secure domain resolution, enabling seamless access to websites across the internet.
+
 *** 
 
 ***Q.22 Define routing and explain different types of Routing (4)***  
