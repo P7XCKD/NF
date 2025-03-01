@@ -415,7 +415,7 @@ address range 192.168.1.100 192.168.1.200
 
 ---
 
-### **6. Test Connectivity**  
+### **6. Test Connectivity**  (optional)
 
 1. **Check DHCP Assignment** → Use `ipconfig` on any PC to verify assigned IP.  
 2. **Ping Tests** → From any PC:  
