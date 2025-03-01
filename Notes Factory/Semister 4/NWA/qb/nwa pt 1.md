@@ -213,78 +213,47 @@ Skills Needed:
 - **Compliance** – Ensure adherence to industry standards, legal regulations, and best practices.  
 ***
 
-***Q.7 Design a WLAN/VLAN (6/8)***  
-#answer  
+# **WLAN/VLAN Design (6/8)**  
 
+## **1. VLAN Configuration Based on Topology**  
 
-## **VLAN Configuration Based on Topology**
-![Basic Vlan topology1](https://computernetworking747640215.wordpress.com/wp-content/uploads/2018/07/basic-vlan-topology1.png?w=525)
+![Basic Vlan topology1](https://computernetworking747640215.wordpress.com/wp-content/uploads/2018/07/basic-vlan-topology1.png?w=525)  
 
+---
 
-***
+## **2. Network Topology Overview**  
 
-## **Updated VLAN Configuration with Renamed PCs**
+### **Devices Used:**  
+- **Router1**  
+- **Switch42**  
+- **PC-A, PC-B, PC-C, PC-D**  
 
-### **Network Topology Overview**
+### **VLAN Assignments:**  
+- **VLAN 10:** PC-A and PC-B  
+- **VLAN 20:** PC-C and PC-D  
 
--   **Devices Used:**
-    -   **1 Router (`Router1`)**
-    -   **1 Switch (`Switch42`)**
-    -   **4 PCs (`PC-A`, `PC-B`, `PC-C`, `PC-D`)**
--   **VLAN Assignments:**
-    -   **VLAN 10:** `PC-A` and `PC-B`
-    -   **VLAN 20:** `PC-C` and `PC-D`
--   **Connections:**
-    -   **Router to Switch:** Trunk link (`fa0/0` on Router1 to `fa0/5` on Switch)
-    -   **Switch to PCs:** Access links
-        -   `fa0/1` → **PC-A** (VLAN 10)
-        -   `fa0/2` → **PC-B** (VLAN 10)
-        -   `fa0/3` → **PC-C** (VLAN 20)
-        -   `fa0/4` → **PC-D** (VLAN 20)
+### **Connections:**  
+- **Router to Switch:** Trunk link (`fa0/0` on Router1 to `fa0/5` on Switch)  
+- **Switch to PCs:** Access links  
+  - `fa0/1` → **PC-A** (VLAN 10)  
+  - `fa0/2` → **PC-B** (VLAN 10)  
+  - `fa0/3` → **PC-C** (VLAN 20)  
+  - `fa0/4` → **PC-D** (VLAN 20)  
 
-***
+---
 
-### **1. VLAN Configuration on Switch**
+## **3. VLAN Configuration on Switch**  
 
-```cisco
-enable
-configure terminal
+1. **Create VLANs and Assign Ports**  
+   - Create **VLAN 10** (Management) and **VLAN 20** (HR).  
+   - Assign ports **fa0/1, fa0/2** to VLAN 10 and **fa0/3, fa0/4** to VLAN 20.  
+   - Configure **fa0/5** as a trunk link allowing VLAN 10 and 20.  
 
-! Create VLANs
-vlan 10
- name Management
-vlan 20
- name HR
+   *(CLI Command: `show vlan brief` to verify VLAN assignments.)*  
 
-! Assign ports to VLANs
-interface fa0/1
- switchport mode access
- switchport access vlan 10
+---
 
-interface fa0/2
- switchport mode access
- switchport access vlan 10
-
-interface fa0/3
- switchport mode access
- switchport access vlan 20
-
-interface fa0/4
- switchport mode access
- switchport access vlan 20
-
-! Configure trunk link to the router
-interface fa0/5
- switchport mode trunk
- switchport trunk allowed vlan 10,20
-
-exit
-write memory
-```
-
-***
-
-### **2. Router Configuration (Router-on-a-Stick)**
+## **4. Router Configuration (Router-on-a-Stick)**  
 
 ```cisco
 enable
@@ -303,42 +272,6 @@ exit
 write memory
 ```
 
-***
-
-### **3. IP Addressing Plan for PCs**
-
-| **Device** | **IP Address** | **Subnet Mask** | **Default Gateway** |
-| --- | --- | --- | --- |
-| **PC-A** (VLAN 10) | `192.168.10.2` | `255.255.255.0` | `192.168.10.1` |
-| **PC-B** (VLAN 10) | `192.168.10.3` | `255.255.255.0` | `192.168.10.1` |
-| **PC-C** (VLAN 20) | `192.168.20.2` | `255.255.255.0` | `192.168.20.1` |
-| **PC-D** (VLAN 20) | `192.168.20.3` | `255.255.255.0` | `192.168.20.1` |
-
-***
-
-### **4. Testing VLAN Configuration**
-
-1.  **Verify VLANs on Switch**
-    
-    ```cisco
-    show vlan brief
-    ```
-    
-2.  **Check Trunk Configuration**
-    
-    ```cisco
-    show interfaces trunk
-    ```
-    
-3.  **Test Connectivity:**
-    -   **PC-A → PC-B (Ping Test)** → Should work (Same VLAN 10)
-    -   **PC-C → PC-D (Ping Test)** → Should work (Same VLAN 20)
-    -   **PC-A → PC-C (Ping Test)** → Should **not** work (Different VLANs)
-    -   **PC-A → Router (192.168.10.1)** → Should work
-    -   **PC-C → Router (192.168.20.1)** → Should work
-    -   **PC-A → PC-C (After Routing)** → Should work once inter-VLAN routing is enabled.
-
-***
 
 
 ***Q.8 Design a SOHO network (6/8)***  
