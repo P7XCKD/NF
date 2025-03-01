@@ -271,7 +271,22 @@ exit
 write memory
 ```
 
+## **IP Addressing Plan for PCs (Example for 2 PCs)**  
 
+| **Device** | **IP Address** | **Subnet Mask** | **Default Gateway** |  
+|-----------|--------------|----------------|----------------|  
+| **PC-A** (VLAN 10) | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 |  
+| **PC-B** (VLAN 10) | 192.168.10.3 | 255.255.255.0 | 192.168.10.1 |  
+
+---
+
+## **Routing Table**  
+
+| **Destination Network** | **Subnet Mask** | **Next Hop** |  
+|----------------------|----------------|------------|  
+| 192.168.10.0 | 255.255.255.0 | Connected (GigabitEthernet0/0.10) |  
+| 192.168.20.0 | 255.255.255.0 | Connected (GigabitEthernet0/0.20) |
+***
 
 ***Q.8 Design a SOHO network (6/8)***  
 #answer  
