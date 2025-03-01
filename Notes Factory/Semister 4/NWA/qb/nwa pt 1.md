@@ -114,8 +114,6 @@ Skills Needed:
 
 
 
-This expanded version ensures that the content is detailed and comprehensive, making it suitable for an 8-mark response.
-
 ***
 ***Q.3 List the responsibility and skills required for the Network Architect/designer (4/6/8 marks)***
 (is it even possible to answer to answer this short content question as per 6-8 marks
