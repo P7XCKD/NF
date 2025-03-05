@@ -552,6 +552,11 @@ This flowchart describes the process of DHCP (Dynamic Host Configuration Protoco
 
 ***Q.19 How is a DNS query resolved? (4/6 marks)***
 #answer
+
+https://media.geeksforgeeks.org/wp-content/uploads/20250215163425712359/How-DNS-Works-gif-ezgifcom-optimize-1.gif
+
+or
+
 ```mermaid
 graph TD;
     A[User enters Www.example.com in browser] --> B[Query sent to Recursive DNS Resolver]
@@ -575,6 +580,10 @@ A **DNS query** follows a structured process. When a user enters a domain name i
 ***Q.20 Define DNS and explain its working (explain all steps with example) (6/8 marks)***
 #answer
 The **Domain Name System (DNS)** is a process  that translates human-readable domain names (e.g., `example.com`) into numerical IP addresses (e.g., `192.168.1.1`). This process allows users to access websites without memorizing complex IP addresses.
+
+https://media.geeksforgeeks.org/wp-content/uploads/20250215163425712359/How-DNS-Works-gif-ezgifcom-optimize-1.gif
+
+or
 
 ```mermaid
 graph TD;
