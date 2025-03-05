@@ -581,7 +581,8 @@ A **DNS query** follows a structured process. When a user enters a domain name i
 #answer
 The **Domain Name System (DNS)** is a process  that translates human-readable domain names (e.g., `example.com`) into numerical IP addresses (e.g., `192.168.1.1`). This process allows users to access websites without memorizing complex IP addresses.
 
-![image](Notes Factory/Semister 4/NWA/qb/.attachments/8298df01d1b0c0e94f692f776012851862606eb0.png) 
+
+![image](.attachments/8298df01d1b0c0e94f692f776012851862606eb0.png)
 
 or
 
