@@ -80,3 +80,11 @@ print("Encrypted Text (Keyword", keyword, "):", keyword_encrypted)
 ```
 
 output:
+--- Single Shift Caesar Cipher ---
+Original Text: Attack at dawn!
+Encrypted Text (Shift 5 ): Fttfhp fy ifbs!
+Decrypted Text: Attack at dawn!
+
+--- Keyword Shift Caesar Cipher ---
+Original Text: Attack at dawn!
+Encrypted Text (Keyword CIPHER ): Ctvlck cv hgwr!
