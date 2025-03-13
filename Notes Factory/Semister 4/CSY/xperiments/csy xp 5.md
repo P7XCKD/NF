@@ -77,3 +77,4 @@ output_path = "stego_image.png"
 encode_lsb(image_path, secret_message, output_path)
 extracted_message = decode_lsb(output_path)
 print("Extracted Message:", extracted_message)
+```
