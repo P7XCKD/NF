@@ -30,8 +30,7 @@ tracert [options] <destination>
 4.  **Experiment with Options:** Try using different options (e.g., `tracert -d google.com`) to see their effects.
 
 **Example Output (Windows):**
-
-
+(OUTPUT)
 Tracing route to google.com [142.250.184.142]
 over a maximum of 30 hops:
 1    <1 ms    <1 ms    <1 ms  192.168.1.1
@@ -58,6 +57,4 @@ Trace complete.
 * The final line "Trace complete" indicates that the trace has finished successfully.
 
 **Conclusion:**
-
-The `tracert` command is a powerful tool for network diagnostics. By tracing the path to a website, you can identify potential network bottlenecks and understand the route taken by packets across the internet. Experimenting with different options helps in fine-tuning the trace and obtaining more detailed information.
 
