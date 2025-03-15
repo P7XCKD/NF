@@ -84,3 +84,8 @@ class CaesarCipher {
         System.out.println("Decrypted: " + decrypted);
     }
 }
+```
+output
+
+Encrypted: KHOOR  
+Decrypted: HELLO  
