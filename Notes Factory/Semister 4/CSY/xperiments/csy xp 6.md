@@ -50,41 +50,32 @@ A **keyword** determines the shift dynamically based on the letter positions in 
 ### **1. Implementing Single-Shift Caesar Cipher**  
 
 ```java
-// Caesar Cipher Implementation
-class CaesarCipher {
-    // Encrypt function
-    public static String encrypt(String text, int shift) {
-        StringBuilder result = new StringBuilder();
-        
-        for (char character : text.toCharArray()) {
-            if (Character.isLetter(character)) {
-                char base = Character.isUpperCase(character) ? 'A' : 'a';
-                result.append((char) ((character - base + shift) % 26 + base));
-            } else {
-                result.append(character);
-            }
-        }
-        
-        return result.toString();
-    }
+/# Caesar Cipher Implementation
+def encrypt(text, shift):
+    result = ""
 
-    // Decrypt function
-    public static String decrypt(String text, int shift) {
-        return encrypt(text, 26 - shift);  // Reverse shift
-    }
+    for char in text:
+        if char.isalpha():
+            base = ord('A') if char.isupper() else ord('a')
+            result += chr((ord(char) - base + shift) % 26 + base)
+        else:
+            result += char
 
-    public static void main(String[] args) {
-        String plaintext = "HELLO";
-        int shift = 3;
+    return result
 
-        String encrypted = encrypt(plaintext, shift);
-        System.out.println("Encrypted: " + encrypted);
+def decrypt(text, shift):
+    return encrypt(text, 26 - shift)  # Reverse shift
 
-        String decrypted = decrypt(encrypted, shift);
-        System.out.println("Decrypted: " + decrypted);
-    }
-}
-```
+# Example usage
+plaintext = "HELLO"
+shift = 3
+
+encrypted_text = encrypt(plaintext, shift)
+print("Encrypted:", encrypted_text)
+
+decrypted_text = decrypt(encrypted_text, shift)
+print("Decrypted:", decrypted_text)
+  ```
 output
 
 Encrypted: KHOOR  
