@@ -1,6 +1,6 @@
 **Experiment 6: Caesar Cipher Implementation**
 
-**Aim:** To implement the Caesar Cipher, demonstrating both single-shift and multi-level keyword variations.
+**Aim:** To implement the Caesar Cipher, demonstrating both single-shift and multi-level shift and keyword cipher.
 
 **Theory:**
 
