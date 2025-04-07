@@ -30,7 +30,7 @@ decrypted = decrypt_message(encrypted, private_key)
 print("Decrypted:\n", decrypted)
 ```
 output
-
+```
 Encrypted:
 -----BEGIN PGP MESSAGE-----
 Version: PGPy v0.5.4
