@@ -1,4 +1,4 @@
-## Experiment No:  13
+## OSY Experiment No:  13
 
 ### **Aim:**  To study case studies on GUI and RTOS Operating Systems.  
 
