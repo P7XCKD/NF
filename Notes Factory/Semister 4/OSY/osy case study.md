@@ -54,4 +54,4 @@ A GUI provides a visual interface for users to interact with the OS using window
 
 ---
 
-### Conclusion:
+### Conclusion: Hence, we completed the case studies on GUI and RTOS Operating Systems.  
