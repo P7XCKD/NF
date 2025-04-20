@@ -1,3 +1,4 @@
+### bankers algorithm pre defined input
 ```c
 #include <stdio.h>
 
