@@ -1,4 +1,4 @@
-## Read a file:
+## Read a file by opening it
 ```c
 #include <stdio.h>
 
