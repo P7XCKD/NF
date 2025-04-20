@@ -64,7 +64,7 @@ void main() {
 
 
 ```
-![image](.attachments/57534768ff3ebeb13dee74d4a695f011de809303.png) 
+
 LRU
 ```c
 #include <stdio.h>
@@ -146,4 +146,10 @@ void main() {
 
 
 ```
+fifo output
+![image](.attachments/57534768ff3ebeb13dee74d4a695f011de809303.png) 
+
+
+lru output
+
 ![image](.attachments/0aedf6fde7d123f1e39ac88c72dcc6bce71a4d95.png) 
