@@ -35,3 +35,35 @@ void main() {
 }
 
 ```
+
+### dynamic
+```c
+#include<stdio.h>
+
+void main() {
+    int totalMemory, numProcesses, index;
+    printf("Enter memory size\n");
+    scanf("%d", &totalMemory);
+    
+    printf("Enter no. of processes\n");
+    scanf("%d", &numProcesses);
+    
+    int processSizes[numProcesses];
+    for (index = 0; index < numProcesses; index++) {
+        printf("Enter size of process %d: ", index + 1);
+        scanf("%d", &processSizes[index]);
+    }
+    
+    printf("\n");
+    for (index = 0; index < numProcesses; index++) {
+        if (processSizes[index] <= totalMemory) {
+            printf("Process %d occupied: %d\n", index + 1, processSizes[index]);
+            totalMemory = totalMemory - processSizes[index];
+            printf("Bytes remaining: %d \n\n", totalMemory);
+        } else {
+            printf("Insufficient memory\n\n");
+        }
+    }
+}
+
+```
