@@ -1,40 +1,17 @@
 ## Read a file:
 ```c
-// C Program to create a file
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    // file pointer
-    FILE* fptr;
+int main() {
 
-    // creating file using fopen() access mode "w"
-    fptr = fopen("E:\\file1.txt", "r");
+    FILE *fp = fopen("a.txt", "r");
+    char ch;
 
-
-
-    // checking if the file is created
-    if (fptr == NULL) {
-        printf("The file is not opened. The program will "
-               "exit now");
-        exit(0);
-    }
-    else {
-        printf("The file is created Successfully.");
+    while ((ch = fgetc(fp)) != EOF) {
+        printf("%c", ch);
     }
 
-    char myString[100]; // 1. array of chars 2. String
-
-// Read the content and store it inside myString
-char c=fgetc(fptr);
-printf("%c",c);
-//fgets(myString, 100, fptr);
-
-// Print the file content
-//printf("%s", myString);
-
-fclose(fptr);
+    fclose(fp);
     return 0;
 }
 
