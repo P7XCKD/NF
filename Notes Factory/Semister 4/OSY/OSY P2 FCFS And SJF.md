@@ -2,7 +2,7 @@ Start implementation of fcfc
 
 1.you can use queue
 2.take arrival time in sequence
-3.calculate all parameters
+3.calculate all parameter
 
 
 ```c
@@ -89,7 +89,7 @@ int main() {
 ```
 
 
-
+### sstf (non premtive)
 ***
 ```c
 #include<stdio.h>
