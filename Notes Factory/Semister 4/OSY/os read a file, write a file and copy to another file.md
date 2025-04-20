@@ -29,29 +29,15 @@ The file is created Successfully.
 ## Write a file:
 ```c
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    // file pointer
-    FILE* fptr;
+    FILE *fp = fopen("a.txt", "w");
 
-    // creating file using fopen() access mode "w"
-    fptr = fopen("E:\\file1.txt", "a");
-    printf("%u",fptr);
+    fprintf(fp, "Hello World");
 
+    fclose(fp);
 
-    // checking if the file is created
-    if (fptr == NULL) {
-        printf("The file is not opened. The program will "
-               "exit now");
-        exit(0);
-    }
-    else {
-        printf("The file is created Successfully.");
-    }
-    fprintf(fptr, "\n Some text3");
-fclose(fptr);
     return 0;
 }
 ```
