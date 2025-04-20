@@ -1,4 +1,4 @@
-fcfs
+### fcfs
 ```c
 #include <stdio.h>
 #include <conio.h>
@@ -31,7 +31,7 @@ printf("total movement: %d",total);
 ```
 ![image](.attachments/afa780104db122401f69a6851fb738dcc2448f3e.png) 
 
-
+## sstf
 ```c
 #include <stdio.h>
 #include <conio.h>
