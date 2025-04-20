@@ -1,33 +1,34 @@
 ### fcfs
 ```c
 #include <stdio.h>
-#include <conio.h>
+#include <stdlib.h>
 
-int main(){
-int n,i,head;
-int total =0;
+int main() {
+    int n, i, head, total = 0;
 
-printf("enter the number of disk request:");
-scanf("%d",&n);
+    printf("Enter the number of disk requests: ");
+    scanf("%d", &n);
 
-int request[n];
-printf("enter disk requests\n");
-for(i=0;i<n;i++){
-    scanf("%d",&request[i]);
+    int request[n];
+    printf("Enter disk requests:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &request[i]);
+    }
+
+    printf("Enter the head position: ");
+    scanf("%d", &head);
+
+    printf("\nFCFS Sequence: %d", head);
+    for (i = 0; i < n; i++) {
+        total += abs(request[i] - head);
+        head = request[i];
+        printf(" -> %d", head);
+    }
+
+    printf("\nTotal Seek Time: %d\n", total);
+
+    return 0;
 }
-printf("enter the head position");
-scanf("%d",&head);
-
-for(i=0;i<n;i++){
-    total += abs(request[i]-head);
-    head = request[i];
-}
-
-printf("total movement: %d",total);
-
-}
-
-
 ```
 ![image](.attachments/afa780104db122401f69a6851fb738dcc2448f3e.png) 
 ***
