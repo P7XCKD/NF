@@ -159,6 +159,11 @@ int main()
 
 
 ***
+
+
+
+### Ignore the below part for practicals
+
 preemtpive SJF
 ```c
 #include <stdio.h>
