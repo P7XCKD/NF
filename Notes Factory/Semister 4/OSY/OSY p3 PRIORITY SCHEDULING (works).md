@@ -69,6 +69,7 @@ int main() {
     return 0;
 }
 ```
+### ignore the below part for practicals
 
 Brian Version for Non Premtive FCFS
 ```c
