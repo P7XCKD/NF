@@ -1,4 +1,4 @@
-non premtive FCFS Priority Code 
+### non premtive FCFS Priority Code (use this version only)
 
 ```c
 #include <stdio.h>
