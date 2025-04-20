@@ -17,13 +17,6 @@ int main() {
 
 ```
 
-#### Output 
-
-**Case 1: File does not exist**
-The file is not opened. The program will exit now
-
-**Case 2: File exists with content "Hello"**
-The file is created Successfully.
 ***
 
 ## Write a file:
@@ -41,10 +34,6 @@ int main()
     return 0;
 }
 ```
-#### Output
-<non-zero value>The file is created Successfully.
-
-(Appends "\n Some text3" to E: \file1.txt)
 ***
 ## Copying text of a file to another file:
 
@@ -66,13 +55,3 @@ int main() {
     return 0;
 }
 ```
-#### output 
-
-Enter the filename to open for reading
-
-input.txt
-
-Enter the filename to open for writing output.txt
-
-Contents copied to output.txt
-***
