@@ -23,3 +23,36 @@ print(f"Cipher Text: {C}")
 print(f"Decrypted Message: {DM}")
 
 ```
+
+***
+```python
+from sympy import mod_inverse
+
+def gcd(a,b):
+    while b>0:
+        a,b = b,a%b
+    return a
+
+p=int(input("Enter 1st prime number : "))
+q=int(input("Enter 2nd prime number : "))
+M=int(input("Enter the message : "))
+n=p*q
+phi = (p-1)*(q-1)
+e=2  # 1<e<phi
+while e<phi:
+    if gcd(e,phi)==1:
+        break
+    e+=1
+
+d=mod_inverse(e,phi)
+
+C = pow(M,e,n)
+
+M_decrypted = pow(C,d,n)
+
+print(f"Public key: (n={n}, e={e})")
+print(f"Private key: (n={n}, d={d})")
+print(f"Encrypted Message (Ciphertext): {C}")
+print(f"Decrypted Message: {M_decrypted}")
+
+```
