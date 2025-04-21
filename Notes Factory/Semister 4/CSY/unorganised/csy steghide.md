@@ -7,6 +7,11 @@ steghide embed -cf cover.jpg -ef secret.txt -p yourpassphrase
 steghide extract -sf cover.jpg -p yourpassphrase
 ```
 
+### to check info of file
+
+```bash
+steghide info cover.jpg
+```
 ### Flags explained:
 
 -cf : Cover File (image/audio to hide data in)
