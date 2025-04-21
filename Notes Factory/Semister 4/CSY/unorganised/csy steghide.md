@@ -2,7 +2,10 @@
 ```bash
 steghide embed -cf cover.jpg -ef secret.txt -p yourpassphrase
 ```
-
+### To extract a message in an image
+```bash
+steghide extract -sf cover.jpg -p yourpassphrase
+```
 
 ***
 
