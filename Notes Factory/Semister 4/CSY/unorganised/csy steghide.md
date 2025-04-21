@@ -1,6 +1,8 @@
 ### To hide a message in an image
 ```bash
 steghide embed -cf cover.jpg -ef secret.txt -p yourpassphrase
+```
+
 
 ***
 
