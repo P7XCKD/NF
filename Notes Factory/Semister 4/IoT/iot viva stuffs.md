@@ -1,4 +1,4 @@
-# IoT Viva Preparation (Detailed with Explanations)
+# IoT Viva
 
 ---
 
