@@ -5,7 +5,7 @@
 
 ---
 
-### **Section A: (12 Marks)**  
+### **Section A: **  
 *Attempt any 6 questions from the following (2 marks each)*
 
 1. Write a short note on **CIA Triad**. *(2 marks)*  
@@ -25,7 +25,7 @@
 
 ---
 
-### **Section B: (12 Marks)**  
+### **Section B: **  
 *Attempt any 3 questions from the following (4 marks each)*
 
 1. Describe the working of **Port Scanning**. Also, give its legitimate and malicious uses. *(4 marks)*  
@@ -36,7 +36,7 @@
 
 ---
 
-### **Section C: (12 Marks)**  
+### **Section C: **  
 *Attempt any 3 questions from the following (4 marks each)*
 
 1. Explain **Packet Sniffing** over a network. Also, explain its legitimate and malicious uses. *(4 marks)*  
@@ -47,7 +47,7 @@
 
 ---
 
-### **Section D: (14 Marks)**  
+### **Section D: **  
 *Attempt any 3 questions from the following (6 marks each)*
 
 1. Describe the **working mechanism of Digital Signature** with a suitable diagram. *(6 marks)*  
@@ -58,7 +58,7 @@
 
 ---
 
-### **Section E: (12 Marks)**  
+### **Section E: **  
 *Attempt any 2 questions from the following (8 marks each)*
 
 1. Given two prime numbers p=17 and q=19, compute the public and private keys for the **RSA encryption system**. Use `e=5` as the public exponent. Then, encrypt the message M=8 and decrypt the resulting ciphertext to verify the correctness of the system. *(8 marks)*  
