@@ -97,7 +97,7 @@
 
 #### IPSec & Firewall
 - [ ] Explain with a neat diagram the IPSec Tunnel Mode header format. Highlight the placement of the ESP/AH headers and the encapsulated IP packet.
-- [ ] Draw and explain the DoS attack.
+- [x] Draw and explain the DoS attack.
 - [ ] Describe the layer wise vulnerabilities of TCP/IP model that can be exploited by attackers.
 - [ ] Explain Public Key Infrastructure (PKI). Describe its main components and purpose in ensuring secure communication.
 - [ ] With the help of a diagram, explain the working of Firewall.
