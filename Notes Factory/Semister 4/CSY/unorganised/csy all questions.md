@@ -20,7 +20,7 @@
 
 - [x] State the **Passive Attacks**. Enlist its types.
 
-- [ ] State the **types of Attacks** with brief description.
+- [x] State the **types of Attacks** with brief description.
 
 - [x] Discuss the significance of **2-Factor Authentication** in Cyber Security.
 
