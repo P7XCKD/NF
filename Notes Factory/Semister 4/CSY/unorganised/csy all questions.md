@@ -73,7 +73,7 @@
 - [x] Explain phases of viruses with example.
 - [ ] Explain the concept of Mandatory Access Control (MAC). Compare it with other access control models.
 - [x] Compare DAC and MAC. Give any 4 points.
-- [ ] Explain the concept of Discretionary Access Control (DAC). Compare it with other access control models.
+- [x] Explain the concept of Discretionary Access Control (DAC). Compare it with other access control models.
 
 #### Network Security Tools & Concepts
 - [ ] Describe the working of Port Scanning. Also give its legitimate and malicious uses.
