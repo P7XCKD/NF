@@ -120,7 +120,7 @@
 - [ ] Discuss the IT Act 2000 that addresses the different Cyber Crimes.
 
 #### IPSec, DDoS & Attacks
-- [x] With the suitable diagram, explain the IPSec Framework and discuss its importance to secure data over a network.
+- [ ] With the suitable diagram, explain the IPSec Framework and discuss its importance to secure data over a network.
 - [ ] Describe ICMP-based DDoS attacks. Also explain the execution of Ping Flood and Smurf Attack and their impact on the target system.
 
 #### Cryptography & Steganography
