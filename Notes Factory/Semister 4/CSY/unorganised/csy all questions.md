@@ -77,7 +77,7 @@
 
 #### Network Security Tools & Concepts
 - [x] Describe the working of Port Scanning. Also give its legitimate and malicious uses.
-- [ ] Describe Port Scanning with its purpose and give its types.
+- [x] Describe Port Scanning with its purpose and give its types.
 - [x] Describe Packet Sniffing with its purpose and give its types.
 - [ ] Describe the Packet Sniffing over a network. Also explain its legitimate and malicious uses.
 - [ ] Draw the structure of an X.509 certificate.
