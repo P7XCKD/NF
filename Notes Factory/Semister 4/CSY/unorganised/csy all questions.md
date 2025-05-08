@@ -83,7 +83,7 @@
 - [ ] Draw the structure of an X.509 certificate.
 
 #### Attack Types (Diagram-based)
-- [ ] Draw and explain the following attacks:
+- [x] Draw and explain the following attacks:
   - i) Release of Message attack
   - ii) Traffic Analysis
   - iii) Masquerade
