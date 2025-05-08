@@ -121,7 +121,7 @@
 
 #### IPSec, DDoS & Attacks
 - [ ] With the suitable diagram, explain the IPSec Framework and discuss its importance to secure data over a network.
-- [ ] Describe ICMP-based DDoS attacks. Also explain the execution of Ping Flood and Smurf Attack and their impact on the target system.
+- [x] Describe ICMP-based DDoS attacks. Also explain the execution of Ping Flood and Smurf Attack and their impact on the target system.
 
 #### Cryptography & Steganography
 - [ ] Discuss SQL Injection attacks in detail and illustrate the concept with a suitable example.
