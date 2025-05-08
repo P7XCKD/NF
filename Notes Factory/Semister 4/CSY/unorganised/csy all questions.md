@@ -100,7 +100,7 @@
 - [x] Draw and explain the DoS attack.
 - [ ] Describe the layer wise vulnerabilities of TCP/IP model that can be exploited by attackers.
 - [ ] Explain Public Key Infrastructure (PKI). Describe its main components and purpose in ensuring secure communication.
-- [ ] With the help of a diagram, explain the working of Firewall.
+- [x] With the help of a diagram, explain the working of Firewall.
 - [ ] Explain the working of Stateful Inspection Protocol of Firewall with suitable diagram.
 
 #### Cyber Crimes & Laws
