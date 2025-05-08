@@ -76,7 +76,7 @@
 - [x] Explain the concept of Discretionary Access Control (DAC). Compare it with other access control models.
 
 #### Network Security Tools & Concepts
-- [ ] Describe the working of Port Scanning. Also give its legitimate and malicious uses.
+- [x] Describe the working of Port Scanning. Also give its legitimate and malicious uses.
 - [ ] Describe Port Scanning with its purpose and give its types.
 - [ ] Describe Packet Sniffing with its purpose and give its types.
 - [ ] Describe the Packet Sniffing over a network. Also explain its legitimate and malicious uses.
