@@ -126,7 +126,7 @@
 #### Cryptography & Steganography
 - [ ] Discuss SQL Injection attacks in detail and illustrate the concept with a suitable example.
 - [ ] Describe DES Encryption Process with the help of a diagram.
-- [ ] Explain LSB Steganography to hide data within digital images. Illustrate the process with an example, and discuss its advantages and limitations.
+- [x] Explain LSB Steganography to hide data within digital images. Illustrate the process with an example, and discuss its advantages and limitations.
 - [ ] Explain the SSL Record Protocol. Also describe the components of SSL Header Format.
 ***
 
