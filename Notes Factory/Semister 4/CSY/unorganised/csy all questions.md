@@ -51,7 +51,7 @@
 
 - [ ] Explain **Identity Theft** and the punishment prescribed under the **Information Technology (IT) Act**.
 
-- [ ] Write short note on **Certificate-based Authentication** with the help of an example.
+- [x] Write short note on **Certificate-based Authentication** with the help of an example.
 
 - [ ] Define the term **Cyber Terrorism** and give the punishment prescribed under the **Information Technology (IT) Act**.
 
