@@ -179,7 +179,7 @@
 
 #### PGP Protocol
 - [x] Show the use of PGP protocol to secure email messages with detailed description.
-- [ ] Discuss the components of PGP protocol and explain its use to secure email messages with the help of a suitable diagram.
+- [x] Discuss the components of PGP protocol and explain its use to secure email messages with the help of a suitable diagram.
 
 #### Kerberos Authentication
 - [ ] Discuss the key components of Kerberos Authentication Protocol and explain its working with suitable diagram. Also describe its use to ensure secure authentication in a distributed network environment.
