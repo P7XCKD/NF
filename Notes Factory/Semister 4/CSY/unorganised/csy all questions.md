@@ -141,7 +141,7 @@
 #### Steganography
 - [x] Explain LSB Steganography to hide data within digital images. Illustrate the process with an example, and discuss its advantages and limitations.
 - [x] With the suitable example show LSB based Image Steganography.
-- [ ] Discuss the process of hiding a letter by Line Shift Steganography. Illustrate it with a suitable example.
+- [x] Discuss the process of hiding a letter by Line Shift Steganography. Illustrate it with a suitable example.
 - [x] Explain:
   - i) Steganography in Text  
   - ii) Steganography in Image
