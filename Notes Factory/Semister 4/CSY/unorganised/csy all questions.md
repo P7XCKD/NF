@@ -18,7 +18,7 @@
 
 - [x] Give 2 points of differentiation between **Passive** and **Active Attacks**.
 
-- [ ] State the **Passive Attacks**. Enlist its types.
+- [x] State the **Passive Attacks**. Enlist its types.
 
 - [ ] State the **types of Attacks** with brief description.
 
