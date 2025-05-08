@@ -178,7 +178,7 @@
 - [ ] With the help of suitable diagrams, describe the Transport Mode and Tunnel Mode of the IPSec Protocol. Also, explain the IPSec packet header format used in each mode.
 
 #### PGP Protocol
-- [ ] Show the use of PGP protocol to secure email messages with detailed description.
+- [x] Show the use of PGP protocol to secure email messages with detailed description.
 - [ ] Discuss the components of PGP protocol and explain its use to secure email messages with the help of a suitable diagram.
 
 #### Kerberos Authentication
