@@ -6,7 +6,7 @@ Cloud Computing -
 
 Cloud computing is transforming traditional IT by offering scalable, on-demand access to computing resources like servers, storage, and databases over the internet. This shift is driven by technologies like loT, 5G, edge computing, Big Data, and Al-based analytics. Cloud solutions are cost-effective, flexible, and accessible from anywhere.
 
-## 🌐 Cloud Computing – Overview
+🌐 Cloud Computing – Overview
 
 Cloud computing is transforming traditional IT by offering scalable, on-demand access to computing resources like servers, storage, and databases over the internet.  
 This shift is driven by technologies like **IoT**, **5G**, **edge computing**, **Big Data**, and **AI-based analytics**.  
