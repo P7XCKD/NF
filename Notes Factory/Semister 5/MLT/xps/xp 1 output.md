@@ -36,10 +36,7 @@ print("Max element in array a:", a.max())
 print("Min element in array a:", a.min())
 
 # Creating and displaying 3D Array
-d = np.array([
-    [[1, 2], [3, 4]],
-    [[5, 6], [7, 8]]
-])
+d = np.array([[[1, 2], [3, 4]],[[5, 6], [7, 8]]])
 
 print("\n3D Array:\n", d)
 print("Shape of 3D Array:", d.shape)
