@@ -69,8 +69,6 @@ This project aims to create a **secure, browser-based LAN system** that enables 
 ***
 
 
-#### **6. Conclusion**
-
-This project applies the **Iterative Model** to develop a **secure LAN-based file transfer and chat system**. It enables **real-time, offline communication** across devices using a browser interface, ensuring **data privacy** and **cross-platform support** without internet dependency.
+**6. Conclusion**  Hence , we successfully defined the problem statement and activities related to it
 
 ***
