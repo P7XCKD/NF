@@ -20,9 +20,7 @@ This project aims to create a **secure, browser-based LAN system** that enables 
 
 ***
 
-#### 3. Selected Software Development Model
-
-**Iterative Model**
+#### 3. Selected Software Development Model : **Iterative Model**
 
 ***
 
