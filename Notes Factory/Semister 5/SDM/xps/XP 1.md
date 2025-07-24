@@ -6,9 +6,7 @@
 
 ***
 
-#### 1. Project Title
-
-**Secure LAN-Based File Transfer & Chat System (Web App Version)**
+#### 1. Project Title **Secure LAN-Based File Transfer & Chat System (Web App Version)**
 
 ***
 
