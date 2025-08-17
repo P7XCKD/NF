@@ -106,7 +106,30 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 ![image](.attachments/b8f11c836b30734bd228d2093d615dfedd900937.png) ![image](.attachments/e18b2a73a56bc7d1d9f535d4134686c9bf5340f8.png) 
 
 ***
-- [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
+- [ ] Q.5) 
+### Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
+Paravirtualization is a virtualization technique in which the guest operating system is modified to replace sensitive instructions with hypercalls, so it can work efficiently with the hypervisor.
+
+> [!abstract] only if 8 marks
+> **Working :**
+    1.  The **hypervisor provides special APIs**, called **hypercalls**, for critical operations.    
+> 2.  The **guest OS is modified** to replace sensitive or privileged instructions with these **hypercalls**.  
+>3.  When the guest OS needs resources like **CPU, memory, or I/O**, it makes a hypercall.  
+>4.  The **hypervisor handles the request** and communicates with the physical hardware to allocate resources efficiently.
+        
+-   **Diagram:** ![image](.attachments/6e3c3022100ce334de240a0c5e904fb5f310f817.png) 
+    > [!abstract] any 2 if 6 marks    **Advantages:** 
+    > 1.  High performance and efficiency (less overhead)
+       >2.  Better resource utilization than full virtualization
+    >3.  Suitable for large-scale cloud environments 
+
+
+    > [!abstract] any 2 if 6 marks    **Disadvantages:**
+    >1.  Needs guest OS modification, limiting OS choice
+      >2.  Compatibility issues with proprietary or closed-source OS
+      >3.  More complex to implement than full virtualization
+
+***
 - [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
 - [ ] Q.7) Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
 - [ ] Q.8) Explain Elements of Parallel Computing. **4M**
