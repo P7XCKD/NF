@@ -31,7 +31,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
     _Example:_ Running multiple virtual servers on a single physical machine instead of having separate servers for each.
     
 -   **Virtual Machine (VM)** – A software-based emulation of a physical computer that runs its own operating system and applications independently.  
-    _Example:_ Running Ubuntu Linux as a VM inside Windows.
+    _Example:_ Running Linux as a VM inside Windows.
     
 -   **Virtual Machine Manager (VMM)** – Also called a hypervisor, it is software that creates, manages, and monitors virtual machines.  
     _Example:_ VMware ESXi, Microsoft Hyper-V, Oracle VirtualBox.
