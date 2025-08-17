@@ -106,7 +106,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 ![image](.attachments/b8f11c836b30734bd228d2093d615dfedd900937.png) ![image](.attachments/e18b2a73a56bc7d1d9f535d4134686c9bf5340f8.png) 
 
 ***
-- [ ] Q.5) 
+- [x] Q.5) 
 ### Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
 Paravirtualization is a virtualization technique in which the guest operating system is modified to replace sensitive instructions with hypercalls, so it can work efficiently with the hypervisor.
 
@@ -131,7 +131,51 @@ Paravirtualization is a virtualization technique in which the guest operating sy
       >3.  More complex to implement than full virtualization
 
 ***
-- [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
+- [ ] Q.6)
+### Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
+**Microsoft Hyper-V** is a **Type-1 hypervisor** developed by Microsoft that allows running multiple virtual machines on Windows servers. It enables efficient use of hardware resources by isolating and managing VMs.
+
+***
+
+> [!abstract] **only if 8 marks**  
+> **Working:**
+> 
+> 1.  Hyper-V runs directly on the **host hardware** as a bare-metal hypervisor.
+>     
+> 2.  The **root partition** (Windows OS) manages hardware access and controls Hyper-V.
+>     
+> 3.  **Child partitions (VMs)** run guest operating systems and applications.
+>     
+> 4.  Hyper-V manages CPU, memory, storage, and networking requests between VMs and hardware.
+>     
+
+***
+
+-   **Diagram:**  
+![image](.attachments/f6b1ca04641493efb1c15839f11443848278330f.png) 
+![image](.attachments/23b140f078a13995242eae26450dba5c61739ad8.png) 
+***
+
+> [!abstract] **any 2 if 6 marks**  
+> **Advantages:**
+> 
+> 1.  Cost-effective and comes built into Windows Server.
+>     
+> 2.  Provides strong isolation and security between VMs.
+>     
+> 3.  Supports live migration and scalability for enterprise use.
+>     
+
+> [!abstract] **any 2 if 6 marks**  
+> **Disadvantages:**
+> 
+> 1.  Works best only in Windows-based environments.
+>     
+> 2.  Requires significant hardware resources.
+>     
+> 3.  Limited support for some Linux distributions compared to VMware.
+>
+***
 - [ ] Q.7) Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
 - [ ] Q.8) Explain Elements of Parallel Computing. **4M**
 - [ ] Q.9) Explain Elements of distributed Computing. **4M**
