@@ -36,7 +36,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 -   **Virtual Machine Manager (VMM)** – Also called a hypervisor, it is software that creates, manages, and monitors virtual machines.  
     _Example:_ VMware , Microsoft Hyper-V, Oracle VirtualBox.
     
--   **Binary Translation** – A technique used by hypervisors to convert guest OS instructions into host instructions for execution.  
+-   **Binary Translation** – A technique used by hypervisors to convert guest OS instructions into host OS instructions for execution.  
     _Example:_ Running Windows software on a virtual machine even if the processor doesn’t directly support it.
     
 -   **VM Migration** – The process of moving a running virtual machine from one physical host to another with minimal downtime.  
