@@ -229,7 +229,7 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 > 4.  **Hardware Compatibility** – Some devices may not fully work in virtualized mode.
 >
 ***
-- [ ] Q.8) 
+- [x] Q.8) 
 ### Explain Elements of Parallel Computing. **4M**
 -   **Concurrency** – Executing multiple instructions or tasks simultaneously.
     
@@ -244,7 +244,17 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 -   **Scalability** – Ability to efficiently utilize additional resources as the system grows.
 
 ***
-- [ ] Q.9) Explain Elements of distributed Computing. **4M**
+- [ ] Q.9) 
+### Explain Elements of distributed Computing. **4M**
+
+-   **Nodes** – Individual computing units such as computers or virtual machines (VMs).
+    
+-   **Network** – Communication backbone connecting all nodes for data exchange.
+    
+-   **Middleware** – Software layer that manages communication, resource sharing, and task execution.
+    
+-   **Replication and Consistency** – Mechanisms to ensure reliability and uniformity of data across nodes
+***
 - [ ] Q.10) Explain types of virtualization (Any 4) **4-6M**
 - [ ] Q.11) Define the term server virtualization with one example. **4M**
 - [ ] Q.12) Difference between parallel and distributed computing. **4M**
