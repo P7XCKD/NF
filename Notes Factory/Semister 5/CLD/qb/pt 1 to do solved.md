@@ -15,7 +15,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
     
 3.  **Scalability & Flexibility** – Virtual machines can be easily created, modified, or migrated to meet changing workload requirements without purchasing new hardware.
     
-4.  **Improved Disaster Recovery** – Virtual machines can be quickly backed up, replicated, and restored on other servers, enabling faster recovery from system crashes or site failures.
+4.  **Improved Disaster Recovery** – Virtual machines can be quickly backed up, replicated, and restored on other servers, In case of system crashes or site failures.
 
 ***
 - [ ] Q.2) Describe the following terms in brief with suitable examples **4M**  
