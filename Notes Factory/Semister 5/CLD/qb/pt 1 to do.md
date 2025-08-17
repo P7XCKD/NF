@@ -2,7 +2,7 @@
 
 ## Chapter 1
 
-- [ ] Q.1) Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
+- [x] Q.1) Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
 - [ ] Q.2) Describe the following terms in brief with suitable examples **4M**  
   (i) Server Consolidation  
   (ii) Virtual Machine (VM)  
