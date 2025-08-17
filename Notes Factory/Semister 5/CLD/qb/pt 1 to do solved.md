@@ -249,7 +249,7 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 
 -   **Nodes** – Individual computing units such as computers or virtual machines (VMs).
     
--   **Network** – Communication backbone connecting all nodes for data exchange.
+-   **Network** – Communication backbone that connects all nodes for data exchange.
     
 -   **Middleware** – Software layer that manages communication, resource sharing, and task execution.
     
