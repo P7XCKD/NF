@@ -241,7 +241,7 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
         
 -   **Synchronization** – Coordination between processes to ensure correct results.
     
--   **Scalability** – Ability to efficiently utilize additional processors as the system grows.
+-   **Scalability** – Ability to efficiently utilize additional resources as the system grows.
 
 ***
 - [ ] Q.9) Explain Elements of distributed Computing. **4M**
