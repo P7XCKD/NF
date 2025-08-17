@@ -1,5 +1,7 @@
 # Final QB CLD pt 1
 
+> [!hint] type hints (for me)
+> #p = partially done stuffs
 ## Chapter 1
 
 - [x]   Q.1) 
@@ -380,7 +382,7 @@ Diagram:
 
 ```
 ***
-- [ ] Q.12) 
+- [x] Q.12) #p
 ### Difference between parallel and distributed computing. **4M**
 
 | Feature | Parallel Computing | Distributed Computing |
