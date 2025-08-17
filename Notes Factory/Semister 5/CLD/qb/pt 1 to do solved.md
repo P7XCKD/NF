@@ -69,7 +69,40 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 
 
 ***
-- [ ] Q.4) State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
+- [ ] Q.4) 
+### State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
+
+-   **Role of Hypervisor:**  
+    A **hypervisor** (Virtual Machine Monitor – VMM) is a software layer that allows multiple **virtual machines (VMs)** to run on a single physical system.  
+    It manages allocation of CPU, memory, storage, and I/O devices among VMs, while ensuring **isolation, security, and efficient resource utilization**.  
+    Hypervisors are the backbone of **virtualization and cloud computing**.
+    
+-   **Types of Hypervisors:**
+    
+    1.  **Type 1 – Bare-Metal Hypervisor:**
+        
+        -   Runs **directly on the hardware** without a host operating system.
+            
+        -   The hypervisor itself handles resource allocation and VM scheduling.
+            
+        -   Provides **high performance, scalability, and security**, making it suitable for **enterprise servers and data centers**.
+            
+        -   **Working:** Each VM runs a guest OS on the hypervisor, which **directly communicates with hardware** to allocate CPU, memory, and I/O.
+            
+        -   **Examples:** VMware ESXi, Microsoft Hyper-V .
+            
+    2.  **Type 2 – Hosted Hypervisor:**
+        
+        -   Installed **on top of an existing host operating system**.
+            
+        -   Relies on the host OS for device drivers, hardware communication, and resource management.
+            
+        -   Easier to install and use, but performance is slightly lower due to the **extra OS layer**.
+            
+        -  **Working:** Each VM runs a guest OS on the hypervisor, but all hardware requests **go through the host OS first**, then reach the hardware.
+            
+        -   **Examples:** Oracle VirtualBox, VMware Workstation.S
+***
 - [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
 - [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
 - [ ] Q.7) Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
