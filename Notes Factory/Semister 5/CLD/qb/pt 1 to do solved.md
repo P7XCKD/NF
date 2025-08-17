@@ -137,8 +137,8 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 
 ***
 
-> [!abstract] **only if 8 marks**  
-> **Working:**
+> [!abstract] only if 8 marks  
+> Working:
 > 
 > 1.  Hyper-V runs directly on the **host hardware** as a bare-metal hypervisor.
 >     
@@ -151,12 +151,14 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 
 ***
 
--   **Diagram:**  
-![image](.attachments/53e523d4cc05ecf899b6cba9a3d8672c76234673.png) 
+-   Diagram:  
+    ![image](.attachments/53e523d4cc05ecf899b6cba9a3d8672c76234673.png)
+    
+
 ***
 
-> [!abstract] **any 2 if 6 marks**  
-> **Advantages:**
+> [!abstract] any 2 if 6 marks  
+> Advantages:
 > 
 > 1.  Cost-effective and comes built into Windows Server.
 >     
@@ -165,8 +167,8 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 > 3.  Supports live migration and scalability for enterprise use.
 >     
 
-> [!abstract] **any 2 if 6 marks**  
-> **Disadvantages:**
+> [!abstract] any 2 if 6 marks  
+> Disadvantages:
 > 
 > 1.  Works best only in Windows-based environments.
 >     
