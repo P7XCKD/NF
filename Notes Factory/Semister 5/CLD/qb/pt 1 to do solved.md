@@ -101,7 +101,10 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
             
         -  **Working:** Each VM runs a guest OS on the hypervisor, but all hardware requests **go through the host OS first**, then reach the hardware.
             
-        -   **Examples:** Oracle VirtualBox, VMware Workstation.S
+        -   **Examples:** Oracle VirtualBox, VMware Workstation.
+> [!abstract] If 8 marks = draw diagram both
+![image](.attachments/b8f11c836b30734bd228d2093d615dfedd900937.png) ![image](.attachments/e18b2a73a56bc7d1d9f535d4134686c9bf5340f8.png) 
+
 ***
 - [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
 - [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
