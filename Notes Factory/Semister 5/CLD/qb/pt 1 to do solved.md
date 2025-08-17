@@ -131,7 +131,7 @@ Paravirtualization is a virtualization technique in which the guest operating sy
       >3.  More complex to implement than full virtualization
 
 ***
-- [ ] Q.6) #p
+- [x] Q.6) #p
 ### Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
 **Microsoft Hyper-V** is a **Type-1 hypervisor** developed by Microsoft that allows running multiple virtual machines on Windows servers. It enables efficient use of hardware resources by isolating and managing VMs.
 
@@ -177,8 +177,57 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 > 3.  Limited support for some Linux distributions compared to VMware.
 >
 ***
-- [ ] Q.7) Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
+- [ ] Q.7) 
+### Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
+Full Virtualization is a technique where the **hypervisor fully emulates the underlying hardware**, allowing **unmodified guest operating systems** to run as if they have direct access to the physical hardware.
 
+***
+
+> [!abstract] only if 8 marks  
+> Working:
+> 
+> 1.  The **hypervisor (VMM)** emulates complete hardware for guest OS.
+>     
+> 2.  The **hypervisor manages CPU, memory, storage, and I/O**, providing virtual hardware and ensuring isolation between VMs.
+>     
+> 3.  **Guest OS** runs on virtual hardware without modification and is unaware of other VMs.
+>     
+> 4.  **Applications** run normally on each guest OS as if on real hardware.
+>     
+
+***
+
+-   Diagram:  
+
+    ![image](.attachments/03f64e3d83488a99bfe963452b2a5b7274937788.png) 
+
+***
+
+> [!abstract] any 3 if 6 marks  
+> Advantages:
+> 
+> 1.  **OS Independence** – Any guest OS can run without modification.
+>     
+> 2.  **Strong Isolation** – Failures in one VM do not affect others.
+>     
+> 3.  **Efficient Resource Utilization** – Multiple OS instances share hardware efficiently.
+>     
+> 4.  **Flexibility** – Easy to deploy or test different OS environments.
+>     
+> 5.  **Migration & Snapshots** – VMs can be paused, copied, or migrated easily.
+>     
+
+> [!abstract] any 3 if 6 marks  
+> Disadvantages:
+> 
+> 1.  **Performance Overhead** – Slight slowdown in CPU and I/O operations.
+>     
+> 2.  **Resource Intensive** – Each VM consumes memory, CPU, and storage.
+>     
+> 3.  **Complexity** – Requires a strong hypervisor and management tools.
+>     
+> 4.  **Hardware Compatibility** – Some devices may not fully work in virtualized mode.
+>
 ***
 - [ ] Q.8) Explain Elements of Parallel Computing. **4M**
 - [ ] Q.9) Explain Elements of distributed Computing. **4M**
