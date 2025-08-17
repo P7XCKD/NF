@@ -380,12 +380,29 @@ Diagram:
 
 ```
 ***
-- [ ] Q.12) Difference between parallel and distributed computing. **4M**
-- [ ] Q.13) Define VMM with diagram. **4M**
-- [ ] Q.14) Draw and explain the components of Machine Reference Model. **4M**
+- [ ] Q.12) 
+### Difference between parallel and distributed computing. **4M**
 
----
+| Feature | Parallel Computing | Distributed Computing |
+| --- | --- | --- |
+| **Execution** | Multiple tasks run simultaneously on a **single computer** | Multiple tasks run on **multiple computers (nodes)** |
+| **Communication** | Through **shared memory** | Through **network connections** |
+| **Scalability** | Limited by the resources of one machine | Can scale easily by adding more nodes |
+| **Fault Tolerance** | Low – if one processor fails, task may fail | High – if one node fails, others can continue |
+| **Goal** | Increase speed and efficiency inside one system | Coordinate tasks across multiple systems |
+***
+- [ ] Q.13) 
+### Define VMM with diagram. **4M**
 
+
+***
+- [ ] Q.14) 
+### Draw and explain the components of Machine Reference Model. **4M**
+
+
+
+
+***
 ## Chapter 2
 
 - [ ] Q.1) Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
