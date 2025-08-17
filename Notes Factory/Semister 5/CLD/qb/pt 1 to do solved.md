@@ -117,7 +117,8 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 >3.  When the guest OS needs resources like **CPU, memory, or I/O**, it makes a hypercall.  
 >4.  The **hypervisor handles the request** and communicates with the physical hardware to allocate resources efficiently.
         
--   **Diagram:** ![image](.attachments/6e3c3022100ce334de240a0c5e904fb5f310f817.png) 
+-   **Diagram:** 
+![image](.attachments/eebb4c7e582223d11dd9e096acdb12d9e8000ec7.png) 
     > [!abstract] any 2 if 6 marks    **Advantages:** 
     > 1.  High performance and efficiency (less overhead)
        >2.  Better resource utilization than full virtualization
