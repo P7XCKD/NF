@@ -407,9 +407,20 @@ Hypervisors are the backbone of **virtualization and cloud computing**.
 - [ ] Q.14) 
 ### Draw and explain the components of Machine Reference Model. **4M**
 
-
-
-
+![Virtualization | A Machine Reference Model - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-15.png)
+-   **Applications** – Programs or software that users run.
+    
+-   **Libraries** – Reusable code that applications call to perform common tasks.
+    
+-   **API (Application Programming Interface)** – Defines how applications interact with libraries.
+    
+-   **ABI (Application Binary Interface)** – Interface between compiled applications/libraries and the OS.
+    
+-   **Operating System (OS)** – Manages hardware resources and provides system services to applications.
+    
+-   **ISA (Instruction Set Architecture)** – The hardware instruction interface exposed to software.
+    
+-   **Hardware** – Physical components of the computer (CPU, memory, I/O devices).
 ***
 ## Chapter 2
 
