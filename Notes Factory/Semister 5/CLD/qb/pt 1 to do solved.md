@@ -244,7 +244,7 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 -   **Scalability** – Ability to efficiently utilize additional resources as the system grows.
 
 ***
-- [ ] Q.9) 
+- [x] Q.9) 
 ### Explain Elements of distributed Computing. **4M**
 
 -   **Nodes** – Individual computing units such as computers or virtual machines (VMs).
@@ -255,7 +255,104 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
     
 -   **Replication and Consistency** – Mechanisms to ensure reliability and uniformity of data across nodes
 ***
-- [ ] Q.10) Explain types of virtualization (Any 4) **4-6M**
+- [ ] Q.10) 
+### Explain types of virtualization (Any 4) **4-6M**
+> [!check] i have only mentioned those types which are previously covered so no need to learn diffrent stuffs seperatly
+
+-   **Full Virtualization** – Hypervisor fully emulates the hardware, allowing unmodified guest OS to run as if it has direct access to physical hardware.  
+    _Example:_ VMware Workstation, Oracle VirtualBox
+    
+    > [!abstract] any 2 if 6 marks  
+    > Advantages:
+    > 
+    > 1.  OS Independence – Any guest OS can run without modification.
+    >     
+    > 2.  Strong Isolation – Failures in one VM do not affect others.
+    >     
+    > 3.  Efficient Resource Utilization – Multiple OS instances share hardware efficiently.
+
+    > [!abstract] any 2 if 6 marks  
+    > Disadvantages:
+    > 
+    > 1.  Performance Overhead – Slight slowdown in CPU and I/O operations.
+    >     
+    > 2.  Resource Intensive – Each VM consumes memory, CPU, and storage.
+    >     
+    > 3.  Complexity – Requires strong hypervisor and management tools.
+    >     
+    
+-   **Paravirtualization** – Guest OS is modified to work efficiently with the hypervisor using hypercalls instead of sensitive instructions.  
+    _Example:_ Xen, VMware ESXi (paravirtualized mode)
+    
+    > [!abstract] any 2 if 6 marks  
+    > Advantages:
+    > 
+    > 1.  Higher performance than full virtualization.
+    >     
+    > 2.  Efficient resource utilization.
+    >     
+    > 3.  Suitable for large-scale cloud environments.
+   
+    > [!abstract] any 2 if 6 marks  
+    > Disadvantages:
+    > 
+    > 1.  Requires guest OS modification, limiting OS choice.
+    >     
+    > 2.  Compatibility issues with some proprietary OS.
+    >     
+    > 3.  More complex to implement than full virtualization.
+    >     
+    
+-   **Microsoft Hyper-V (Type-1 / Hardware Virtualization)** – Runs directly on host hardware, managing VMs with strong isolation and security.  
+    _Example:_ Microsoft Hyper-V
+    
+    > [!abstract] any 2 if 6 marks  
+    > Advantages:
+    > 
+    > 1.  Cost-effective, comes built into Windows Server.
+    >     
+    > 2.  Strong isolation and security between VMs.
+    >     
+    > 3.  Supports live migration and enterprise scalability.
+   
+    > [!abstract] any 2 if 6 marks  
+    > Disadvantages:
+    > 
+    > 1.  Works best only in Windows environments.
+    >     
+    > 2.  Requires significant hardware resources.
+    >     
+    > 3.  Limited support for some Linux distributions.
+    >     
+    
+-   **Application / Desktop / Programming Virtualization** – Runs apps, desktops, or runtimes in isolated environments.
+    
+    -   **Application Virtualization:** Runs applications without installation on host OS. _Example:_ Microsoft App-V
+        
+    -   **Desktop Virtualization:** Provides remote or VM-based desktop access. _Example:_ Citrix VDI
+        
+    -   **Programming / Language Virtualization:** Virtual runtime environments for programming languages. _Example:_ JVM, .NET CLR
+        
+    
+    > [!abstract] any 2 if 6 marks  
+    > Advantages:
+    > 
+    > 1.  Easy deployment and testing of software environments.
+    >     
+    > 2.  Reduces conflicts between applications or versions.
+    >     
+    > 3.  Improves portability and management.
+    
+    > [!abstract] any 2 if 6 marks  
+    > Disadvantages:
+    > 
+    > 1.  Some performance overhead.
+    >     
+    > 2.  Requires additional software layers or licenses.
+    >     
+    > 3.  Limited access to host-specific hardware features.
+    >
+***
 - [ ] Q.11) Define the term server virtualization with one example. **4M**
 - [ ] Q.12) Difference between parallel and distributed computing. **4M**
 - [ ] Q.13) Define VMM with diagram. **4M**
