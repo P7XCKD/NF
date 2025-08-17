@@ -2,7 +2,22 @@
 
 ## Chapter 1
 
-- [x] Q.1) Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
+- [ ]   Q.1) 
+### Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
+**Virtualization:**  is the ability of a computer program  (which can be combination of software and hardwar) to emulate an executing environment separate from the one that hosts such programs.  
+_Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
+
+**Advantages of Virtualization:**
+
+1.  **Cost Savings** – Virtualization allows multiple operating systems and applications to run on a single physical server, reducing the need for extra hardware, lowering electricity consumption, and minimizing maintenance expenses.
+    
+2.  **Efficient Resource Utilization** – Physical hardware resources like CPU, RAM, and storage are shared among virtual machines, ensuring higher utilization rates and avoiding idle resources.
+    
+3.  **Scalability & Flexibility** – Virtual machines can be easily created, modified, or migrated to meet changing workload requirements without purchasing new hardware.
+    
+4.  **Improved Disaster Recovery** – Virtual machines can be quickly backed up, replicated, and restored on other servers, enabling faster recovery from system crashes or site failures.
+
+***
 - [ ] Q.2) Describe the following terms in brief with suitable examples **4M**  
   (i) Server Consolidation  
   (ii) Virtual Machine (VM)  
