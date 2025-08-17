@@ -177,6 +177,9 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 >
 ***
 - [ ] Q.7) Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
+
+![image](.attachments/53e523d4cc05ecf899b6cba9a3d8672c76234673.png) 
+***
 - [ ] Q.8) Explain Elements of Parallel Computing. **4M**
 - [ ] Q.9) Explain Elements of distributed Computing. **4M**
 - [ ] Q.10) Explain types of virtualization (Any 4) **4-6M**
