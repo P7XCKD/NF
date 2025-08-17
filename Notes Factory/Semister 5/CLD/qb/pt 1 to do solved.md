@@ -45,7 +45,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 -   **Data Center** – A facility consisting of many servers and storage systems used to store, manage, and share data and applications. 
     _Example:_ Google or Amazon cloud data centers.
 ***
-- [ ] Q.3) 
+- [x] Q.3) 
 
 ### Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same. **6M**
 ![image](.attachments/54d31dcca3aa5992d41f02da1eadee51e3f2485e.png) 
