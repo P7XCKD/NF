@@ -1,7 +1,7 @@
 # Final QB CLD pt 1
 
 > [!hint] type hints (for me)
-> #p = partially done stuffs
+> #p = partially done stuffs 
 ## Chapter 1
 
 - [x]   Q.1) 
