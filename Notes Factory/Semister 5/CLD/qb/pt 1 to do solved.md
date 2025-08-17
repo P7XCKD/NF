@@ -69,7 +69,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 
 
 ***
-- [ ] Q.4) 
+- [x] Q.4) 
 ### State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
 
 -   **Role of Hypervisor:**  
