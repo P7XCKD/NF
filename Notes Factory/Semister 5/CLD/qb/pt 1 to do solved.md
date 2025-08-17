@@ -42,7 +42,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 -   **VM Migration** – The process of moving a running virtual machine from one physical host to another with minimal downtime.  
     _Example:_ Live migration in VMware vMotion.
     
--   **Data Center** – A facility consisting of a large number of servers, storage, and networking equipment used to store, manage, and distribute data and applications.  
+-   **Data Center** – A facility consisting  many servers and storage systems used to store, manage, and share data and applications. 
     _Example:_ Google or Amazon cloud data centers.
 ***
 - [ ] Q.3) Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same.  **6M**
