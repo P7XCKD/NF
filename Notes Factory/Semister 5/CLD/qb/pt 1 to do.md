@@ -10,7 +10,7 @@
   (iv) Binary Translation  
   (v) VM migration  
   (vi) Data center  
-- [ ] Q.3) Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same.  **6M**
+- [x] Q.3) Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same.  **6M**
 - [ ] Q.4) State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
 - [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
 - [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
