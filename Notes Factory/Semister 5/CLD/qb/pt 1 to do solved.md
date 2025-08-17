@@ -45,7 +45,30 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 -   **Data Center** – A facility consisting of many servers and storage systems used to store, manage, and share data and applications. 
     _Example:_ Google or Amazon cloud data centers.
 ***
-- [ ] Q.3) Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same.  **6M**
+- [ ] Q.3) 
+
+### Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same. **6M**
+![image](.attachments/54d31dcca3aa5992d41f02da1eadee51e3f2485e.png) 
+-   **Security Rings Explanation:**
+    
+    -   **Ring 0 (Kernel – Highest Privilege):** Executes privileged instructions, manages hardware and OS core.
+        
+    -   **Ring 1 (Device Drivers):** Runs device drivers that need hardware access.
+        
+    -   **Ring 2 (System Services):** Runs OS-level services like file systems and communication.
+        
+    -   **Ring 3 (User Applications – Lowest Privilege):** Runs user programs; only non-privileged instructions allowed.
+
+-   **Privileged Instructions** – Executed only in **Kernel Mode (Ring 0)** since they directly control hardware and system resources.  
+    _Example:_ I/O control, memory management, enabling/disabling interrupts.  
+  
+        
+-   **Non-Privileged Instructions** – Executed in **User Mode (Ring 3)** as they are safe and cannot harm the system.  
+    _Example:_ Arithmetic operations (add, subtract), logical (AND, OR), and data movement.
+    
+
+
+***
 - [ ] Q.4) State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
 - [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
 - [ ] Q.6) Draw & Explain Microsoft Hyper-V Technology with its advantages and disadvantages  **6-8M**
