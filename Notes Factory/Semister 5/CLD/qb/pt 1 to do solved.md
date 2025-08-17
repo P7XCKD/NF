@@ -4,7 +4,7 @@
 
 - [x]   Q.1) 
 ### Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
-**Virtualization:**  is the ability of a computer program  (which can be combination of software and hardwar) to emulate an executing environment separate from the one that hosts such programs.  
+**Virtualization:**  is the ability of a computer program  (which can be combination of software and hardware) to emulate an executing environment separate from the one that hosts such programs.  
 _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 
 **Advantages of Virtualization:**
