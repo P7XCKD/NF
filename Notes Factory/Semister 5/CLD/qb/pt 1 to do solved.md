@@ -179,6 +179,7 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 ***
 - [ ] Q.7) 
 ### Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
+
 Full Virtualization is a technique where the **hypervisor fully emulates the underlying hardware**, allowing **unmodified guest operating systems** to run as if they have direct access to the physical hardware.
 
 ***
@@ -186,20 +187,19 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 > [!abstract] only if 8 marks  
 > Working:
 > 
-> 1.  The **hypervisor (VMM)** emulates complete hardware for guest OS.
+> 1.  The **hypervisor (VMM)** allocates CPU, memory, storage, and I/O resources to each VM.
 >     
-> 2.  The **hypervisor manages CPU, memory, storage, and I/O**, providing virtual hardware and ensuring isolation between VMs.
+> 2.  **Guest OS** runs unmodified on virtual hardware, unaware of other VMs.
 >     
-> 3.  **Guest OS** runs on virtual hardware without modification and is unaware of other VMs.
->     
-> 4.  **Applications** run normally on each guest OS as if on real hardware.
+> 3.  **Applications** operate normally on each guest OS as if on real hardware.
 >     
 
 ***
 
--   Diagram:  
-
-    ![image](.attachments/03f64e3d83488a99bfe963452b2a5b7274937788.png) 
+-   Diagram:
+    
+    ![image](.attachments/03f64e3d83488a99bfe963452b2a5b7274937788.png)
+    
 
 ***
 
