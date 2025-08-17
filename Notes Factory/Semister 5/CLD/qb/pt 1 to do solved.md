@@ -396,8 +396,9 @@ Diagram:
 - [ ] Q.13) 
 ### Define VMM with diagram. **4M**
 
+![Type 1 and Type 2 Virtual Machine Monitors | Download Scientific Diagram](https://www.researchgate.net/publication/221351476/figure/fig1/AS:305492556566528@1449846509293/Type-1-and-Type-2-Virtual-Machine-Monitors.png)
 
-***
+
 - [ ] Q.14) 
 ### Draw and explain the components of Machine Reference Model. **4M**
 
