@@ -229,7 +229,21 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
 > 4.  **Hardware Compatibility** – Some devices may not fully work in virtualized mode.
 >
 ***
-- [ ] Q.8) Explain Elements of Parallel Computing. **4M**
+- [ ] Q.8) 
+### Explain Elements of Parallel Computing. **4M**
+-   **Concurrency** – Executing multiple instructions or tasks simultaneously.
+    
+-   **Granularity** – Level of task division:
+    
+    -   **Fine-grain:** Smaller, detailed tasks.
+        
+    -   **Coarse-grain:** Larger, fewer tasks.
+        
+-   **Synchronization** – Coordination between processes to ensure correct results.
+    
+-   **Scalability** – Ability to efficiently utilize additional processors as the system grows.
+
+***
 - [ ] Q.9) Explain Elements of distributed Computing. **4M**
 - [ ] Q.10) Explain types of virtualization (Any 4) **4-6M**
 - [ ] Q.11) Define the term server virtualization with one example. **4M**
