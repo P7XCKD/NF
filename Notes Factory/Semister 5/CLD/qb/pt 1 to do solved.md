@@ -59,13 +59,13 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
         
     -   **Ring 3 (User Applications – Lowest Privilege):** Runs user programs; only non-privileged instructions allowed.
 
--   **Privileged Instructions** – Executed only in **Kernel Mode (Ring 0)** since they directly control hardware and system resources.  
-    _Example:_ I/O control, memory management, enabling/disabling interrupts.  
-  
-        
--   **Non-Privileged Instructions** – Executed in **User Mode (Ring 3)** as they are safe and cannot harm the system.  
-    _Example:_ Arithmetic operations (add, subtract), logical (AND, OR), and data movement.
+-   **Privileged Instructions** – Special instructions that can **directly control hardware or critical system resources**. Since they can affect the entire system, they are executed only in **Kernel Mode (Ring 0)**.  
+    These include **behavior-sensitive instructions** (like I/O operations) and **control-sensitive instructions** (like changing CPU registers or memory settings).  
+    _Example:_ I/O control, memory management, enabling/disabling interrupts.
     
+-   **Non-Privileged Instructions** – Normal instructions that **do not compromise system security**. They run safely in **User Mode (Ring 3)** and cannot access hardware or kernel resources directly.  
+    These cover everyday operations like arithmetic, logical, and data movement, which don’t interfere with other programs.  
+    _Example:_ Arithmetic (add, subtract), logical (AND, OR), and data movement (move, load).
 
 
 ***
