@@ -18,13 +18,33 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
 4.  **Improved Disaster Recovery** – Virtual machines can be quickly backed up, replicated, and restored on other servers, In case of system crashes or site failures.
 
 ***
-- [ ] Q.2) Describe the following terms in brief with suitable examples **4M**  
+- [ ] Q.2) 
+### Describe the following terms in brief with suitable examples **4M**  
   (i) Server Consolidation  
   (ii) Virtual Machine (VM)  
   (iii) Virtual Machine Manager (VMM)  
   (iv) Binary Translation  
   (v) VM migration  
   (vi) Data center  
+
+-   **Server Consolidation** – It is the process of combining multiple underutilized physical servers into fewer, more powerful servers by using virtualization.  
+    _Example:_ Running multiple virtual servers on one physical machine instead of having many separate servers.
+    
+-   **Virtual Machine (VM)** – A software-based emulation of a physical computer that runs its own operating system and applications independently.  
+    _Example:_ Running Ubuntu Linux as a VM inside Windows.
+    
+-   **Virtual Machine Manager (VMM)** – Also called a hypervisor, it is software that creates, manages, and monitors virtual machines.  
+    _Example:_ VMware ESXi, Microsoft Hyper-V, Oracle VirtualBox.
+    
+-   **Binary Translation** – A technique used by hypervisors to convert guest OS instructions into host instructions for execution.  
+    _Example:_ VMware uses binary translation to run unmodified operating systems on x86 hardware.
+    
+-   **VM Migration** – The process of moving a running virtual machine from one physical host to another with minimal downtime.  
+    _Example:_ Live migration in VMware vMotion.
+    
+-   **Data Center** – A facility consisting of a large number of servers, storage, and networking equipment used to store, manage, and distribute data and applications.  
+    _Example:_ Google or Amazon cloud data centers.
+***
 - [ ] Q.3) Classify hardware instructions in terms of privilege modes with their working. Draw Security rings diagram for the same.  **6M**
 - [ ] Q.4) State the role of hypervisor. Enlist and describe the working of types of hypervisors with suitable examples.  **6-8M**
 - [ ] Q.5) Draw & Explain Para virtualization Technology with its advantages and disadvantages.   **6-8M**
