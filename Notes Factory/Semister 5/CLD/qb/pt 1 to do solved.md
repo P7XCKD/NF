@@ -398,7 +398,12 @@ Diagram:
 
 ![Type 1 and Type 2 Virtual Machine Monitors | Download Scientific Diagram](https://www.researchgate.net/publication/221351476/figure/fig1/AS:305492556566528@1449846509293/Type-1-and-Type-2-Virtual-Machine-Monitors.png)
 
+A **hypervisor** (Virtual Machine Monitor – VMM) is a software layer that allows multiple **virtual machines (VMs)** to run on a single physical system.  
+It manages allocation of CPU, memory, storage, and I/O devices among VMs, while ensuring **isolation, security, and efficient resource utilization**.  
+Hypervisors are the backbone of **virtualization and cloud computing**.
+**Example:** VMware ESXi, Microsoft Hyper-V, Oracle VirtualBox.
 
+***
 - [ ] Q.14) 
 ### Draw and explain the components of Machine Reference Model. **4M**
 
