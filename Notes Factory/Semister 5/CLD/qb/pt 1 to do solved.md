@@ -28,7 +28,7 @@ _Example:_ We can run Linux OS in Windows OS itself through a virtual Machines
   (vi) Data center  
 
 -   **Server Consolidation** – It is the process of combining multiple underutilized physical servers into fewer, more powerful servers by using virtualization.  
-    _Example:_ Running multiple virtual servers on one physical machine instead of having many separate servers.
+    _Example:_ Running multiple virtual servers on a single physical machine instead of having many separate servers.
     
 -   **Virtual Machine (VM)** – A software-based emulation of a physical computer that runs its own operating system and applications independently.  
     _Example:_ Running Ubuntu Linux as a VM inside Windows.
