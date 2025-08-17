@@ -177,7 +177,7 @@ Paravirtualization is a virtualization technique in which the guest operating sy
 > 3.  Limited support for some Linux distributions compared to VMware.
 >
 ***
-- [ ] Q.7) 
+- [x] Q.7) #p
 ### Draw & Explain Full Virtualization Technology with its advantages and disadvantages  **6-8M**
 
 Full Virtualization is a technique where the **hypervisor fully emulates the underlying hardware**, allowing **unmodified guest operating systems** to run as if they have direct access to the physical hardware.
