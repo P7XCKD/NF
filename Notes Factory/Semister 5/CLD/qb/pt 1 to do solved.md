@@ -393,7 +393,7 @@ Diagram:
 | **Fault Tolerance** | Low – if one processor fails, task may fail | High – if one node fails, others can continue |
 | **Goal** | Increase speed and efficiency inside one system | Coordinate tasks across multiple systems |
 ***
-- [ ] Q.13) 
+- [x] Q.13) #p
 ### Define VMM with diagram. **4M**
 
 ![Type 1 and Type 2 Virtual Machine Monitors | Download Scientific Diagram](https://www.researchgate.net/publication/221351476/figure/fig1/AS:305492556566528@1449846509293/Type-1-and-Type-2-Virtual-Machine-Monitors.png)
