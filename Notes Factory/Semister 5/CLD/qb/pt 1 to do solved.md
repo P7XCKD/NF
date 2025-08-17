@@ -353,7 +353,33 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
     > 3.  Limited access to host-specific hardware features.
     >
 ***
-- [ ] Q.11) Define the term server virtualization with one example. **4M**
+- [x] Q.11) 
+### Define the term server virtualization with one example. **4M**
+
+The process of dividing a physical server into multiple virtual servers, each running its own operating system and applications independently. This allows better **resource utilization, isolation, and management**.
+
+_Example:_ Using **VMware ESXi** to run multiple virtual machines on a single physical server.
+
+Diagram:
+```java
+        Physical Server
+        +------------------+
+        |  CPU / RAM / Disk |
+        +------------------+
+                │
+        +------------------+
+        | Hypervisor (VMM) |
+        +------------------+
+          /       |       \
+         /        |        \
++-----------+ +-----------+ +-----------+
+|   VM 1    | |   VM 2    | |   VM 3    |
+| OS + Apps | | OS + Apps | | OS + Apps |
++-----------+ +-----------+ +-----------+
+
+
+```
+***
 - [ ] Q.12) Difference between parallel and distributed computing. **4M**
 - [ ] Q.13) Define VMM with diagram. **4M**
 - [ ] Q.14) Draw and explain the components of Machine Reference Model. **4M**
