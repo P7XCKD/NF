@@ -255,7 +255,7 @@ Full Virtualization is a technique where the **hypervisor fully emulates the und
     
 -   **Replication and Consistency** – Mechanisms to ensure reliability and uniformity of data across nodes
 ***
-- [ ] Q.10) 
+- [x] Q.10) #p
 ### Explain types of virtualization (Any 4) **4-6M**
 > [!check] i have only mentioned those types which are previously covered so no need to learn diffrent stuffs seperatly
 
