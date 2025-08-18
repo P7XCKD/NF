@@ -731,6 +731,35 @@ plt.show()
 
 - [ ] 15  
 ### What is the purpose of the train_test_split() function? – 2/4 Marks  
+
+
+> The **```train_test_split()```** function divides your data into two sets, one for training your model and the other for testing its performance on data it hasn't seen before.
+
+ **Example**
+
+
+
+```Python
+
+from sklearn.model_selection import train_test_split
+
+# Create a simple list of numbers
+data = [10, 20, 30, 40, 50, 60, 70, 80]
+
+# Split the data into two equal parts (50/50)
+train_set, test_set = train_test_split(data, test_size=0.5, random_state=42)
+
+print("Original data:", data)
+print("Training set:", train_set)
+print("Testing set:", test_set)
+```
+
+> output
+```plaintext
+Original data: [10, 20, 30, 40, 50, 60, 70, 80]
+Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
+
+```
 ***
 
 - [ ] 16  
