@@ -17,6 +17,34 @@
 
 - [ ] 2  
 ### Explain Supervised Learning – Working, Types, Advantages, and Disadvantages – 4/6 Marks  
+
+**Working:**  
+Supervised learning is a machine learning approach that uses labeled data, where each input is paired with the correct output. The algorithm learns the relationship between inputs and outputs by building a mapping function. Once trained, the model can predict results for unseen data. For example, it can predict a student’s marks based on the number of study hours.
+
+**Types:**
+
+1.  **Regression:** In regression problems, the output is a continuous value. For instance, predicting house prices, stock values, or temperature.
+    
+2.  **Classification:** In classification problems, the output belongs to a category or label. For example, classifying emails as spam or not spam, or diagnosing whether a patient has a disease.
+    
+
+ >Advantages of Supervised Learning
+
+-   With the help of supervised learning, the model can predict the output on the basis of prior experiences, which improves accuracy in decision-making.
+    
+-   In supervised learning, we can have a clear and exact idea about the classes of objects since the data is already labeled.
+    
+-   Supervised learning models help us solve various real-world problems such as fraud detection, spam filtering, and medical diagnosis.
+    
+ >Disadvantages of Supervised Learning
+
+-   Supervised learning models are not suitable for handling very complex tasks because they require a large amount of high-quality labeled data.
+    
+-   Supervised learning cannot always predict the correct output if the test data is significantly different from the training dataset.
+    
+-   Training supervised models requires a lot of computation time and processing resources, especially with large datasets.
+    
+-   In supervised learning, we need sufficient knowledge about the classes of objects to prepare accurate labeled datasets.
 ***
 
 - [ ] 3  
