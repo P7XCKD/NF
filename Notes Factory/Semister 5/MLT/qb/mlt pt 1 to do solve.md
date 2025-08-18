@@ -579,6 +579,76 @@ print("\nDataFrame after correcting 'Salary' type:\n", df)
 
 - [ ] 12  
 ### Describe commonly used plot types in Seaborn with example and syntax – 4/6 Marks  
+
+### Describe commonly used plot types in Seaborn with example and syntax – 4/6 Marks
+
+
+
+> [!abstract] Key Plot Types (write 2nd line as well if 6m)
+> 
+> -   **Scatter Plot:** This plot displays the relationship between two variables, showing each data point as a marker. In Seaborn, `sns.scatterplot()` or `sns.relplot(kind='scatter')` is used.
+>     
+> -   **Line Plot:** This plot is ideal for showing trends, especially over time. It connects data points with a line. In Seaborn, `sns.lineplot()` or `sns.relplot(kind='line')` is used.
+>     
+> -   **Bar Chart:** This plot is used to compare discrete categories. The height of each bar represents a numerical value. In Seaborn, `sns.barplot()` or `sns.catplot(kind='bar')` is used.
+>     
+> -   **Histogram:** This plot shows the distribution of a single numerical variable. It groups values into bins and plots the frequency of each bin. In Seaborn, `sns.histplot()` or `sns.displot(kind='hist')` is used.
+>     
+
+
+
+> Code Example and Syntax 
+
+```py
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Create a sample scatter plot
+sns.scatterplot(x=[1, 2, 3], y=[4, 5, 6])
+plt.show()
+
+```
+> [!caution] if 6 mark then write below code
+> 
+```py
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+
+# Create a sample DataFrame
+df = pd.DataFrame({
+    'x': np.arange(1, 11),
+    'y': np.random.rand(10),
+    'category': ['A', 'B', 'C', 'D', 'E', 'A', 'B', 'C', 'D', 'E']
+})
+
+# Create a figure with a set of subplots to display all plots
+fig, axes = plt.subplots(2, 2, figsize=(10, 8))
+
+# 1. Scatter Plot
+sns.scatterplot(x='x', y='y', data=df, ax=axes[0, 0])
+axes[0, 0].set_title('Scatter Plot')
+
+# 2. Line Plot
+sns.lineplot(x='x', y='y', data=df, ax=axes[0, 1])
+axes[0, 1].set_title('Line Plot')
+
+# 3. Bar Chart
+sns.barplot(x='category', y='y', data=df, ax=axes[1, 0])
+axes[1, 0].set_title('Bar Chart')
+
+# 4. Histogram
+sns.histplot(x='y', data=df, ax=axes[1, 1])
+axes[1, 1].set_title('Histogram')
+
+plt.tight_layout()
+plt.show()
+
+```
+
+
+
 ***
 
 - [ ] 13  
