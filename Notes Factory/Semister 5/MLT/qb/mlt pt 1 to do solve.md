@@ -653,6 +653,30 @@ plt.show()
 
 - [ ] 13  
 ### Explain statistical and Categorical plots of seaborn – 4/6 Marks  
+> **Statistical plots** in Seaborn are designed to show the distribution and relationships of data. They often combine multiple plot types and can reveal statistical properties of the dataset.
+
+
+***
+
+> [!abstract] Common Statistical Plots
+> 
+> -   **Histogram (`sns.histplot`)**: Shows the distribution of a single variable. It groups data into bins and shows the count of observations in each bin.
+>     
+> -   **KDE Plot (`sns.kdeplot`)**: Represents the probability density of a continuous variable. It's a smooth curve that can be used to visualize distribution.
+>     
+> -   **Distribution Plot (`sns.displot`)**: A figure-level function that provides a flexible way to visualize distributions, offering options for histograms, KDE plots, and rug plots.
+
+
+> **Categorical plots** are used to visualize data that falls into discrete groups or categories. They help in comparing a numerical variable across different categories.
+
+> [!abstract] Common Categorical Plots
+> 
+> -   **Bar Plot (`sns.barplot`)**: Compares a numerical value across different categories using rectangular bars. It is useful for showing the central tendency of a numerical variable.
+>     
+> -   **Box Plot (`sns.boxplot`)**: Shows the distribution of numerical data through quartiles. It is a good way to visualize the spread and outliers in a dataset for each category.
+>     
+> -   **Categorical Plot (`sns.catplot`)**: A figure-level function that provides a unified way to create a variety of categorical plots (e.g., bar, box, violin) on a single figure.
+>
 ***
 
 - [ ] 14  
