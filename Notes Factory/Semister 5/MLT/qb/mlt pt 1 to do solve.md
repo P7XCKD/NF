@@ -5,13 +5,14 @@
 
 
 
-| Feature               | Artificial Intelligence (AI)                         | Machine Learning (ML)                               | Deep Learning (DL)                              |
-|-----------------------|-----------------------------------------------------|---------------------------------------------------|------------------------------------------------|
-| Definition            | Simulation of human intelligence by machines       | Subset of AI where machines learn from data      | Subset of ML using neural networks to learn complex patterns |
-| Approach              | Rule-based, logic, or learning                     | Data-driven, uses algorithms to improve performance | Uses multi-layered neural networks for automatic feature extraction |
-| Data Requirement      | Can work with or without data                       | Requires structured data                          | Requires large amounts of data                  |
-| Complexity            | Low to high depending on task                        | Moderate                                          | High                                           |
-| Examples              | Chatbots, Expert Systems                             | Spam detection, Predictive analytics             | Image recognition, Speech recognition          |
+### Comparison of AI, ML, and DL
+
+| Feature        | Artificial Intelligence (AI)                                      | Machine Learning (ML)                                          | Deep Learning (DL)                                          |
+|----------------|------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
+| Definition     | AI is the simulation of human intelligence by machines.          | ML is a part of AI where machines learn from data.           | DL is a part of ML that uses neural networks to learn patterns automatically. |
+| Approach       | AI uses rules, logic, or learning to solve problems.             | ML uses algorithms to improve performance from data.         | DL uses multi-layered neural networks to learn features automatically. |
+| Data Required  | AI can work with or without data.                                | ML requires structured data.                                  | DL requires large amounts of data.                         |
+| Examples       | Chatbots and expert systems are examples of AI.                  | Spam detection and predictive analytics are examples of ML.   | Image and speech recognition are examples of DL.           |
 ***
 
 - [ ] 2  
