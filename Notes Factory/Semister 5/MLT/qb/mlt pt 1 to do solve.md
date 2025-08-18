@@ -580,7 +580,6 @@ print("\nDataFrame after correcting 'Salary' type:\n", df)
 - [ ] 12  
 ### Describe commonly used plot types in Seaborn with example and syntax – 4/6 Marks  
 
-### Describe commonly used plot types in Seaborn with example and syntax – 4/6 Marks
 
 
 
