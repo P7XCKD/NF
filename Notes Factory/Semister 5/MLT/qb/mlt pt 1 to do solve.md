@@ -517,7 +517,6 @@ print(df)
   Name    Age 
 0 Alice   25 
 1 Bob     30
-  
 ```
 
 ***
