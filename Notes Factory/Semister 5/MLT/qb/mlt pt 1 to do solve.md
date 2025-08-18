@@ -764,6 +764,19 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 
 - [ ] 16  
 ### Explain the main steps involved in the Scikit-Learn modelling process – 4 Marks  
+
+
+> 
+> -   **Data Splitting:** The data is first divided into training and testing sets.
+>     ex. Splitting a house price dataset into training and testing sets.
+> -   **Model Training:** A model is chosen and trained using the `fit()` method on the training data.
+>  ex. Training a model to learn the relationship between house features and prices.
+>     
+> -   **Prediction:** The trained model is then used to make predictions on the testing data with the `predict()` method.
+> ex. Using the trained model to predict the prices of new, unseen houses
+>     
+> -   **Evaluation:** The model's performance is finally measured using an evaluation metric to see how accurate its predictions are.
+> ex. Checking how accurate the model's predictions were compared to the actual prices.
 ***
 
 ## Chapter 3: Supervised Learning – CO3
