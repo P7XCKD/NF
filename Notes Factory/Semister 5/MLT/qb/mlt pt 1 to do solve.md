@@ -63,6 +63,38 @@
 
 - [ ] 3  
 ### Applications of Supervised / Unsupervised / Reinforcement Learning – 3/4 Marks  
+**Supervised Learning** is used for tasks where the data is already labeled.
+
+> [!abstract] Applications
+> 
+> -   **Image & Spam Recognition:** Classifying emails as spam or not, or identifying objects in images.
+>     
+> -   **Fraud Detection:** Flagging fraudulent transactions based on past data.
+>     
+> -   **Predictive Analysis:** Forecasting weather, stock prices, or house prices.
+>     
+
+**Unsupervised Learning** is used to find hidden patterns in unlabeled data.
+
+> [!abstract] Applications
+> 
+> -   **Customer Segmentation:** Grouping customers with similar behaviors for marketing.
+>     
+> -   **Anomaly Detection:** Identifying unusual patterns in data for security or diagnostics.
+>     
+> -   **Recommendation Systems:** Suggesting products or content to users based on their browsing history.
+>     
+
+**Reinforcement Learning** is a machine learning technique where an agent learns to make decisions by receiving **rewards** and **penalties** for its **actions**, improving through trial and error.
+
+> [!abstract] Applications
+> 
+> -   **Robotics:** Training robots to perform complex tasks like walking or grabbing objects.
+>     
+> -   **Autonomous Driving:** Helping self-driving cars make real-time decisions.
+>     
+> -   **Game AI:** Developing AI agents that can play games and beat human players (e.g., AlphaGo).
+>
 ***
 
 - [ ] 4  
