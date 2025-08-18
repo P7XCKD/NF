@@ -223,14 +223,57 @@ Imagine you want to build a model to predict a student's final exam marks based 
 
 - [ ] 8  
 ### Explain Overfitting and Underfitting – With Example – 3/4 Marks  
+**Overfitting** and **Underfitting** are two common problems that prevent a machine learning model from performing well. They represent a model that is either too complex or too simple for the task.
+
+-   **Overfitting:** This happens when a model learns the **training data** too well, including its noise and random fluctuations. It performs perfectly on the training data but poorly on **new data** because it has essentially "memorized" the answers instead of learning the general pattern.
+    
+    -   **_Example:_** _A student who memorizes every single practice test question and answer gets a perfect score on the practice test but fails the real exam because the questions are slightly different._
+        
+-   **Underfitting:** This occurs when a model is too simple to capture the underlying patterns in the data. The model performs poorly on both the **training data** and **new data** because it has not learned enough to make accurate predictions.
+    
+    -   **_Example:_** _A student who only skims their notes and doesn't study enough performs poorly on both the practice test and the final exam because they don't know the material._
 ***
 
 - [ ] 9  
 ### Write Steps in Developing a Machine Learning Application – 4 Marks  
+
+
+> Developing a machine learning application involves the following steps
+> 
+> -   **Data Collection:** Gather and collect relevant data from various sources.
+>     
+> -   **Data Preparation:** Clean and organize the data. This includes handling missing values and splitting the data into training and testing sets.
+>     
+> -   **Model Selection:** Choose a suitable algorithm based on the problem and the data type.
+>     
+> -   **Model Training:** Train the chosen model on the prepared training data.
+>     
+> -   **Model Evaluation:** Test the model on the unseen testing data to evaluate its performance and accuracy.
+>     
+> -   **Deployment:** Integrate the trained model into a real-world application.
+>
 ***
 
 - [ ] 10  
 ### Define Mean, Median, Mode, Standard Deviation – 2 Marks  
+**Mean:** The mean is the **average** value of a dataset. It is calculated by adding all the values and dividing the sum by the total number of values.
+
+-   Example: The mean of the numbers `2, 3, 4` is `(2 + 3 + 4) / 3 = 3`.
+    
+
+**Median:** The median is the **middle value** in a sorted dataset. If there is an even number of values, you take the average of the two middle numbers.
+
+-   Example: The median of `2, 5, 8, 10, 12` is `8`.
+    
+
+**Mode:** The mode is the value that appears **most frequently** in a dataset. A dataset can have one mode, multiple modes, or no mode at all.
+
+-   Example: In the list `3, 5, 5, 7, 9`, the mode is `5`.
+    
+
+**Standard Deviation:** Standard deviation is a measure of how **spread out** the data is from the mean. A low standard deviation means the data points are close to the mean, while a high one indicates they are more spread out.
+
+-   Example: A standard deviation of `0` means all data points in the dataset are the same.
 ***
 
 ## Chapter 2: Machine Learning Libraries – CO2
