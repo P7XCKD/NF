@@ -80,3 +80,34 @@ Chapter 2: Machine Learning Libraries – CO2
 
 
 
+Chapter 3 supervised learning co3
+
+
+2. Calculate equation for best fit line/ linear regression equation and predict the values — 4/6 marks
+
+3. Sums based on MAE, MSE and RMSE — 3/4 marks
+
+
+5. define correlation co efficient and its type based on the direction of change of variable/ based upon the number of variables studied   4
+
+
+6. Sums based on Karl Pearson’s Correlation Coefficient(direct) method — 3/4/6 marks
+
+8. Sums based on multiple Linear Regression in Machine Learning — 6/8 marks
+
+9. Explain dummy variable with the help of example — 4/6 marks
+
+  10. sums based on confusion Matrix find accuracy misclassification/error rate
+precision, recoil (senstivity),  F - measure , specificity   4m
+
+12. Sums based on Cohen Kappa Coefficient for Binary Classification — 3/4 marks
+
+14. Write short note on Logistic regression give example — 4 marks
+
+15. Explain Naïve Bayes with formula/why it is called as same — 3/4 marks
+
+16. Sum based on Naïve Bayes classification — 4/6 marks
+
+
+---
+
