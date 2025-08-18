@@ -316,7 +316,7 @@ The element at index [1][0][1] is: 8
 
 -   **Numpy Array Shape:** The `shape` of a NumPy array is a tuple of integers representing the size of the array in each dimension.
     
-    -   _Example:_
+    -   **Explanation:** This code creates a 2x2 array and prints its shape, which represents its number of rows and columns.
         
         
         
@@ -324,74 +324,90 @@ The element at index [1][0][1] is: 8
         import numpy as np
         arr = np.array([[1, 2], [3, 4]])
         print(arr.shape)
-        # Output: (2, 2)
         ```
+        
+    -   **Output:** `(2, 2)`
         
 -   **Slice:** Slicing is the process of extracting a portion or subset of an array.
     
-    -   _Example:_
+    -   **Explanation:** **:** This code gets elements from index 1 (inclusive) to index 4 (exclusive), since Python indices start from 0.
         
-    
+        Python
         
-        ```Python
+        ```
         import numpy as np
         arr = np.array([1, 2, 3, 4, 5])
         print(arr[1:4])
-        # Output: [2 3 4]
         ```
+        
+    -   **Output:** `[2 3 4]`
         
 -   **Reshape:** Reshaping changes the dimensions of an array without changing the data it contains.
     
-    -   _Example:_
-     
+    -   **Explanation:** The code changes the array's shape to have 2 rows and 2 columns.
         
-        ```Python
+        Python
+        
+        ```
         import numpy as np
         arr = np.array([1, 2, 3, 4])
         new_arr = arr.reshape(2, 2)
         print(new_arr)
-        # Output:
-        # [[1 2]
-        #  [3 4]]
+        ```
+        
+    -   **Output:**
+        
+        ```
+        [[1 2]
+         [3 4]]
         ```
         
 -   **Array Joining:** This operation combines two or more arrays into a single, new array.
     
-    -   _Example:_
+    -   **Explanation:** The `concatenate` function joins the two arrays together.
         
-        ```Python
+        Python
+        
+        ```
         import numpy as np
         arr1 = np.array([1, 2])
         arr2 = np.array([3, 4])
         print(np.concatenate((arr1, arr2)))
-        # Output: [1 2 3 4]
         ```
+        
+    -   **Output:** `[1 2 3 4]`
         
 -   **Split:** Splitting divides an array into smaller subarrays.
     
-    -   _Example:_
+    -   **Explanation:** This code splits the array into two equally sized arrays.
         
-
-        ```Python
+        Python
+        
+        ```
         import numpy as np
         arr = np.array([1, 2, 3, 4])
         new_arrs = np.split(arr, 2)
         print(new_arrs)
-        # Output: [array([1, 2]), array([3, 4])]
         ```
+        
+    -   **Output:** `[array([1, 2]), array([3, 4])]`
         
 -   **Random No.:** This functionality generates random numbers or arrays filled with random numbers.
     
-    -   _Example:_
+    -   **Explanation:** This creates a 2x2 array filled with random numbers.
         
         Python
         
         ```
         import numpy as np
         print(np.random.rand(2, 2))
-        # Output: (e.g.)
-        # [[0.5678 0.1234]
-        #  [0.9876 0.4321]]
+        ```
+        
+    -   **Output:** (e.g.)
+        
+        ```
+        [[0.5678 0.1234]
+         [0.9876 0.4321]]
         ```
 ***
 
