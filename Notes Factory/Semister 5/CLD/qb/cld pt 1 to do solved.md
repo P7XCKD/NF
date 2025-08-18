@@ -423,29 +423,72 @@ Hypervisors are the backbone of **virtualization and cloud computing**.
 -   **Hardware** – Physical components of the computer (CPU, memory, I/O devices).
 ***
 ## Chapter 2
+- [ ] Q.1  
+### Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
+Enlist characteristics, enlist deployment and service models.  
+***
 
-- [ ] Q.1) Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
-  Enlist characteristics, enlist deployment and service models
-- [ ] Q.2) Describe 5 principles characteristics of cloud computing with examples. **4M**
-- [ ] Q.3) Describe 4 cloud deployment models with suitable example of each. (Draw diagram + eg) **6-8M**
-- [ ] Q.4) Compare cloud deployment models. **6M**
-- [ ] Q.5) Explain SaaS with suitable Eg + diagram. **4M**
-- [ ] Q.6) Explain PaaS with suitable Eg + diagram. **4M**
-- [ ] Q.7) Explain IaaS with suitable Eg + diagram. **4M**
-- [ ] Q.8) Give service models for the following services. **4M**  
-  EC2, ELB, Google sheet, Google app engine  
-  VPC, Netflix, Hadoop, SalesForce  
-  S3, Google documents, Heroku, Facebook
-- [ ] Q.9) Explain cloud architecture with suitable diagram. **4-6M**
-- [ ] Q.10) Describe Google Cloud Platform with its features and various services offered by GCP. **4-6M**
-- [ ] Q.11) Elaborate in brief cloud economy models. **4M**
-- [ ] Q.12) Explain architecture of Microsoft Azure along with its example. **6M**
+- [ ] Q.2  
+### Describe 5 principle characteristics of cloud computing with examples. **4M**  
+***
 
----
+- [ ] Q.3  
+### Describe 4 cloud deployment models with suitable example of each. (Draw diagram + eg). **6-8M**  
+***
+
+- [ ] Q.4  
+### Compare cloud deployment models. **6M**  
+***
+
+- [ ] Q.5  
+### Explain SaaS with suitable example + diagram. **4M**  
+***
+
+- [ ] Q.6  
+### Explain PaaS with suitable example + diagram. **4M**  
+***
+
+- [ ] Q.7  
+### Explain IaaS with suitable example + diagram. **4M**  
+***
+
+- [ ] Q.8  
+### Give service models for the following services. **4M**  
+EC2, ELB, Google sheet, Google app engine  
+VPC, Netflix, Hadoop, SalesForce  
+S3, Google documents, Heroku, Facebook  
+***
+
+- [ ] Q.9  
+### Explain cloud architecture with suitable diagram. **4-6M**  
+***
+
+- [ ] Q.10  
+### Describe Google Cloud Platform with its features and various services offered by GCP. **4-6M**  
+***
+
+- [ ] Q.11  
+### Elaborate in brief cloud economy models. **4M**  
+***
+
+- [ ] Q.12  
+### Explain architecture of Microsoft Azure along with its example. **6M**  
+***
 
 ## Chapter 3
 
-- [ ] Q.1) Describe the working of “AWS EC2” service with any 3 advantages in brief. **4M**
-- [ ] Q.2) With suitable diagram explain the working of Elastic Load Balancer (ELB) with its types. **4-6M**
-- [ ] Q.3) Explain working of AWS CloudFront with example. **4-6M**
-- [ ] Q.4) Describe in brief CDN with one example. **4M**
+- [ ] Q.1  
+### Describe the working of “AWS EC2” service with any 3 advantages in brief. **4M**  
+***
+
+- [ ] Q.2  
+### With suitable diagram explain the working of Elastic Load Balancer (ELB) with its types. **4-6M**  
+***
+
+- [ ] Q.3  
+### Explain working of AWS CloudFront with example. **4-6M**  
+***
+
+- [ ] Q.4  
+### Describe in brief CDN with one example. **4M**  
+***
