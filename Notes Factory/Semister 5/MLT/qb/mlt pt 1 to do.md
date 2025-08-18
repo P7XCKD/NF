@@ -1,5 +1,3 @@
-Got it! Here’s the updated list with topics 9, 11, 12, 13, and 15 removed, but the original question numbers kept intact:
-
 
 ---
 
@@ -39,4 +37,4 @@ Chapter 1: Introduction to Machine Learning – CO1
 
 ---
 
-If you want, I can also make it into a clean table with the original numbering and marks for quicker reference. Do you want me to do that?
+
