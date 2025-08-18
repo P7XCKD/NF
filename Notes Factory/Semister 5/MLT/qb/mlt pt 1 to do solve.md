@@ -2,6 +2,16 @@
 
 - [ ] 1  
 ### Compare AI, ML, and DL – 3/4 Marks  
+
+
+
+| Feature               | Artificial Intelligence (AI)                         | Machine Learning (ML)                               | Deep Learning (DL)                              |
+|-----------------------|-----------------------------------------------------|---------------------------------------------------|------------------------------------------------|
+| Definition            | Simulation of human intelligence by machines       | Subset of AI where machines learn from data      | Subset of ML using neural networks to learn complex patterns |
+| Approach              | Rule-based, logic, or learning                     | Data-driven, uses algorithms to improve performance | Uses multi-layered neural networks for automatic feature extraction |
+| Data Requirement      | Can work with or without data                       | Requires structured data                          | Requires large amounts of data                  |
+| Complexity            | Low to high depending on task                        | Moderate                                          | High                                           |
+| Examples              | Chatbots, Expert Systems                             | Spam detection, Predictive analytics             | Image recognition, Speech recognition          |
 ***
 
 - [ ] 2  
