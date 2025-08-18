@@ -424,10 +424,102 @@ The output of the code is:
 
 - [ ] 9  
 ### Explain how to create line plot, scatter plot, bar charts, error plot, and histograms using Matplotlib – 3/4 Marks  
+
+
+> In Matplotlib, different functions are used to create various types of plots to visualize data.
+> 
+> -   **Line Plot:** `plt.plot()` is used to display data as a series of connected points. It is ideal for showing trends over time.
+>     
+> -   **Scatter Plot:** `plt.scatter()` is used to display the relationship between two variables. Each data point is shown as a marker.
+>     
+> -   **Bar Chart:** `plt.bar()` is used to represent data with rectangular bars, useful for comparing different categories.
+>     
+> -   **Error Plot:** `plt.errorbar()` is used to display data points along with error bars, which show the variability or uncertainty in the measurements.
+>     
+> -   **Histogram:** `plt.hist()` is used to show the distribution of a single numerical variable by dividing it into bins and counting the number of data points in each bin.
+>     
+
+***
+
+
+
+```Python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data
+x = np.arange(1, 11)
+y = np.array([3, 5, 8, 4, 7, 2, 6, 9, 1, 10])
+y_error = np.array([0.5, 0.4, 0.6, 0.3, 0.5, 0.4, 0.7, 0.5, 0.4, 0.6])
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [5, 8, 6, 9, 3]
+
+# 1. Line Plot
+plt.figure()
+plt.plot(x, y)
+plt.title('Line Plot')
+
+# 2. Scatter Plot
+plt.figure()
+plt.scatter(x, y)
+plt.title('Scatter Plot')
+
+# 3. Bar Chart
+plt.figure()
+plt.bar(categories, values)
+plt.title('Bar Chart')
+
+# 4. Error Plot
+plt.figure()
+plt.errorbar(x, y, yerr=y_error, fmt='o')
+plt.title('Error Plot')
+
+# 5. Histogram
+plt.figure()
+plt.hist(y, bins=5)
+plt.title('Histogram')
+
+plt.show()
+```
 ***
 
 - [ ] 10  
 ### How can you create a DataFrame in Pandas? Give an example. – 2/3 Marks  
+
+
+> A Pandas **DataFrame** can be created by passing a dictionary, list, or NumPy array to the `pd.DataFrame()` constructor. A common and straightforward method is to use a dictionary where keys serve as column names and values are lists of data.
+
+***
+
+### Example
+
+
+
+```Python
+import pandas as pd
+
+# Create a dictionary of lists
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35],
+    'City': ['New York', 'Paris', 'London']
+}
+
+# Create a DataFrame from the dictionary
+df = pd.DataFrame(data)
+
+print(df)
+```
+
+**Output:**
+
+```
+  Name    Age 
+0 Alice   25 
+1 Bob     30
+  
+```
+
 ***
 
 - [ ] 11  
