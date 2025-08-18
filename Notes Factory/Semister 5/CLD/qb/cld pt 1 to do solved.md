@@ -487,6 +487,39 @@ S3, Google documents, Heroku, Facebook
 
 - [ ] Q.3  
 ### Explain working of AWS CloudFront with example. **4-6M**  
+
+AWS CloudFront is a global Content Delivery Network (CDN) that speeds up content delivery by bringing data closer to users.
+
+> [!abstract] How it Works (ONLY WRITE THIS IS 4M AND GO NEXT TO EXAMPLE)
+> 
+> 1.  A user's request is routed to the **nearest AWS edge location**.
+>     
+> 2.  The edge location checks its cache for the content.
+>     
+> 3.  **If the content is found (a 'cache hit'),** it is delivered instantly to the user.
+>     
+> 4.  **If not found (a 'cache miss'),** the content is fetched from the **origin server**, cached at the edge location, and then delivered to the user.
+>     
+> 5.  Future requests for that content in the same area are then served from the local cache.
+>
+ **How it Works**
+
+1.  A user requests content (like a video or an image) from your website or application. This request is automatically routed to the **nearest AWS edge location** .
+    
+2.  The edge location checks its cache to see if it already has a copy of the content.
+    
+3.  **If the content is in the cache (a 'cache hit'),** CloudFront delivers it instantly to the user from the edge location.
+    
+4.  **If the content is not in the cache (a 'cache miss'),** CloudFront retrieves it from the original source (**origin server**), such as an Amazon S3 bucket or an EC2 instance.
+    
+5.  After retrieving the content, CloudFront caches it at the edge location and then delivers it to the user. Subsequent requests from users in the same area will then be served from this local cache, dramatically reducing latency.
+    
+
+***
+
+ **Example**
+
+Imagine a website hosted in the US. A user in India wants to view a video on that site. Instead of getting the video directly from the US server, CloudFront routes the request to a server in a nearby location in India. The video is then delivered from that local server, making it load much faster and providing a better user experience.
 ***
 
 - [ ] Q.4  
