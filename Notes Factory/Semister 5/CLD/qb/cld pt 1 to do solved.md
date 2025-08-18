@@ -520,6 +520,8 @@ AWS CloudFront is a global Content Delivery Network (CDN) that speeds up content
  **Example**
 
 Imagine a website hosted in the US. A user in India wants to view a video on that site. Instead of getting the video directly from the US server, CloudFront routes the request to a server in a nearby location in India. The video is then delivered from that local server, making it load much faster and providing a better user experience.
+
+![image](.attachments/640177a6f35a9a30ecbc8f0ddbf58fe4ff0e1fa7.png) 
 ***
 
 - [ ] Q.4  
