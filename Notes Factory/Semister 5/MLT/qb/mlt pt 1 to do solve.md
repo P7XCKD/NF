@@ -780,6 +780,7 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 ***
 
 ## Chapter 3: Supervised Learning – CO3
+##
 
 - [ ] 2  
 ### Calculate equation for best fit line/ linear regression equation and predict the values — 4/6 marks  
@@ -874,3 +875,5 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 - [ ] 16  
 ### Sum based on Naïve Bayes classification — 4/6 marks  
 ***
+
+# unanswered one from noname steal
