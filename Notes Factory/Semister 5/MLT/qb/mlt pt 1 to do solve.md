@@ -280,6 +280,29 @@ Imagine you want to build a model to predict a student's final exam marks based 
 
 - [ ] 7  
 ### How to access 3D array with example – 2/3 Marks  
+
+
+In Python, you can access a 3D array by using three indices. The first index selects the plane, the second selects the row within that plane, and the third selects the element.
+
+
+```python
+# Create a sample 3D array
+three_d_array = [
+    [
+        [1, 2, 3],  # Plane 0
+        [4, 5, 6]
+    ],
+    [
+        [7, 8, 9],  # Plane 1
+        [10, 11, 12]
+    ]
+]
+
+# Access the element 8 using its indices: [plane 1][row 0][element 1]
+element = three_d_array[1][0][1]
+
+print(f"The element at index [1][0][1] is: {element}")
+```
 ***
 
 - [ ] 8  
