@@ -523,6 +523,58 @@ print(df)
 
 - [ ] 11  
 ### Data cleaning in pandas – 2/3/4/6 Marks  
+
+
+> **Data Cleaning** is the process of fixing or removing incorrect, corrupted, or incomplete data from a dataset. In Pandas, this is a crucial step to ensure the data is accurate and ready for analysis or machine learning models.
+
+> [!abstract] Key Data Cleaning Operations
+> 
+> -   **Handling Missing Data:** You can identify missing values with `df.isnull().sum()` and then either remove the rows with `df.dropna()` or fill the missing values with `df.fillna()`.
+>     
+> -   **Removing Duplicates:** Finding and removing duplicate rows is important for data integrity. This can be done using `df.drop_duplicates()`.
+>     
+> -   **Correcting Data Types:** Columns might be loaded with the wrong data type. You can change them using `df.astype()`.
+>     
+> -   **Fixing Typos and Inconsistencies:** Use string methods or `df.replace()` to standardize text data, for example, correcting misspellings like 'NY' to 'New York'.
+>     
+> -   **Handling Outliers:** Outliers are extreme values that can skew analysis. You can identify them using statistical methods and then decide whether to remove or transform them.
+>     
+
+***
+
+### Code Example
+
+
+```python
+import pandas as pd
+import numpy as np
+
+# Create a sample DataFrame with dirty data
+data = {
+    'Name': ['Alice', 'Bob', 'Alice', 'Charlie'],
+    'Age': [25, np.nan, 25, 30],
+    'City': ['New York', 'Paris', 'New York', 'London'],
+    'Salary': ['50000', '60k', '50000', '70000']
+}
+df = pd.DataFrame(data)
+
+print("Original DataFrame:\n", df)
+
+# 1. Handling Missing Data
+df['Age'].fillna(df['Age'].mean(), inplace=True)
+print("\nDataFrame after filling missing 'Age' with mean:\n", df)
+
+# 2. Removing Duplicates
+df.drop_duplicates(inplace=True)
+print("\nDataFrame after removing duplicates:\n", df)
+
+# 3. Correcting Data Types
+df['Salary'] = df['Salary'].str.replace('k', '000').astype(int)
+print("\nDataFrame after correcting 'Salary' type:\n", df)
+
+# 4. Fixing Inconsistencies (if any)
+# df['City'].replace('Ny', 'New York', inplace=True) # Example for fixing typos
+```
 ***
 
 - [ ] 12  
