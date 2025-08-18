@@ -803,6 +803,57 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 
 - [ ] 9  
 ### Explain dummy variable with the help of example — 4/6 marks  
+
+A **dummy variable** is just a number, usually a 0 or a 1, that stands in for text-based data. It's used to help a machine learning model understand things like "City" or "Color" because these models can only work with number.
+
+Since  most machine learning algorithms cannot directly process text. This process is commonly known as **one-hot encoding**.
+
+
+
+***
+>**Data Example**
+
+Imagine you have a dataset with a column for 'City', which is a categorical variable.
+
+**Original Data**
+
+
+| Name | Age | City |
+|:---|:---:|:---:|
+| Alice | 25 | London |
+| Bob | 30 | Paris |
+| Charlie | 35 | London |
+
+
+
+>Code Example
+
+
+```py
+import pandas as pd
+
+# Create a sample DataFrame
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35],
+        'City': ['London', 'Paris', 'London']}
+df = pd.DataFrame(data)
+
+# Create dummy variables for the 'City' column
+df_dummies = pd.get_dummies(df, columns=['City'])
+
+print(df_dummies)
+```
+To convert this into dummy variables, the 'City' column is replaced with new columns, one for each unique city.
+
+**Data with Dummy Variables (One-Hot Encoded)**
+
+
+| Name | Age | City_London | City_Paris |
+|:---|:---:|:---:|:---:|
+| Alice | 25 | 1 | 0 |
+| Bob | 30 | 0 | 1 |
+| Charlie | 35 | 1 | 0 |
+
 ***
 
 - [ ] 10  
