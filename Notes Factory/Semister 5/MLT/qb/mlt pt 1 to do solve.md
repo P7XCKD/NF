@@ -99,18 +99,126 @@
 
 - [ ] 4  
 ### Explain Unsupervised Learning – Working, Types, Advantages, and Disadvantages – 4 Marks  
+
+**Unsupervised Learning** is a machine learning technique used to find hidden patterns and structures in unlabeled data without any human guidance. The algorithm works on its own to discover insights.
+
+> **Working**
+> 
+> -   The model is given data that has not been labeled or categorized.
+>     
+> -   It uses algorithms to identify similarities and differences in the data points.
+>     
+> -   The model then groups the data based on these relationships, revealing hidden patterns or structures.
+>     
+
+**Types**
+
+1.  **Clustering:** Groups similar data points into clusters.
+    
+    -   _Example:_ Grouping customers into different segments based on their purchasing behavior.
+        
+2.  **Association:** Finds relationships between different items in a dataset.
+    
+    -   _Example:_ Identifying that customers who buy milk also tend to buy bread.
+        
+
+> [!abstract] any 2 if 4 marks **Advantages of Unsupervised Learning**
+> 
+> -   It can find hidden patterns in data that a human might miss.
+>     
+> -   It is highly useful for exploring data without requiring any prior knowledge or labels.
+>     
+> -   It can be used for more complex problems than supervised learning.
+>     
+
+> [!abstract] any 2 if 4 marks **Disadvantages of Unsupervised Learning**
+> 
+> -   The output can be less accurate because there is no labeled data to check against.
+>     
+> -   The results can be hard to interpret or explain.
+>     
+> -   The model's training process can be very complex and computationally intensive.
+>
 ***
 
 - [ ] 5  
 ### Explain Reinforcement Learning – Advantages and Disadvantages – 4 Marks  
+> [!abstract] any 2 if 4 marks **Advantages of Reinforcement Learning**
+> 
+> -   It can learn the best course of action in complex, dynamic environments without a predefined dataset.
+>     
+> -   The model can make decisions in real-time, making it ideal for tasks like robotics and autonomous systems.
+>     
+> -   It can solve problems that are too complex for other machine learning techniques by learning from experience.
+>     
+
+> [!abstract] any 2 if 4 marks **Disadvantages of Reinforcement Learning**
+> 
+> -   The training process can be very time-consuming and computationally expensive.
+>     
+> -   It often requires a large amount of data from trial and error, which can be difficult or risky to collect in the real world.
+>     
+> -   The results can be unpredictable, and it can be challenging to guarantee the agent's behavior in a new situation.
+>
 ***
 
 - [ ] 6  
 ### Explain Train, Testing, and Validation Data – With Example – 4/6 Marks  
+> [!abstract] write this para if 6 marks
+> Training, testing, and validation data are three separate groups of data. They're used to build and check a machine learning model. By splitting the data, we make sure the model is accurate and works well on new information it hasn't seen before.
+
+> -   **Training Data:** This is the largest portion of the dataset, used to **train** the model. The algorithm learns the patterns and relationships in the data from this set.
+>     
+> -   **Validation Data:** This set is used **during** the training process to fine-tune the model's settings (hyperparameters) and check its performance. It helps to prevent the model from overfitting to the training data.
+>     
+> -   **Testing Data:** This is a completely new, unseen dataset used **after** the model has been trained and validated. Its purpose is to give a final, unbiased evaluation of the model's performance and accuracy.
+>     
+
+**Example**
+![image](.attachments/f68469b771edd377a00412a4069bd7ec8eb074f2.png) 
+Imagine you want to build a model to predict a student's final exam marks based on their study hours.
+> [!info] shortify below example if 4 marks else write it fully
+
+-   **Training Data:** You use **70%** of your student records (e.g., 70 students) to train the model. The model learns the relationship between study hours and marks from this data.
+    
+-   **Validation Data:** You use **15%** of the student records (e.g., 15 students) to check the model's performance while it's learning. If the model starts performing poorly on this data, you can adjust its settings.
+    
+-   **Testing Data:** After the model is fully trained, you use the remaining **15%** of student records (e.g., the final 15 students) to test it. The accuracy on this data gives you a reliable measure of how well the model will perform in the real world on new students.
 ***
 
 - [ ] 7  
 ### Issues in Machine Learning – 3/4/6 Marks  
+
+> [!abstract] any 4 if 4 marks **Common Issues**
+> 
+> -   **Inadequate Data:** The model doesn't have enough data to learn a reliable pattern.
+>     
+>     -   **_Example:_** _Training a model on only 10 houses to predict all house prices._
+>         
+> -   **Poor Data Quality:** The data has too many errors, inconsistencies, or missing values.
+>     
+>     -   **_Example:_** _A sales model gets confused by a mix of dollar and euro symbols._
+>         
+> -   **Overfitting:** The model learns the training data and its noise too well.
+>     
+>     -   **_Example:_** _A model memorizes specific training pictures of cats and can't identify new ones._
+>         
+> -   **Underfitting:** The model is too simple to capture the underlying data's pattern.
+>     
+>     -   **_Example:_** _Using a simple straight line to predict a complex, curvy pattern._
+>         
+> -   **Bias:** The model learns human biases present in the data, leading to unfair results.
+>     
+>     -   **_Example:_** _A hiring model unfairly favors male candidates due to biased past data._
+>         
+> -   **Lack of Interpretability:** It's hard to understand how the model makes its decisions, like a "black box."
+>     
+>     -   **_Example:_** _A doctor's AI gives a diagnosis without explaining why._
+>         
+> -   **Computational Cost:** Training large models is both very expensive and requires a lot of time.
+>     
+>     -   **_Example:_** _Training a large language model can cost millions of dollars._
+>
 ***
 
 - [ ] 8  
