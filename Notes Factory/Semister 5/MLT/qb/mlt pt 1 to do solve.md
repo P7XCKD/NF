@@ -346,9 +346,9 @@ The element at index [1][0][1] is: 8
     
     -   **Explanation:** The code changes the array's shape to have 2 rows and 2 columns.
         
-        Python
         
-        ```
+        
+        ```Python
         import numpy as np
         arr = np.array([1, 2, 3, 4])
         new_arr = arr.reshape(2, 2)
@@ -366,9 +366,9 @@ The element at index [1][0][1] is: 8
     
     -   **Explanation:** The `concatenate` function joins the two arrays together.
         
-        Python
         
-        ```
+        
+        ```Python
         import numpy as np
         arr1 = np.array([1, 2])
         arr2 = np.array([3, 4])
@@ -381,34 +381,45 @@ The element at index [1][0][1] is: 8
     
     -   **Explanation:** This code splits the array into two equally sized arrays.
         
-        Python
         
-        ```
+        
+        ```Python
         import numpy as np
         arr = np.array([1, 2, 3, 4])
         new_arrs = np.split(arr, 2)
         print(new_arrs)
         ```
-        
+        The `np.split()` function takes an array and **splits it into smaller arrays**, and then returns those new, smaller arrays inside a **Python list**.
     -   **Output:** `[array([1, 2]), array([3, 4])]`
         
--   **Random No.:** This functionality generates random numbers or arrays filled with random numbers.
+
+
+-   **Random No.:** This functionality generates a single random number.
     
-    -   **Explanation:** This creates a 2x2 array filled with random numbers.
+    -   **Explanation:** This code creates a single random number between 1 to 100
         
-        Python
-        
-        ```
-        import numpy as np
-        print(np.random.rand(2, 2))
-        ```
-        
-    -   **Output:** (e.g.)
-        
-        ```
-        [[0.5678 0.1234]
-         [0.9876 0.4321]]
-        ```
+
+
+
+
+```Python
+import random
+
+# Generates a random integer between 1 and 100, inclusive.
+random_number = random.randint(1, 100)
+
+print(random_number)
+```
+***
+
+
+The output of the code is:
+
+
+
+```Plaintext
+23
+```
 ***
 
 - [ ] 9  
