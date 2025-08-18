@@ -127,8 +127,7 @@
 ### Sums based on Cohen Kappa Coefficient for Binary Classification — 3/4 marks  
 ***
 
-- [ ] 14  
-### Write short note on Logistic regression give example — 4 marks  
+- [ ] 14  cancelled
 ***
 
 - [ ] 15  
