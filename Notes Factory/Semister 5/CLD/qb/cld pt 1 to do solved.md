@@ -490,5 +490,14 @@ S3, Google documents, Heroku, Facebook
 ***
 
 - [ ] Q.4  
-### Describe in brief CDN with one example. **4M**  
+### Describe in brief CDN with one example. **4M**
+
+
+> A **Content Delivery Network (CDN)** is a geographically distributed network of **servers**. Its purpose is to deliver web content—like videos, images, and other static files—to users faster and more reliably. By placing content on servers in many different locations (called **edge locations**), a CDN reduces the physical distance between the server and the user, which minimizes latency and speeds up page load times.
+
+***
+
+### **Example**
+
+A great example of a CDN is a service like **Netflix** or **Amazon Prime Video**. When you start streaming a movie or TV show, the video file is not being delivered directly from a single central server located far away, for instance, in the US. Instead, a copy of that video is stored on a CDN server located in a data center close to your city. This allows the video to be delivered from a nearby source, ensuring a smooth, buffer-free viewing experience even during peak hours and reducing the load on the main servers.
 ***
