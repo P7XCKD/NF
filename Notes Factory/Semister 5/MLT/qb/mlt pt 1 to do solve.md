@@ -876,4 +876,4 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 ### Sum based on Naïve Bayes classification — 4/6 marks  
 ***
 
-# unanswered one from noname steal
+# unanswered one steal from noname 
