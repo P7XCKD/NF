@@ -680,6 +680,53 @@ plt.show()
 
 - [ ] 14  
 ### Explain color palette with its type (example) – 4/6 Marks  
+
+
+> A **color palette** is a predefined set of colors used in data visualization to represent different data points or categories. Using an appropriate color palette is crucial for making a plot easy to interpret and understand.
+
+> [!abstract] Types of Color Palettes
+> 
+> -   **Sequential:** Used for data that ranges from a low value to a high value. The colors typically show a progression in saturation or lightness. This is ideal for things like heatmaps or temperature data.
+>     
+> -   **Diverging:** Used for data with a meaningful midpoint or central value (e.g., profit/loss, positive/negative scores). The colors diverge from a neutral color at the center to two contrasting colors at the extremes.
+>     
+> -   **Qualitative:** Used for data that consists of distinct, non-ordered categories. Each color is unique and does not imply a numerical relationship or order. This is useful for distinguishing groups like different countries or product types.
+>     
+
+***
+
+### Code Example
+
+
+
+```Python
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample Data
+sequential_data = np.arange(10).reshape(2, 5)
+diverging_data = np.random.randn(2, 5)
+categorical_data = ['A', 'B', 'C', 'D', 'E']
+
+# 1. Sequential Palette Example
+plt.figure(figsize=(4, 2))
+sns.heatmap(sequential_data, cmap="Blues")
+plt.title('Sequential Palette Example')
+plt.show()
+
+# 2. Diverging Palette Example
+plt.figure(figsize=(4, 2))
+sns.heatmap(diverging_data, cmap="coolwarm")
+plt.title('Diverging Palette Example')
+plt.show()
+
+# 3. Qualitative Palette Example
+plt.figure(figsize=(4, 2))
+sns.barplot(x=categorical_data, y=np.random.rand(5), palette="Set2")
+plt.title('Qualitative Palette Example')
+plt.show()
+```
 ***
 
 - [ ] 15  
