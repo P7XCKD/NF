@@ -477,7 +477,7 @@ S3, Google documents, Heroku, Facebook
 
 # Chapter 3
 
-- [ ] Q.1  
+- [x] Q.1  
 ### Describe the working of “AWS EC2” service with any 3 advantages in brief. **4M**  
 
 
