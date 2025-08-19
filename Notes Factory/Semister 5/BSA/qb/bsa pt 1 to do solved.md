@@ -243,7 +243,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 
 ***
 
-- [ ] Q.8  
+- [x] Q.8  #p
 ### Explain in detail about nature of data. **4/6M**  
 
 
@@ -393,7 +393,6 @@ This approach helps companies make smarter, more reliable decisions by using ana
 
 >The Process with an Example
 
-The DDDM process is a continuous cycle that involves defining the problem, gathering and analyzing data, and taking action based on the findings.
 
 > [!abstract] How It Works
 > 
