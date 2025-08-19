@@ -1,5 +1,6 @@
 # Chapter 1: Data Analytics & Business Analytics — CO1
-
+> [!check] Type hints for me
+> #p = partially done / similar already covered so i can write it using my own words likewise
 - [x] Q.1  
 
 ### Discuss the need of Data Analytics. **4/6M**
