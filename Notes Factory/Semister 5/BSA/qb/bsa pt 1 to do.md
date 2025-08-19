@@ -4,18 +4,7 @@
 
 ### Discuss the need of Data Analytics. **4/6M**
 
-Data analytics is the process of **turning raw data into useful information**. It's how businesses find trends, solve problems, and make smarter, more confident decisions.
-> [!abstract] Key Needs of Data Analytics
-> 
-> -   **Smarter Decisions**: Data analytics helps organizations make choices based on facts and evidence, not just on intuition. This leads to better, more reliable results.
->     
-> -   **Improved Efficiency**: It allows companies to find and fix problems in their operations, which helps them work faster, be more productive, and save money.
->     
-> -   **Understanding Customers**: By looking at customer data, businesses can learn what people want. This helps them create personalized offers and make customers feel more valued.
->     
-> -   **Predicting the Future**: It helps businesses spot emerging trends and unusual events, giving them a chance to prepare for future opportunities and risks.
->
-Example : A retail company analyzes past sales data to predict which products will be most popular next season.
+
 ***
 
 - [ ] Q.2  
