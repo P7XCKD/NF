@@ -306,6 +306,8 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 > 
 > -   **Example**: Height, weight, or income.
 >
+
+***
 - [x] Q.9  #p
 ### Case Study on Stock Market Prediction. **4M**  
 
@@ -409,7 +411,37 @@ The DDDM process is a continuous cycle that involves defining the problem, gathe
 - [ ] Q.12  
 ### Explain any 5 data driven decision making examples. **6/8M**  
 
+
+
 ***
+
+> [!abstract] Retail: Personalized Product Recommendations
+> 
+> A major e-commerce company analyzes a customer’s past purchase history, browsing behavior, and wish lists. Using this data, the company makes a data-driven decision to recommend specific products a customer is most likely to buy. This targeted approach significantly increases sales and customer satisfaction.
+
+***
+
+> [!abstract] Finance: Real-Time Fraud Detection
+> 
+> A bank uses historical transaction data, location information, and spending patterns to monitor customer accounts in real time. When a transaction deviates from a customer's normal behavior, the system makes a data-driven decision to flag the transaction as potentially fraudulent. This proactive measure minimizes financial losses and protects customers.
+
+***
+
+> [!abstract] Human Resources: Employee Retention
+> 
+> A company analyzes employee data such as tenure, performance reviews, and salary. The analytics team identifies a pattern showing that employees with a certain set of characteristics are likely to leave within a year. The HR department then makes a data-driven decision to offer targeted mentorship programs or salary adjustments to these specific employees, improving retention.
+
+***
+
+> [!abstract] Healthcare: Predicting Patient Readmissions
+> 
+> A hospital collects and analyzes patient data, including past medical history and current diagnoses. A predictive model is used to identify patients who are at a high risk of being readmitted shortly after discharge. The hospital's staff then makes a data-driven decision to provide these high-risk patients with enhanced follow-up care, reducing readmission rates and improving patient outcomes.
+
+***
+
+> [!abstract] Logistics: Optimal Delivery Route Planning
+> 
+> A large delivery service analyzes real-time traffic data, weather conditions, and delivery addresses. The system makes a data-driven decision to recommend the most efficient route for a driver's daily deliveries. This optimization leads to significant savings in fuel costs and time, while also allowing the company to meet its delivery promises more reliably.
 
 ---
 
