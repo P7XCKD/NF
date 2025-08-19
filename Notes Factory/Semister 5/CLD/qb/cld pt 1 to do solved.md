@@ -508,7 +508,7 @@ S3, Google documents, Heroku, Facebook
 A developer needs to host a website. Instead of buying a physical server, they launch an **EC2 instance** to host their website. When a flash sale causes a surge in traffic, they can quickly launch more instances to handle the increased load. When the sale ends, they terminate the extra instances to save money.
 ***
 
-- [ ] Q.2  
+- [x] Q.2  #p
 ### With suitable diagram explain the working of Elastic Load Balancer (ELB) with its types. **4-6M**  
 ![image](.attachments/fbca58e3f80f0152a7963a2c0ee40e5cddc6f830.png) 
 
