@@ -15,6 +15,7 @@ Data analytics is the process of **turning raw data into useful information**. I
 >     
 > -   **Predicting the Future**: It helps businesses spot emerging trends and unusual events, giving them a chance to prepare for future opportunities and risks.
 >
+Example : A retail company analyzes past sales data to predict which products will be most popular next season.
 ***
 
 - [ ] Q.2  
