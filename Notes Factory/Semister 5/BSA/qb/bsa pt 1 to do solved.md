@@ -139,8 +139,19 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.7  
 ### Identify the appropriate method of business analytics for the following. **4/6M**  
 
-> [!hint] Exercise
+> [!hint] Hint: How to Identify Each Type
+> 
+> -   **Descriptive Analytics**: Look for words that describe past events, like **"what happened,"** **"total,"** **"count,"** or **"report."**
+>     
+> -   **Diagnostic Analytics**: Look for words that explain a past event, like **"why,"** **"reason,"** or **"cause."**
+>     
+> -   **Predictive Analytics**: Look for words that forecast future outcomes, like **"what will happen,"** **"predict,"** **"forecast,"** or **"likelihood."**
+>     
+> -   **Prescriptive Analytics**: Look for words that recommend an action, like **"what should be done,"** **"recommend,"** **"optimize,"** or **"advise."**
+>
 
+> [!check] Exercise
+> 
 1.  A company creates a dashboard showing its total sales revenue and the number of new customers for the last fiscal year.
     
 2.  A ride-sharing app uses an algorithm to recommend the best fare to offer a customer to increase the chance of them accepting a ride.
@@ -227,6 +238,9 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 >     
 > -   **Q20: Prescriptive Analytics**: This is the correct method because the system is **recommending a course of action** (process improvements) to prevent a future negative outcome (returns).
 >
+
+
+
 ***
 
 - [ ] Q.8  
