@@ -870,6 +870,19 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 
 - [ ] 15  
 ### Explain Naïve Bayes with formula/why it is called as same — 3/4 marks  
+### Explain Naïve Bayes with formula/why it is called as same — 4 marks
+
+**Naïve Bayes** is a classification algorithm based on **Bayes' Theorem**. It is called "naïve" because it simply assumes that all the different factors in your data are completely unrelated to each other. 
+The "Bayes" part is just because it uses Bayes' Theorem.
+
+
+> The Formula
+
+The core of the algorithm is Bayes' Theorem, which is given by the formula:
+
+![image](.attachments/f95c0740553b060ab193dee057c82ea01a4a03c8.png) 
+The Naïve Bayes algorithm finds the most likely category for an item. It does this by using Bayes' Theorem to check the probability of each individual feature, then combines all those probabilities.
+> **Example:** A spam filter sees the words "free" and "money." It checks the probability of each word being in spam and combines them to predict if the email is spam.
 ***
 
 - [ ] 16  
