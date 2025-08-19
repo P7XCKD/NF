@@ -64,7 +64,17 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 
 - [ ] Q.4  
 ### Differentiate between Business Intelligence and Business Analytics. **4/6M**  
-
+| Feature | Business Intelligence (BI) | Business Analytics (BA) |
+| :--- | :--- | :--- |
+| **Primary Goal** | Describes the past and present. | Predicts the future and guides decisions. |
+| **Nature of Questions** | What happened? How did it happen? | Why will it happen? What if we change something? |
+| **Scope** | Retrospective (looks backward). | Prospective (looks forward). |
+| **Analysis Type** | Descriptive and Diagnostic. | Predictive and Prescriptive. |
+| **Tools Used** | Dashboards, reporting tools, query software. | Statistical models, data mining, machine learning. |
+| **Data Focus** | Structured data from internal systems. | Both structured and unstructured data, internal and external. |
+| **User Role** | Business users, managers, analysts. | Data scientists, statisticians, advanced analysts. |
+| **Example** | A sales dashboard showing monthly revenue. | A model predicting next quarter's sales based on market trends. |
+| **Main Objective** | To monitor and track key performance indicators (KPIs). | To recommend future actions to improve performance. |
 ***
 
 - [ ] Q.5  
