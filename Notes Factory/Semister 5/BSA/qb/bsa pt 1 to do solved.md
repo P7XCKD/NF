@@ -45,7 +45,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.3  
 ### Enlist Data Visualization tools. **4M**  
 
-> **Data visualization** tools are software applications that help users create visual representations of data, such as charts, graphs, and maps. These tools make it easier to see and understand trends, patterns, and outliers, which aids in informed decision-making.
+> **Data visualization** tools are software applications that help users create visual representations of data, such as charts, graphs, and maps.
 
 > [!abstract] Key Data Visualization Tools
 > 
