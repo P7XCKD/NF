@@ -582,7 +582,7 @@ Imagine a website hosted in the US. A user in India wants to view a video on tha
 ![image](.attachments/640177a6f35a9a30ecbc8f0ddbf58fe4ff0e1fa7.png) 
 ***
 
-- [ ] Q.4  
+- [x] Q.4  #p
 ### Describe in brief CDN with one example. **4M**
 
 
