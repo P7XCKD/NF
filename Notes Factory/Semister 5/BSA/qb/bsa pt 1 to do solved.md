@@ -74,7 +74,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 | **Data Focus** | Structured data from internal systems. | Both structured and unstructured data, internal and external. |
 | **User Role** | Business users, managers, analysts. | Data scientists, statisticians, advanced analysts. |
 | **Example** | A sales dashboard showing monthly revenue. | A model predicting next quarter's sales based on market trends. |
-
+***
 
 - [ ] Q.5  
 ### Explain the role of Data Analyst and Business Analyst with example. **4M**  
