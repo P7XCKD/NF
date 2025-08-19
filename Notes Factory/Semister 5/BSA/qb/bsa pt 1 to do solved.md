@@ -94,12 +94,9 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 >
 ***
 
-- [ ] Q.6  
+- [x] Q.6  #p
 ### Describe various methods/types of Business Analytics with suitable example. **6M**  
 
-
-
-> **Business Analytics (BA)** uses data to help businesses make smart decisions. It has four main types, each answering a different question.
 
 
 
