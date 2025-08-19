@@ -371,7 +371,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 ***
 
-- [ ] Q.11  
+- [x] Q.11  #p
 ### Write short note on Data driven decision making in business analytics. **6/8M**  
 
 **Data-driven decision-making (DDDM)** is the practice of using data and facts to make business choices instead of relying on intuition or a "gut feeling."
@@ -407,7 +407,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 
 ***
 
-- [ ] Q.12  
+- [x] Q.12  #p
 ### Explain any 5 data driven decision making examples. **6/8M**  
 
 
