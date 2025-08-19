@@ -98,40 +98,44 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 ### Describe various methods/types of Business Analytics with suitable example. **6M**  
 
 
+
+> **Business Analytics (BA)** uses data to help businesses make smart decisions. It has four main types, each answering a different question.
+
+
+
 > [!abstract] 1. Descriptive Analytics
 > 
-> Descriptive analytics is the most basic type of analytics. It examines past data to describe what has already happened. The main goal is to summarize the data and present it in an understandable way.
+> This is about looking at what already happened. It answers the question, "What happened?" by summarizing past data into easy-to-read reports and dashboards.
 > 
-> -   **Example**: A store tracks daily sales to see how many items were sold last week.
+> -   **Example**: A bakery looks at its sales data from last month to see which bread was the most popular.
 >     
 
 ***
 
 > [!abstract] 2. Diagnostic Analytics
 > 
-> Diagnostic analytics goes a step further by investigating why something happened. This method uses techniques like data discovery to find the root cause of a specific outcome or problem.
+> This type explains why something happened. It digs into the data to find the root cause of an event. It answers the question, "Why did it happen?"
 > 
-> -   **Example**: A store's sales dropped last week. Diagnostic analytics helps them discover the cause, such as a popular item being out of stock.
+> -   **Example**: The bakery's sales dropped. Diagnostic analytics would show that the drop was because a key ingredient for their most popular bread was unavailable.
 >     
 
 ***
 
 > [!abstract] 3. Predictive Analytics
 > 
-> Predictive analytics uses historical data and statistical models to forecast what is likely to happen in the future. It provides a probable outcome based on patterns found in past data.
+> This is about forecasting what will happen next. It uses historical data to predict future outcomes. It answers the question, "What will happen?"
 > 
-> -   **Example**: A streaming service analyzes a user's viewing history to predict what movie they will want to watch next.
+> -   **Example**: The bakery uses past sales data to predict how many loaves of bread they will sell next week.
 >     
 
 ***
 
 > [!abstract] 4. Prescriptive Analytics
 > 
-> Prescriptive analytics is the most advanced form of business analytics. It not only predicts what will happen but also recommends a course of action to achieve the best outcome. It suggests "what should be done."
+> This is the most advanced type. It not only predicts what will happen but also recommends the best action to take. It answers the question, "What should we do?"
 > 
-> -   **Example**: A GPS app uses traffic and weather data to recommend the fastest route for your journey right now.
+> -   **Example**: The bakery's system analyzes upcoming weather, local events, and past sales to recommend the exact number of each type of bread to bake to avoid waste and maximize profit.
 >
-
 ***
 
 - [ ] Q.7  
