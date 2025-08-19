@@ -154,7 +154,7 @@
 ***
 
 - [ ] Q.3  
-### Compare R programming and Python. **4/6M**  
+### Compare R programming and Python. **4**  
 
 ***
 
@@ -198,7 +198,6 @@
 
 ***
 
-- [ ] Q.12  
-### Explain in detail about Nature of Data and its applications. **6/8M**  
+
 
 ***
