@@ -247,51 +247,65 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 ### Explain in detail about nature of data. **4/6M**  
 
 
+
+
 ***
 
-> [!abstract] Key Characteristics of Data
-
-> Data is defined by four core characteristics:
+> [!abstract]  Characteristics & Structural Types
 > 
-> -   **Volume**: This is the sheer amount of data being generated. It refers to the size of the dataset. For example, the massive amount of data from social media or smart devices.
+> -   **Volume**: The massive **amount of data** generated, requiring specialized storage and processing.
 >     
-> -   **Velocity**: This is the speed at which data is created, collected, and processed. It can be real-time (like stock market updates) or batch (like daily sales reports).
+> -   **Velocity**: The **speed** at which data is created and collected, from real-time streams to periodic updates.
 >     
-> -   **Variety**: This refers to the different types and formats of data, including structured, unstructured, and semi-structured. For instance, data from a spreadsheet is structured, while text from an email is unstructured.
+> -   **Variety**: The different **types and formats** of data, including:
 >     
-> -   **Veracity**: This relates to the quality, accuracy, and trustworthiness of the data. This is crucial because inaccurate data can lead to flawed insights and poor decisions.
->     
-***
->Types of Data based on Nature
-
- Based on its structure, data is fundamentally categorized into three main types:
-
-> [!abstract] Structured Data
-> 
-> Structured Data: This is data that is highly organized and follows a fixed format. It is easy to store and analyze using traditional databases.
-> 
-> -   **Example**: Information in a spreadsheet with clear rows and columns, such as customer names and order dates.
+>     -   **Structured Data**: Organized, fixed-format data like an Excel spreadsheet.
+>         
+>     -   **Unstructured Data**: Data with no predefined format, like emails or videos.
+>         
+>     -   **Semi-structured Data**: Data with some organizational tags, like XML or JSON files.
+>         
+> -   **Veracity**: The **quality and trustworthiness** of the data, as inaccurate data can lead to poor decisions.
 >     
 
 ***
 
-> [!abstract] Unstructured Data
+> Types of Data based on Scale
+
+
+> [!abstract] Nominal Scale
 > 
-> Unstructured Data: This is data that has no predefined format. It is difficult to store in a traditional database and requires advanced tools for analysis.
+> Nominal: Categories with no order or value.
 > 
-> -   **Example**: Text from emails, social media posts, videos, images, and audio files.
+> -   **Example**: Genders (male, female).
 >     
 
 ***
 
-> [!abstract] Semi-structured Data
+> [!abstract] Ordinal Scale
 > 
-> Semi-structured Data: This data does not fit into a traditional database but has some organizational tags or properties.
+> Ordinal: Categories with a meaningful order.
 > 
-> -   **Example**: Data stored in XML or JSON files, often used in web applications.
+> -   **Example**: Survey ratings (Poor, Good, Excellent).
+>     
+
+***
+
+> [!abstract] Interval Scale
+> 
+> Interval: Data with order and equal distances, but no true zero.
+> 
+> -   **Example**: Temperature in Celsius.
+>     
+
+***
+
+> [!abstract] Ratio Scale
+> 
+> Ratio: Data with a true zero and equal distances.
+> 
+> -   **Example**: Height, weight, or income.
 >
-***
-
 - [x] Q.9  #p
 ### Case Study on Stock Market Prediction. **4M**  
 
@@ -375,9 +389,9 @@ This approach helps companies make smarter, more reliable decisions by using ana
 
 ***
 
-### The Process with an Example
+>The Process with an Example
 
-> The DDDM process is a continuous cycle that involves defining the problem, gathering and analyzing data, and taking action based on the findings.
+The DDDM process is a continuous cycle that involves defining the problem, gathering and analyzing data, and taking action based on the findings.
 
 > [!abstract] How It Works
 > 
