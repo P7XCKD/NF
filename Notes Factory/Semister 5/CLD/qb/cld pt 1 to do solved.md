@@ -570,7 +570,7 @@ AWS CloudFront is a global Content Delivery Network (CDN) that speeds up content
     
 4.  **If the content is not in the cache (a 'cache miss'),** CloudFront retrieves it from the original source (**origin server**), such as an Amazon S3 bucket or an EC2 instance.
     
-5.  After retrieving the content, CloudFront caches it at the edge location and then delivers it to the user. Subsequent requests from users in the same area will then be served from this local cache, dramatically reducing latency.
+5.  After fetching the content, CloudFront saves a copy at the edge location. This ensures that any future requests for the same content from users in that area are served directly from the local cache, significantly reducing loading time.
     
 
 ***
