@@ -592,6 +592,72 @@ This approach helps companies make smarter, more reliable decisions by using ana
 - [ ] Q.4  
 ### Explain any 6 Date functions with its syntax. **4/6M**  
 
+
+***
+
+> [!abstract] TODAY
+> 
+> Returns the current date. It updates automatically whenever the worksheet is opened or changed.
+> 
+> -   **Syntax**: `=TODAY()`
+>     
+> -   **Example**: `=TODAY()` returns the current date, e.g., `19-Aug-2025`.
+>     
+
+***
+
+> [!abstract] NOW
+> 
+> Returns the current date and time. Like TODAY, it updates automatically.
+> 
+> -   **Syntax**: `=NOW()`
+>     
+> -   **Example**: `=NOW()` returns the current date and time, e.g., `19-Aug-2025 21:26`.
+>     
+
+***
+
+> [!abstract] DAY
+> 
+> Extracts the day of the month from a date.
+> 
+> -   **Syntax**: `=DAY(serial_number)`
+>     
+> -   **Example**: `=DAY("15-Jan-2025")` returns `15`.
+>     
+
+***
+
+> [!abstract] MONTH
+> 
+> Extracts the month from a date as a number (1-12).
+> 
+> -   **Syntax**: `=MONTH(serial_number)`
+>     
+> -   **Example**: `=MONTH("15-Jan-2025")` returns `1`.
+>     
+
+***
+
+> [!abstract] YEAR
+> 
+> Extracts the year from a date.
+> 
+> -   **Syntax**: `=YEAR(serial_number)`
+>     
+> -   **Example**: `=YEAR("15-Jan-2025")` returns `2025`.
+>     
+
+***
+
+> [!abstract] DATE
+> 
+> Combines a year, month, and day into a single date.
+> 
+> -   **Syntax**: `=DATE(year, month, day)`
+>     
+> -   **Example**: `=DATE(2025, 1, 15)` returns `15-Jan-2025`.
+>
 ***
 
 - [ ] Q.5  
