@@ -2,7 +2,7 @@
 
 > [!hint] type hints (for me)
 > #p = partially done stuffs 
-## Chapter 1
+# Chapter 1
 
 - [x]   Q.1) 
 ### Define the term virtualization. Enlist and describe any 4 advantages of virtualization in brief.   **4M**
@@ -422,7 +422,7 @@ Hypervisors are the backbone of **virtualization and cloud computing**.
     
 -   **Hardware** – Physical components of the computer (CPU, memory, I/O devices).
 ***
-## Chapter 2
+# Chapter 2
 - [ ] Q.1  
 ### Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
 Enlist characteristics, enlist deployment and service models.  
@@ -475,10 +475,35 @@ S3, Google documents, Heroku, Facebook
 ### Explain architecture of Microsoft Azure along with its example. **6M**  
 ***
 
-## Chapter 3
+# Chapter 3
 
 - [ ] Q.1  
 ### Describe the working of “AWS EC2” service with any 3 advantages in brief. **4M**  
+
+
+
+ **Amazon EC2 (Elastic Compute Cloud)** provides **virtual servers**, called **instances**, in the cloud. These can be rented to run applications instead of buying and managing physical hardware.
+
+> **Working of EC2**
+-   You select a pre-configured template (**Amazon Machine Image** or AMI) and an instance type.
+    
+-   You then launch an instance, which acts as a virtual computer in the cloud.
+    
+-   You can connect to this instance to install and run your applications.
+    
+-   EC2 allows you to easily scale up by launching more instances during high traffic or scale down by terminating them when demand is low.
+>     
+
+
+> **Advantages of EC2**
+
+-   **Elasticity**: Computing capacity can be quickly scaled up or down to match demand, preventing wasted resources.
+    
+-   **Cost-Effective**: It operates on a **pay-as-you-go** model, meaning payment is only for the consumed resources, eliminating large upfront hardware costs.
+    
+-   **Reliability**: Instances can be launched in different **Availability Zones** to ensure high availability and fault tolerance.
+
+
 ***
 
 - [ ] Q.2  
