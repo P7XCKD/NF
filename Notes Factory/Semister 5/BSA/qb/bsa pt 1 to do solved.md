@@ -320,7 +320,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 > [!abstract] Forward-Looking
 > 
-> Forward-Looking: Unlike traditional reporting, BA is prospective. It uses past data to predict what will happen, allowing businesses to plan for the future.
+> Forward-Looking: Unlike traditional reporting, BA is prospective (looks forwards). It uses past data to predict what will happen, allowing businesses to plan for the future.
 > 
 > -   **Example**: A bakery uses past sales data to predict how many loaves of bread they will sell next week.
 >     
