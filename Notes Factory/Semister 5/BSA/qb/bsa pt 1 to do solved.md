@@ -21,6 +21,25 @@ Example : A retail company analyzes past sales data to predict which products wi
 - [ ] Q.2  
 ### Explain the various phases of data analytics life cycle. **4/6M**  
 
+
+The data analytics life cycle is a structured, iterative process for conducting data analysis projects. 
+
+![image](.attachments/a406910dcd935f33fad86116f07f04d1e835c069.png) 
+
+> [!abstract] Key Phases of the Data Analytics Life Cycle
+> 
+> -   **Discovery**: Understand the problem and define the project goals. This involves figuring out what questions need to be answered and what data is required.
+>     
+> -   **Data Preparation**: Clean and organize the raw data. This step is critical to fix errors, handle missing values, and prepare the data for analysis.
+>     
+> -   **Model Planning**: Choose the best method or algorithm for the analysis. The team explores the data to decide on the right approach.
+>     
+> -   **Model Building**: Develop and train the model using the prepared data. This is where the actual analysis is performed to find patterns and insights.
+>     
+> -   **Communicate Results**: Share the findings with others in a clear way, often using charts and reports. The goal is to tell a compelling story with the data.
+>     
+> -   **Operationalize**: Put the final solution or model into action. This makes the insights available for daily use and helps improve business processes.
+>
 ***
 
 - [ ] Q.3  
