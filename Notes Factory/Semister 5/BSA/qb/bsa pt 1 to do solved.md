@@ -266,18 +266,28 @@ The **nature of data** refers to its fundamental characteristics and properties.
 
  Based on its structure, data is fundamentally categorized into three main types:
 
-> [!abstract] Data Types
+> [!abstract] Structured Data
 > 
-> -   **Structured Data**: Data that is highly organized and follows a fixed format. It is easy to store and analyze using traditional databases.
->     
+> Structured Data: This is data that is highly organized and follows a fixed format. It is easy to store and analyze using traditional databases.
+> 
 > -   **Example**: Information in a spreadsheet with clear rows and columns, such as customer names and order dates.
 >     
-> -   **Unstructured Data**: Data that has no predefined format. It is difficult to store in a traditional database and requires advanced tools for analysis.
->     
+
+***
+
+> [!abstract] Unstructured Data
+> 
+> Unstructured Data: This is data that has no predefined format. It is difficult to store in a traditional database and requires advanced tools for analysis.
+> 
 > -   **Example**: Text from emails, social media posts, videos, images, and audio files.
 >     
-> -   **Semi-structured Data**: Data that does not fit into a traditional database but has some organizational tags or properties.
->     
+
+***
+
+> [!abstract] Semi-structured Data
+> 
+> Semi-structured Data: This data does not fit into a traditional database but has some organizational tags or properties.
+> 
 > -   **Example**: Data stored in XML or JSON files, often used in web applications.
 >
 ***
