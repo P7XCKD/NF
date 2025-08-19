@@ -48,19 +48,18 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 > **Data visualization** tools are software applications that help users create visual representations of data, such as charts, graphs, and maps.
 
 > [!abstract] Key Data Visualization Tools
-> 
-> -   **MS Excel**: Used for creating graphs, charts, and pivot tables.
->     
-> -   **Python**: Offers powerful libraries such as **Matplotlib**, **Seaborn**, and **Plotly** for creating various types of graphs, scatter plots, and histograms.
->     
-> -   **R**: A statistical programming language with libraries like **ggplot2** and **dplyr** for creating high-quality, interactive data visualizations.
->     
-> -   **Tableau**: A leading business intelligence tool with a drag-and-drop interface, used for creating powerful dashboards and visualizations.
->     
-> -   **Power BI**: An advanced business analytics service from Microsoft that uses machine learning and AI to create and analyze visual reports.
->     
-> -   **DBMS (Database Management System)**: Uses languages like **SQL** to analyze and visualize data stored directly in databases.
->
+
+-   **MS Excel**: Used for creating graphs, charts, and pivot tables.
+    
+-   **Python**: Used for data visualization with libraries such as **Matplotlib** and **Seaborn**.
+    
+-   **R**: A statistical language with libraries like **ggplot2** for creating interactive visualizations.
+    
+-   **Tableau**: A business intelligence tool for creating powerful dashboards and visualizations.
+    
+-   **Power BI**: A Microsoft service for creating and analyzing visual reports.
+    
+-   **DBMS (Database Management System)**: A system that uses **SQL** to visualize data stored in databases.
 ***
 
 - [ ] Q.4  
