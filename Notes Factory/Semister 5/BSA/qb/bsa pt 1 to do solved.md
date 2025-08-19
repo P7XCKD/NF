@@ -62,7 +62,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 -   **DBMS (Database Management System)**: A system that uses **SQL** to visualize data stored in databases.
 ***
 
-- [ ] Q.4  
+- [x] Q.4  
 ### Differentiate between Business Intelligence and Business Analytics. **4/6M**  
 | Feature | Business Intelligence (BI) | Business Analytics (BA) |
 | :--- | :--- | :--- |
@@ -79,6 +79,19 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.5  
 ### Explain the role of Data Analyst and Business Analyst with example. **4M**  
 
+
+
+> [!abstract] Data Analyst
+> 
+> -   A Data Analyst's role is to **process raw data into valuable information**. They use technical skills to **clean data**, find important trends, and create **reports and visuals** that provide **insights** for decision-making.
+>     
+> -   **Example**: A Data Analyst for an online store analyzes website traffic data to show which pages have the most visitors and where people leave the site.
+
+> [!abstract] Business Analyst
+> -   **Business Analyst**:A Business Analyst focuses on **business needs**. They are responsible for taking a company's goals and turning them into specific **data requirements**, making sure that any data analysis directly helps the business improve.
+>     
+> -   **Example**: A Business Analyst at the same online store might notice a drop in sales. They would then work with the Data Analyst to find the specific data needed (like traffic sources and product page views) to figure out the cause.
+>
 ***
 
 - [ ] Q.6  
