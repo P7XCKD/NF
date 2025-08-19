@@ -49,7 +49,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 
 > [!abstract] Key Data Visualization Tools
 > 
-> -   **MS Excel**: Used for creating graphs, charts, and pivot tables, it is a common tool for basic data visualization and calculations.
+> -   **MS Excel**: Used for creating graphs, charts, and pivot tables.
 >     
 > -   **Python**: Offers powerful libraries such as **Matplotlib**, **Seaborn**, and **Plotly** for creating various types of graphs, scatter plots, and histograms.
 >     
