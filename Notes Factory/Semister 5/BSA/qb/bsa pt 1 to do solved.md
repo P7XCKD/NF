@@ -97,6 +97,41 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.6  
 ### Describe various methods/types of Business Analytics with suitable example. **6M**  
 
+
+> [!abstract] 1. Descriptive Analytics
+> 
+> Descriptive analytics is the most basic type of analytics. It examines past data to describe what has already happened. The main goal is to summarize the data and present it in an understandable way.
+> 
+> -   **Example**: A store tracks daily sales to see how many items were sold last week.
+>     
+
+***
+
+> [!abstract] 2. Diagnostic Analytics
+> 
+> Diagnostic analytics goes a step further by investigating why something happened. This method uses techniques like data discovery to find the root cause of a specific outcome or problem.
+> 
+> -   **Example**: A store's sales dropped last week. Diagnostic analytics helps them discover the cause, such as a popular item being out of stock.
+>     
+
+***
+
+> [!abstract] 3. Predictive Analytics
+> 
+> Predictive analytics uses historical data and statistical models to forecast what is likely to happen in the future. It provides a probable outcome based on patterns found in past data.
+> 
+> -   **Example**: A streaming service analyzes a user's viewing history to predict what movie they will want to watch next.
+>     
+
+***
+
+> [!abstract] 4. Prescriptive Analytics
+> 
+> Prescriptive analytics is the most advanced form of business analytics. It not only predicts what will happen but also recommends a course of action to achieve the best outcome. It suggests "what should be done."
+> 
+> -   **Example**: A GPS app uses traffic and weather data to recommend the fastest route for your journey right now.
+>
+
 ***
 
 - [ ] Q.7  
