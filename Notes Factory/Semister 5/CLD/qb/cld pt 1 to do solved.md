@@ -483,6 +483,22 @@ S3, Google documents, Heroku, Facebook
 
 - [ ] Q.2  
 ### With suitable diagram explain the working of Elastic Load Balancer (ELB) with its types. **4-6M**  
+![image](.attachments/fbca58e3f80f0152a7963a2c0ee40e5cddc6f830.png) 
+
+
+ An **Elastic Load Balancer (ELB)** acts as a single point of contact for all incoming traffic. It **automatically distributes** this traffic across multiple healthy targets, such as **EC2 instances**.
+
+The ELB constantly **monitors** the health of its targets and reroutes traffic away from any that fail. This ensures the application remains **highly available** and **fault-tolerant** by preventing any single server from being overwhelmed.
+
+> Types of ELB
+
+-   **Application Load Balancer (ALB):** Routes HTTP/S traffic based on content like the URL. Ideal for web applications.
+    
+-   **Network Load Balancer (NLB):** Operates at the transport layer, handling massive volumes of TCP/UDP traffic with very low latency.
+    
+-   **Gateway Load Balancer (GLB):** Distributes traffic to a fleet of virtual appliances, such as firewalls, for security and third-party inspection.
+
+
 ***
 
 - [ ] Q.3  
