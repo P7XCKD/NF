@@ -312,7 +312,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 This is how we can use predictive analytics to turns raw financial data into a  useful tool for making smart decisions in a changing market.
 ***
 
-- [ ] Q.10  
+- [x] Q.10  #p
 ### State features of Business Analytics. **4M**  
 
 
