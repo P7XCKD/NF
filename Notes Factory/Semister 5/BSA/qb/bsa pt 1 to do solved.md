@@ -139,7 +139,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.7  
 ### Identify the appropriate method of business analytics for the following. **4/6M**  
 
-> [!hint] Excercise
+> [!hint] Exercise
 
 1.  A company creates a dashboard showing its total sales revenue and the number of new customers for the last fiscal year.
     
@@ -180,7 +180,8 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 19.  A website manager reviews a report showing the number of unique visitors and page views on their site from last month.
     
 20.  A company's system analyzes historical product returns to recommend specific improvements to the manufacturing process to reduce future returns.
-    
+
+
 
 ***
 
