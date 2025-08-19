@@ -139,6 +139,93 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.7  
 ### Identify the appropriate method of business analytics for the following. **4/6M**  
 
+> [!hint] Excercise
+
+1.  A company creates a dashboard showing its total sales revenue and the number of new customers for the last fiscal year.
+    
+2.  A ride-sharing app uses an algorithm to recommend the best fare to offer a customer to increase the chance of them accepting a ride.
+    
+3.  A marketing team analyzes past ad campaign data to determine why one campaign had a higher return on investment than others.
+    
+4.  A credit card company uses a customer's spending history and payment behavior to forecast the likelihood of them defaulting on a loan.
+    
+5.  An airline's system suggests which flights to offer a discount on to maximize profit based on current bookings and historical demand patterns.
+    
+6.  A healthcare provider reviews patient records to find the number of patients readmitted to the hospital within 30 days of discharge.
+    
+7.  A social media platform analyzes user engagement data to understand why a specific video went viral.
+    
+8.  An e-commerce website uses a visitor's browsing history to recommend what products they are most likely to buy next.
+    
+9.  A manufacturer analyzes production data to determine the cause of a recent increase in product defects on one of its assembly lines.
+    
+10.  A logistics company's software provides the optimal delivery route for a fleet of trucks to minimize fuel consumption and delivery time.
+    
+11.  A university reviews student enrollment records from the past five years to identify the total number of students in each academic program.
+    
+12.  A company analyzes customer feedback to understand why customer satisfaction scores have been falling over the last three months.
+    
+13.  A retail store analyzes sales data to predict the inventory they will need to stock for the upcoming holiday season.
+    
+14.  An investment firm uses a complex model to suggest the best portfolio allocation to maximize returns for a client based on their risk tolerance.
+    
+15.  A customer support team creates a report showing the average call duration and the number of support tickets closed per day last week.
+    
+16.  A bank investigates why a large number of credit card transactions were declined in a specific geographic region last month.
+    
+17.  A supermarket chain uses past purchasing data and seasonal trends to forecast how much fresh produce they will need to order for next week.
+    
+18.  A mobile app uses real-time user data to recommend a personalized user interface layout to increase engagement.
+    
+19.  A website manager reviews a report showing the number of unique visitors and page views on their site from last month.
+    
+20.  A company's system analyzes historical product returns to recommend specific improvements to the manufacturing process to reduce future returns.
+    
+
+***
+
+> [!abstract] Answers & Justification
+> 
+> -   **Q1: Descriptive Analytics**: This is suited because the goal is to summarize past sales and customer data to understand "what happened."
+>     
+> -   **Q2: Prescriptive Analytics**: This method is appropriate as the app is not just predicting a good price, but actively recommending the **best course of action** to achieve a specific outcome (increased acceptance rate).
+>     
+> -   **Q3: Diagnostic Analytics**: This is the correct method as the team is investigating **why** one ad campaign performed better than another, looking for the root cause.
+>     
+> -   **Q4: Predictive Analytics**: This is the correct method because it uses past data to **forecast a future outcome** (the likelihood of loan default).
+>     
+> -   **Q5: Prescriptive Analytics**: This is the correct method because the system is recommending a specific action (offering discounts) to achieve an optimal result (maximizing profit).
+>     
+> -   **Q6: Descriptive Analytics**: This is suited because it involves reviewing past data to simply count and report "what happened" (the number of readmissions).
+>     
+> -   **Q7: Diagnostic Analytics**: This is the correct method because the manufacturer is trying to determine the **cause** of a problem (the increase in defects).
+>     
+> -   **Q8: Predictive Analytics**: This is the correct method because it uses historical data to **forecast a future outcome** (the likelihood of a new product being successful).
+>     
+> -   **Q9: Diagnostic Analytics**: This is the correct method because the manufacturer is trying to determine the **cause** of a problem (the increase in product defects).
+>     
+> -   **Q10: Prescriptive Analytics**: This is the correct method because the software is not just analyzing, but actively **recommending the optimal action** (the best route) to achieve a goal (minimizing fuel).
+>     
+> -   **Q11: Descriptive Analytics**: This is suited because it is simply summarizing and reporting on "what happened" in the past, without an analytical question.
+>     
+> -   **Q12: Diagnostic Analytics**: This is the correct method because the team is trying to determine the **cause** of a problem (the drop in customer satisfaction).
+>     
+> -   **Q13: Predictive Analytics**: This is the correct method because it uses a user's past data to **forecast** a future action or preference (what they might want to watch next).
+>     
+> -   **Q14: Prescriptive Analytics**: This is the correct method because it is recommending a specific, optimal action (the portfolio allocation) to achieve the best result for the client.
+>     
+> -   **Q15: Descriptive Analytics**: This is suited because it is simply summarizing and reporting on past performance without any further analysis.
+>     
+> -   **Q16: Diagnostic Analytics**: This is the correct method because the bank is trying to determine the **reason** (the root cause) behind the declined transactions.
+>     
+> -   **Q17: Predictive Analytics**: This is the correct method because the store is using past data to **forecast** a future need (inventory stock levels).
+>     
+> -   **Q18: Prescriptive Analytics**: This is the correct method as the app is not just predicting what the user likes but **recommending an action** (the best layout) to drive a specific behavior (engagement).
+>     
+> -   **Q19: Descriptive Analytics**: This is suited because the goal is to summarize and report on past events ("what happened" last month).
+>     
+> -   **Q20: Prescriptive Analytics**: This is the correct method because the system is **recommending a course of action** (process improvements) to prevent a future negative outcome (returns).
+>
 ***
 
 - [ ] Q.8  
