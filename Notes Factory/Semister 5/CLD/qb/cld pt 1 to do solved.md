@@ -517,15 +517,30 @@ A developer needs to host a website. Instead of buying a physical server, they l
 
 The ELB constantly **monitors** the health of its targets and reroutes traffic away from any that fail. This ensures the application remains **highly available** and **fault-tolerant** by preventing any single server from being overwhelmed.
 
-> Types of ELB
 
--   **Application Load Balancer (ALB):** Routes HTTP/S traffic based on content like the URL. Ideal for web applications.
+> [!abstract] Types of ELB
+>  write example for each if 6m else defination is fine
+
+
+> **Application Load Balancer (ALB)**
+
+-   **Layer 7 (Application Layer):** Routes HTTP/S traffic based on content like the URL. Ideal for web applications.
     
--   **Network Load Balancer (NLB):** Operates at the transport layer, handling massive volumes of TCP/UDP traffic with very low latency.
+-   **Example:** An online store uses an ALB to route traffic. Requests for `store.example.com/products` are sent to a server group that handles product listings, while requests for `store.example.com/checkout` are sent to a different server group that manages payment processing.
     
--   **Gateway Load Balancer (GLB):** Distributes traffic to a fleet of virtual appliances, such as firewalls, for security and third-party inspection.
 
+>  **Network Load Balancer (NLB)**
 
+-   **Layer 4 (Transport Layer):** Operates at the transport layer, handling massive volumes of TCP/UDP traffic with very low latency.
+    
+-   **Example:** A video streaming service uses an NLB to handle high-volume TCP traffic. The NLB forwards the entire incoming TCP connection to a single streaming server, ensuring a stable, low-latency connection for the user.
+    
+
+> **Gateway Load Balancer (GLB)**
+
+-   **Layer 3 (Network Layer):** Distributes traffic to a fleet of virtual appliances, such as firewalls, for security and third-party inspection.
+    
+-   **Example:** A company routes all its internet traffic through a GLB. The GLB forwards the traffic to a fleet of firewall appliances for deep inspection before it is allowed to reach the internal application servers.
 ***
 
 - [ ] Q.3  
