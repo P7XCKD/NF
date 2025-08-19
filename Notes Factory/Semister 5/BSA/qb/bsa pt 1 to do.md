@@ -4,8 +4,7 @@
 
 ### Discuss the need of Data Analytics. **4/6M**
 
-> **Data analytics** is the process of examining, cleansing, transforming, and modeling data to discover useful insights that support business decisions. Its need stems from the massive volume of data organizations now collect, which holds significant potential for strategic advantage.
-
+Data analytics is the process of **turning raw data into useful information**. It's how businesses find trends, solve problems, and make smarter, more confident decisions.
 > [!abstract] Key Needs of Data Analytics
 > 
 > -   **Smarter Decisions**: Data analytics helps organizations make choices based on facts and evidence, not just on intuition. This leads to better, more reliable results.
