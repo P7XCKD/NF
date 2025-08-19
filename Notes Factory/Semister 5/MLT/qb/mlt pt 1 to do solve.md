@@ -792,6 +792,29 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 
 - [ ] 5  
 ### Define correlation co efficient and its type based on the direction of change of variable/ based upon the number of variables studied – 4 Marks  
+
+
+
+A **correlation coefficient** is a number that tells you how two things are related. It shows you if they move together (`+1`), move in opposite directions (`-1`), or have no connection (`0`).
+
+
+
+> **Types of Correlation**
+
+Based on the **direction of change**:
+
+-   **Positive Correlation:** Both variables move in the same direction. As one variable increases, the other also tends to increase.
+    
+-   **Negative Correlation:** The variables move in opposite directions. As one variable increases, the other tends to decrease.
+    
+-   **No Correlation:** There is no linear relationship between the variables.
+    
+
+Based on the **number of variables studied**:
+
+-   **Simple Correlation:** This type of correlation involves studying the relationship between only **two** variables.
+    
+-   **Multiple Correlation:** This type of correlation involves studying the relationship between **three or more** variables simultaneously.
 ***
 
 - [ ] 6  
@@ -870,7 +893,7 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 
 - [ ] 15  
 ### Explain Naïve Bayes with formula/why it is called as same — 3/4 marks  
-### Explain Naïve Bayes with formula/why it is called as same — 4 marks
+
 
 **Naïve Bayes** is a classification algorithm based on **Bayes' Theorem**. It is called "naïve" because it simply assumes that all the different factors in your data are completely unrelated to each other. 
 The "Bayes" part is just because it uses Bayes' Theorem.
