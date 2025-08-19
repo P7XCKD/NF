@@ -1,6 +1,6 @@
 # Chapter 1: Data Analytics & Business Analytics — CO1
 
-- [ ] Q.1  
+- [x] Q.1  
 
 ### Discuss the need of Data Analytics. **4/6M**
 
@@ -45,6 +45,22 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 - [ ] Q.3  
 ### Enlist Data Visualization tools. **4M**  
 
+> **Data visualization** tools are software applications that help users create visual representations of data, such as charts, graphs, and maps. These tools make it easier to see and understand trends, patterns, and outliers, which aids in informed decision-making.
+
+> [!abstract] Key Data Visualization Tools
+> 
+> -   **MS Excel**: Used for creating graphs, charts, and pivot tables, it is a common tool for basic data visualization and calculations.
+>     
+> -   **Python**: Offers powerful libraries such as **Matplotlib**, **Seaborn**, and **Plotly** for creating various types of graphs, scatter plots, and histograms.
+>     
+> -   **R**: A statistical programming language with libraries like **ggplot2** and **dplyr** for creating high-quality, interactive data visualizations.
+>     
+> -   **Tableau**: A leading business intelligence tool with a drag-and-drop interface, used for creating powerful dashboards and visualizations.
+>     
+> -   **Power BI**: An advanced business analytics service from Microsoft that uses machine learning and AI to create and analyze visual reports.
+>     
+> -   **DBMS (Database Management System)**: Uses languages like **SQL** to analyze and visualize data stored directly in databases.
+>
 ***
 
 - [ ] Q.4  
