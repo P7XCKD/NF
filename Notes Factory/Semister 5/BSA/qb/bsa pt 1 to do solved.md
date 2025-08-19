@@ -22,7 +22,7 @@ Example : A retail company analyzes past sales data to predict which products wi
 ### Explain the various phases of data analytics life cycle. **4/6M**  
 
 
-
+The **data analytics life cycle** is a structured, iterative process for conducting data analysis projects. It provides a roadmap for turning raw data into actionable insights and solutions.
 
 ![image](.attachments/a406910dcd935f33fad86116f07f04d1e835c069.png) 
 
