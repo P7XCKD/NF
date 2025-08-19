@@ -543,7 +543,7 @@ The ELB constantly **monitors** the health of its targets and reroutes traffic a
 -   **Example:** A company routes all its internet traffic through a GLB. The GLB forwards the traffic to a fleet of firewall appliances for deep inspection before it is allowed to reach the internal application servers.
 ***
 
-- [ ] Q.3  
+- [x] Q.3  #p
 ### Explain working of AWS CloudFront with example. **4-6M**  
 
 AWS CloudFront is a global Content Delivery Network (CDN) that speeds up content delivery by bringing data closer to users.
