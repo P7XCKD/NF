@@ -503,7 +503,9 @@ S3, Google documents, Heroku, Facebook
     
 -   **Reliability**: Instances can be launched in different **Availability Zones** to ensure high availability and fault tolerance.
 
+> Example of EC2
 
+A developer needs to host a website. Instead of buying a physical server, they launch an **EC2 instance** to host their website. When a flash sale causes a surge in traffic, they can quickly launch more instances to handle the increased load. When the sale ends, they terminate the extra instances to save money.
 ***
 
 - [ ] Q.2  
