@@ -136,7 +136,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 >
 ***
 
-- [ ] Q.7  
+- [x] Q.7  
 ### Identify the appropriate method of business analytics for the following. **4/6M**  
 
 > [!hint] Hint: How to Identify Each Type
@@ -245,7 +245,41 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 
 - [ ] Q.8  
 ### Explain in detail about nature of data. **4/6M**  
+The **nature of data** refers to its fundamental characteristics and properties. While the "V's" were originally developed to describe the unique challenges of **Big Data**, they have become the standard framework for understanding the core nature of all data, influencing how it is handled and analyzed.
 
+***
+
+> [!abstract] Key Characteristics of Data
+
+> Data is defined by four core characteristics:
+> 
+> -   **Volume**: This is the sheer amount of data being generated. It refers to the size of the dataset. For example, the massive amount of data from social media or smart devices.
+>     
+> -   **Velocity**: This is the speed at which data is created, collected, and processed. It can be real-time (like stock market updates) or batch (like daily sales reports).
+>     
+> -   **Variety**: This refers to the different types and formats of data, including structured, unstructured, and semi-structured. For instance, data from a spreadsheet is structured, while text from an email is unstructured.
+>     
+> -   **Veracity**: This relates to the quality, accuracy, and trustworthiness of the data. This is crucial because inaccurate data can lead to flawed insights and poor decisions.
+>     
+***
+>Types of Data based on Nature
+
+ Based on its structure, data is fundamentally categorized into three main types:
+
+> [!abstract] Data Types
+> 
+> -   **Structured Data**: Data that is highly organized and follows a fixed format. It is easy to store and analyze using traditional databases.
+>     
+> -   **Example**: Information in a spreadsheet with clear rows and columns, such as customer names and order dates.
+>     
+> -   **Unstructured Data**: Data that has no predefined format. It is difficult to store in a traditional database and requires advanced tools for analysis.
+>     
+> -   **Example**: Text from emails, social media posts, videos, images, and audio files.
+>     
+> -   **Semi-structured Data**: Data that does not fit into a traditional database but has some organizational tags or properties.
+>     
+> -   **Example**: Data stored in XML or JSON files, often used in web applications.
+>
 ***
 
 - [ ] Q.9  
