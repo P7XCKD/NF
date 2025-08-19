@@ -18,7 +18,7 @@ Data analytics is the process of **turning raw data into useful information**. I
 Example : A retail company analyzes past sales data to predict which products will be most popular next season.
 ***
 
-- [ ] Q.2  
+- [x] Q.2  #p
 ### Explain the various phases of data analytics life cycle. **4/6M**  
 
 
