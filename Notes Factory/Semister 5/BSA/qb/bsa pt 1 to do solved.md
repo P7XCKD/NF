@@ -320,7 +320,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 > [!abstract] Forward-Looking
 > 
-> Forward-Looking: Unlike traditional reporting, BA is prospective (looks forwards). It uses past data to predict what will happen, allowing businesses to plan for the future.
+> Unlike traditional reporting, BA is prospective (looks forwards). It uses past data to predict what will happen, allowing businesses to plan for the future.
 > 
 > -   **Example**: A bakery uses past sales data to predict how many loaves of bread they will sell next week.
 >     
@@ -329,7 +329,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 > [!abstract] Data-Driven Decision Making
 > 
-> Data-Driven Decision Making: It enables businesses to move from making choices based on intuition to making them based on facts and evidence, leading to smarter decisions.
+> It enables businesses to move from making choices based on intuition to making them based on facts and evidence, leading to smarter decisions.
 > 
 > -   **Example**: The bakery uses analytics to determine the optimal price for a new cake, based on market and cost data.
 >     
@@ -338,7 +338,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 > [!abstract] Identifies Root Causes
 > 
-> Identifies Root Causes: Through diagnostic analytics, a key feature of BA, it can investigate why past events happened, allowing a business to understand the reasons behind a problem.
+> Through diagnostic analytics, a key feature of BA, it can investigate why past events happened, allowing a business to understand the reasons behind a problem.
 > 
 > -   **Example**: The bakery's sales dropped. Diagnostic analytics would show that the drop was because a key ingredient for their most popular bread was unavailable.
 >     
@@ -347,7 +347,7 @@ This is how we can use predictive analytics to turns raw financial data into a  
 
 > [!abstract] Recommends Action
 > 
-> Recommends Action: The most advanced feature of BA is its ability to suggest optimal actions. It not only predicts outcomes but also recommends what a business should do to achieve its goals.
+> The most advanced feature of BA is its ability to suggest optimal actions. It not only predicts outcomes but also recommends what a business should do to achieve its goals.
 > 
 > -   **Example**: The bakery's system analyzes upcoming weather and past sales to recommend the exact number of each type of bread to bake to avoid waste and maximize profit.
 >
