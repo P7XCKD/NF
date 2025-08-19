@@ -245,7 +245,7 @@ The **data analytics life cycle** is a step-by-step guide for doing a data proje
 
 - [ ] Q.8  
 ### Explain in detail about nature of data. **4/6M**  
-The **nature of data** refers to its fundamental characteristics and properties. While the "V's" were originally developed to describe the unique challenges of **Big Data**, they have become the standard framework for understanding the core nature of all data, influencing how it is handled and analyzed.
+
 
 ***
 
@@ -295,6 +295,21 @@ The **nature of data** refers to its fundamental characteristics and properties.
 - [ ] Q.9  
 ### Case Study on Stock Market Prediction. **4M**  
 
+
+> **Objective:** To predict future stock prices using historical data to assist investors in making informed trading decisions.
+
+> [!abstract] Methodology & Application
+> 
+> -   **Data**: **Historical stock data** (prices, trading volume) is collected and prepared for analysis.
+>     
+> -   **Modeling**: A **predictive model** is built using machine learning to analyze past trends.
+>     
+> -   **Prediction**: The model **forecasts** the future stock price based on the identified patterns.
+>     
+> -   **Outcome**: The prediction provides a **data-driven insight** that helps investors decide when to buy or sell.
+>     
+
+This is how we can use predictive analytics to turns raw financial data into a  useful tool for making smart decisions in a changing market.
 ***
 
 - [ ] Q.10  
