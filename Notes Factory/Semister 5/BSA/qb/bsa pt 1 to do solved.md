@@ -449,16 +449,144 @@ This approach helps companies make smarter, more reliable decisions by using ana
 - [ ] Q.1  
 ### Explain the role of Excel in data analytics. **4M**  
 
+
+> **Microsoft Excel** is a foundational tool in data analytics, widely used for its accessible spreadsheet format and powerful built-in functions that enable users to store, clean, and analyze data.
+
+***
+
+> [!abstract] Data Organization
+> 
+> Excel helps in storing and organizing data in a structured way.
+> 
+> -   **Example**: A company tracks its monthly expenses by entering each item into a new row with columns for date, category, and cost.
+>     
+
+***
+
+> [!abstract] Data Cleaning
+> 
+> It provides basic functions to handle data errors and duplicates.
+> 
+> -   **Example**: Using the "Remove Duplicates" feature to clean up a list of customer email addresses before a marketing campaign.
+>     
+
+***
+
+> [!abstract] Calculations
+> 
+> It can perform a variety of calculations to get initial insights.
+> 
+> -   **Example**: Using the `SUM()` function to calculate total sales for the last quarter.
+>     
+
+***
+
+> [!abstract] Data Visualization
+> 
+> Excel has built-in charting tools to visualize data.
+> 
+> -   **Example**: Creating a bar chart to compare the sales performance of different products.
+>
 ***
 
 - [ ] Q.2  
 ### Compare Pivot table with Pivot Chart. **4M**  
-
+![image](.attachments/4eec11d5ce567f3f0312e48be580272230886731.png) 
 ***
 
 - [ ] Q.3  
 ### Explain any 6 text functions with its syntax. **4/6M**  
 
+
+***
+
+> [!abstract] CONCAT
+> 
+> Joins two or more text strings into one. It's a modern, easier-to-use version of CONCATENATE.
+> 
+> -   **Syntax**: `=CONCAT(text1, [text2], ...)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: "Data" & "Analytics"
+>         
+>     -   **After**: `=CONCAT("Data", "Analytics")` returns `"DataAnalytics"`
+>         
+
+***
+
+> [!abstract] TRIM
+> 
+> Removes all extra spaces from text, leaving only single spaces between words.
+> 
+> -   **Syntax**: `=TRIM(text)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: `" Hello World "`
+>         
+>     -   **After**: `=TRIM(" Hello World ")` returns `"Hello World"`
+>         
+
+***
+
+> [!abstract] UPPER
+> 
+> Converts a text string to all uppercase letters.
+> 
+> -   **Syntax**: `=UPPER(text)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: `"excel"`
+>         
+>     -   **After**: `=UPPER("excel")` returns `"EXCEL"`
+>         
+
+***
+
+> [!abstract] LOWER
+> 
+> Converts a text string to all lowercase letters.
+> 
+> -   **Syntax**: `=LOWER(text)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: `"EXCEL"`
+>         
+>     -   **After**: `=LOWER("EXCEL")` returns `"excel"`
+>         
+
+***
+
+> [!abstract] PROPER
+> 
+> Capitalizes the first letter of each word in a text string.
+> 
+> -   **Syntax**: `=PROPER(text)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: `"data analytics"`
+>         
+>     -   **After**: `=PROPER("data analytics")` returns `"Data Analytics"`
+>         
+
+***
+
+> [!abstract] CLEAN
+> 
+> Removes non-printable characters from a text string, such as line breaks.
+> 
+> -   **Syntax**: `=CLEAN(text)`
+>     
+> -   **Example**:
+>     
+>     -   **Before**: `"Data"`, followed by a line break, then `"Analytics"`
+>         
+>     -   **After**: `=CLEAN("Data"&CHAR(10)&"Analytics")` returns `"DataAnalytics"`
+>
 ***
 
 - [ ] Q.4  
