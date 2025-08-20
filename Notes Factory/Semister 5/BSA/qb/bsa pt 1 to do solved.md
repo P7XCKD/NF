@@ -494,7 +494,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 ![image](.attachments/4eec11d5ce567f3f0312e48be580272230886731.png) 
 ***
 
-- [ ] Q.3  
+- [x] Q.3  
 ### Explain any 6 text functions with its syntax. **4/6M**  
 
 
@@ -590,7 +590,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 > you can use cell also directly instead of text
 ***
 
-- [ ] Q.4  
+- [x] Q.4  
 ### Explain any 6 Date functions with its syntax. **4/6M**  
 
 
