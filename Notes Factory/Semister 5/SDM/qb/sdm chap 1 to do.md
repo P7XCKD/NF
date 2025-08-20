@@ -24,3 +24,106 @@
 - [ ] Q.24 Define following terms of agile model: 1. Sprint  2. Scrum  3. Daily Scrum  4. Sprint Backlog (each 2 marks)
 - [ ] Q.25 Draw and explain Scrum process of Agile model (6 marks)
 - [ ] Q.26 Differentiate between SDLC models (any 2) (4/6 marks)
+
+***
+# ESS QUESTION BANK
+
+---
+
+## CHAPTER 2: Software Design and Analysis
+
+---
+
+- [ ] Q.1  
+### Define term system analysis with the help of example. **6M**  
+
+---
+
+- [ ] Q.2  
+### Define term Preliminary System Study. **6M**  
+
+---
+
+- [ ] Q.3  
+### Explain Feasibility Study process. **6M**  
+
+---
+
+- [ ] Q.4  
+### Explain types of Feasibility Study with example. **8M**  
+
+---
+
+- [ ] Q.5  
+### Define term SRS and list SRS users. **6M**  
+
+---
+
+- [ ] Q.6  
+### Explain the need of SRS document. **6M**  
+
+---
+
+- [ ] Q.7  
+### Draw DFD diagram for any system. **8M**  
+
+---
+
+- [ ] Q.8  
+### Draw Use case diagram for any system. **8M**  
+
+---
+
+- [ ] Q.9  
+### List and define the role of DFD components with the help of example. **6/8M**  
+
+---
+
+- [ ] Q.10  
+### Problem statement for structured English and decision table. **6/8M**  
+
+---
+
+- [ ] Q.11  
+### Define term system analyst with the help of example. **6M**  
+
+---
+
+- [ ] Q.12  
+### Define term system analyst and Explain the roles of a systems analyst. **8M**  
+
+---
+
+## CHAPTER 3: Software Coding
+
+---
+
+- [ ] Q.1  
+### Explain any six factors that influence the choice of a programming language for software development. **8M**  
+
+---
+
+- [ ] Q.2  
+### State any four uses of programming languages and mention one real-world application for each. **6M**  
+
+---
+
+- [ ] Q.3  
+### Write any four Purpose of Having Coding Standards. **6M**  
+
+---
+
+- [ ] Q.4  
+### List any four commonly followed coding standards in software development. Explain the purpose of each. **6M**  
+
+---
+
+- [ ] Q.5  
+### Write any four advantages of Coding Guidelines. **6M**  
+
+---
+
+- [ ] Q.6  
+### Describe any four important coding guidelines that help in writing clean, maintainable, and error-free code. **6M**  
+
+---
