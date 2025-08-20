@@ -77,7 +77,7 @@
 
 ---
 
-## CHAPTER 2: Business Idea Generation & Evaluation (CO 2) {12 Marks}
+# CHAPTER 2: Business Idea Generation & Evaluation (CO 2) {12 Marks}
 
 ---
 
@@ -138,7 +138,7 @@
 
 ---
 
-## CHAPTER 3: Business Plan (CO 2) {12 Marks}
+# CHAPTER 3: Business Plan (CO 2) {12 Marks}
 
 ---
 
