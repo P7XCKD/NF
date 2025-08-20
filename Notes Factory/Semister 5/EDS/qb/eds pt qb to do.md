@@ -55,9 +55,24 @@
 -   **Ownership:** An **entrepreneur** fully owns the business they create. An **intrapreneur** does not own the project; it belongs to the company they work for.
 ---
 
-- [ ] Q.4  
+- [x] Q.4  #p
 ### Mention three major functions of an entrepreneur. **4M**  
 
+
+
+> [!abstract] Major Functions of an Entrepreneur
+
+-   **Innovation:** An entrepreneur's main function is to find new ideas and opportunities to create a product, service, or business model.
+    
+    -   **Example:** A person who invents a new type of eco-friendly packaging is performing the function of innovation.
+        
+-   **Risk-Taking:** An entrepreneur takes on the personal and financial risk of the business. They must be able to make decisions under uncertainty and be ready to handle potential losses.
+    
+    -   **Example:** A person who invests their life savings to start a new company is performing the function of risk-taking.
+        
+-   **Organizing:** An entrepreneur is responsible for bringing together all the resources needed to start and run a business, including money, people, and equipment.
+    
+    -   **Example:** A person who hires a team, finds an office space, and secures funding is performing the function of organizing.
 ---
 
 
