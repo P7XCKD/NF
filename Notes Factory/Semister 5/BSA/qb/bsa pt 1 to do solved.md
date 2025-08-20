@@ -753,24 +753,73 @@ Your spreadsheet now automatically highlights all the passing scores in **green*
 
 - [ ] Q.8  
 ### Example on Lookup Functions. **6/8M**  
->Example 1: VLOOKUP with exact match
 
-![vlookup-exact-match](https://www.goskills.com/blobs/blogs/753/4a31b65a-97a7-425e-9732-e0304345abb7.png)**Explanation:** In this example, we are using the employee ID as the lookup value within the dataset D2:F6. The value we want to return will be from column 2 of the array, and we need an exact match, so the final argument is FALSE.
 
-The value is found in cell D2. Therefore, the return value is “Dustin Leaver”.
+> VLOOKUP (Vertical Lookup)
 
->Example 2: VLOOKUP with approximate match
+**VLOOKUP** is used when your data is organized in columns. It searches for a value in the first column of a table and returns a corresponding value from a specified column in the same row.
 
-![vlookup-approximate-match](https://www.goskills.com/blobs/blogs/753/520669fc-e41e-45b9-a894-2d57ed498fdd.png)**Explanation:**  In this example, we are using the employee’s annual income as the lookup value within the dataset A2:B6. The value we want to return will be from column 2 of the array. Since the incomes in column A are thresholds and may not be the exact amount of the employee’s annual income, we want Excel to use an approximate match if no exact match is found. Therefore, the final argument is TRUE.
+> **Scenario: Product Price List**
 
-$41,000 is not found in the **array,** and since that value falls between $40,000 and $50,000, Excel will treat the smaller value as its approximate match. The tax rate for $41,000 is thus 8%.
+Imagine you have a list of products and their prices in a spreadsheet. You want to quickly find the price of a specific product by entering its name.
 
-### Important notes about the VLOOKUP function
+**Data Table:**
 
--   The column containing **lookup_values** must be located in the first column of the **table_array**.
--   For the approximate match setting to work correctly, **lookup_values** must be sorted in ascending order.
--   When **range_lookup** = FALSE, an [#N/A error](https://www.goskills.com/Excel/Resources/Excel-errors) is returned if no exact match is found.
--   If you have Microsoft 365 or later, consider using [XLOOKUP](https://www.goskills.com/Excel/Resources/Xlookup-vs-vlookup) instead, as it is simpler to use and offers more flexibility than VLOOKUP.
+| **Product ID** | **Product Name** | **Price** | **Availability** |
+| --- | --- | --- | --- |
+| 101 | Laptop | $800 | Yes |
+| 102 | Mouse | $25 | Yes |
+| 103 | Keyboard | $75 | No  |
+| 104 | Monitor | $200 | Yes |
+
+**Goal**: Find the price of the "Monitor."
+
+The **VLOOKUP** function would be entered in a separate cell, like this:
+
+`=VLOOKUP("Monitor", A2:D5, 3, FALSE)`
+
+-   **`"Monitor"`**: This is the value you are looking for (the **lookup value**).
+    
+-   **`A2:D5`**: This is the **table array**, the range of cells where the data is located.
+    
+-   **`3`**: This is the **column index number**, which tells VLOOKUP to return the value from the third column of the table (the "Price" column).
+    
+-   **`FALSE`**: This ensures an exact match is found.
+    
+
+**Result**: The formula would return `$200`.
+
+> HLOOKUP (Horizontal Lookup)
+
+**HLOOKUP** is used when your data is organized in rows. It searches for a value in the first row of a table and returns a corresponding value from a specified row in the same column.
+
+> **Scenario: Sales Data by Month**
+
+Imagine your data is laid out with months in the first row, and you want to find the sales for a specific month.
+
+**Data Table:**
+
+|     | **Jan** | **Feb** | **Mar** | **Apr** |
+| --- | --- | --- | --- | --- |
+| **Widgets Sold** | 500 | 450 | 600 | 550 |
+
+**Goal**: Find the number of widgets sold in "Mar."
+
+The **HLOOKUP** function would be entered like this:
+
+`=HLOOKUP("Mar", B1:E2, 2, FALSE)`
+
+-   **`"Mar"`**: This is the value you are looking for (the **lookup value**).
+    
+-   **`B1:E2`**: This is the **table array**, the range of cells where the data is located.
+    
+-   **`2`**: This is the **row index number**, which tells HLOOKUP to return the value from the second row of the table ("Widgets Sold" row).
+    
+-   **`FALSE`**: This ensures an exact match is found.
+    
+
+**Result**: The formula would return `600`.
+
 ***
 
 - [ ] Q.9  
