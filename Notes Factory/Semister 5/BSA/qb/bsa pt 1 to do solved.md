@@ -976,7 +976,56 @@ By using both filter and sort, you can quickly analyze specific subsets of your 
 
 - [ ] Q.12  
 ### Write syntax of following functions: Datedif, If, Sumif, Countif, Averageif, Iferror. **4M**  
+### IF Function
 
+-   **Syntax**: `=IF(logical_test, value_if_true, value_if_false)`
+    
+-   **Example**: `=IF(B2>=40, "Pass", "Fail")` returns **"Pass"** if the value in cell B2 is 40 or greater, otherwise it returns **"Fail"**.
+    
+
+***
+
+### SUMIF Function
+
+-   **Syntax**: `=SUMIF(range, criteria, [sum_range])`
+    
+-   **Example**: `=SUMIF(A2:A10, "Laptop", B2:B10)` sums the sales in cells B2:B10 only for products named "Laptop" in cells A2:A10.
+    
+
+***
+
+### COUNTIF Function
+
+-   **Syntax**: `=COUNTIF(range, criteria)`
+    
+-   **Example**: `=COUNTIF(A2:A10, "<40")` counts the number of cells in the range A2:A10 that have a value less than 40.
+    
+
+***
+
+### AVERAGEIF Function
+
+-   **Syntax**: `=AVERAGEIF(range, criteria, [average_range])`
+    
+-   **Example**: `=AVERAGEIF(B2:B10, "East", C2:C10)` calculates the average of values in cells C2:C10 for all entries corresponding to the "East" region in cells B2:B10.
+    
+
+***
+
+### IFERROR Function
+
+-   **Syntax**: `=IFERROR(value, value_if_error)`
+    
+-   **Example**: `=IFERROR(B2/C2, "Invalid Input")` returns the result of `B2/C2`, but if that calculation produces an error, it returns **"Invalid Input"**.
+    
+
+***
+
+### DATEDIF Function
+
+-   **Syntax**: `=DATEDIF(start_date, end_date, unit)`
+    
+-   **Example**: `=DATEDIF(A2, B2, "Y")` returns the number of full years between the date in cell A2 and the date in cell B2.
 ***
 
 - [ ] Q.13  
