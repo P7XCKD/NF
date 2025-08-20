@@ -100,7 +100,6 @@
     -   **Example:** If the baker takes out a large loan for an oven but their business fails, they would have to pay back the loan using their own personal savings.
 
 ***
-***
 - [ ] Q.8  
 ### Explain any four qualities of a successful entrepreneur. **6M**  
 
