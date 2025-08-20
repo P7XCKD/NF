@@ -8,7 +8,7 @@
 - [x] Q.8 Describe the working of the Waterfall Model. List any three advantages and three disadvantages. (6 marks)
 - [x] Q.9 When is the Waterfall Model preferred in software development? Give examples of suitable projects. (4 marks)
 - [x] Q.10 Draw and Explain iterative model (6 marks)
-- [ ] Q.11 When is the Iterative model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
+- [x] Q.11 When is the Iterative model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
 - [ ] Q.12 Explain the Iterative model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
 - [ ] Q.13 Draw and Explain Incremental model (6 marks)
 - [ ] Q.14 When is the Incremental model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
