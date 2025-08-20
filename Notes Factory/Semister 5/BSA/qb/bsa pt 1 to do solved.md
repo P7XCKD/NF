@@ -753,7 +753,24 @@ Your spreadsheet now automatically highlights all the passing scores in **green*
 
 - [ ] Q.8  
 ### Example on Lookup Functions. **6/8M**  
+>Example 1: VLOOKUP with exact match
 
+![vlookup-exact-match](https://www.goskills.com/blobs/blogs/753/4a31b65a-97a7-425e-9732-e0304345abb7.png)**Explanation:** In this example, we are using the employee ID as the lookup value within the dataset D2:F6. The value we want to return will be from column 2 of the array, and we need an exact match, so the final argument is FALSE.
+
+The value is found in cell D2. Therefore, the return value is “Dustin Leaver”.
+
+>Example 2: VLOOKUP with approximate match
+
+![vlookup-approximate-match](https://www.goskills.com/blobs/blogs/753/520669fc-e41e-45b9-a894-2d57ed498fdd.png)**Explanation:**  In this example, we are using the employee’s annual income as the lookup value within the dataset A2:B6. The value we want to return will be from column 2 of the array. Since the incomes in column A are thresholds and may not be the exact amount of the employee’s annual income, we want Excel to use an approximate match if no exact match is found. Therefore, the final argument is TRUE.
+
+$41,000 is not found in the **array,** and since that value falls between $40,000 and $50,000, Excel will treat the smaller value as its approximate match. The tax rate for $41,000 is thus 8%.
+
+### Important notes about the VLOOKUP function
+
+-   The column containing **lookup_values** must be located in the first column of the **table_array**.
+-   For the approximate match setting to work correctly, **lookup_values** must be sorted in ascending order.
+-   When **range_lookup** = FALSE, an [#N/A error](https://www.goskills.com/Excel/Resources/Excel-errors) is returned if no exact match is found.
+-   If you have Microsoft 365 or later, consider using [XLOOKUP](https://www.goskills.com/Excel/Resources/Xlookup-vs-vlookup) instead, as it is simpler to use and offers more flexibility than VLOOKUP.
 ***
 
 - [ ] Q.9  
