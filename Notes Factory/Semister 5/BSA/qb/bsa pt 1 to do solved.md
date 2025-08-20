@@ -446,7 +446,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 
 # Chapter 2: Data Analytics with Excel — CO2
 
-- [ ] Q.1  
+- [x] Q.1  
 ### Explain the role of Excel in data analytics. **4M**  
 
 
