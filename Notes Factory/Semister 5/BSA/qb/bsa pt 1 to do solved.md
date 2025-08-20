@@ -664,8 +664,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 - [ ] Q.5  
 ### Write Steps of Data Validation in Excel. **4M**  
 
-Data validation helps you control what users can enter into a cell. Here are the steps to set it up:
-
+Data validation helps you control what users can enter into a cell. 
 1.  **Select Cells:** Choose the cell or range of cells where you want to apply the validation rule.
     
 2.  **Go to Data Validation:**
@@ -687,6 +686,7 @@ Data validation helps you control what users can enter into a cell. Here are the
     -   In the **Error Alert** tab, you can create a message that pops up if someone enters invalid data.
         
 5.  **Click OK:** Click **OK** to apply the rule. Now, only valid data can be entered into the selected cells.
+> example: When you create a rule that only allows numbers between 1 and 10, a user who tries to type "20" will see a pop-up window with a **Stop** sign. The message will say something like, "**The number you entered is not valid.** Please enter a number between 1 and 10." The user is then forced to fix their entry.
 ***
 
 - [ ] Q.6  
