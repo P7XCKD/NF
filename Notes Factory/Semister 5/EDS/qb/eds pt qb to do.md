@@ -24,48 +24,24 @@
 
 ---
 
-- [ ] Q.5  
-### Describe three major challenges faced by entrepreneurs? **4M**  
 
----
 
 - [ ] Q.6  
 ### Define a Sole Proprietorship. Mention one advantage and one disadvantage. **4M**  
 
 ---
 
-- [ ] Q.7  
-### Explain Private Limited Company? **4M**  
 
----
 
 - [ ] Q.8  
 ### Explain any four qualities of a successful entrepreneur. **6M**  
 
 ---
 
-- [ ] Q.9  
-### Discuss the major functions of an entrepreneur in business development. **6M**  
 
----
 
 - [ ] Q.10  
 ### Differentiate between an entrepreneur and a manager. **6M**  
-
----
-
-- [ ] Q.11  
-### Explain any two types of business structures suitable for start-ups with their advantages and disadvantages. **6M**  
-
----
-
-- [ ] Q.12  
-### Describe any four major barriers faced by start-ups. **6M**  
-
----
-
-- [ ] Q.13  
-### Explain the concept of intrapreneurship with an example. **6M**  
 
 ---
 
@@ -79,15 +55,6 @@
 
 ---
 
-- [ ] Q.16  
-### Describe the major problems faced by entrepreneurs? How can they overcome these challenges? **8M**  
-
----
-
-- [ ] Q.17  
-### Describe the roles of an entrepreneur and a manager. How do they complement each other? **8M**  
-
----
 
 - [ ] Q.18  
 ### Explain Maslow’s Need Hierarchy and its relevance in motivating entrepreneurs and employees. **8M**  
