@@ -974,7 +974,7 @@ By using both filter and sort, you can quickly analyze specific subsets of your 
 -   **Applications:** Analyzing the relationship between advertising spend and sales, or comparing a student's study hours to their exam scores.
 ***
 
-- [ ] Q.12  
+- [x] Q.12  #p
 ### Write syntax of following functions: Datedif, If, Sumif, Countif, Averageif, Iferror. **4M**  
 ### IF Function
 
