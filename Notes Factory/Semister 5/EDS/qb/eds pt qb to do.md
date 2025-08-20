@@ -7,7 +7,6 @@
 - [ ] Q.1  
 ### Define Entrepreneurship and Start-up. **4M**
 
-### Define Entrepreneurship and Start-up (4 Marks)
 
 > **Entrepreneurship** is the act of starting and running a business to earn a profit. It's about a person who identifies a need or a problem and creates a business to solve it for people.
 
