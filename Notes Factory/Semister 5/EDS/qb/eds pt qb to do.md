@@ -77,7 +77,7 @@
 
 
 
-- [ ] Q.6  
+- [x] Q.6  
 ### Define a Sole Proprietorship. Mention one advantage and one disadvantage. **4M**  
 
 
