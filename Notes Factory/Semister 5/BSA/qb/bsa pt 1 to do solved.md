@@ -871,7 +871,7 @@ Data cleaning is the process of making data accurate and usable by fixing common
     -   **Solution:** Use the **Format Cells** option. Select the cells, press **Ctrl + 1**, and choose the correct category (e.g., "Date") and a consistent format for all your entries. This ensures the data is read correctly for sorting and calculations.
 ***
 
-- [ ] Q.10  
+- [x] Q.10  #p
 ### Example on Sorting & Filtering. **4/6M**  
 Sorting helps you arrange data to make it easier to read and analyze. You can sort data alphabetically, numerically, or by date.
 
@@ -938,6 +938,40 @@ By using both filter and sort, you can quickly analyze specific subsets of your 
 - [ ] Q.11  
 ### Enlist various charts in Excel. Describe its function, advantage and applications. **6M**  
 
+> **1. Column/Bar Chart**
+
+-   **Function:** Compares values across different categories. A column chart displays data vertically, while a bar chart shows it horizontally.
+    
+-   **Advantage:** Very easy to read and effective for comparing items side-by-side.
+    
+-   **Applications:** Comparing sales figures between different products, showing student marks, or comparing population data for various countries.
+    
+
+> **2. Line Chart**
+
+-   **Function:** Shows trends over time or continuous data. Each line connects a series of data points, making it easy to see how a value changes.
+    
+-   **Advantage:** Excellent for spotting patterns, trends, and fluctuations over a period.
+    
+-   **Applications:** Tracking stock prices, showing website traffic over a year, or monitoring temperature changes over a day.
+    
+
+> **3. Pie Chart**
+
+-   **Function:** Represents parts of a whole. Each slice of the pie shows the proportion of a category to the total.
+    
+-   **Advantage:** Simple and effective for showing a percentage breakdown of a single data set.
+    
+-   **Applications:** Showing market share percentages, the breakdown of a household budget, or a company's sales by region.
+    
+
+> **4. Scatter Plot**
+
+-   **Function:** Shows the relationship between two sets of numerical data. It uses a series of dots to represent data points.
+    
+-   **Advantage:** Useful for identifying correlations, trends, or clusters in data.
+    
+-   **Applications:** Analyzing the relationship between advertising spend and sales, or comparing a student's study hours to their exam scores.
 ***
 
 - [ ] Q.12  
