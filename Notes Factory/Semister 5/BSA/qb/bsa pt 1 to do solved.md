@@ -751,7 +751,7 @@ Let's say you have a list of student marks in a spreadsheet and want to instantl
 Your spreadsheet now automatically highlights all the passing scores in **green** and the failing scores in **red**. If a student's mark changes, the color will update instantly. This shows how conditional formatting dynamically helps you visualize your data without any manual work.
 ***
 
-- [ ] Q.8  
+- [x] Q.8  
 ### Example on Lookup Functions. **6/8M**  
 
 
