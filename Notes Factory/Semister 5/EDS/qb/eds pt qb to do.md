@@ -4,7 +4,7 @@
 
 ---
 
-- [ ] Q.1  
+- [x] Q.1  #p
 ### Define Entrepreneurship and Start-up. **4M**
 
 
