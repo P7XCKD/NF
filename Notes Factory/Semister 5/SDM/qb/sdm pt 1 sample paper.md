@@ -1,6 +1,4 @@
-Okay, I will update the note to reflect that the COCOMO model is likely to be a maximum of 6 marks, based on your input.
 
-***
 
 ### Final Question Paper
 
