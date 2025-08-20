@@ -12,7 +12,7 @@
 - [x] Q.12 Explain the Iterative model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
 - [x] Q.13 Draw and Explain Incremental model (6 marks)
 - [x] Q.14 When is the Incremental model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
-- [ ] Q.15 Explain the Incremental model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
+- [x] Q.15 Explain the Incremental model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
 - [ ] Q.16 Draw and Explain Prototype model (6 marks)
 - [ ] Q.17 When is the Prototype model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
 - [ ] Q.18 Explain the Prototype model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
