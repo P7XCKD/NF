@@ -31,7 +31,7 @@
     
     -   **Example:** **Ratan Tata** risked acquiring the struggling Jaguar and Land Rover brands, turning them into a major success.
         
--   **Vision and Innovation:** Entrepreneurs have a clear vision and are driven by a novel idea or solution to a problem. They think creatively to stay ahead.
+-   **Vision and Innovation:** Entrepreneurs have a clear vision and are driven by aa idea or solution to a problem. They think creatively to stay ahead.
     
     -   **Example:** **Steve Jobs** had the vision to combine a music player, phone, and internet device into a single product, which led to the innovative creation of the iPhone.
         
