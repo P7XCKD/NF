@@ -75,16 +75,6 @@
 
 ---
 
-- [ ] Q.2  
-### Explain value creation in entrepreneurship? **4M**  
-
----
-
-- [ ] Q.3  
-### Define business opportunity and its key characteristics. **4M**  
-
----
-
 - [ ] Q.4  
 ### Mention three ways to search for a business opportunity. **4M**  
 
@@ -95,8 +85,6 @@
 
 ---
 
-- [ ] Q.6  
-### Explain the key stages in the creativity process. **6M**  
 
 ---
 
@@ -105,10 +93,7 @@
 
 ---
 
-- [ ] Q.8  
-### Explain how can entrepreneurs identify and evaluate a business opportunity? **6M**  
 
----
 
 - [ ] Q.9  
 ### Explain the concept of value creation with an example. **6M**  
@@ -130,25 +115,12 @@
 
 ---
 
-- [ ] Q.13  
-### Explain the role of customer validation in the success of a new business. **6M**  
-
----
 
 - [ ] Q.14  
 ### Explain the process of business idea generation in detail. **8M**  
 
 ---
 
-- [ ] Q.15  
-### Explain value creation and value proposition. How do they contribute to the success of a business? **8M**  
-
----
-
-- [ ] Q.16  
-### Explain how does market research help in the identification and evaluation of business opportunities? **8M**  
-
----
 
 - [ ] Q.17  
 ### Describe prototyping and its type in detail with appropriate example? **8M**  
