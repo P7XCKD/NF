@@ -6,13 +6,12 @@
 
 - [ ] Q.1  
 ### Define Entrepreneurship and Start-up. **4M**
+
 **Entrepreneurship** is the act of starting a new business and taking on the risks that come with it. It's about being a problem-solver who sees an opportunity and creates a business to make money from it. It's a way of thinking that values creativity and being a leader.
 
 **Example:** A graphic designer decides to start their own freelance business. They are an **entrepreneur** because they are building a business, managing it, and taking on the financial risk to make a profit.
 
 ***
-
-### Start-up
 
 A **start-up** is a brand-new company built with the goal of growing very quickly and becoming a huge business. They often use new technology to create a product or service that can be sold to many people around the world. Unlike a typical small business, start-ups are usually not profitable at first and need to get a lot of money from investors to fuel their rapid growth.
 
