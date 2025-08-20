@@ -98,7 +98,7 @@ A **sole proprietorship** is a business owned and run by just one person. The ow
     -   **Example:** If the baker takes out a large loan for an oven but their business fails, they would have to pay back the loan using their own personal savings.
 
 ***
-- [ ] Q.8  
+- [x] Q.8  #p
 ### Explain any four qualities of a successful entrepreneur. **6M**  
 
 
