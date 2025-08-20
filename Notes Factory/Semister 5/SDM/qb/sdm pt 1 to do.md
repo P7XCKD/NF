@@ -1,4 +1,4 @@
-- [ ] Q.1 Define term Software and list types of software (2 marks)
+- [x] Q.1 Define term Software and list types of software (2 marks)
 - [ ] Q.2 Define the term Software Engineering. Explain its need in modern software development (4 marks)
 - [ ] Q.3 Explain any four phases of the Software Development Life Cycle (SDLC) with a neat diagram. (6 marks)
 - [ ] Q.4 Write the need of SDLC in Software Engineering (4 marks)
