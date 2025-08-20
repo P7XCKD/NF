@@ -136,10 +136,6 @@
 
 ---
 
-- [ ] Q.2  
-### Define Market Opportunity in the context of a business plan. **4M**  
-
----
 
 - [ ] Q.3  
 ### Name any three authorities that provide business clearance certificates. **4M**  
@@ -156,40 +152,17 @@
 
 ---
 
-- [ ] Q.6  
-### Define CPM (Critical Path Method) in project management. **4M**  
 
----
 
-- [ ] Q.7  
-### Explain ROI (Return on Investment)? **4M**  
 
----
 
-- [ ] Q.8  
-### Name three primary factors to consider while choosing a business location. **4M**  
-
----
-
-- [ ] Q.9  
-### Explain the significance of a Project Report in business planning. **6M**  
-
----
-
-- [ ] Q.10  
-### Explain the importance of Market Research in a business plan? **6M**  
-
----
 
 - [ ] Q.11  
 ### Compare CPM and PERT in project management. **6M**  
 
 ---
 
-- [ ] Q.12  
-### Discuss the financial details required in a Project Report. **6M**  
 
----
 
 - [ ] Q.13  
 ### Explain Project Appraisal? Explain its key steps. **6M**  
@@ -201,15 +174,6 @@
 
 ---
 
-- [ ] Q.15  
-### Discuss the impact of business location on profitability. **6M**  
-
----
-
-- [ ] Q.16  
-### Describe the types of GST applicable in India. **6M**  
-
----
 
 - [ ] Q.17  
 ### Explain the key components of a Project Report with relevant examples. **8M**  
@@ -218,15 +182,5 @@
 
 - [ ] Q.18  
 ### Describe the importance of selecting the right business location. What factors influence this decision? **8M**  
-
----
-
-- [ ] Q.19  
-### Define Project Appraisal? Explain its different aspects. What is taxation? Explain the differences between GST and Income Tax. **8M**  
-
----
-
-- [ ] Q.20  
-### Explain how CPM and PERT help in efficient project management with an example. **8M**  
 
 ---
