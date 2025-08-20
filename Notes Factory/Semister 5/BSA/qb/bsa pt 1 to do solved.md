@@ -489,7 +489,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 >
 ***
 
-- [ ] Q.2  
+- [x] Q.2  
 ### Compare Pivot table with Pivot Chart. **4M**  
 ![image](.attachments/4eec11d5ce567f3f0312e48be580272230886731.png) 
 ***
@@ -585,8 +585,9 @@ This approach helps companies make smarter, more reliable decisions by using ana
 >     
 >     -   **Before**: `"Data"`, followed by a line break, then `"Analytics"`
 >         
->     -   **After**: `=CLEAN("Data"&CHAR(10)&"Analytics")` returns `"DataAnalytics"`
+>     -   **After**: `=CLEAN(A1)` returns `"DataAnalytics"`
 >
+> you can use cell also directly instead of text
 ***
 
 - [ ] Q.4  
