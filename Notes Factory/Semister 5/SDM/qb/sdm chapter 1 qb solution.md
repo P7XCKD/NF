@@ -4,7 +4,7 @@
 
 * **Software** is a collection of instructions, data, or computer programs that are used to run machines and carry out particular activities.
 * It is the opposite of hardware, which refers to a computer's physical components.
-* A device's running programs, scripts, and applications are collectively referred to as "software" in this context.
+
 * **Types of software:**
 
   1. **System Software** – It manages hardware and system resources (e.g., Windows OS).
