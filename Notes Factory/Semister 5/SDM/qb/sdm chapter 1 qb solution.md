@@ -582,67 +582,89 @@ A **defense system software** project with high-security needs and unclear initi
 > [!abstract] Answers mentioned in end 
 > Excercise
 
-1.  A software product is to be developed **feature by feature**, with each completed part delivered to the client for use before moving to the next.
-    
-2.  The customer is **unsure about the exact UI design** and needs to see a **visual working demo** before finalizing requirements.
-    
-3.  The project is **large, has critical goals**, and involves **continuous risk analysis** at every stage of development.
-    
-4.  A small team works in **short sprints (2 weeks)**, conducts **daily meetings**, and delivers working code frequently for early feedback.
-    
-5.  All requirements are **well-defined and fixed upfront**, and the team wants to follow a **step-by-step plan without overlapping phases**.
-    
-6.  The software is developed in **time-boxed iterations**, and the client is actively involved in reviewing and suggesting changes every few weeks.
-    
-7.  The development process is divided into **multiple versions**, where each version includes **user-prioritized features** delivered incrementally.
-    
-8.  Developers are unclear about the **client’s expectations**, so they decide to first build a **basic mock-up** to get approval.
-    
-9.  A banking application is being developed where **any failure is unacceptable**, so risks must be evaluated and handled **before each phase**.
-    
-10.  The development team wants to **release each module separately**, and each new module builds on the previous one.
-    
-11.  The software is expected to go through **several build-feedback-improve cycles**, refining features after each version is tested by users.
-    
-12.  A **government contract** software has clearly written specifications. The team must follow **strict sequence** from design to delivery.
-    
-13.  The client provides **partial requirements** and is ready to explore and refine the idea **after seeing early working modules**.
-    
-14.  An app is built in **iterative loops**, with each loop representing a phase like planning, development, and review.
-    
-15.  The team starts by creating a **rough prototype** so the client can better understand and finalize what they need.
-    
-16.  Requirements are **uncertain**, and there is a need for **constant feedback and regular updates** to adapt to changing needs.
-    
-17.  A project has **tight deadlines** and the customer wants to **receive working parts** of the software as early as possible.
-    
-18.  The client needs a **mock system** to interact with and suggest design changes before the actual code is developed.
-    
-
- **Answers with Justifications:**
-
-| #   | Model | Justification |
-| ---: | --- | --- |
-| 1   | Incremental | Step-by-step feature delivery. |
-| 2   | Prototype | Early UI demo for unclear design. |
-| 3   | Spiral | Risk-driven large project. |
-| 4   | Agile | Sprint-based with daily standups. |
-| 5   | Waterfall | Fixed requirements + linear process. |
-| 6   | Agile | Time-boxed sprints + regular feedback. |
-| 7   | Incremental | Prioritized features released in parts. |
-| 8   | Prototype | Mock-up to clarify client expectations. |
-| 9   | Spiral | Risk handling critical at every stage. |
-| 10  | Incremental | Modules built one after another. |
-| 11  | Iterative | Multiple feedback-and-refine cycles. |
-| 12  | Waterfall | Government, fixed-specs, linear flow. |
-| 13  | Prototype | Partial requirements → early demo → refinement. |
-| 14  | Spiral | Loops with planning + risk + review = Spiral. |
-| 15  | Prototype | Early basic build to understand needs. |
-| 16  | Agile | Changing needs + continuous feedback = Agile. |
-| 17  | Incremental | Tight deadlines + early parts delivered. |
-| 18  | Prototype | Dummy/mock system to finalize requirements. |
 
 
+1.  The team is building a complex AI system where the requirements are constantly evolving, and the customer needs to see working code and give feedback every two weeks.
+    
+2.  A government defense project has clearly defined and unchanging requirements, and the process must be followed in a strict, sequential order without deviation.
+    
+3.  A mobile app is to be released with core functionality first, followed by separate, planned feature additions like social media integration and user profiles in later releases.
+    
+4.  Developers are unsure about the client's final design for a new e-commerce website, so they first create a basic, non-functional visual **mock-up** for the client's approval.
+    
+5.  A large-scale project for a medical device requires extensive **risk analysis** at every stage, as a system failure could be catastrophic.
+    
+6.  The team works in **short, time-boxed cycles**, where each cycle delivers an improved and more refined version of the software.
+    
+7.  A software system is built in modules, with each **module being developed and delivered** to the client as soon as it is completed.
+    
+8.  The client has a general idea for an educational app but needs to first interact with a **working demo** to help finalize the features and user experience.
+    
+9.  A high-risk project involves developing a new flight control system. The team needs to identify and **mitigate risks** before committing to development for each phase.
+    
+10.  The project manager wants to follow a **rigid, step-by-step plan** for a well-understood banking application, with a single delivery at the end.
+     
+11.  A small startup is building a new social platform and needs to get **constant feedback** from users to pivot and add new features as they are requested.
+     
+12.  The team first builds a **rough version** of the software to get client feedback on the overall concept before investing time in building the full system.
+     
+13.  A large business management software is being developed, where new features are **added in phases**, each new release containing a new set of capabilities.
+     
+14.  An application is developed through a series of **development-and-testing cycles**, with each cycle adding more functionality and improving the product.
+     
+15.  The team is developing software for a critical infrastructure system. Due to the high-stakes nature, they must perform **risk management** and reviews before moving from one phase to the next.
+     
+16.  The team needs to release a minimum viable product (MVP) with only essential features to meet a **tight deadline**, with more features to be **delivered incrementally** later.
+     
+17.  A team of developers and a client are collaborating closely, with daily check-ins and frequent releases to adapt to **changing requirements**.
+     
+18.  The project is a new operating system that will be developed in **multiple versions**, where each subsequent version is a more complete and feature-rich refinement of the previous one.
+     
+19.  A team is tasked with building a web application. Due to the client's **uncertainty about the final design**, they first create a **throwaway prototype** to explore options.
+     
+20.  A large corporation needs a new payroll system with **stable, well-defined requirements**. The team is to progress through distinct stages of design, coding, testing, and deployment.
+
+ > [!check] Answers with Justifications:
+
+1.  **Agile:** The focus on **constant evolution** and the need for **working code every two weeks** are hallmarks of Agile development's short cycles and frequent feedback loops.
+    
+2.  **Waterfall:** This scenario is a classic example of the Waterfall model, characterized by **unchanging requirements** and a **strict, sequential order** of execution.
+    
+3.  **Incremental:** The project is built by adding **separate, planned feature additions** in later releases, which is the core principle of the Incremental model.
+    
+4.  **Prototype:** Creating a **non-functional visual mock-up** to finalize a design demonstrates the Prototype approach, where an early model is built to clarify requirements.
+    
+5.  **Spiral:** The project's need for extensive **risk analysis** at every stage, especially due to a catastrophic failure risk, is the primary identifier of the Spiral model.
+    
+6.  **Iterative:** The description of **short, time-boxed cycles** that deliver an **improved and more refined version** of the software directly points to the Iterative model's core concept of refinement.
+    
+7.  **Incremental:** The key here is that **each module is developed and delivered** to the client as it is completed, allowing for early and piecemeal delivery.
+    
+8.  **Prototype:** The need to interact with a **working demo** to help finalize features and experience is the classic use case for the Prototype model.
+    
+9.  **Spiral:** The phrase **"mitigate risks before committing to development"** is the central principle of the Spiral model's risk-driven approach.
+    
+10.  **Waterfall:** The desire for a **rigid, step-by-step plan** for a well-understood project signifies a linear, non-overlapping approach characteristic of the Waterfall model.
+     
+11.  **Agile:** The need for **constant feedback** to quickly adapt and add features is a perfect fit for the Agile model's flexible and customer-centric methodology.
+     
+12.  **Prototype:** Building a **rough version** to get feedback on the overall concept before committing resources is the essence of the Prototype model.
+     
+13.  **Incremental:** New features being **added in phases** and each new release containing a new set of capabilities defines the Incremental model's strategy.
+     
+14.  **Iterative:** The process of **development-and-testing cycles** to add more functionality and **improve the product** over time is the defining feature of the Iterative model.
+     
+15.  **Spiral:** The mention of **risk management** and review before moving between phases directly points to the risk-driven nature of the Spiral model.
+     
+16.  **Incremental:** The strategy of releasing a product with core features first to meet a **tight deadline** and then delivering more features **incrementally** is a key characteristic of this model.
+     
+17.  **Agile:** Close collaboration, **daily check-ins**, and the need to **adapt to changing requirements** are all core principles of the Agile methodology.
+     
+18.  **Iterative:** Developing software in **multiple versions**, where each subsequent version is a more complete **refinement** of the previous one, is the definition of the Iterative model.
+     
+19.  **Prototype:** The client's **uncertainty about the final design** and the decision to build a **throwaway prototype** to explore options is a classic Prototype scenario.
+     
+20.  **Waterfall:** The presence of **stable, well-defined requirements** and a process that moves through **distinct stages** in a strict sequence is the foundation of the Waterfall model.
 ***
 ###  Q.23 Define term agile and write any four principles of agile manifesto (4 marks)
 
