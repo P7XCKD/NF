@@ -727,6 +727,28 @@ Data validation helps you control what users can enter into a cell.
 - [ ] Q.7  
 ### Example on Conditional Formatting. **6M**  
 
+Conditional formatting automatically changes the look of cells based on rules you set, which is great for highlighting key data or trends.
+
+
+
+> How It Works: A Student Marks Example 
+
+Let's say you have a list of student marks in a spreadsheet and want to instantly see who passed and who failed. The passing mark is 35 out of 100.
+
+### Steps to Apply the Rules:
+
+1.  **Select the Data**: First, select the cells that contain the student marks.
+    
+2.  **Access Conditional Formatting**: Go to the **Home** tab and click on **Conditional Formatting** in the Styles group.
+    
+3.  **Create "Passed" Rule**: Choose **Highlight Cells Rules** > **Greater Than...**. In the box, type **34**. Choose a green fill to show passing marks and click **OK**.
+    
+4.  **Create "Failed" Rule**: With the same cells still selected, go back to **Conditional Formatting**. This time, choose **Less Than...**. In the box, type **35**. Choose a red fill to show failing marks and click **OK**.
+    
+
+### The Result
+
+Your spreadsheet now automatically highlights all the passing scores in **green** and the failing scores in **red**. If a student's mark changes, the color will update instantly. This shows how conditional formatting dynamically helps you visualize your data without any manual work.
 ***
 
 - [ ] Q.8  
