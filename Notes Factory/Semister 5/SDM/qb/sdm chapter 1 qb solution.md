@@ -706,9 +706,8 @@ The **Daily Scrum** is a quick 15-minute meeting each day where team members sha
 > **Example:** A team member reports a bug that blocked yesterday’s task and asks for help during the daily stand-up.
 
  **4. Sprint Backlog:**
-
-The **Sprint Backlog** is a selected set of user stories or tasks from the Product Backlog that the team commits to complete in the current Sprint.
-
+The **Sprint Backlog** is the to-do list for a single sprint.
+It's a small checklist of tasks that the team promises to finish in a short period (usually 2-4 weeks). These tasks are chosen from the much bigger list of all project features.
 > **Example:** The Sprint Backlog includes “profile update feature,” “settings UI,” and “unit testing for login module” for this week’s Sprint.
 ***
   
