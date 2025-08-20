@@ -37,12 +37,12 @@
 
 ---
 
-- [ ] Q.1  
+- [x] Q.1  #p
 ### Define term system analysis with the help of example. **4M**  
 
 ---
 
-- [ ] Q.2  
+- [x] Q.2  #p
 ### Define term Preliminary System Study. **4M**  
 
 ---
