@@ -30,62 +30,65 @@
 
 ---
 
+
+---
+
 ## CHAPTER 2: Software Design and Analysis
 
 ---
 
 - [ ] Q.1  
-### Define term system analysis with the help of example. **6M**  
+### Define term system analysis with the help of example. **4M**  
 
 ---
 
 - [ ] Q.2  
-### Define term Preliminary System Study. **6M**  
+### Define term Preliminary System Study. **4M**  
 
 ---
 
 - [ ] Q.3  
-### Explain Feasibility Study process. **6M**  
+### Explain Feasibility Study process. **4M**  
 
 ---
 
 - [ ] Q.4  
-### Explain types of Feasibility Study with example. **8M**  
+### Explain types of Feasibility Study with example. **6/8M**  
 
 ---
 
 - [ ] Q.5  
-### Define term SRS and list SRS users. **6M**  
+### Define term SRS and list SRS users. **4M**  
 
 ---
 
 - [ ] Q.6  
-### Explain the need of SRS document. **6M**  
+### Explain the need of SRS document. **4M**  
 
 ---
 
 - [ ] Q.7  
-### Draw DFD diagram for any system. **8M**  
+### Draw DFD diagram for any system. **6M**  
 
 ---
 
 - [ ] Q.8  
-### Draw Use case diagram for any system. **8M**  
+### Draw Use case diagram for any system. **6M**  
 
 ---
 
 - [ ] Q.9  
-### List and define the role of DFD components with the help of example. **6/8M**  
+### List and define the role of DFD components with the help of example. **4/6M**  
 
 ---
 
 - [ ] Q.10  
-### Problem statement for structured English and decision table. **6/8M**  
+### Problem statement for structured English and decision table. **4/6M**  
 
 ---
 
 - [ ] Q.11  
-### Define term system analyst with the help of example. **6M**  
+### Define term system analyst with the help of example. **4M**  
 
 ---
 
@@ -99,31 +102,31 @@
 ---
 
 - [ ] Q.1  
-### Explain any six factors that influence the choice of a programming language for software development. **8M**  
+### Explain any six factors that influence the choice of a programming language for software development. **6M**  
 
 ---
 
 - [ ] Q.2  
-### State any four uses of programming languages and mention one real-world application for each. **6M**  
+### State any four uses of programming languages and mention one real-world application for each. **4M**  
 
 ---
 
 - [ ] Q.3  
-### Write any four Purpose of Having Coding Standards. **6M**  
+### Write any four Purpose of Having Coding Standards. **4M**  
 
 ---
 
 - [ ] Q.4  
-### List any four commonly followed coding standards in software development. Explain the purpose of each. **6M**  
+### List any four commonly followed coding standards in software development. Explain the purpose of each. **4M**  
 
 ---
 
 - [ ] Q.5  
-### Write any four advantages of Coding Guidelines. **6M**  
+### Write any four advantages of Coding Guidelines. **4M**  
 
 ---
 
 - [ ] Q.6  
-### Describe any four important coding guidelines that help in writing clean, maintainable, and error-free code. **6M**  
+### Describe any four important coding guidelines that help in writing clean, maintainable, and error-free code. **4M**  
 
 ---
