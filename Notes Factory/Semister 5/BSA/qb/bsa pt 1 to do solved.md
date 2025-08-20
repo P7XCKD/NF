@@ -724,7 +724,7 @@ Data validation helps you control what users can enter into a cell.
 > This example shows how What-If analysis saves time and provides a clear, quick way to understand the impact of different variables, helping you make a smarter financial decision.
 ***
 
-- [ ] Q.7  
+- [x] Q.7  
 ### Example on Conditional Formatting. **6M**  
 
 Conditional formatting automatically changes the look of cells based on rules you set, which is great for highlighting key data or trends.
@@ -735,7 +735,7 @@ Conditional formatting automatically changes the look of cells based on rules yo
 
 Let's say you have a list of student marks in a spreadsheet and want to instantly see who passed and who failed. The passing mark is 35 out of 100.
 
-### Steps to Apply the Rules:
+> Steps to Apply the Rules:
 
 1.  **Select the Data**: First, select the cells that contain the student marks.
     
@@ -746,7 +746,7 @@ Let's say you have a list of student marks in a spreadsheet and want to instantl
 4.  **Create "Failed" Rule**: With the same cells still selected, go back to **Conditional Formatting**. This time, choose **Less Than...**. In the box, type **35**. Choose a red fill to show failing marks and click **OK**.
     
 
-### The Result
+> The Result
 
 Your spreadsheet now automatically highlights all the passing scores in **green** and the failing scores in **red**. If a student's mark changes, the color will update instantly. This shows how conditional formatting dynamically helps you visualize your data without any manual work.
 ***
