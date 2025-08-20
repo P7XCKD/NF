@@ -144,7 +144,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 - [ ] Q.15  
 ### Differentiate between an Entrepreneur and Intrapreneur. **6M**  
-
+![image](.attachments/4c9a2d6ea6b2f323abf918a49105b8b486b81402.png) 
 ---
 
 
