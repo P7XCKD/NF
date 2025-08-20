@@ -18,7 +18,7 @@
 - [ ] Q.18 Explain the Prototype model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
 - [x] Q.19 Draw and Explain Spiral model (6 marks)
 - [x] Q.20 When is the Spiral model preferred in software development? Explain any two advantages and disadvantages. (6 marks)
-- [ ] Q.21 Explain the Spiral model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
+- [x] Q.21 Explain the Spiral model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
 - [ ] Q.22 Problem statements based on SDLC models (each for 1 mark) (2/4 marks)
 - [ ] Q.23 Define term agile and write any four principles of agile manifesto (4 marks)
 - [ ] Q.24 Define following terms of agile model: 1. Sprint  2. Scrum  3. Daily Scrum  4. Sprint Backlog (each 2 marks)
