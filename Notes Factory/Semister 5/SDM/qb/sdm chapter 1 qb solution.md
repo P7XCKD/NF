@@ -549,6 +549,36 @@ A **defense system software** project with high-security needs and unclear initi
 ***
 ### Q.22 Problem statements based on SDLC models (each for 1 mark) (2/4 marks)
 
+### Problem Statements based on SDLC Models (2 Marks)
+
+
+> [!abstract] Key Words for SDLC Model Identification
+> 
+> -   **Waterfall:** Look for keywords related to a rigid, sequential process.
+>     
+>     -   **Keywords:** **"well-defined and fixed upfront,"** **"step-by-step plan,"** **"without overlapping phases,"** **"strict sequence,"** "clearly written specifications."
+>         
+> -   **Iterative:** Look for keywords related to cycles of refinement and improvement. The focus is on a single product that gets better over time.
+>     
+>     -   **Keywords:** **"build-feedback-improve cycles,"** "iterative loops," "refining features," "multiple versions" (where each version is a refinement of the last), "explore and refine."
+>         
+> -   **Incremental:** Look for keywords related to building and delivering functional parts of the product, one after the other.
+>     
+>     -   **Keywords:** **"feature by feature,"** "delivers working code frequently," "release each module separately," "working parts," "builds on the previous one."
+>         
+> -   **Agile:** Look for keywords related to speed, flexibility, and customer collaboration.
+>     
+>     -   **Keywords:** **"short sprints,"** **"daily meetings,"** **"time-boxed iterations,"** "constant feedback," "adapt to changing needs," "early feedback."
+>         
+> -   **Spiral:** Look for keywords related to risk management. It's the only model that explicitly mentions risk.
+>     
+>     -   **Keywords:** **"continuous risk analysis,"** **"any failure is unacceptable,"** "risks must be evaluated," "critical goals."
+>         
+> -   **Prototype:** Look for keywords related to building a preliminary version to clarify requirements.
+>     
+>     -   **Keywords:** **"working demo,"** **"visual working demo,"** **"basic mock-up,"** "rough prototype," "mock system," "unclear about the exact UI."
+
+
 > [!abstract] Answers mentioned in end 
 > Excercise
 
