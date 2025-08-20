@@ -661,7 +661,7 @@ This approach helps companies make smarter, more reliable decisions by using ana
 >
 ***
 
-- [ ] Q.5  
+- [x] Q.5  
 ### Write Steps of Data Validation in Excel. **4M**  
 
 Data validation helps you control what users can enter into a cell. 
@@ -691,7 +691,37 @@ Data validation helps you control what users can enter into a cell.
 
 - [ ] Q.6  
 ### Discuss the need of What-if analysis tool in Excel with suitable example. **6/8M**  
+> What-If Analysis is a tool in Excel that helps you see how changes to your numbers affect your final result. Its main goal is to help you make smarter decisions by quickly testing different scenarios, without having to change the data yourself.
 
+***
+
+> **Key Needs & Applications**
+
+> -   **Scenario Planning**: It's crucial for creating and comparing different business or financial situations. For example, a business can model a "best-case," "worst-case," and "most-likely" scenario to understand potential profit based on various sales figures or costs.
+>     
+> - **Goal Seek** is a feature needed when you know the final outcome you want and have to find the input value required to reach it. For example, a student can use Goal Seek to figure out the **exact mark** they need on their final exam to get a specific overall grade for the course, without having to do the math themselves.
+>     
+> -   **Sensitivity Analysis**: It helps identify which variables have the biggest impact on a result. By analyzing this, you can focus on the most important factors and better assess risk.
+>     
+
+***
+
+> **Example: Calculating Loan Payments**
+
+> Imagine you want to buy a car and need to figure out the monthly payment. You have a loan of **$25,000** at a **6%** interest rate over **5 years**. You can use the `PMT` function to calculate the monthly payment, which is about **$483.32**.
+
+> Now, you want to see how the payment would change if the interest rate was different. Instead of manually changing the interest rate in the formula, you can use a What-If Analysis tool like a **Data Table**.
+
+> You would set up a column with different interest rates you want to check (e.g., 5%, 6%, 7%, 8%) and link it to the payment formula. The Data Table will then automatically fill in the corresponding monthly payments for each rate, giving you a quick visual comparison.
+
+> | **Interest Rate** | **Monthly Payment** |
+> | --- | --- |
+> | **5%** | $471.74 |
+> | **6%** | $483.32 |
+> | **7%** | $495.07 |
+> | **8%** | $506.91 |
+
+> This example shows how What-If analysis saves time and provides a clear, quick way to understand the impact of different variables, helping you make a smarter financial decision.
 ***
 
 - [ ] Q.7  
