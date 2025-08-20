@@ -37,16 +37,13 @@ It gives a clear picture of how the **current system works physically** and help
 
 During this stage, the **System Analyst** prepares a **System Proposal**, which includes:
 
--   Problem definition
+-   **Problem Definition:** A clear statement of the issue to be solved.
     
--   Objectives of the study
+-   **Objectives:** The specific goals of the proposed system.
     
--   User requirements
+-   **Requirements & Constraints:** What the new system must do and any limitations it faces.
     
--   Constraints and limitations
-
--   Expected benefits of the new system
-    
+-   **Expected Benefits:** The advantages of implementing the new system.
 
 This proposal is submitted to the **management**, who may accept it, reject it, or ask for changes.
 
