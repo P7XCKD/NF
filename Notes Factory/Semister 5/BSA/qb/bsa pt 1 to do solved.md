@@ -873,7 +873,66 @@ Data cleaning is the process of making data accurate and usable by fixing common
 
 - [ ] Q.10  
 ### Example on Sorting & Filtering. **4/6M**  
+Sorting helps you arrange data to make it easier to read and analyze. You can sort data alphabetically, numerically, or by date.
 
+Filtering allows you to quickly display only the rows that meet certain conditions, temporarily hiding the rest.
+***
+
+  > Combined Example
+
+Imagine you have the following sales data and you want to find the top-selling product for the "West" region.
+
+| Product | Region | Sales ($) |
+| --- | --- | --- |
+| Laptop | East | 1500 |
+| Mouse | West | 300 |
+| Keyboard | East | 800 |
+| Monitor | West | 1200 |
+| Laptop | West | 2100 |
+
+#### Step 1: Filter
+
+First, you filter the data to show only the "West" region.
+
+1.  Click on any cell in your table.
+    
+2.  Go to the **Data** tab and click the **Filter** button.
+    
+3.  Click the dropdown arrow on the "Region" column.
+    
+4.  Uncheck "Select All" and select only "**West**."
+    
+5.  Click **OK**.
+    
+
+Your table will now look like this:
+
+| Product | Region | Sales ($) |
+| --- | --- | --- |
+| Mouse | West | 300 |
+| Monitor | West | 1200 |
+| Laptop | West | 2100 |
+
+#### Step 2: Sort
+
+Next, you sort the filtered data to find the highest sales.
+
+1.  Click the dropdown arrow on the "Sales ($)" column.
+    
+2.  Select "**Sort Largest to Smallest**."
+    
+3.  Click **OK**.
+    
+
+The table will be reordered to show the highest sales on top.
+
+| Product | Region | Sales ($) |
+| --- | --- | --- |
+| Laptop | West | 2100 |
+| Monitor | West | 1200 |
+| Mouse | West | 300 |
+
+By using both filter and sort, you can quickly analyze specific subsets of your data to find the information you need.
 ***
 
 - [ ] Q.11  
