@@ -7,15 +7,17 @@
 - [ ] Q.1  
 ### Define Entrepreneurship and Start-up. **4M**
 
-**Entrepreneurship** is the act of starting a new business and taking on the risks that come with it. It's about being a problem-solver who sees an opportunity and creates a business to make money from it. It's a way of thinking that values creativity and being a leader.
+### Define Entrepreneurship and Start-up (4 Marks)
 
-**Example:** A graphic designer decides to start their own freelance business. They are an **entrepreneur** because they are building a business, managing it, and taking on the financial risk to make a profit.
+> **Entrepreneurship** is the act of starting and running a business to earn a profit. It's about a person who identifies a need or a problem and creates a business to solve it for people.
+
+> **Example:** A person sees a local need for fresh, homemade food and decides to open a small food truck. They are an **entrepreneur** because they are taking on the risk and work to create a new, self-owned business.
 
 ***
 
-A **start-up** is a brand-new company built with the goal of growing very quickly and becoming a huge business. They often use new technology to create a product or service that can be sold to many people around the world. Unlike a typical small business, start-ups are usually not profitable at first and need to get a lot of money from investors to fuel their rapid growth.
+> A **start-up** is a new company built with the goal of growing extremely fast and becoming a big, impactful business, often using technology.
 
-**Example:** Airbnb was a start-up. They created a new way for people to rent out rooms in their homes. The goal was never to be a small, local company; it was to grow rapidly and become a major, global business.
+> **Example:** **Flipkart**, which started as a small online bookstore, is a famous Indian start-up. The founders weren't just trying to run one small shop; they built a platform with the goal of becoming the largest e-commerce company in the country, which they eventually did.
 
 ---
 
