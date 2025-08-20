@@ -701,8 +701,8 @@ Data validation helps you control what users can enter into a cell.
 >     
 > - **Goal Seek** is a feature needed when you know the final outcome you want and have to find the input value required to reach it. For example, a student can use Goal Seek to figure out the **exact mark** they need on their final exam to get a specific overall grade for the course, without having to do the math themselves.
 >     
-> -   **Sensitivity Analysis**: It helps identify which variables have the biggest impact on a result. By analyzing this, you can focus on the most important factors and better assess risk.
->     
+> -  **Data Tables**: This tool is used to see how changing one or two variables impacts a result. It is a key tool for performing **Sensitivity Analysis**, which helps you understand which inputs have the biggest effect on your final outcome.
+
 
 ***
 
