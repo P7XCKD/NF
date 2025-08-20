@@ -96,6 +96,8 @@
 ### Define term system analyst and Explain the roles of a systems analyst. **8M**  
 
 ---
+> [!caution] COCO THINGY PPT ENTIRE AS WELL
+> - [ ] done?
 
 ## CHAPTER 3: Software Coding
 
