@@ -825,6 +825,50 @@ The **HLOOKUP** function would be entered like this:
 - [ ] Q.9  
 ### Example on Data Cleaning. **6M**  
 
+Data cleaning is the process of making data accurate and usable by fixing common problems. 
+> Common Issues and Solutions
+
+1.  **Remove Duplicates:**
+    
+    -   **Problem:** The same customer record appears more than once, leading to incorrect counts.
+        
+    -   **Solution:** Use Excel's "Remove Duplicates" tool. Select your data, go to the **Data** tab, and click **Remove Duplicates**. Excel will then delete the extra rows automatically.
+        
+2.  **Trim Spaces:**
+    
+    -   **Problem:** Unwanted spaces appear at the start, end, or in the middle of text, causing errors in formulas and lookups.
+        
+    -   **Solution:** Use the `TRIM()` function. For example, if cell A1 has `" John Doe "`, using `=TRIM(A1)` will return `"John Doe"`, removing all extra spaces.
+        
+3.  **Correct Text Case:**
+    
+    -   **Problem:** Text is not consistently capitalized (e.g., "new york," "New York," "NEW YORK").
+        
+    -   **Solution:** Use text case functions.
+        
+        -   To make all text lowercase: `=LOWER(A1)` returns `"new york"`.
+            
+        -   To make all text uppercase: `=UPPER(A1)` returns `"NEW YORK"`.
+            
+        -   To capitalize the first letter of each word: `=PROPER(A1)` returns `"New York"`.
+            
+4.  **Fix Spelling Errors:**
+    
+    -   **Problem:** Typos like "Appple" or "Microsfot" can break analysis.
+        
+    -   **Solution:** Use **Find and Replace**. Select your data, press **Ctrl + H**, and enter the incorrect spelling in the "Find what" box and the correct spelling in the "Replace with" box. Click **Replace All**.
+        
+5.  **Fill Missing Values:**
+    
+    -   **Problem:** Some cells are empty, which can cause errors in calculations or charts.
+        
+    -   **Solution:** You can fill missing values manually or by using "Go To Special." Select your data, press **F5**, click **Special**, then choose **Blanks**. Excel will highlight all the empty cells, allowing you to quickly fill them.
+        
+6.  **Standardize Formats:**
+    
+    -   **Problem:** Dates, phone numbers, or other data are formatted inconsistently (e.g., dates as "1/10/2025," "Jan-10-25," and "10-01-2025").
+        
+    -   **Solution:** Use the **Format Cells** option. Select the cells, press **Ctrl + 1**, and choose the correct category (e.g., "Date") and a consistent format for all your entries. This ensures the data is read correctly for sorting and calculations.
 ***
 
 - [ ] Q.10  
