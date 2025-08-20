@@ -708,7 +708,7 @@ Data validation helps you control what users can enter into a cell.
 
 > **Example: Calculating Loan Payments**
 
-> Imagine you want to buy a car and need to figure out the monthly payment. You have a loan of  ```**$25,000** at a **6%** interest rate over **5 years**.``` You can use the `PMT` function to calculate the monthly payment, which is about **$483.32**.
+> Imagine you want to buy a car and need to figure out the monthly payment. You have a loan of  ```$25,000 at a 6% interest rate over 5 years.``` You can use the `PMT` function to calculate the monthly payment, which is about **$483.32**.
 
 > Now, you want to see how the payment would change if the interest rate was different. Instead of manually changing the interest rate in the formula, you can use a What-If Analysis tool like a **Data Table**.
 
