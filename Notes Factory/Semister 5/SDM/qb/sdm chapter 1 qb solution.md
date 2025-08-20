@@ -584,13 +584,13 @@ A **defense system software** project with high-security needs and unclear initi
 
 
 
-1.  The team is building a complex AI system where the requirements are constantly evolving, and the customer needs to see working code and give feedback every two weeks.
+1.  The team is building a complex AI system where the requirements are constantly evolving, and the customer needs to see working code and give feedback every **two weeks**.
     
-2.  A government defense project has clearly defined and unchanging requirements, and the process must be followed in a strict, sequential order without deviation.
+2.  A government defense project has clearly defined and unchanging requirements, and the process must be followed in a **strict, sequential order** without deviation.
     
-3.  A mobile app is to be released with core functionality first, followed by separate, planned feature additions like social media integration and user profiles in later releases.
+3.  A mobile app is to be released with core functionality first, followed by separate, planned **feature additions** like social media integration and user profiles in later releases.
     
-4.  Developers are unsure about the client's final design for a new e-commerce website, so they first create a basic, non-functional visual **mock-up** for the client's approval.
+4.  Developers are unsure about the client's final design for a new e-commerce website, so they first create a basic, non-functional **visual mock-up** for the client's approval.
     
 5.  A large-scale project for a medical device requires extensive **risk analysis** at every stage, as a system failure could be catastrophic.
     
@@ -614,16 +614,15 @@ A **defense system software** project with high-security needs and unclear initi
      
 15.  The team is developing software for a critical infrastructure system. Due to the high-stakes nature, they must perform **risk management** and reviews before moving from one phase to the next.
      
-16.  The team needs to release a minimum viable product (MVP) with only essential features to meet a **tight deadline**, with more features to be **delivered incrementally** later.
+16.  The team needs to release a minimum viable product (MVP) with only essential features to meet a tight deadline, with more features to be **delivered incrementally** later.
      
-17.  A team of developers and a client are collaborating closely, with daily check-ins and frequent releases to adapt to **changing requirements**.
+17.  A team of developers and a client are collaborating closely, with daily check-ins and frequent releases to **adapt to changing requirements**.
      
 18.  The project is a new operating system that will be developed in **multiple versions**, where each subsequent version is a more complete and feature-rich refinement of the previous one.
      
 19.  A team is tasked with building a web application. Due to the client's **uncertainty about the final design**, they first create a **throwaway prototype** to explore options.
      
 20.  A large corporation needs a new payroll system with **stable, well-defined requirements**. The team is to progress through distinct stages of design, coding, testing, and deployment.
-
  > [!check] Answers with Justifications:
 
 1.  **Agile:** The focus on **constant evolution** and the need for **working code every two weeks** are hallmarks of Agile development's short cycles and frequent feedback loops.
