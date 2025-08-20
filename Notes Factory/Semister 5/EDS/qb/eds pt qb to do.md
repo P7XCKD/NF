@@ -43,6 +43,16 @@
 - [ ] Q.3  
 ### Define intrapreneurship? How is it different from entrepreneurship? **4M**  
 
+**Intrapreneurship** is the process of creating new products or services **within a large company**.it's about a company or its employees acting like entrepreneurs by using the company's resources to create something innovative.
+***
+
+> [!abstract] Key Differences from Entrepreneurship
+
+-   **Risk:** An **entrepreneur** takes all the personal financial risk. An **intrapreneur** does not; the company takes on the financial risk of the project.
+    
+-   **Resources:** An **entrepreneur** has to find or raise their own resources. An **intrapreneur** uses the existing resources, budget, and employees of their company.
+    
+-   **Ownership:** An **entrepreneur** fully owns the business they create. An **intrapreneur** does not own the project; it belongs to the company they work for.
 ---
 
 - [ ] Q.4  
