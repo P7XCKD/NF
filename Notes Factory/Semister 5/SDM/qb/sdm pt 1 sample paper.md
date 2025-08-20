@@ -45,4 +45,4 @@
 
 ***
 
-**NOTE:** The provided syllabus for Chapter 2 also mentions the **COCOMO model**. Based on its complexity and the typical question patterns for this topic, a question on it is most likely to be for **4 or 6 marks**. For example, a question could be to define the COCOMO model (4 marks) or to explain its different levels (6 marks).
+**NOTE:** The provided syllabus for Chapter 2 also mentions the **COCOMO model**. Based on its complexity and the typical question patterns for this topic, a question on it is most likely to be for **4 or 6 marks**. For example, a question could be to define the COCOMO model (4 marks) or to explain it along with sum (6 marks).
