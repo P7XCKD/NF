@@ -47,7 +47,7 @@
 
 ---
 
-- [ ] Q.3  
+- [x] Q.3  #p
 ### Explain Feasibility Study process. **4M**  
 
 ---
