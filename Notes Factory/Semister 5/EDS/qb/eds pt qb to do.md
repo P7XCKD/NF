@@ -126,7 +126,7 @@ A **sole proprietorship** is a business owned and run by just one person. The ow
 
 - [ ] Q.10  
 ### Differentiate between an entrepreneur and a manager. **6M**  
-
+![image](.attachments/8efb0be4513f67beffbb05e3cffb7b8aaa385a09.png) 
 ---
 
 - [ ] Q.14  
