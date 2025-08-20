@@ -822,7 +822,7 @@ The **HLOOKUP** function would be entered like this:
 
 ***
 
-- [x] Q.9  #P
+- [x] Q.9  #p
 ### Example on Data Cleaning. **6M**  
 
 Data cleaning is the process of making data accurate and usable by fixing common problems. 
