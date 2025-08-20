@@ -1,7 +1,7 @@
 - [x] Q.1 Define term Software and list types of software (2 marks)
 - [x] Q.2 Define the term Software Engineering. Explain its need in modern software development (4 marks)
 - [x] Q.3 Explain any four phases of the Software Development Life Cycle (SDLC) with a neat diagram. (6 marks) #p
-- [ ] Q.4 Write the need of SDLC in Software Engineering (4 marks)
+- [x] Q.4 Write the need of SDLC in Software Engineering (4 marks)
 - [ ] Q.5 Define the role of SDLC and list any four SDLC models (4 marks)
 - [ ] Q.6 Explain the phases of the Waterfall Model with a neat diagram. (6 marks)
 - [ ] Q.7 Explain the Waterfall Model in detail with a diagram. Write any two advantages and disadvantages. (8 marks)
