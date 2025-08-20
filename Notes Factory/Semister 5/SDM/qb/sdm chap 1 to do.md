@@ -26,7 +26,7 @@
 - [ ] Q.26 Differentiate between SDLC models (any 2) (4/6 marks)
 
 ***
-# ESS QUESTION BANK
+
 
 ---
 
