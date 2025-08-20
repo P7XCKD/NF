@@ -23,6 +23,21 @@
 - [ ] Q.2  
 ### List any three qualities of an entrepreneur. **4M**  
 
+
+> [!abstract] Key Qualities of an Entrepreneur
+
+
+-   **Risk-Taking:** An entrepreneur is willing to take calculated risks and invest time and resources without a guarantee of success.
+    
+    -   **Example:** **Ratan Tata** risked acquiring the struggling Jaguar and Land Rover brands, turning them into a major success.
+        
+-   **Vision and Innovation:** Entrepreneurs have a clear vision and are driven by a novel idea or solution to a problem. They think creatively to stay ahead.
+    
+    -   **Example:** **Elon Musk**'s vision for Tesla was to accelerate the world's transition to sustainable energy, not just build electric cars.
+        
+-   **Perseverance and Resilience:** An entrepreneur must be able to push through difficulties, learn from failures, and not give up.
+    
+    -   **Example:** **Walt Disney** faced multiple rejections and failures before his animation studio found success, showing his resilience.
 ---
 
 - [ ] Q.3  
