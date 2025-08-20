@@ -1,7 +1,5 @@
 # ESS QUESTION BANK PT-1
 
----
-
 ## CHAPTER 1: Entrepreneurship & Start-ups (CO 1) {10 Marks}
 
 ---
