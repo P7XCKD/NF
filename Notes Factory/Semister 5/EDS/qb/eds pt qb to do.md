@@ -40,7 +40,7 @@
     -   **Example:** **Walt Disney** faced multiple rejections and failures before his animation studio found success, showing his resilience.
 ---
 
-- [ ] Q.3  
+- [x] Q.3  #p
 ### Define intrapreneurship? How is it different from entrepreneurship? **4M**  
 
 **Intrapreneurship** is the process of creating new products or services **within a large company**.it's about a company or its employees acting like entrepreneurs by using the company's resources to create something innovative.
