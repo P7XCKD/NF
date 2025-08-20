@@ -151,6 +151,46 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.18  
 ### Explain Maslow’s Need Hierarchy and its relevance in motivating entrepreneurs and employees. **8M**  
 
+**Maslow's Need Hierarchy** is a psychological theory that says people are motivated by five levels of needs. They work to meet the most basic needs first before moving on to the next level.
+
+***
+> [!caution] Just write the headings
+>  no need to write subtitles of headings in diagram
+![Image of Maslow's hierarchy of needs pyramid](https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT4LyYEUAP-NCO12fTUz2uIq6nCWINysFV_5bRfmBQ4Jyq0SX6SrKrqcGBaEPYVvPDJ0nwIweuSw7dtuCppONgArcLj9HVk-7RkeS4Qc8ByECipT38)
+
+
+> [!abstract] Five Levels of Needs
+
+-   **Physiological Needs:** The most basic needs for survival, like food and water.
+    
+    -   **Employee Example:** A fair salary that helps an employee buy food and pay rent.
+        
+    -   **Entrepreneur Example:** An entrepreneur works long hours with little income at the start, sacrificing comfort to build their business.
+        
+-   **Safety Needs:** The need to feel safe and secure from harm.
+    
+    -   **Employee Example:** Having a steady job with a regular salary and health insurance.
+        
+    -   **Entrepreneur Example:** Taking a huge financial risk with the hope of building a secure future for themselves.
+        
+-   **Social Needs:** The need to feel a sense of belonging and connection to others.
+    
+    -   **Employee Example:** Enjoying a friendly team and positive work environment.
+        
+    -   **Entrepreneur Example:** Building a strong network of partners and a loyal community of customers.
+        
+-   **Esteem Needs:** The need for respect, recognition, and a sense of achievement.
+    
+    -   **Employee Example:** Receiving an award or a promotion for good work.
+        
+    -   **Entrepreneur Example:** Gaining public recognition or winning an award for their business success.
+        
+-   **Self-Actualization Needs:** The desire to become the best version of oneself and achieve one's full potential.
+    
+    -   **Employee Example:** Getting a challenging project that allows them to use their skills to the fullest.
+        
+    -   **Entrepreneur Example:** An entrepreneur starts a business not just for money, but to solve a major problem and create a lasting impact on the world.
+
 ---
 
 - [ ] Q.19  
