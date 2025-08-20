@@ -689,7 +689,7 @@ Data validation helps you control what users can enter into a cell.
 > example: When you create a rule that only allows numbers between 1 and 10, a user who tries to type "20" will see a pop-up window with a **Stop** sign. The message will say something like, "**The number you entered is not valid.** Please enter a number between 1 and 10." The user is then forced to fix their entry.
 ***
 
-- [ ] Q.6  
+- [x] Q.6  #p
 ### Discuss the need of What-if analysis tool in Excel with suitable example. **6/8M**  
 > What-If Analysis is a tool in Excel that helps you see how changes to your numbers affect your final result. Its main goal is to help you make smarter decisions by quickly testing different scenarios, without having to change the data yourself.
 
