@@ -81,9 +81,7 @@
 ### Define a Sole Proprietorship. Mention one advantage and one disadvantage. **4M**  
 
 
-> A **sole proprietorship** is a business owned and run by just one person. The owner and the business are not legally separate, so the owner is responsible for all business profits and debts.
-
-***
+In a **sole proprietorship**, the owner and the business are one and the same in the eyes of the law. This means the owner is personally responsible for all business debts.
 
 > [!abstract] Key Points
 
