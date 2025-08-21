@@ -129,7 +129,7 @@ A **sole proprietorship** is a business owned and run by just one person. The ow
 ![image](.attachments/8efb0be4513f67beffbb05e3cffb7b8aaa385a09.png) 
 ---
 
-- [ ] Q.14  
+- [x] Q.14  
 ### Explain Limited Liability Partnership (LLP)? How is it different from a partnership firm? **6M**  
 
 A **Limited Liability Partnership (LLP)** is a business run by partners where the company itself is legally responsible for its debts, not the partners. This protects the owners' personal assets.
