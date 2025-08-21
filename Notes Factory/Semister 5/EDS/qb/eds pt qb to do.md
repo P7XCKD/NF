@@ -318,6 +318,29 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.7  
 ### Differentiate between creativity and innovation with examples. **6M**  
 
+| Basis of Difference | **Creativity** | **Innovation** |
+| --- | --- | --- |
+| **Meaning** | Coming up with a new idea. | Making that new idea happen and work. |
+| **Nature** | A **thinking** process; it is a mental activity. | A **doing** process; it is a productive activity. |
+| **Output** | An idea, thought, or concept. The output may not be tangible or have immediate use. | A new product, service, or business model. The output is tangible and creates value. |
+| **Risk** | Involves little to no risk, as it's a mental exercise. | Involves financial and business risk, as it requires investment and resources. |
+| **Measurement** | Cannot be easily measured. Its value is subjective and hard to quantify. | Can be measured by metrics like profitability, market share, or efficiency. |
+| **Timeline** | Can happen instantly in a "lightbulb moment." | Is a process that unfolds over time and requires structured steps. |
+| **Focus** | Focuses on imagination and conceiving new possibilities. | Focuses on execution and delivering tangible results. |
+| **Relationship** | Serves as the raw material or spark that fuels innovation. | Is the practical application of creative ideas. |
+
+***
+
+> [!abstract] Examples
+> 
+> -   **Creativity:** **Steve Jobs** had the creative idea to combine a music player, a phone, and an internet device into one product. This idea was an act of pure creativity.
+>     
+> -   **Innovation:** The development and successful launch of the **iPhone** was the innovation. It turned the creative idea into a tangible, valuable product that revolutionized the market.
+>     
+> -   **Creativity:** A food truck owner thinking of a new recipe for a popular dish is an act of creativity.
+>     
+> -   **Innovation:** Launching the new dish and having it become a bestseller for the food truck is the innovation.
+>
 ---
 
 
