@@ -161,36 +161,58 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 > [!abstract] Five Levels of Needs
 
--   **Physiological Needs:** The most basic needs for survival, like food and water.
-    
-    -   **Employee Example:** A fair salary that helps an employee buy food and pay rent.
-        
-    -   **Entrepreneur Example:** An entrepreneur works long hours with little income at the start, sacrificing comfort to build their business.
-        
--   **Safety Needs:** The need to feel safe and secure from harm.
-    
-    -   **Employee Example:** Having a steady job with a regular salary and health insurance.
-        
-    -   **Entrepreneur Example:** Taking a huge financial risk with the hope of building a secure future for themselves.
-        
--   **Social Needs:** The need to feel a sense of belonging and connection to others.
-    
-    -   **Employee Example:** Enjoying a friendly team and positive work environment.
-        
-    -   **Entrepreneur Example:** Building a strong network of partners and a loyal community of customers.
-        
--   **Esteem Needs:** The need for respect, recognition, and a sense of achievement.
-    
-    -   **Employee Example:** Receiving an award or a promotion for good work.
-        
-    -   **Entrepreneur Example:** Gaining public recognition or winning an award for their business success.
-        
--   **Self-Actualization Needs:** The desire to become the best version of oneself and achieve one's full potential.
-    
-    -   **Employee Example:** Getting a challenging project that allows them to use their skills to the fullest.
-        
-    -   **Entrepreneur Example:** An entrepreneur starts a business not just for money, but to solve a major problem and create a lasting impact on the world.
+> [!abstract] Physiological Needs
+> 
+> The most basic needs for survival, like food, water, and shelter. These are the fundamental requirements for the human body to function.
+> 
+> -   **Employee Example:** A fair salary that helps an employee buy food and pay rent.
+>     
+> -   **Entrepreneur Example:** An entrepreneur works long hours with little income at the start, sacrificing comfort to build their business.
+>     
 
+***
+
+> [!abstract] Safety Needs
+> 
+> The need to feel safe and secure from physical or financial harm. This includes a sense of order, predictability, and control in one's life.
+> 
+> -   **Employee Example:** Having a steady job with a regular salary and health insurance.
+>     
+> -   **Entrepreneur Example:** Taking a huge financial risk with the hope of building a secure future for themselves.
+>     
+
+***
+
+> [!abstract] Social Needs
+> 
+> The need to feel a sense of belonging and connection to others. This involves forming relationships and being part of a group or community.
+> 
+> -   **Employee Example:** Enjoying a friendly team and positive work environment.
+>     
+> -   **Entrepreneur Example:** Building a strong network of partners and a loyal community of customers.
+>     
+
+***
+
+> [!abstract] Esteem Needs
+> 
+> The need for respect, recognition, and a sense of achievement. This can be internal (self-worth) or external (from others).
+> 
+> -   **Employee Example:** Receiving an award or a promotion for good work.
+>     
+> -   **Entrepreneur Example:** Gaining public recognition or winning an award for their business success.
+>     
+
+***
+
+> [!abstract] Self-Actualization Needs
+> 
+> The desire to become the best version of oneself and achieve one's full potential. This is the highest level of need, focused on personal growth and self-fulfillment.
+> 
+> -   **Employee Example:** Getting a challenging project that allows them to use their skills to the fullest.
+>     
+> -   **Entrepreneur Example:** An entrepreneur starts a business not just for money, but to solve a major problem and create a lasting impact on the world.
+>
 ---
 
 - [ ] Q.19  
