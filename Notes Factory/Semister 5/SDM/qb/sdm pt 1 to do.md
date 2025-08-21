@@ -103,7 +103,7 @@
 
 ---
 
-- [ ] Q.1  
+- [x] Q.1  
 ### Explain any six factors that influence the choice of a programming language for software development. **6M**  
 
 ---
