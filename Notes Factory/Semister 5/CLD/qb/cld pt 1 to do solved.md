@@ -396,8 +396,8 @@ Diagram:
 - [x] Q.13) #p
 ### Define VMM with diagram. **4M**
 
-![Type 1 and Type 2 Virtual Machine Monitors | Download Scientific Diagram](https://www.researchgate.net/publication/221351476/figure/fig1/AS:305492556566528@1449846509293/Type-1-and-Type-2-Virtual-Machine-Monitors.png)
 
+![image](.attachments/5d57aee93e6a47808a636736c6ac22b955bbba26.png) 
 A **hypervisor** (Virtual Machine Monitor – VMM) is a software layer that allows multiple **virtual machines (VMs)** to run on a single physical system.  
 It manages allocation of CPU, memory, storage, and I/O devices among VMs, while ensuring **isolation, security, and efficient resource utilization**.  
 Hypervisors are the backbone of **virtualization and cloud computing**.
