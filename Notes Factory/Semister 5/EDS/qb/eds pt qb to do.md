@@ -292,6 +292,24 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.5  
 ### Define prototyping. Why is it important for a start-up? **4M**  
 
+
+> **Prototyping** is the process of creating a  early version of a product to test its design and functionality before it's fully developed. It can be a simple sketch, a physical model, or a basic digital mockup.
+
+***
+
+> [!abstract] Importance of Prototyping for a Start-up
+
+-   **Saves Time and Money:** It helps a start-up find and fix flaws in a product's design early, which is much cheaper than correcting mistakes after full production has started.
+    
+-   **Gathers Feedback:** A prototype can be shown to potential customers and investors to get valuable feedback, ensuring the final product meets market needs.
+    
+
+-   **Secures Investment:** A working prototype is a powerful tool to convince investors to fund the project by showing its potential.
+    
+
+> [!abstract] Example of Prototyping
+> 
+> When Apple was developing the iPhone, they created numerous prototypes of different sizes and materials to test the user experience, weight, and feel. This process helped them validate the design and gather feedback before committing to mass production, saving millions in potential redesign costs.
 ---
 
 
