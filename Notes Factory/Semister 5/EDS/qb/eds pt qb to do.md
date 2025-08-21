@@ -355,11 +355,67 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.10  
 ### Define: Design Thinking? Explain its five stages. **6M**  
 
----
+**Design Thinking** is a way to solve problems by focusing on what people need. It's a step-by-step process that helps create new, useful solutions by putting the user at the very heart of the design.
+
+
+> [!abstract] Five Stages of Design Thinking
+
+-   **Empathize:** Understand your user's needs and problems by observing them.
+    
+    -   **Example:** A team watches customers in a grocery store to see how they struggle with self-checkout machines.
+        
+-   **Define:** Clearly state the user's main problem based on what you've learned.
+    
+    -   **Example:** The team defines the problem as, "Customers need a faster, simpler way to scan their groceries without errors."
+        
+-   **Ideate:** Brainstorm many creative ideas to solve the problem.
+    
+    -   **Example:** The team quickly sketches ideas for a new checkout machine, including a voice-controlled scanner and a a mobile app.
+        
+-   **Prototype:** Create a simple, low-cost model of the chosen solution to test it.
+    
+    -   **Example:** They build a cardboard model of a new checkout machine to test button placement and screen size.
+        
+-   **Test:** Get feedback on your prototype from real users and refine the solution.
+    
+    -   **Example:** They have a few customers try out the cardboard model and ask them for suggestions on what works and what doesn't.
+
+***
 
 - [ ] Q.11  
 ### Explain SWOT analysis help in evaluating a business idea? **6M**  
 
+
+**SWOT analysis** is a strategic tool used to evaluate a business idea's **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats. 
+
+***
+
+> [!abstract] How SWOT Analysis Helps (Bakery Idea Example)
+
+-   **Strengths (Internal):** These are the internal advantages of the business.
+    
+
+> -   **Example:** The baker has a special, secret family recipe for their popular cake.
+>     
+
+-   **Weaknesses (Internal):** These are the internal disadvantages of the business.
+    
+
+> -   **Example:** The bakery has a weakness in that it can only produce a small number of items per day due to limited oven space.
+>     
+
+-   **Opportunities (External):** These are favorable outside factors the business can use.
+    
+
+> -   **Example:** The bakery has an opportunity in the growing local demand for unique, handmade desserts.
+>     
+
+-   **Threats (External):** These are outside risks that could harm the business.
+    
+
+> -   **Example:** A new, large commercial bakery is opening nearby, which could pose a threat by offering much lower prices.
+>
+>
 ---
 
 - [ ] Q.12  
