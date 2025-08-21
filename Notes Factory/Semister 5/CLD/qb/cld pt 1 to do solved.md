@@ -585,7 +585,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 
 ***
 
-- [ ] Q.8  
+- [x] Q.8  
 ### Give service models for the following services. **4M**  
 EC2, ELB, Google sheet, Google app engine  
 VPC, Netflix, Hadoop, SalesForce  
