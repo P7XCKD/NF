@@ -557,10 +557,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 ### Explain SaaS / PaaS /  IaaS with suitable example + diagram. **4M**  
 
 ### Explain SaaS with suitable example. (4M)
-
-
-![image](Notes Factory/Semister 5/CLD/qb/.attachments/80005b413b4e1dea0c4d41367da3eb6820bb2da1.png) 
-
+![SaaS Architecture Basics: Benefits & Challenges to Remember - Velvetech](https://www.velvetech.com/wp-content/uploads/2023/04/saas-model-architecture.png)
 
 **SaaS (Software as a Service)** is a cloud service model that gives users access to a software application over the internet. The provider manages all aspects of the application, including the data, operating system, and hardware. Users simply use the software through a web browser without needing to install or manage it.
 
@@ -570,7 +567,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 ***
 
 ### Explain PaaS with suitable example. (4M)
-
+![What is PaaS? Platform as a Service in Cloud Computing - Definition, Types](https://63sats.com/wp-content/uploads/2024/02/PaaS-Key-Factors.webp)
 **PaaS (Platform as a Service)** provides developers with a complete platform to build, run, and manage applications without dealing with the underlying infrastructure. The cloud provider handles the servers, OS, and middleware, while developers focus on writing and deploying their application code.
 
 -   **Example:** **Google App Engine** is a PaaS. A developer can upload their code, and the platform automatically handles the deployment, scaling, and server management. The developer only has to worry about the application code itself, not the hardware it runs on.
@@ -580,6 +577,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 
 ### Explain IaaS with suitable example. (4M)
 
+![What is IaaS? Infrastructure as a Service Definition - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20240506190058/What-is-IaaS.webp)
 **IaaS (Infrastructure as a Service)** is the most basic cloud service model. It provides fundamental computing resources like virtual servers, storage, and networking. The user has full control over the operating system, applications, and middleware, while the provider manages the physical hardware.
 
 -   **Example:** **Amazon EC2** is an IaaS. Users can rent a virtual server from AWS, choose its operating system, and then install and manage their own applications on it. The user has complete control over the virtual machine, but AWS takes care of the physical hardware, data center, and networking.
