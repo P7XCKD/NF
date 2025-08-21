@@ -108,7 +108,7 @@
 
 ---
 
-- [ ] Q.2  
+- [x] Q.2  
 ### State any four uses of programming languages and mention one real-world application for each. **4M**  
 
 ---
