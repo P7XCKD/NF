@@ -556,6 +556,34 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 - [ ] Q.5  + 6 + 7
 ### Explain SaaS / PaaS /  IaaS with suitable example + diagram. **4M**  
 
+### Explain SaaS with suitable example. (4M)
+
+
+![image](Notes Factory/Semister 5/CLD/qb/.attachments/80005b413b4e1dea0c4d41367da3eb6820bb2da1.png) 
+
+
+**SaaS (Software as a Service)** is a cloud service model that gives users access to a software application over the internet. The provider manages all aspects of the application, including the data, operating system, and hardware. Users simply use the software through a web browser without needing to install or manage it.
+
+-   **Example:** **Google Docs** is a SaaS application. You can create and edit documents in your web browser without installing any software. Google handles all the updates, maintenance, and storage, and you simply use the service.
+    
+
+***
+
+### Explain PaaS with suitable example. (4M)
+
+**PaaS (Platform as a Service)** provides developers with a complete platform to build, run, and manage applications without dealing with the underlying infrastructure. The cloud provider handles the servers, OS, and middleware, while developers focus on writing and deploying their application code.
+
+-   **Example:** **Google App Engine** is a PaaS. A developer can upload their code, and the platform automatically handles the deployment, scaling, and server management. The developer only has to worry about the application code itself, not the hardware it runs on.
+    
+
+***
+
+### Explain IaaS with suitable example. (4M)
+
+**IaaS (Infrastructure as a Service)** is the most basic cloud service model. It provides fundamental computing resources like virtual servers, storage, and networking. The user has full control over the operating system, applications, and middleware, while the provider manages the physical hardware.
+
+-   **Example:** **Amazon EC2** is an IaaS. Users can rent a virtual server from AWS, choose its operating system, and then install and manage their own applications on it. The user has complete control over the virtual machine, but AWS takes care of the physical hardware, data center, and networking.
+
 
 ***
 
