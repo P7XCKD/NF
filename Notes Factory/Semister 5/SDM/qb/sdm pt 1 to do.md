@@ -62,7 +62,7 @@
 
 ---
 
-- [ ] Q.6  
+- [x] Q.6  
 ### Explain the need of SRS document. **4M**  
 
 ---
