@@ -118,7 +118,7 @@
 
 ---
 
-- [ ] Q.4  
+- [x] Q.4  
 ### List any four commonly followed coding standards in software development. Explain the purpose of each. **4M**  
 
 ---
