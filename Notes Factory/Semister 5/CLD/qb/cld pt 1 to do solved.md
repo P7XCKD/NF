@@ -425,7 +425,45 @@ Hypervisors are the backbone of **virtualization and cloud computing**.
 # Chapter 2
 - [ ] Q.1  
 ### Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
-Enlist characteristics, enlist deployment and service models.  
+(Enlist characteristics, enlist deployment and service models.  )
+
+
+The **NIST definition** describes cloud computing as a way to get easy, on-demand access to a shared pool of computing power, like servers and storage, that can be quickly given to you with almost no effort.
+***
+
+
+> [!abstract] Principles of Cloud Computing
+> 
+> -   **Five Essential Characteristics:**
+>     
+>     -   **On-demand self-service:** Get what you need, when you need it, without asking anyone.
+>         
+>     -   **Broad network access:** Access the cloud from anywhere with an internet connection.
+>         
+>     -   **Resource pooling:** Cloud providers share a large pool of resources among many customers.
+>         
+>     -   **Rapid elasticity:** Scale resources up or down quickly and automatically.
+>         
+>     -   **Measured service:** Pay for exactly what you use.
+>         
+> -   **Four Deployment Models:**
+>     
+>     -   **Private cloud:** Cloud for a single company.
+>         
+>     -   **Community cloud:** Shared cloud for organizations with a common goal.
+>         
+>     -   **Public cloud:** Cloud services open to everyone.
+>         
+>     -   **Hybrid cloud:** A mix of different cloud types working together.
+>         
+> -   **Three Service Models:**
+>     
+>     -   **SaaS (Software as a Service):** Use a provider's application over the internet.
+>         
+>     -   **PaaS (Platform as a Service):** Build and run your apps on a provider's platform.
+>         
+>     -   **IaaS (Infrastructure as a Service):** Rent computing resources like servers and storage.
+>
 ***
 
 - [ ] Q.2  
