@@ -196,6 +196,17 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.19  
 ### Compare and contrast LLP, Private Limited Company and PLC. **8M**  
 
+
+| Feature | **Limited Liability Partnership (LLP)** | **Private Limited Company** | **Public Limited Company (PLC)** |
+| --- | --- | --- | --- |
+| **Governing Law** | Limited Liability Partnership Act, 2008 | Companies Act, 2013 | Companies Act, 2013 |
+| **Liability** | Limited liability for partners, up to their contribution. Each partner is not liable for the misconduct of other partners. | Limited liability for shareholders, up to the value of their shares. | Limited liability for shareholders, up to the value of their shares. |
+| **Ownership** | Owned and managed by the partners. | Owned by shareholders but managed by a Board of Directors. | Owned by shareholders (including the public) and managed by a Board of Directors. |
+| **Number of Members** | Minimum 2, no maximum limit. | Minimum 2, maximum 200. | Minimum 7, no maximum limit. |
+| **Raising Capital** | Cannot issue shares. Funding is typically from partners or private loans. | Can raise funds by issuing shares to private investors. Cannot invite the public. | Can raise large amounts of capital by issuing shares to the public through an IPO. |
+| **Transferability of Ownership** | Partnership rights are not easily transferable and require consent from other partners. | Shares are not freely transferable; they are restricted by the company's Articles of Association. | Shares are freely transferable and can be traded on a stock exchange. |
+| **Compliance & Audit** | Low compliance requirements. Audit is not mandatory unless turnover exceeds ₹40 lakh. | Stricter compliance and reporting. Audit is mandatory. | Very high compliance and regulatory burden. Audit and public disclosure of financial reports are mandatory. |
+| **Public Trust & Credibility** | Lower public trust compared to companies. | Higher credibility than an LLP, but less than a PLC. | Highest level of public trust and credibility. |
 ---
 
 # CHAPTER 2: Business Idea Generation & Evaluation (CO 2) {12 Marks}
