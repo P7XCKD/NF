@@ -543,12 +543,32 @@ A **value proposition** is what makes a customer choose your business. It's the 
 - [ ] Q.1  
 ### Describe the key contents of a Project Report? **4M**  
 
+
+-   **Information about the Entrepreneur:** Details the entrepreneur's background, including their education, experience, and skills. It also includes their vision for the business and past achievements.
+    
+-   **Information about the Project/Business:** Describes the core business concept, the product or service, the target market, and the business's main objectives and goals.
+    
+-   **Technical Details of the Proposed Project:** Outlines the production process, technology requirements, and information about sourcing raw materials and suppliers.
+    
+-   **Financial Details of the Proposed Project:** Provides a financial analysis, including the required capital investment, projected revenues, and estimated operating costs.
 ---
 
 
 - [ ] Q.3  
 ### Name any three authorities that provide business clearance certificates. **4M**  
 
+
+-   **Registrar of Companies (RoC):** Provides business registration certificates.
+    
+    -   **Example:** A bakery business registered as a Private Limited Company must get a Certificate of Incorporation from the RoC to legally operate.
+        
+-   **Local Municipal Corporation:** Grants permits and licenses for local business operations.
+    
+    -   **Example:** A baker who starts a business must get a trade license from their local Municipal Corporation to legally run the shop.
+        
+-   **Directorate of Industries:** Provides a registration certificate for industrial units.
+    
+    -   **Example:** A small-scale bakery that produces goods in bulk for other shops needs to register with the Directorate of Industries for a manufacturing license.
 ---
 
 - [ ] Q.4  
