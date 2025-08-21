@@ -82,7 +82,7 @@
 
 ---
 
-- [ ] Q.10  
+- [x] Q.10  
 ### Problem statement for structured English and decision table. **4/6M**  
 
 ---
