@@ -590,22 +590,117 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 EC2, ELB, Google sheet, Google app engine  
 VPC, Netflix, Hadoop, SalesForce  
 S3, Google documents, Heroku, Facebook  
+
+***
+-   **EC2 (Elastic Compute Cloud):** **IaaS** - It provides virtual servers (infrastructure) that you manage.
+    
+-   **ELB (Elastic Load Balancer):** **IaaS** - It is a networking service that manages traffic distribution, a core piece of infrastructure.
+    
+-   **Google Sheets:** **SaaS** - It is a complete, ready-to-use application accessible via a browser.
+    
+-   **Google App Engine:** **PaaS** - It provides a platform for developers to build and deploy applications without managing the underlying servers.
+    
+-   **VPC (Virtual Private Cloud):** **IaaS** - It gives you a logically isolated network (infrastructure) within a public cloud.
+    
+-   **Netflix:** **SaaS** - It is a finished application that provides video streaming to end-users.
+    
+-   **Hadoop:** **PaaS** - Cloud providers offer Hadoop as a platform to run big data jobs, managing the clusters for you.
+    
+-   **SalesForce:** **SaaS** - It is a complete, ready-to-use customer relationship management application.
+    
+-   **S3 (Simple Storage Service):** **IaaS** - It provides raw storage (infrastructure) for files and data.
+    
+-   **Google Documents:** **SaaS** - It is a fully-featured word processing application used directly by the end-user.
+    
+-   **Heroku:** **PaaS** - It is a platform for building and running applications, abstracting the server management.
+    
+-   **Facebook:** **SaaS** - It is a complete application that provides a social network to its users.
 ***
 
 - [ ] Q.9  
 ### Explain cloud architecture with suitable diagram. **4-6M**  
+![image](.attachments/b6100d0bf8a5789a3fbe9b69f387f15b0e2867cd.png) 
+
+
+***
+
+-   Layer 1: User/Client Layer
+    
+    This layer is the front-end, representing the devices and interfaces used by end-users to access cloud services (e.g., web browsers, mobile apps).
+    
+    -   **Example:** A user's laptop or smartphone running the Google Docs website.
+        
+-   Layer 2: Network Layer
+    
+    This layer is the communication backbone that connects the client to the cloud, managing all data transfer and routing.
+    
+    -   **Example:** The internet connection and protocols that allow a browser to connect to a cloud service.
+        
+-   Layer 3: Cloud Management Layer
+    
+    This is the control plane of the cloud. It's the software that manages and automates resource allocation, provisioning, and monitoring.
+    
+    -   **Example:** Using the AWS Management Console to launch a new virtual server.
+        
+-   Layer 4: Hardware Resource Layer
+    
+    This is the physical foundation of the cloud, including the servers, storage, and networking hardware located in data centers. It provides the raw computing power.
+    
+    -   **Example:** The physical servers and network equipment in a Google or Amazon data center.
 ***
 
 - [ ] Q.10  
 ### Describe Google Cloud Platform with its features and various services offered by GCP. **4-6M**  
+> [!caution] skip
+> i hate this one
 ***
 
 - [ ] Q.11  
 ### Elaborate in brief cloud economy models. **4M**  
+
+
+
+> [!abstract] On-Demand Pricing
+> 
+> You pay for what you use, when you use it, without any long-term contracts.
+> 
+> -   **Example:** A developer uses a server for a few hours and pays only for that time.
+>     
+
+***
+
+> [!abstract] Subscription-Based Pricing
+> 
+> You get a big discount by agreeing to use a service for a fixed period, like one or three years.
+> 
+> -   **Example:** A company buys a "Reserved Instance" for one year to save money.
+>     
+
+***
+
+> [!abstract] Tiered Pricing
+> 
+> The more you use, the less you pay per unit. The price drops after you reach certain usage levels.
+> 
+> -   **Example:** The first 100 GB costs one price, and the next 400 GB costs a lower price.
+>     
+
+***
+
+> [!abstract] Per-Unit Pricing
+> 
+> You pay a single, fixed price for every unit of a service, no matter how much you use.
+> 
+> -   **Example:** Every GB of data costs the same flat rate.
+>
+
 ***
 
 - [ ] Q.12  
 ### Explain architecture of Microsoft Azure along with its example. **6M**  
+
+> [!attention] skip
+> too difficult
 ***
 
 # Chapter 3
