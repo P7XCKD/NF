@@ -468,11 +468,72 @@ The **NIST definition** describes cloud computing as a way to get easy, on-deman
 
 - [ ] Q.2  
 ### Describe 5 principle characteristics of cloud computing with examples. **4M**  
+
+
+> [!abstract] Key Characteristics of Cloud Computing
+> 
+> -   **On-Demand Self-Service:** Users can get computing resources like servers and storage on their own, without needing to contact a service provider.
+>     
+>     -   **Example:** An AWS user can log into the console and launch a new virtual server in minutes.
+>         
+> -   **Broad Network Access:** Cloud services are available over the network and can be accessed by various devices.
+>     
+>     -   **Example:** You can access your files on Google Drive from a laptop, tablet, or smartphone.
+>         
+> -   **Resource Pooling:** The provider's resources are shared among many customers, with resources assigned and reassigned as needed.
+>     
+>     -   **Example:** A cloud provider uses one large data center to host servers for hundreds of different companies.
+>         
+> -   **Rapid Elasticity:** Resources can be scaled up or down quickly and automatically to meet demand.
+>     
+>     -   **Example:** An e-commerce website automatically adds more servers on Black Friday to handle the traffic surge and then removes them afterward.
+>         
+> -   **Measured Service:** Resource usage is tracked and monitored, allowing for a pay-per-use model.
+>     
+>     -   **Example:** A customer is billed only for the amount of data stored or the hours a server was running.
+>
 ***
 
 - [ ] Q.3  
 ### Describe 4 cloud deployment models with suitable example of each. (Draw diagram + eg). **6-8M**  
+
+
+
+#### **1. Public Cloud**
+
+A **public cloud** is a shared platform available to the general public over the internet. It is owned and managed by a third-party cloud service provider. This model operates on a pay-per-use basis, where resources are shared among many users, making it highly scalable and cost-effective.
+![image](.attachments/2d78165c4425950bfedd362dfed54d1fa2b2fa47.png) 
+-   **Example:** A small business uses **Google Drive** or **Microsoft OneDrive** to store and share documents. The service is managed by the provider, and the business only pays for the storage it uses. The underlying infrastructure is shared with countless other users.
+    
+
+#### **2. Private Cloud**
+
+A **private cloud** is an environment used exclusively by a single organization. It can be hosted on-site or by a third-party provider, but the resources are dedicated to one user. This model offers a high level of **security** and **privacy**, as data and operations are isolated from the public. It is often called an "internal" or "corporate" cloud.
+![image](.attachments/194a14f7548cffcf7bd28bc0382207c4ea234c08.png) 
+-   **Example:** A bank stores confidential customer data on a private cloud to ensure sensitive financial information is kept separate from other users and complies with strict security regulations.
+    
+
 ***
+
+#### **3. Hybrid Cloud**
+
+A **hybrid cloud** combines two or more distinct cloud environments, typically a **public cloud** and a **private cloud**, that are linked together. This model allows organizations to run non-critical tasks on the more cost-effective public cloud while keeping sensitive or critical applications and data on the private cloud.
+![image](.attachments/2957d53e4b670136af37d894ef91a5155cb40eba.png) 
+-   **Example:** A university stores student records and sensitive research data on a private cloud while using a public cloud for its website and online learning platform, which experience unpredictable traffic spikes.
+    
+
+***
+
+#### **4. Community Cloud**
+
+A **community cloud** is a cloud infrastructure shared by several organizations that have a common interest, such as security requirements or compliance standards. It is owned and operated by one or more of the community organizations or a third party.
+![image](.attachments/a791fb3720b37fceec7a365cd4e46448c7ae039e.png) 
+-   **Example:** Multiple government agencies or healthcare organizations collaborate on a shared project and use a community cloud to securely share classified documents and data while adhering to specific regulations like HIPAA (Health Insurance Portability and Accountability Act).
+    
+
+***
+
+
 
 - [ ] Q.4  
 ### Compare cloud deployment models. **6M**  
