@@ -77,7 +77,7 @@
 
 ---
 
-- [ ] Q.9  
+- [x] Q.9  
 ### List and define the role of DFD components with the help of example. **4/6M**  
 
 ---
