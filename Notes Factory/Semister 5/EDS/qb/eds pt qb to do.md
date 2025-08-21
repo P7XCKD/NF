@@ -331,23 +331,25 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 ***
 
-> [!abstract] Examples
-> 
-> -   **Creativity:** **Steve Jobs** had the creative idea to combine a music player, a phone, and an internet device into one product. This idea was an act of pure creativity.
->     
-> -   **Innovation:** The development and successful launch of the **iPhone** was the innovation. It turned the creative idea into a tangible, valuable product that revolutionized the market.
->     
-> -   **Creativity:** A food truck owner thinking of a new recipe for a popular dish is an act of creativity.
->     
-> -   **Innovation:** Launching the new dish and having it become a bestseller for the food truck is the innovation.
->
----
-
-
-
 - [ ] Q.9  
 ### Explain the concept of value creation with an example. **6M**  
 
+> **Value creation** is the process of providing a product or service that is worth more to a customer than the cost and effort it took to produce it. It's about solving a customer's problem n a way they are willing to pay for. The value a customer gets minus the cost to make the product is the **profit** for the business.
+
+***
+
+> [!abstract] Example
+> 
+> The business idea of Flipkart, starting as an online bookstore, was a form of value creation. It created value for customers who found it inconvenient to go to physical bookstores by providing:
+> 
+> -   **Convenience:** Books could be ordered from home and delivered to their doorstep.
+>     
+> -   **Selection:** Customers had access to a much larger inventory than any single physical store could offer.
+>     
+> -   **Time Savings:** Customers could find and purchase a book in minutes, rather than spending hours traveling to and browsing stores.
+>     
+>     Because these benefits were valuable to customers, they were willing to pay for the service, allowing Flipkart to grow and create immense value for its founders and investors.
+>
 ---
 
 - [ ] Q.10  
