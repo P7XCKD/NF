@@ -263,7 +263,31 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.4  
 ### Mention three ways to search for a business opportunity. **4M**  
 
----
+
+> [!abstract] Identify Pain Points
+> 
+> Find problems that people face in their daily lives. A business idea is often a solution to a common frustration.
+> 
+> -   **Example:** A baker who starts selling cakes from home is acting on a pain point: people wanting fresh, homemade food.
+>     
+
+***
+
+> [!abstract] Analyze Trends
+> 
+> Look at new or growing social, technological, and economic changes. Trends create new needs that you can meet.
+> 
+> -   **Example:** **Flipkart** was a start-up that took advantage of the trend of e-commerce to become a big business, solving the problem of having to physically go to bookstores to buying everything online
+>     
+
+***
+
+> [!abstract] Study the Competition
+> 
+> See what other businesses are doing well and where they are failing. You can create a better product or service by filling their gaps.
+> 
+> -   **Example:** **Netflix** innovated the way people rented movies by noticing the problems with traditional stores, like late fees and limited selection.
+>
 
 - [ ] Q.5  
 ### Define prototyping. Why is it important for a start-up? **4M**  
