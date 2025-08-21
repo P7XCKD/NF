@@ -423,7 +423,7 @@ Hypervisors are the backbone of **virtualization and cloud computing**.
 -   **Hardware** – Physical components of the computer (CPU, memory, I/O devices).
 ***
 # Chapter 2
-- [ ] Q.1  
+- [x] Q.1  
 ### Give the NIST definition of cloud computing, also explain the principles (5-4-3) of cloud computing. **4M**  
 (Enlist characteristics, enlist deployment and service models.  )
 
