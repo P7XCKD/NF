@@ -537,18 +537,26 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 
 - [ ] Q.4  
 ### Compare cloud deployment models. **6M**  
+
+
 ***
 
-- [ ] Q.5  
-### Explain SaaS with suitable example + diagram. **4M**  
+| Feature | Public Cloud | Private Cloud | Hybrid Cloud | Community Cloud |
+| --- | --- | --- | --- | --- |
+| **Ownership** | Third-party provider (e.g., AWS, Azure) | Single organization | Combination of private and public | Shared by a specific group of organizations |
+| **Users** | General public | A single organization and its authorized users | A mix of the organization's users and the general public | Several organizations with common interests |
+| **Security & Privacy** | Lower. Resources are shared, making it less suitable for highly sensitive data. | Highest. Resources are dedicated and isolated. | High for sensitive data (kept private); lower for less critical data (on public cloud). | High. Customized to meet the security and compliance needs of the shared community. |
+| **Cost** | Most cost-effective. Pay-as-you-go model with no upfront capital investment. | Most expensive. High upfront costs for infrastructure and maintenance. | Varies. Balances the cost-effectiveness of the public cloud with the security of the private cloud. | Cost is shared among the community members, making it more affordable than a private cloud. |
+| **Scalability** | Highest. Elastic and on-demand scaling with almost unlimited resources. | Limited. Scalability is capped by the organization's own infrastructure. | High. Can leverage the public cloud's scalability for non-critical workloads. | Limited. Fixed to the community's resources. |
+| **Management** | Managed entirely by the cloud provider. | Managed by the organization's IT staff. | Complex management, as it requires expertise to integrate and manage both environments. | Managed by one or more organizations within the community or a third party. |
+
+
 ***
 
-- [ ] Q.6  
-### Explain PaaS with suitable example + diagram. **4M**  
-***
+- [ ] Q.5  + 6 + 7
+### Explain SaaS / PaaS /  IaaS with suitable example + diagram. **4M**  
 
-- [ ] Q.7  
-### Explain IaaS with suitable example + diagram. **4M**  
+
 ***
 
 - [ ] Q.8  
