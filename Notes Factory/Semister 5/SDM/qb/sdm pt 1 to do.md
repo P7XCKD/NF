@@ -67,7 +67,7 @@
 
 ---
 
-- [ ] Q.7  
+- [x] Q.7  
 ### Draw DFD diagram for any system. **6M**  
 
 ---
