@@ -574,11 +574,44 @@ A **value proposition** is what makes a customer choose your business. It's the 
 - [ ] Q.4  
 ### Define Balance Sheet? List its key components. **4M**  
 
+A **Balance Sheet** is a financial statement that provides a snapshot of a company's financial position at a specific point in time. It is based on the fundamental accounting equation:
+
+![image](.attachments/210806831ebac6a846734de1e67311b776b8c5a3.png) 
+
+***
+
+> [!abstract] Key Components
+
+-   **Assets:** These are all the things the business owns that have value.
+    
+    -   **Example:** Cash, equipment, buildings, and money owed to the business by customers.
+        
+-   **Liabilities:** These are all the financial obligations or debts the business owes to others.
+    
+    -   **Example:** Loans from a bank, money owed to suppliers, and any unpaid bills.
+        
+-   **Owner's Equity:** This represents the amount of money invested in the business by its owners.
+    
+    -   **Example:** The owner's initial investment and any accumulated profits that have been kept in the business.
 ---
 
 - [ ] Q.5  
 ### Explain various types of GST in India? **4M**  
 
+
+Goods and Services Tax (**GST**) is a unified, indirect tax levied on the supply of goods and services in India. It replaced multiple other taxes to simplify the tax system.
+
+-   **Central GST (CGST):** This is a tax levied by the **Central Government** on all goods and services supplied within a state.
+    
+    -   **Example:** A shirt sold in Mumbai will have both CGST and SGST applied to its price.
+        
+-   **State GST (SGST):** This is a tax levied by the **State Government** on all goods and services supplied within the same state.
+    
+    -   **Example:** A shirt sold in Mumbai will have both SGST and CGST applied to its price.
+        
+-   **Integrated GST (IGST):** This is a tax collected by the **Central Government** on all inter-state (between states) supplies of goods and services.
+    
+    -   **Example:** A shirt sold from Mumbai to Delhi will have only IGST applied.
 ---
 
 
