@@ -87,7 +87,7 @@
 
 ---
 
-- [x] Q.11  
+- [ ] Q.11  
 ### Define term system analyst with the help of example. **4M**  
 
 ---
