@@ -174,7 +174,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 > [!abstract] Safety Needs
 > 
-> The need to feel safe and secure from physical or financial harm. This includes a sense of order, predictability, and control in one's life.
+> The need to feel safe and secure from physical or financial harm. It's about having a sense of security and control over your circumstances.
 > 
 > -   **Employee Example:** Having a steady job with a regular salary and health insurance.
 >     
