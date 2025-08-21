@@ -622,6 +622,17 @@ Goods and Services Tax (**GST**) is a unified, indirect tax levied on the supply
 - [ ] Q.11  
 ### Compare CPM and PERT in project management. **6M**  
 
+> [!abstract] Key Differences between CPM and PERT
+
+| Basis of Difference | **CPM (Critical Path Method)** | **PERT (Program Evaluation and Review Technique)** |
+| --- | --- | --- |
+| **Focus** | Finds the longest path to finish a project on time. | Manages the uncertainty of project times. |
+| **Time Estimate** | Uses a single, definite time for each task. | Uses three time estimates: **best-case**, **worst-case**, and **most common**. |
+| **Nature** | Deterministic (task times are known and predictable). | Probabilistic (task times are uncertain). |
+| **Use** | For projects with familiar tasks, like construction. | For projects with new, uncertain tasks, like R&D. |
+| **Cost** | Focuses on controlling project costs. | Focuses on controlling time. |
+| **Example** | Used to schedule a project to build a bridge, as the time for each step is well-known. | Used to schedule a project to design and build a new type of satellite, as the time for each step is unknown. |
+
 ---
 
 
