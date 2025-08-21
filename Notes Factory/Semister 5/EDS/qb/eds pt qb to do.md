@@ -142,13 +142,13 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 ---
 
-- [ ] Q.15  
+- [x] Q.15  #p
 ### Differentiate between an Entrepreneur and Intrapreneur. **6M**  
 ![image](.attachments/4c9a2d6ea6b2f323abf918a49105b8b486b81402.png) 
 ---
 
 
-- [ ] Q.18  
+- [x] Q.18  
 ### Explain Maslow’s Need Hierarchy and its relevance in motivating entrepreneurs and employees. **8M**  
 
 **Maslow's Need Hierarchy** is a psychological theory that says people are motivated by five levels of needs. They work to meet the most basic needs first before moving on to the next level.
