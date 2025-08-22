@@ -494,7 +494,7 @@ The **NIST definition** describes cloud computing as a way to get easy, on-deman
 >
 ***
 
-- [ ] Q.3  
+- [x] Q.3  
 ### Describe 4 cloud deployment models with suitable example of each. (Draw diagram + eg). **6-8M**  
 
 
