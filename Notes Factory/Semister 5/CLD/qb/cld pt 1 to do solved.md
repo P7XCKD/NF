@@ -617,7 +617,7 @@ S3, Google documents, Heroku, Facebook
 -   **Facebook:** **SaaS** - It is a complete application that provides a social network to its users.
 ***
 
-- [ ] Q.9  
+- [x] Q.9  
 ### Explain cloud architecture with suitable diagram. **4-6M**  
 ![image](.attachments/b6100d0bf8a5789a3fbe9b69f387f15b0e2867cd.png) 
 
