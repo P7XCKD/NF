@@ -891,7 +891,7 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 - [ ] 14  cancelled
 ***
 
-- [ ] 15  
+- [x] 15  
 ### Explain Naïve Bayes with formula/why it is called as same — 3/4 marks  
 
 
