@@ -382,7 +382,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 ***
 
-- [ ] Q.11  
+- [x] Q.11  
 ### Explain SWOT analysis help in evaluating a business idea? **6M**  
 
 
