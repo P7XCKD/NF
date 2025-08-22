@@ -194,3 +194,72 @@ The Karl Pearson's Coefficient of Correlation is **0.977**. This indicates a ver
 
 
 ***
+
+
+
+### Q5. For the given data and equation, find how many people will buy candy if the price is $10.
+
+> The problem provides a pre-calculated line of best fit and asks to use it for prediction. The equation models the relationship between the price of candy (x) and the number of people who buy it (y).
+
+**1. Identify the Given Information**
+
+* **[span_0](start_span)Equation of the line of best fit**: $y = -2.1x + 1220$[span_0](end_span)
+* **[span_1](start_span)Price of candy (x)**: $10[span_1](end_span)
+
+**2. Predict the Value of y**
+
+We need to substitute the value of $x=10$ into the given equation to find the predicted number of people ($y$).
+
+* $y = -2.1(10) + 1220$
+* $y = -21 + 1220$
+* $y = 1199$
+
+According to the equation, **1199** people will buy candy if the price is $10.
+
+***
+
+### Q6. Find the linear regression equation for the following two sets of data.
+
+> **Simple Linear Regression** aims to find the best-fitting straight line through a set of data points. The equation for this line is $y = b_0 + b_1x$, where $b_1$ is the slope and $b_0$ is the y-intercept.
+
+**1. Data Preparation and Summation**
+
+[span_2](start_span)First, we calculate the necessary sums from the provided data, where $n=4$[span_2](end_span).
+
+| X       | Y       | XY        | X²      |
+| :------ | :------ | :-------- | :------ |
+| 2       | 3       | 6         | 4       |
+| 4       | 7       | 28        | 16      |
+| 6       | 5       | 30        | 36      |
+| 8       | 10      | 80        | 64      |
+| **ΣX=20** | **ΣY=25** | **ΣXY=144** | **ΣX²=120** |
+
+**2. Calculate Coefficients**
+
+Now, we calculate the slope ($b_1$) and the y-intercept ($b_0$).
+
+> [!abstract]
+> **Formulas Used**
+> * **Slope ($b_1$)**: $b_1 = \frac{n(\sum XY) - (\sum X)(\sum Y)}{n(\sum X^2) - (\sum X)^2}$
+> * **Y-Intercept ($b_0$)**: $b_0 = \bar{Y} - b_1\bar{X}$
+> * **Mean**: $\bar{X} = \frac{\sum X}{n}$ and $\bar{Y} = \frac{\sum Y}{n}$
+
+* **Calculate Means**:
+    * $\bar{X} = \frac{20}{4} = 5$
+    * $\bar{Y} = \frac{25}{4} = 6.25$
+
+* **Calculate Slope ($b_1$)**:
+    * $b_1 = \frac{4(144) - (20)(25)}{4(120) - (20)^2}$
+    * $b_1 = \frac{576 - 500}{480 - 400}$
+    * $b_1 = \frac{76}{80} = 0.95$
+
+* **Calculate Y-Intercept ($b_0$)**:
+    * $b_0 = 6.25 - 0.95(5)$
+    * $b_0 = 6.25 - 4.75$
+    * $b_0 = 1.5$
+
+**3. Final Regression Equation**
+
+Substituting the calculated coefficients, the linear regression equation is:
+
+**y = 1.5 + 0.95x**
