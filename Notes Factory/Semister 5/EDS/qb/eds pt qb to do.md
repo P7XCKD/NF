@@ -418,7 +418,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 >
 ---
 
-- [ ] Q.12  
+- [x] Q.12  
 ### Explain value proposition? Why is it important for start-ups? **6M**  
 
 
