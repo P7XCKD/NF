@@ -97,7 +97,7 @@
 >
 ***
 
-- [ ] 4  
+- [x] 4  
 ### Explain Unsupervised Learning – Working, Types, Advantages, and Disadvantages – 4 Marks  
 
 **Unsupervised Learning** is a machine learning technique used to find hidden patterns and structures in unlabeled data without any human guidance. The algorithm works on its own to discover insights.
