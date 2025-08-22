@@ -315,7 +315,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 ---
 
-- [ ] Q.7  
+- [x] Q.7  
 ### Differentiate between creativity and innovation with examples. **6M**  
 
 | Basis of Difference | **Creativity** | **Innovation** |
