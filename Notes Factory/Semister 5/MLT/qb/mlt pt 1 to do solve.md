@@ -15,7 +15,7 @@
 | Examples       | Chatbots and expert systems are examples of AI.                  | Spam detection and predictive analytics are examples of ML.   | Image and speech recognition are examples of DL.           |
 ***
 
-- [ ] 2  
+- [x] 2  
 ### Explain Supervised Learning – Working, Types, Advantages, and Disadvantages – 4/6 Marks  
 
 **Supervised Learning** is a machine learning approach that uses **labeled data**, where each input is paired with the correct output. The algorithm learns the relationship between inputs and outputs by building a mapping function. Once trained, the model can predict results for unseen data. For example, it can predict a student’s marks based on the number of study hours.
