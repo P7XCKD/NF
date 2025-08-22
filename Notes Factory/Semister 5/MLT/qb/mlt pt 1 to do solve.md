@@ -61,7 +61,7 @@
 >
 ***
 
-- [ ] 3  
+- [x] 3  
 ### Applications of Supervised / Unsupervised / Reinforcement Learning – 3/4 Marks  
 **Supervised Learning** is used for tasks where the data is already labeled.
 
