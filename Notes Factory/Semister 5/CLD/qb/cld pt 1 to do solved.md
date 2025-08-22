@@ -553,7 +553,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 
 ***
 
-- [ ] Q.5  + 6 + 7
+- [x] Q.5  + 6 + 7
 ### Explain SaaS / PaaS /  IaaS with suitable example + diagram. **4M**  
 
 ### Explain SaaS with suitable example. (4M)
