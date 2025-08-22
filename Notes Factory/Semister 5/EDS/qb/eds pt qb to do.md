@@ -595,7 +595,7 @@ A **Balance Sheet** is a financial statement that provides a snapshot of a compa
     -   **Example:** The owner's initial investment and any accumulated profits that have been kept in the business.
 ---
 
-- [ ] Q.5  
+- [x] Q.5  
 ### Explain various types of GST in India? **4M**  
 
 
