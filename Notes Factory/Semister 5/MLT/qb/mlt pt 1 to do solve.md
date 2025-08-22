@@ -908,7 +908,7 @@ The Naïve Bayes algorithm finds the most likely category for an item. It does t
 > **Example:** A spam filter sees the words "free" and "money." It checks the probability of each word being in spam and combines them to predict if the email is spam.
 ***
 
-- [ ] 16  
+- [x] 16  
 ### Sum based on Naïve Bayes classification — 4/6 marks  
 ***
 
