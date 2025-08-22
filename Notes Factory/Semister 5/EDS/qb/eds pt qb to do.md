@@ -238,7 +238,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 
 
-- [ ] Q.1  
+- [x] Q.1  
 ### Define innovation and explain its role in business. **4M**  
 
 > **Innovation** is the process of successfully introducing a new idea, product, service, or process that creates value for a business or its customers. It is the practical application of creativity.
