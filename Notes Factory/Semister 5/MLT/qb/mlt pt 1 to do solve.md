@@ -1,6 +1,6 @@
 ## Chapter 1: Introduction to Machine Learning – CO1
 
-- [ ] 1  
+- [x] 1  
 ### Compare AI, ML, and DL – 3/4 Marks  
 
 
