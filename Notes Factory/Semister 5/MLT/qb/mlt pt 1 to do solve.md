@@ -821,7 +821,7 @@ Based on the **number of variables studied**:
 ### Sums based on Karl Pearson’s Correlation Coefficient(direct) method — 3/4/6 marks  
 ***
 
-- [ ] 8  
+- [x] 8  
 ### Sums based on multiple Linear Regression in Machine Learning — 6/8 marks  
 ***
 
