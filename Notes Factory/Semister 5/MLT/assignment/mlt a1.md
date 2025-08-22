@@ -11,7 +11,7 @@
 > - **$\sum y^2$** is the sum of squared y scores.
 
 **Step 1: Create a calculation table**
-[span_0](start_span)Here is the data provided and the necessary calculations for the formula[span_0](end_span).
+Here is the data provided and the necessary calculations for the formula.
 
 | Subject | Age (X) | Glucose Level (Y) | $x^2$ | $y^2$ | $xy$ |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -47,7 +47,7 @@ The correlation coefficient **r** is approximately **0.58**. This value indicate
 > - **Root Mean Squared Error (RMSE):** The square root of the MSE. It is in the same units as the target variable, making it more interpretable.
 
 **Step 1: Create a calculation table**
-[span_1](start_span)Using the provided actual and predicted prices[span_1](end_span):
+Using the provided actual and predicted prices:
 
 | Craft Item | Actual Price ($y_i$) | Predicted Price ($\hat{y}_i$) | Error ($e_i = y_i - \hat{y}_i$) | Absolute Error ($|e_i|$) | Squared Error ($e_i^2$) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -87,7 +87,7 @@ Given the number of items $n=5$:
 > - **Intercept (a):** $a = \bar{y} - b\bar{x}$
 
 **Step 1: Create a calculation table**
-[span_2](start_span)Using the sales data provided[span_2](end_span):
+Using the sales data provided:
 
 | Week (x) | Sales in Thousands (y) | $x^2$ | $xy$ |
 | :--- | :--- | :--- | :--- |
@@ -125,11 +125,11 @@ The line of best fit is: **$y = 0.54 + 0.66x$**
 
 ### Q4. Using the equation y = -5.8x + 1320, find how many people will attend the concert if the ticket price is $25.
 
-> [span_3](start_span)The problem requires substituting a given value of 'x' (ticket price) into the provided linear regression equation to find the corresponding 'y' value (number of people attending)[span_3](end_span).
+> The problem requires substituting a given value of 'x' (ticket price) into the provided linear regression equation to find the corresponding 'y' value (number of people attending).
 
 **Step 1: Identify the equation and variables**
-* **[span_4](start_span)Equation:** $y = -5.8x + 1320$[span_4](end_span)
-* **[span_5](start_span)Variable x (Ticket Price):** $25[span_5](end_span)
+* **Equation:** $y = -5.8x + 1320$
+* **Variable x (Ticket Price):** $25$
 
 **Step 2: Substitute the value of x into the equation**
 $$y = -5.8(25) + 1320$$
@@ -145,11 +145,11 @@ If the ticket price is $25, **1175 people** are predicted to attend the concert.
 
 ### Q5. Using the equation y = -2.1x + 1220, find how many people will buy candy if the price is $10.
 
-> [span_6](start_span)This problem requires substituting the given candy price ('x') into the provided equation to predict the number of people who will buy candy ('y')[span_6](end_span).
+> This problem requires substituting the given candy price ('x') into the provided equation to predict the number of people who will buy candy ('y').
 
 **Step 1: Identify the equation and variables**
-* **[span_7](start_span)Equation:** $y = -2.1x + 1220$[span_7](end_span)
-* **[span_8](start_span)Variable x (Candy Price):** $10[span_8](end_span)
+* **Equation:** $y = -2.1x + 1220$
+* **Variable x (Candy Price):** $10$
 
 **Step 2: Substitute the value of x into the equation**
 $$y = -2.1(10) + 1220$$
@@ -168,7 +168,7 @@ If the price of candy is $10, **1199 people** are predicted to buy candy.
 > To find the linear regression equation ($y = a + bx$), we need to calculate the slope (b) and the y-intercept (a) using the same formulas as in Question 3.
 
 **Step 1: Create a calculation table**
-[span_9](start_span)Using the data provided[span_9](end_span):
+Using the data provided:
 
 | x | y | $x^2$ | $xy$ |
 | :--- | :--- | :--- | :--- |
