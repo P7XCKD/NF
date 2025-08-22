@@ -289,7 +289,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 > -   **Example:** **Netflix** innovated the way people rented movies by noticing the problems with traditional stores, like late fees and limited selection.
 >
 
-- [ ] Q.5  
+- [x] Q.5  
 ### Define prototyping. Why is it important for a start-up? **4M**  
 
 
