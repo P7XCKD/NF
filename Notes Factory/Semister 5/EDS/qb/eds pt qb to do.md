@@ -260,7 +260,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 
 
 ***
-- [ ] Q.4  
+- [x] Q.4  
 ### Mention three ways to search for a business opportunity. **4M**  
 
 
