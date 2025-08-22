@@ -655,7 +655,7 @@ S3, Google documents, Heroku, Facebook
 > i hate this one
 ***
 
-- [ ] Q.11  
+- [x] Q.11  
 ### Elaborate in brief cloud economy models. **4M**  
 
 
