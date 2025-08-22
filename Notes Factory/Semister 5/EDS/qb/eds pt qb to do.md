@@ -352,7 +352,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 >
 ---
 
-- [ ] Q.10  
+- [x] Q.10  
 ### Define: Design Thinking? Explain its five stages. **6M**  
 
 **Design Thinking** is a way to solve problems by focusing on what people need. It's a step-by-step process that helps create new, useful solutions by putting the user at the very heart of the design.
