@@ -817,7 +817,7 @@ Based on the **number of variables studied**:
 -   **Multiple Correlation:** This type of correlation involves studying the relationship between **three or more** variables simultaneously.
 ***
 
-- [ ] 6  
+- [x] 6  
 ### Sums based on Karl Pearson’s Correlation Coefficient(direct) method — 3/4/6 marks  
 ***
 
