@@ -880,7 +880,7 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 
 ***
 
-- [ ] 10  
+- [x] 10  
 ### Sums based on confusion Matrix find accuracy misclassification/error rate, precision, recall (sensitivity), F-measure, specificity – 4 Marks  
 ***
 
