@@ -786,7 +786,7 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 ### Calculate equation for best fit line/ linear regression equation and predict the values — 4/6 marks  
 ***
 
-- [ ] 3  
+- [x] 3  
 ### Sums based on MAE, MSE and RMSE — 3/4 marks  
 ***
 
