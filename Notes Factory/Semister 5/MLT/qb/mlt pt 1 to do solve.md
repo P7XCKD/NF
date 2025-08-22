@@ -141,7 +141,7 @@
 >
 ***
 
-- [ ] 5  
+- [x] 5  
 ### Explain Reinforcement Learning – Advantages and Disadvantages – 4 Marks  
 > [!abstract] any 2 if 4 marks **Advantages of Reinforcement Learning**
 > 
