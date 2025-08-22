@@ -49,6 +49,7 @@ The correlation coefficient **r** is approximately **0.58**. This value indicate
 **Step 1: Create a calculation table**
 Using the provided actual and predicted prices:
 
+*** 
 | Craft Item | Actual Price ($y_i$) | Predicted Price ($\hat{y}_i$) | Error ($e_i = y_i - \hat{y}_i$) | Absolute Error ($|e_i|$) | Squared Error ($e_i^2$) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Necklace | 25 | 28 | -3 | 3 | 9 |
@@ -57,6 +58,10 @@ Using the provided actual and predicted prices:
 | Ring | 30 | 29 | 1 | 1 | 1 |
 | Brooch | 40 | 38 | 2 | 2 | 4 |
 | **Sum** | | | | **$\sum |e_i| = 9$** | **$\sum e_i^2 = 19$** |
+
+
+
+***
 
 **Step 2: Calculate the metrics**
 Given the number of items $n=5$:
