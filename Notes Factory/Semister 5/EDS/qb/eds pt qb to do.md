@@ -504,7 +504,7 @@ A **value proposition** is what makes a customer choose your business. It's the 
 ---
 
 
-- [ ] Q.17  
+- [x] Q.17  
 ### Describe prototyping and its type in detail with appropriate example? **8M**  
 
 
