@@ -466,7 +466,7 @@ The **NIST definition** describes cloud computing as a way to get easy, on-deman
 >
 ***
 
-- [x] Q.2  
+- [ ] Q.2  
 ### Describe 5 principle characteristics of cloud computing with examples. **4M**  
 
 
