@@ -790,7 +790,7 @@ Training set: [40, 80, 20, 10] Testing set: [30, 70, 60, 50]
 ### Sums based on MAE, MSE and RMSE — 3/4 marks  
 ***
 
-- [ ] 5  
+- [x] 5  
 ### Define correlation co efficient and its type based on the direction of change of variable/ based upon the number of variables studied – 4 Marks  
 
 
