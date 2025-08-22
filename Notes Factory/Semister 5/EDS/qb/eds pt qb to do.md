@@ -334,7 +334,7 @@ A **Limited Liability Partnership (LLP)** is a business run by partners where th
 - [ ] Q.9  
 ### Explain the concept of value creation with an example. **6M**  
 
-> **Value creation** is the process of providing a product or service that is worth more to a customer than the cost and effort it took to produce it. It's about solving a customer's problem n a way they are willing to pay for. The value a customer gets minus the cost to make the product is the **profit** for the business.
+> **Value creation** is the process of providing a product or service that is worth more to a customer than the cost and effort it took to produce it. It's about solving a customer's problem in a way they are willing to pay for. The value a customer gets minus the cost to make the product is the **profit** for the business.
 
 ***
 
