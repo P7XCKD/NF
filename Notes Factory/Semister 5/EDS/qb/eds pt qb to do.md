@@ -445,7 +445,7 @@ A **value proposition** is what makes a customer choose your business. It's the 
 ---
 
 
-- [ ] Q.14  
+- [x] Q.14  
 ### Explain the process of business idea generation in detail. **8M**  
 > [!abstract] 1. Idea Generation
 > 
