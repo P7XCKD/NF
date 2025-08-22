@@ -535,7 +535,7 @@ A **community cloud** is a cloud infrastructure shared by several organizations 
 
 
 
-- [ ] Q.4  
+- [x] Q.4  
 ### Compare cloud deployment models. **6M**  
 
 
