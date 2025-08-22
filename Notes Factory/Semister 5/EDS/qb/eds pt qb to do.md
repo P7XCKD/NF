@@ -571,7 +571,7 @@ A **value proposition** is what makes a customer choose your business. It's the 
     -   **Example:** A small-scale bakery that produces goods in bulk for other shops needs to register with the Directorate of Industries for a manufacturing license.
 ---
 
-- [ ] Q.4  
+- [x] Q.4  
 ### Define Balance Sheet? List its key components. **4M**  
 
 A **Balance Sheet** is a financial statement that provides a snapshot of a company's financial position at a specific point in time. It is based on the fundamental accounting equation:
