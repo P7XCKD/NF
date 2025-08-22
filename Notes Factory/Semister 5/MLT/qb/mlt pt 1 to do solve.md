@@ -884,7 +884,7 @@ To convert this into dummy variables, the 'City' column is replaced with new col
 ### Sums based on confusion Matrix find accuracy misclassification/error rate, precision, recall (sensitivity), F-measure, specificity – 4 Marks  
 ***
 
-- [ ] 12  
+- [x] 12  
 ### Sums based on Cohen Kappa Coefficient for Binary Classification — 3/4 marks  
 ***
 
