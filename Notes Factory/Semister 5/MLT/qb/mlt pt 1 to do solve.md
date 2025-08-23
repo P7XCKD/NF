@@ -186,7 +186,7 @@ Imagine you want to build a model to predict a student's final exam marks based 
 -   **Testing Data:** After the model is fully trained, you use the remaining **15%** of student records (e.g., the final 15 students) to test it. The accuracy on this data gives you a reliable measure of how well the model will perform in the real world on new students.
 ***
 
-- [ ] 7  
+- [x] 7  
 ### Issues in Machine Learning – 3/4/6 Marks  
 
 > [!abstract] any 4 if 4 marks **Common Issues**
