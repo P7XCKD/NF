@@ -254,7 +254,7 @@ Imagine you want to build a model to predict a student's final exam marks based 
 >
 ***
 
-- [ ] 10  
+- [x] 10  
 ### Define Mean, Median, Mode, Standard Deviation – 2 Marks  
 **Mean:** The mean is the **average** value of a dataset. It is calculated by adding all the values and dividing the sum by the total number of values.
 
