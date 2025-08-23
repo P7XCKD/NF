@@ -278,7 +278,7 @@ Imagine you want to build a model to predict a student's final exam marks based 
 
 ## Chapter 2: Machine Learning Libraries – CO2
 
-- [ ] 7  
+- [x] 7  
 ### How to access 3D array with example – 2/3 Marks  
 
 
