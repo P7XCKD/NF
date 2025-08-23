@@ -311,7 +311,7 @@ The element at index [1][0][1] is: 8
 ```
 ***
 
-- [x] 8  
+- [ ] 8  
 ### Define with example – Numpy array shape, slice, reshape, array joining, split, random no – 2/3 Marks  
 
 -   **Numpy Array Shape:** The `shape` of a NumPy array is a tuple of integers representing the size of the array in each dimension.
