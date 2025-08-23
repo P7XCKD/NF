@@ -221,7 +221,7 @@ Imagine you want to build a model to predict a student's final exam marks based 
 >
 ***
 
-- [x] 8  
+- [ ] 8  
 ### Explain Overfitting and Underfitting – With Example – 3/4 Marks  
 **Overfitting** and **Underfitting** are two common problems that prevent a machine learning model from performing well. They represent a model that is either too complex or too simple for the task.
 
