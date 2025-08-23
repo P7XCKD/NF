@@ -234,7 +234,7 @@ Imagine you want to build a model to predict a student's final exam marks based 
     -   **_Example:_** _A student who only skims their notes and doesn't study enough performs poorly on both the practice test and the final exam because they don't know the material._
 ***
 
-- [ ] 9  
+- [x] 9  
 ### Write Steps in Developing a Machine Learning Application – 4 Marks  
 
 
