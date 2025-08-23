@@ -729,7 +729,7 @@ plt.show()
 ```
 ***
 
-- [ ] 15  
+- [x] 15  
 ### What is the purpose of the train_test_split() function? – 2/4 Marks  
 
 
