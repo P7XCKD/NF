@@ -162,7 +162,7 @@
 >
 ***
 
-- [ ] 6  
+- [x] 6  
 ### Explain Train, Testing, and Validation Data – With Example – 4/6 Marks  
 > [!abstract] write this para if 6 marks
 > Training, testing, and validation data are three separate groups of data. They're used to build and check a machine learning model. By splitting the data, we make sure the model is accurate and works well on new information it hasn't seen before.
