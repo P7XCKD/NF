@@ -43,11 +43,62 @@ R and RStudio
 
 ---
 
+```r
+# Data Visualization with ggplot2
+library(ggplot2)
+library(treemapify)   # for treemap
+
+# Sample data
+df <- mtcars
+
+# Column Chart
+ggplot(df, aes(factor(cyl))) + geom_bar(fill="steelblue")
+
+# Pie Chart
+pie_df <- data.frame(Category=c("A","B","C"), Count=c(30,45,25))
+ggplot(pie_df, aes(x="", y=Count, fill=Category)) +
+  geom_bar(stat="identity") + coord_polar("y")
+
+# Histogram
+ggplot(df, aes(mpg)) + geom_histogram(binwidth=5, fill="orange")
+
+# Scatter Plot
+ggplot(df, aes(wt, mpg, color=factor(cyl))) + geom_point(size=3)
+
+# Line Chart
+ggplot(pressure, aes(temperature, pressure)) + geom_line(color="red")
+
+# Box Plot
+ggplot(df, aes(factor(cyl), mpg, fill=factor(cyl))) + geom_boxplot()
+
+# Tree Map
+tree_df <- data.frame(Category=c("A","B","C"), Value=c(20,40,60))
+ggplot(tree_df, aes(area=Value, fill=Category)) + geom_treemap()
+
+# Faceting Example
+ggplot(df, aes(wt, mpg)) + geom_point() + facet_wrap(~cyl)
+
+```
 
 
 
 
-/cod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
