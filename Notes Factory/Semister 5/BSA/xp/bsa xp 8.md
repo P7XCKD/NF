@@ -44,4 +44,5 @@ R and RStudio
 ---
 
 ## Conclusion  
-In this experiment, I learned how to create different types of data visualizations using **ggplot2** in R. I understood how to apply `geom_()` functions for various chart types, use grouping and faceting for comparisons, and customize plots with labels and scales to make them more informative.
+
+In 
