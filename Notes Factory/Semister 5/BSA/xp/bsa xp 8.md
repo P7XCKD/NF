@@ -43,6 +43,15 @@ R and RStudio
 
 ---
 
+
+
+
+
+/cod
+
+
+
+
 ## Conclusion  
 
 In 
