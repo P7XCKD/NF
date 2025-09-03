@@ -26,7 +26,7 @@
  <br>
  <br>
  
-#### **PERT Chart**
+## **PERT Chart**
 ![image](.attachments/bd948e576381a54656d80e42d37cda9b33445310.png) 
 
 
