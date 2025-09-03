@@ -8,6 +8,4 @@
 ### **3. PERT Chart**
 ![image](.attachments/bd948e576381a54656d80e42d37cda9b33445310.png) 
 
-## **Conclusion**
 
-Hence, we develop a Timeline Chart, Gantt Chart, and PERT Chart for tracking the progress of project modules
