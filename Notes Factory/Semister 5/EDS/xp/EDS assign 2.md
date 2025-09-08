@@ -15,12 +15,7 @@ The _Personalized Food Navigator_ is a mobile app that uses AI to act as a compl
 
 First, a user makes a detailed health profile in the app, listing their allergies and intolerances, as well as their diet goals like vegan or keto. The app's main feature lets a user scan a product's barcode, take a photo of their meal, or type in a food's name. The app then gives a clear, two-part answer: an instant **'Safe'** or **'Not Safe'** warning for their allergies, and a note on how the food fits their diet plan. In short, it mixes the safety of an allergy app with the tracking features of a diet app.
 
-<br>
-<br>
-<br><br> <br>
-<br><br>
-<br><br><br><br>
-<br><br>
+
 
 ### Procedure
 #### **3. Idea Evaluation**
