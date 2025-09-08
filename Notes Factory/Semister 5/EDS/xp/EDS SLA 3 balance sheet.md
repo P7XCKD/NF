@@ -18,9 +18,8 @@ Rule:
 
 ***
 
-## **Balance Sheet **
+## **Balance Sheet**
 
-| **Assets** (₹) | **Liabilities** (₹) | **Equity** (₹) |
 | --- | --- | --- |
 | **Current Assets** | **Current Liabilities** |     |
 | Cash & Bank – 900 | Accounts Payable – 2,000 |     |
