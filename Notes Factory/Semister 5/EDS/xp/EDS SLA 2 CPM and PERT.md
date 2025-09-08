@@ -204,17 +204,14 @@ flowchart LR
 
 ## **Observations**
 
-| Area | Key Finding | Why it matters | Suggested Action |
+
+
+| **Area** | **Key Finding** | **Why it matters** | **Suggested Action** |
 | --- | --- | --- | --- |
-| **Schedule (CPM)** | **85 days** deterministic; **critical path**: A-B-C-D-F-G-I-J-K-L-M | Any slip on backend/security/transfer/frontend/testing delays the whole project | Time-box non-critical E/H; protect capacity on critical chain |
-| **Slack** | E (Clipboard) **26 d**, H (LAN QR) **25 d** | Useful buffer for UI/UX and refinements | Use slack to absorb scope tweaks without touching the critical path |
-| **PERT** | **TE ≈ 79.83 d**, **σ ≈ 2.92 d** | Provides probabilistic planning | For 80-day target, ~50–55% chance; for 82 d, ~75% |
-| **Cost (CPU)** | **₹55,650 total**, **₹11,130 per deliverable**, **₹656/day avg** | Guides budgeting & prioritization | Track actuals per activity; optimize F (highest daily burn) |
-| **High-burn tasks** | F (File transfer), G (Frontend) | Equipment-heavy & throughput-sensitive | Early performance profiling; reuse components; avoid gold-plating |
-| **Quality metrics** | Velocity ~**35 SP/sprint**, CT **4 d**, DER **8.75%**, MTTR **3 h** | Healthy baseline; DER above mature target | Aim DER < **5%** post-launch; MTTR < **1 h** for P1 |
-| **Risk** | Security & spoofing risks on LAN; dependency on local policies | Could block adoption in strict IT environments | Provide offline signing, admin policies, and audit logs |
-| **Release readiness** | Checklist tailored for encryption, file validation, multi-OS | Reduces rollout risk | Gate deploy on perf targets (throughput, error rate) |
+| **Schedule (CPM)** | Deterministic project duration = **85 days**; Critical Path = **A → B → C → D → F → G → I → J → K → L → M** | Any delay in backend, encryption, file transfer, or integration directly extends delivery | Prioritize critical path activities; keep non-critical (E/H) tightly time-boxed to avoid scope creep |
+| **PERT** | Expected TE ≈ **79.83 days**, σ ≈ **2.92 days** | Adds probabilistic planning lens; 50–55% chance of finishing in 80 days, ~75% in 82 days | Use variance for buffer planning; communicate probability-based deadlines |
+| **PMT (Agile Metrics)** | Velocity ≈ **35 SP/sprint**, CT = **4 days/ticket**, DER = **8.75%**, MTTR = **3 hrs** | Shows strong throughput and recovery, but defect leakage above target | Focus QA to cut DER <5%; reduce MTTR <1h for P1 issues |
 
 ***
 
-If you want, I can also export these tables to a **print-ready doc/slide** or a **CSV/Excel** for submission.
+Would you like me to also add a **one-line wrap-up below the table** (like in Rapid Warn) summarizing the CPM + PERT + PMT insights together?.
