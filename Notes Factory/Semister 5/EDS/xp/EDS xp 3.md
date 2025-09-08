@@ -2,7 +2,7 @@
 
 ## EDS xp 3
 
-> [!attention] deleted previous aim theory and stuffs by mistake
+> [!attention] deleted previous aim theory  by mistake
 > too lazy to restore
 
 
