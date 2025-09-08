@@ -3,8 +3,6 @@
 
 ## **SWOT Analysis for Lanvan**
 
-***
-
 ### **Strengths & Weaknesses**
 
 | **Strengths** | **Weaknesses** |
