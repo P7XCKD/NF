@@ -1,7 +1,7 @@
 
 # EDS SLA 1
 
-# **SWOT Analysis for Rapid Warn**
+## **SWOT Analysis for Rapid Warn**
 
 ### **Strengths**
 
