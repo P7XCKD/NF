@@ -11,7 +11,6 @@
 > **Equity** represents founders’ contributions and retained earnings.  
 > **Rule:** Assets = Liabilities + Equity
 
-***
 
 
 ***
