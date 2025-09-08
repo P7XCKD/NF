@@ -1,6 +1,9 @@
 
 
-## EDS Assignment 3
+## EDS xp 3
+
+> [!attention] deleted previous aim theory and stuffs by mistake
+> too lazy to restore
 
 
 A business plan is a formal document that outlines a company's goals and the A business plan is a roadmap to turn an idea into a real company. This document outlines the plan to build, launch, and grow the _Personalized Food Navigator_. Our core mission is to empower users to eat with confidence by providing a single, trustworthy app for both their health safety and lifestyle goals.
