@@ -116,11 +116,11 @@ Rule:
 
 **Check:**  
 Assets = Liabilities + Equity  
-₹55,650 = ₹15,000 + ₹40,650 ✅
+```₹55,650``` = ₹15,000 + ₹40,650 ✅
 
 ***
 
-### **Key Takeaways**
+### **Observations**
 
 1.  Lanvan’s largest asset is **development equipment**.
     
@@ -134,11 +134,3 @@ Assets = Liabilities + Equity
     
 
 ***
-
-### **Conclusion**
-
-Therefore, the Balance Sheet for Lanvan has been prepared successfully.
-
-***
-
-Do you want me to also **shrink this into a 1-page assignment style** (no theory explanation, only tables + conclusion) for quick submission?
