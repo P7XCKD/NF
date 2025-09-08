@@ -1,36 +1,34 @@
 
-# EDS SLA 1
+# **EDS SLA 1**
 
-## **SWOT Analysis for Rapid Warn**
+## **SWOT Analysis for Lanvan**
 
+***
 
 ### **Strengths & Weaknesses**
 
 | **Strengths** | **Weaknesses** |
 | --- | --- |
-| Real-time notifications & alerts (push + widget) ensure immediate visibility; fast response in emergencies. | High dependency on third-party platforms (Firebase/Supabase) → vendor lock-in, outage, and pricing risks. |
-| AI/ML-driven image triage system automates categorization; reduces manual review workload. | ML model limitations: requires large labeled datasets, needs retraining, risk of false positives/negatives. |
-| Cloud-based backend enables real-time sync, scalability, and built-in authentication/storage. | Limited human resources → small team, less parallel work, delays cascade on zero-slack path. |
-| Cross-platform accessible (Android now, iOS/web possible), cloud-first for global reach. | Mobile-first approach only; missing iOS/web users lowers adoption. |
-| Structured project management (CPM/PERT) ensures timely delivery and risk awareness. | Performance testing not on critical path → bottlenecks risk being overlooked. |
-| Cost efficiency: Avg burn $190/day; ROI high ($1,525 per deliverable). | —   |
+| High-speed LAN file transfers with adaptive chunking → reliable for large files. | Limited platform coverage (currently desktop/web-first; no mobile apps yet). |
+| Secure encryption (AES-256 + HTTPS) ensures safe transfers. | Heavy reliance on LAN connectivity → limited usability outside local networks. |
+| Real-time clipboard sharing (text, images, files) enhances collaboration. | Small development team → low parallel capacity, delays affect progress. |
+| Cross-device compatibility (Windows, Linux, Mac) with potential for broader expansion. | Vendor dependency on FastAPI/third-party libraries → updates may cause compatibility issues. |
+| Lightweight, no external client install needed; browser-first approach. | Performance testing and scalability validation not fully mature. |
+| Structured architecture (FastAPI backend + vanilla JS frontend) makes maintenance easier. | Pre-revenue stage; sustainability depends on adoption and funding. |
 
 ***
-<br>
-<br><br><br><br><br><br><br><br><br><br>
 
-
-
-### Opportunities & Threats
+### **Opportunities & Threats**
 
 | **Opportunities** | **Threats** |
 | --- | --- |
-| Partnerships with agencies/NGOs for verified alerts and wider adoption. | Data privacy & regulatory risks (GDPR, HIPAA, sovereignty laws). |
-| Enterprise analytics expansion (dashboards, SaaS subscriptions). | Competition from established emergency platforms & big tech. |
-| IoT/sensor integration (weather, seismic, flood) for automated alerts. | Tech dependency: Firebase/Supabase outages or pricing hikes. |
-| Geographic expansion to disaster-prone regions with localized support. | Infrastructure strain during mass disasters; scaling costs spike. |
-| Open API for third-party developer ecosystem. | Public adoption risks: early ML mistakes reduce trust. |
-| CSR/social impact visibility → funding from NGOs, gov, aid groups. | Security vulnerabilities: risk of false alerts from attackers. |
+| Enterprise adoption in offices, labs, and institutions for secure internal transfers. | Competition from established tools (Google Drive, OneDrive, AirDrop, etc.). |
+| Expansion into mobile (Android/iOS) for true cross-platform usage. | Network restrictions (firewalls, strict IT policies) may limit LAN operations. |
+| Partnerships with schools, colleges, and SMEs for collaboration. | Risk of misuse (file leaks, malware spread) without strong policies. |
+| Offering SaaS/licensed enterprise solutions for secure private networks. | Cloud alternatives offering “anywhere access” could reduce interest in LAN-based tools. |
+| Integration with IoT/smart devices for local data sharing. | Security attacks targeting file integrity or spoofed transfers. |
+| CSR / educational outreach → open-source contributions & community adoption. | Rapid tech changes may demand frequent updates, adding cost and complexity. |
 
 ***
 
+Do you want me to also prepare a **2×2 quadrant layout (classic SWOT matrix)** version for Lanvan so it looks more visual (good for assignments/presentations)?
