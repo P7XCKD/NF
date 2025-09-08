@@ -19,7 +19,7 @@ Rule:
 
 ***
 
-## **Balance Sheet**
+### **Balance Sheet**
 
 | **Assets (₹)** | **Liabilities (₹)** | **Equity (₹)** |
 | --- | --- | --- |
