@@ -4,7 +4,7 @@
 
 
 
-> [!check] Lanvan Balance Sheet Overview* 
+> [!abstract] Lanvan Balance Sheet Overview*
  The Balance Sheet shows Lanvan’s financial position at a specific point in time.  
 > **Assets** represent resources owned or controlled by the project.  
 > **Liabilities** represent obligations owed to others.  
