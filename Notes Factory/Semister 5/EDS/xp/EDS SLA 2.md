@@ -384,34 +384,3 @@ Checklist → if **all pass → Release OK**
 * CI passing, tests >= threshold, UAT signed, rollback plan, monitoring configured, release notes ready.
 
 ***
-
-### Section E — SWOT 
-
-
-**SWOT for Rapid Warn:**
-
-**Strengths**
-
-* Real-time notifications via mobile + widget.
-* ML-enabled image triage reduces manual load.
-* Cloud backend (Firebase + Supabase) for real-time data sync.
-
-**Weaknesses**
-
-* Reliance on 3rd-party services (vendor risk).
-* ML model needs ongoing labeled data and tuning.
-* Small initial team → limited parallel development.
-
-**Opportunities**
-
-* Partnerships with local authorities / NGOs.
-* Monetize analytics & enterprise dashboards.
-* Integrate IoT sensors and expand reach.
-
-**Threats**
-
-* Data privacy & regulatory constraints on image data.
-* Competition from established emergency systems.
-* Infrastructure saturation during major disasters.
-
-###
