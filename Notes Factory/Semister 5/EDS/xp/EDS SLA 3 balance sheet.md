@@ -62,19 +62,7 @@ It is divided into:
 
 ## **Check**
 
-Assets = Liabilities + Equity  
+> [!abstract] Assets = Liabilities + Equity  
 `₹55,650 = ₹15,000 + ₹40,650` ✅
-
-***
-
-## **Observations**
-
-| Area | Key Finding | Why it Matters | Suggested Action |
-| --- | --- | --- | --- |
-| Assets | Largest portion is **development equipment** | Equipment-intensive → supports high-performance file transfers | Maintain and upgrade hardware as needed |
-| Liabilities | Small (subscriptions + founder loan) | Low financial risk currently | Track short-term obligations; plan for future scaling costs |
-| Equity | Dominates (~73% of total) | Shows strong founder-driven value | Consider future investor equity carefully |
-| Revenue | Pre-revenue stage → **retained earnings = 0** | No external income yet | Plan for monetization via enterprise deployments & licensing |
-| Growth Potential | IP & core system are major assets | Tech-heavy approach supports scalability | Focus on software optimizations & secure LAN/file transfer modules |
 
 ***
