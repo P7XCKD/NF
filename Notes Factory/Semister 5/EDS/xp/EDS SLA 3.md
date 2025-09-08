@@ -20,51 +20,21 @@ Rule:
 
 ***
 
-### **Assets**
 
-1.  **Current Assets**
-    
-
--   **Cash & Bank:** ₹900
-    
--   **Prepaid Licenses:** ₹750
-    
-
-2.  **Non-Current Assets**
-    
-
--   **Core System Development:** ₹4,500
-    
--   **Clipboard & File Transfer Module:** ₹1,500
-    
--   **Branding & Domain:** ₹3,000
-    
--   **Development Equipment:** ₹45,000
-    
-
-**Total Assets = ₹55,650**
+| **Assets** (₹) | **Liabilities** (₹) |
+| --- | --- |
+| **Current Assets** | **Current Liabilities** |
+| Cash & Bank – 900 | Accounts Payable – 2,000 |
+| Prepaid Licenses – 750 | Subscriptions Due – 3,000 |
+| **Non-Current Assets** | **Long-term Liabilities** |
+| Core System Development – 4,500 | Founder Loan – 10,000 |
+| Clipboard & File Transfer Module – 1,500 |     |
+| Branding & Domain – 3,000 |     |
+| Development Equipment – 45,000 |     |
+| **Total Assets = 55,650** | **Total Liabilities = 15,000** |
 
 ***
 
-### **Liabilities**
-
-1.  **Current Liabilities**
-    
-
--   **Accounts Payable:** ₹2,000
-    
--   **Subscriptions Due:** ₹3,000
-    
-
-2.  **Long-term Liabilities**
-    
-
--   **Founder Loan:** ₹10,000
-    
-
-**Total Liabilities = ₹15,000**
-
-***
 
 ### **Equity**
 
