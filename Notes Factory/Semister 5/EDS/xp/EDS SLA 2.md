@@ -231,5 +231,3 @@ graph LR
     
 
 ***
-
-👉 Do you want me to also prepare the **Assets vs Liabilities financial table** (like you gave earlier) as a **CPU cost allocation sheet** for each CPM activity?
