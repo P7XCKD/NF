@@ -3,7 +3,7 @@
 
 # **EDS SLA 3**
 
-## **Lanvan Balance Sheet**
+### **Lanvan Balance Sheet**
 
 The Balance Sheet presents Lanvan’s financial position at a given point in time.
 
@@ -21,7 +21,7 @@ It is divided into:
 
 ***
 
-## **Assets**
+### **Assets**
 
 | Particulars | Amount (₹) |
 | --- | --- |
@@ -37,7 +37,7 @@ It is divided into:
 
 ***
 
-## **Liabilities**
+### **Liabilities**
 
 | Particulars | Amount (₹) |
 | --- | --- |
@@ -50,7 +50,7 @@ It is divided into:
 
 ***
 
-## **Equity**
+### **Equity**
 
 | Particulars | Amount (₹) |
 | --- | --- |
@@ -60,7 +60,7 @@ It is divided into:
 
 ***
 
-## **Check**
+### **Check**
 
 > [!abstract] Assets = Liabilities + Equity
 > `₹55,650 = ₹15,000 + ₹40,650` 
