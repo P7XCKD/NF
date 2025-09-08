@@ -53,4 +53,3 @@ Intrapreneurship, much like entrepreneurship, involves risk, but it can lead to 
 
 ***
 
-**Conclusion**:  hence we successfully gathered information on entrepreneurship and startup and understood it
