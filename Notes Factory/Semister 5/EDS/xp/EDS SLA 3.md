@@ -20,7 +20,7 @@ Rule:
 
 ***
 
-## **Assets**
+### **Assets**
 
 1.  **Current Assets**
     
@@ -46,7 +46,7 @@ Rule:
 
 ***
 
-## **Liabilities**
+### **Liabilities**
 
 1.  **Current Liabilities**
     
@@ -66,7 +66,7 @@ Rule:
 
 ***
 
-## **Equity**
+### **Equity**
 
 -   **Founders’ Equity:** ₹40,650
     
@@ -77,9 +77,9 @@ Rule:
 
 ***
 
-## **Balance Sheet Table**
+### **Balance Sheet Table**
 
-### Assets
+#### Assets
 
 | Particulars | Amount (INR) |
 | --- | --- |
@@ -93,7 +93,7 @@ Rule:
 
 ***
 
-### Liabilities
+#### Liabilities
 
 | Particulars | Amount (INR) |
 | --- | --- |
@@ -104,7 +104,7 @@ Rule:
 
 ***
 
-### Equity
+#### Equity
 
 | Particulars | Amount (INR) |
 | --- | --- |
@@ -120,7 +120,7 @@ Assets = Liabilities + Equity
 
 ***
 
-## **Key Takeaways**
+### **Key Takeaways**
 
 1.  Lanvan’s largest asset is **development equipment**.
     
@@ -135,7 +135,7 @@ Assets = Liabilities + Equity
 
 ***
 
-## **Conclusion**
+### **Conclusion**
 
 Therefore, the Balance Sheet for Lanvan has been prepared successfully.
 
