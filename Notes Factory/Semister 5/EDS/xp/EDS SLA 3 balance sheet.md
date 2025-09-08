@@ -30,6 +30,7 @@
 | **Total Assets** | 55,650 |
 
 ***
+<br><br><br><br>
 
 ### **Liabilities**
 
