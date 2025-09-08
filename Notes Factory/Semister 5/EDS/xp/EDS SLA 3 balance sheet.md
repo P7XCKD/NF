@@ -13,7 +13,6 @@
 
 ***
 
-Do you want me to also add the **amounts and key breakdowns** in the same abstract block, or just leave it conceptual?
 
 ***
 
