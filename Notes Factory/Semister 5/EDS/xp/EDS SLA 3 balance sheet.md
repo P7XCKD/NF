@@ -1,4 +1,3 @@
-Perfect! Here’s a fully **clean, submission-ready Lanvan Balance Sheet** with separate tables for Current/Non-Current Assets, Liabilities, and Equity, using your provided figures:
 
 ***
 
