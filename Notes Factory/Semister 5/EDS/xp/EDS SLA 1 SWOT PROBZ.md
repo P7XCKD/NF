@@ -30,4 +30,3 @@
 
 ***
 
-Do you also want me to **format these tables in a 2×2 quadrant style** (classic SWOT matrix) for a more **visual slide-ready layout**?
