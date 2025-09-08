@@ -4,7 +4,7 @@
 ## **SWOT Analysis for Rapid Warn**
 
 
-## **Strengths & Weaknesses**
+### **Strengths & Weaknesses**
 
 | **Strengths** | **Weaknesses** |
 | --- | --- |
