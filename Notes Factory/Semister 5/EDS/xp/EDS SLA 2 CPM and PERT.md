@@ -4,7 +4,6 @@
 
 ## **Section A — CPM (Critical Path Method)**
 
-### Theory (same rules)
 
 -   **Single fixed duration per activity.**
     
@@ -14,8 +13,6 @@
     
 -   **Slack = LS − ES**; **Slack = 0 → Critical Path**
     
-
-***
 
 ### How we set durations
 
