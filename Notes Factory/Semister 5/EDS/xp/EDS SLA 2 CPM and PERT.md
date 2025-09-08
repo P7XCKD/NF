@@ -213,5 +213,3 @@ flowchart LR
 | **PMT (Agile Metrics)** | Velocity ≈ **35 SP/sprint**, CT = **4 days/ticket**, DER = **8.75%**, MTTR = **3 hrs** | Shows strong throughput and recovery, but defect leakage above target | Focus QA to cut DER <5%; reduce MTTR <1h for P1 issues |
 
 ***
-
-Would you like me to also add a **one-line wrap-up below the table** (like in Rapid Warn) summarizing the CPM + PERT + PMT insights together?.
