@@ -1,10 +1,10 @@
 
 
- ## EDS Experiment 1                                   
-<text align="right"> 
+ ## EDS Assignment 1                                   
+<text align="left"> 
 
 
-### Date: 09/07/2025
+### Date: 
 ### Roll No. A025
  
 
