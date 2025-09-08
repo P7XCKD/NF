@@ -38,4 +38,3 @@ This app aims to win a large part of the health and wellness market by offering 
 
 ***
 
-### **Conclusion**: We have successfully created and checked this startup idea and now understand its chances of success and the problems it might face.
