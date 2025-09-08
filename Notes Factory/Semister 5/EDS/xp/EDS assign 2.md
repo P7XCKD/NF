@@ -1,19 +1,7 @@
 
 
-## EDS Experiment 2
+## EDS Assignment 2
 
-#### Date: 
-<text align="right">
-
-
-
-#### Roll No. A025
-
-</text>
-
-### **Aim:** To create and evaluate a new business idea.
-
-### **Theory**
 
 #### **1. Idea Generation**
 
