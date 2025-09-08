@@ -18,7 +18,6 @@
 
 We first built **PERT estimates (O/M/P)** for each activity (see Section B), computed **TE**, then used **Duration = CEIL(TE)** for a conservative CPM schedule.
 
-***
 
 ### **CPM Calculations (Lanvan)**
 
