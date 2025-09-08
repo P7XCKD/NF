@@ -30,5 +30,3 @@
 | CSR / educational outreach → open-source contributions & community adoption. | Rapid tech changes may demand frequent updates, adding cost and complexity. |
 
 ***
-
-Do you want me to also prepare a **2×2 quadrant layout (classic SWOT matrix)** version for Lanvan so it looks more visual (good for assignments/presentations)?
