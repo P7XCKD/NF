@@ -62,7 +62,7 @@ It is divided into:
 
 ## **Check**
 
-> [!abstract] Assets = Liabilities + Equity  
-`₹55,650 = ₹15,000 + ₹40,650` 
+> [!abstract] Assets = Liabilities + Equity
+> `₹55,650 = ₹15,000 + ₹40,650` 
 
 ***
