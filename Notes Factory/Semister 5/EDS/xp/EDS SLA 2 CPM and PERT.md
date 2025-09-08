@@ -38,6 +38,7 @@ We first built **PERT estimates (O/M/P)** for each activity (see Section B), com
 | K   | Bug fixes & polish | 7   | 69  | 76  | 69  | 76  | 0   | YES |
 | L   | Deployment & rollout | 5   | 76  | 81  | 76  | 81  | 0   | YES |
 | M   | Post-launch monitoring & support | 4   | 81  | 85  | 81  | 85  | 0   | YES |
+***
 
 **Critical Path:** `A → B → C → D → F → G → I → J → K → L → M`  
 (Clipboard E and LAN discovery H have slack; they’re non-critical.)
@@ -87,7 +88,6 @@ flowchart LR
 
 ## **Section B — PERT (Program Evaluation and Review Technique)**
 
-### Theory
 
 -   **TE = (O + 4M + P)/6**
     
@@ -98,7 +98,6 @@ flowchart LR
 -   **Project variance** = sum of variances on **critical path**; **σ = √variance**
     
 
-***
 
 ### **PERT Table (Lanvan)**
 
@@ -122,6 +121,7 @@ flowchart LR
 > TE(critical) = **79.83 days**  
 > **Critical-path variance = 8.528 days²** → **σ ≈ 2.92 days**
 
+***
 #### Example TE/Variance (F: File transfer engine)
 
 -   O=10, M=12, P=18 → **TE = (10 + 4·12 + 18)/6 = 12.33 d**
@@ -147,7 +147,7 @@ flowchart LR
 
 ### Formulas
 
--   **CPU_feature** = Total Cost ÷ #Deliverables
+-   **CPU_feature** = Total Cost ÷ Deliverables
     
 -   **CostPerDayᵢ** = Costᵢ ÷ Durationᵢ
     
@@ -170,16 +170,12 @@ flowchart LR
 -   **F – File transfer engine**: Equipment-heavy; allocate **₹15,000** → **₹1,153.85/day** over **13 d**
     
 
-> These allocations keep your original totals (₹55,650) but recognize that **F** is equipment-intensive, hence a higher daily burn. You can refine these by time-tracking or resource rates later.
-
-**Interpretation:**  
-Focus cost control on **F (File transfer engine)** and **G (Frontend)** where burn is highest; keep **E (Clipboard)** flexible (it has slack and low daily cost).
 
 ***
 
 ## **Section D — PMT (Project Management Tools & Key Metrics)**
 
-**Key Agile formulas (same as your template):**
+**Key Agile formulas :**
 
 -   **Velocity** VV = SP ÷ S
     
@@ -202,24 +198,11 @@ Focus cost control on **F (File transfer engine)** and **G (Frontend)** where bu
     
 4.  **MTTR**: 4 incidents, total resolution = 12 hours → **MTTR = 3 hours**
     
-5.  **Release Readiness (Lanvan-specific) – must all pass**
-    
-    -   ✅ CI/CD green (build, unit/integration tests)
-        
-    -   ✅ File type/size/MIME validation and AV scanning
-        
-    -   ✅ AES-256 encryption + HTTPS cert checks
-        
-    -   ✅ UAT on multi-OS (Win/Linux/Mac) + LAN QR pairing
-        
-    -   ✅ Rollback plan & monitoring (transfer errors, throughput, disk)
-        
-    -   ✅ Rate limiting & auth hardening to prevent spoofed transfers
         
 
 ***
 
-# **Final Summary — Observations (Lanvan)**
+## **Observations**
 
 | Area | Key Finding | Why it matters | Suggested Action |
 | --- | --- | --- | --- |
