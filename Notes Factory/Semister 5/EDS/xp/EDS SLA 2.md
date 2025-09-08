@@ -154,7 +154,7 @@ graph LR
 
 ### Example Cost Analysis for Lanvan
 
-(From your asset/liability data, assume **Total dev cost = ₹55,650**. Approx allocation by modules.)
+(assume **Total dev cost = ₹55,650**. Approx allocation by modules.)
 
 -   Major Deliverables = **7** (Backend, Security, Clipboard, Transfer Engine, Frontend, Testing, Deployment).
     
