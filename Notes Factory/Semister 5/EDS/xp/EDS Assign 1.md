@@ -1,19 +1,9 @@
 
 
- ## EDS Assignment 1                                   
-<text align="left"> 
+ ## EDS Assignment 1                                
 
 
-### Date: 
-### Roll No. A025
- 
 
-</text>
-
-
-**Aim:**  to gather information on entrepreneurship and startup 
-
-**Theory**
 #### **1. Entrepreneur Case: Janki Das Kapur (Atlas Cycles)**
 ![image](.attachments/2a4cbf2564da902e3add83bb7e1f4733a3daaee7.png) 
 Atlas Cycles was once a household name in India, widely recognized as one of the largest and oldest cycle manufacturers in the country. Founded in 1951 by Shri Janki Das Kapur in a modest tin shed in Sonepat, Haryana, the company eventually grew into a giant, exporting bicycles to over 50 countries. At its peak, Atlas was an iconic brand, serving generations of Indian customers.
