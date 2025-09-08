@@ -55,9 +55,8 @@
 
 ***
 
-### **Check**
 
-> [!abstract] Assets = Liabilities + Equity
+> [!check] Assets = Liabilities + Equity
 > ₹55,650 = ₹15,000 + ₹40,650
 
 ***
