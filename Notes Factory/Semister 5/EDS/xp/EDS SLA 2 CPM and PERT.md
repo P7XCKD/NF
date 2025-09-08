@@ -2,7 +2,7 @@
 
 # **EDS SLA – 2 (Lanvan File Transfer System)**
 
-## **Section A — CPM (Critical Path Method)**
+### **Section A — CPM (Critical Path Method)**
 
 
 -   **Single fixed duration per activity.**
@@ -14,12 +14,12 @@
 -   **Slack = LS − ES**; **Slack = 0 → Critical Path**
     
 
-### How we set durations
+#### How we set durations
 
 We first built **PERT estimates (O/M/P)** for each activity (see Section B), computed **TE**, then used **Duration = CEIL(TE)** for a conservative CPM schedule.
 
 
-### **CPM Calculations (Lanvan)**
+#### **CPM Calculations (Lanvan)**
 
 **Project duration (CPM, deterministic) = 85 days**
 
@@ -99,7 +99,7 @@ flowchart LR
     
 
 
-### **PERT Table (Lanvan)**
+#### **PERT Table (Lanvan)**
 
 | ID  | Description | O   | M   | P   | **TE_days** | **Variance** | ES  | EF  | Slack | Critical |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
@@ -145,7 +145,7 @@ flowchart LR
 **Baseline:** Total project cost (from Lanvan’s balance sheet) = **₹55,650**  
 **Major deliverables (5):** Core Backend, Clipboard Module, Security Layer, Frontend PWA, Deployment & Monitoring
 
-### Formulas
+#### Formulas
 
 -   **CPU_feature** = Total Cost ÷ Deliverables
     
@@ -154,7 +154,7 @@ flowchart LR
 -   **AvgBurnPerDay** = Total Cost ÷ CPM Duration
     
 
-### Results (Lanvan)
+#### Results (Lanvan)
 
 -   **CPU_feature** = 55,650 ÷ 5 = **₹11,130 per deliverable**
     
