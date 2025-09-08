@@ -2,21 +2,18 @@
 
 # **EDS SLA 3**
 
-### **Lanvan Balance Sheet**
 
-The Balance Sheet presents Lanvan’s financial position at a given point in time.
 
-It is divided into:
+> [!check] Lanvan Balance Sheet Overview* 
+ The Balance Sheet shows Lanvan’s financial position at a specific point in time.  
+> **Assets** represent resources owned or controlled by the project.  
+> **Liabilities** represent obligations owed to others.  
+> **Equity** represents founders’ contributions and retained earnings.  
+> **Rule:** Assets = Liabilities + Equity
 
--   **Assets** → resources owned/controlled by the project
-    
--   **Liabilities** → obligations owed to others
-    
--   **Equity** → founders’ contributions and retained earnings
-    
+***
 
-**Rule:**  
-**Assets = Liabilities + Equity**
+Do you want me to also add the **amounts and key breakdowns** in the same abstract block, or just leave it conceptual?
 
 ***
 
