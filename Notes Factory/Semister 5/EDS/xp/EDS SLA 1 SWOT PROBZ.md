@@ -17,7 +17,7 @@
 
 ***
 
-### Opportunities & Threats**
+### Opportunities & Threats
 
 | **Opportunities** | **Threats** |
 | --- | --- |
