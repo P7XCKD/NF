@@ -1,6 +1,4 @@
 
-***
-
 # **EDS SLA 3**
 
 ### **Lanvan Balance Sheet**
