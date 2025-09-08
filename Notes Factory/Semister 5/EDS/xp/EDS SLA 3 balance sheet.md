@@ -1,4 +1,5 @@
 
+
 # **EDS SLA 3**
 
 ### **Lanvan Balance Sheet**
@@ -20,6 +21,7 @@ Rule:
 
 ## **Balance Sheet**
 
+| **Assets (₹)** | **Liabilities (₹)** | **Equity (₹)** |
 | --- | --- | --- |
 | **Current Assets** | **Current Liabilities** |     |
 | Cash & Bank – 900 | Accounts Payable – 2,000 |     |
@@ -29,7 +31,10 @@ Rule:
 | Clipboard & File Transfer Module – 1,500 |     |     |
 | Branding & Domain – 3,000 |     |     |
 | Development Equipment – 45,000 |     |     |
-| **Total Assets = 55,650** | **Total Liabilities = 15,000** | **Founders’ Equity = 40,650**Retained Earnings = 0**Total Equity = 40,650** |
+| **Total Assets = 55,650** | **Total Liabilities = 15,000** |     |
+|     |     | Founders’ Equity – 40,650 |
+|     |     | Retained Earnings – 0 |
+|     |     | **Total Equity = 40,650** |
 
 ***
 
