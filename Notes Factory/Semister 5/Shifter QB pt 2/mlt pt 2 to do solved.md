@@ -494,7 +494,7 @@ flowchart LR
 | **Key Algorithms** | **Random Forest** and Bagged Decision Trees. |
 | **Applications** | Improves accuracy and consistency of **high-variance models**. |
 ***
-- [ ] 3
+- [x] 3
 ### Explain Boosting – Working, Benefits, Applications with Suitable Diagram – 4/6 Marks
 
 
