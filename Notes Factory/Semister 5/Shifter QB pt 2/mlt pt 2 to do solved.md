@@ -285,7 +285,7 @@ Distance metrics are essential for measuring the similarity between two data poi
 
 
 ***
--   [ ] 8
+-   [x] 8
     
 
 ### Explain Dendrogram with Graphical Representation and Example – 4 Marks
