@@ -12,7 +12,7 @@
 
 ## Chapter 3: Supervised Learning – CO2  
 
-- [ ] 20  
+- [x] 20  
 ### k-Nearest Neighbour (kNN) – Working / ``sums`` – 4/6 Marks  
 
 ***
