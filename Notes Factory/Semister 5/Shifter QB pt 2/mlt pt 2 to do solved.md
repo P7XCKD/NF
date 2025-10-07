@@ -335,7 +335,7 @@ A **Dendrogram** is a tree-like diagram that visually shows the entire hierarchy
 
 ***
 
--   [ ] 10
+-   [x] 10
     
 
 ### Explain Hierarchical Agglomerative Clustering and Hierarchical Divisive Clustering with Suitable Diagram (Workflow) – 4/6 Marks
