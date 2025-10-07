@@ -304,7 +304,7 @@ A **Dendrogram** is a tree-like diagram that visually shows the entire hierarchy
 
 ***
 
--   [ ] 9
+-   [x] 9
     
 
 ### Types of Hierarchical Clustering – 4 Marks
