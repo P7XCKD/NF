@@ -230,52 +230,7 @@ Clustering methods are categorized into different types based on how they define
 
 ***
 
-- [ ] 4
-### Formulas on Different Types of Distance Metrics with Example – 4 Marks
 
-Distance metrics are essential for measuring the similarity between two data points ($P_1$) and ($P_2$).
-
-> [!hint] Solved Example 
-(Using $P_1=(1, 5)$ and $P_2=(4, 1)$)
->
-> 1.  **Euclidean Distance (Straight Line):**
->     $$\mathbf{d} = \sqrt{\sum_{i=1}^{n} (x_{1i} - x_{2i})^2}$$
->     * **Calculation:** $$\mathbf{d} = \sqrt{(4 - 1)^2 + (1 - 5)^2} = \sqrt{3^2 + (-4)^2} = \sqrt{25} = \mathbf{5}$$
->     * **Example:** Measures the **straight-line distance** between two points.
->
-> 2.  **Manhattan Distance (City Block):**
->     $$\mathbf{d} = \sum_{i=1}^{n} |x_{1i} - x_{2i}|$$
->     * **Calculation:** $$\mathbf{d} = |4 - 1| + |1 - 5| = 3 + 4 = \mathbf{7}$$
->     * **Example:** Measures distance along axes, like **walking on city streets**.
->
-> 3.  **Minkowski Distance (General Form):**
->     $$\mathbf{d} = \left( \sum_{i=1}^{n} |x_{1i} - x_{2i}|^p \right)^{\frac{1}{p}}$$
->     * **Note:** This is the **general formula**. It becomes **Euclidean** when $p=2$ and **Manhattan** when $p=1$.
-
-***
-- [ ] 4
-### Formulas on Different Types of Distance Metrics with Example – 4 Marks
-
-Distance metrics are essential for measuring the similarity between two data points ($P_1$) and ($P_2$).
-
-> [!hint] Solved Example 
-(Using $P_1=(1, 5)$ and $P_2=(4, 1)$)
->
-> 1.  **Euclidean Distance (Straight Line):**
->     $$\mathbf{d} = \sqrt{\sum_{i=1}^{n} (x_{1i} - x_{2i})^2}$$
->     * **Calculation:** $$\mathbf{d} = \sqrt{(4 - 1)^2 + (1 - 5)^2} = \sqrt{3^2 + (-4)^2} = \sqrt{25} = \mathbf{5}$$
->     * **Example:** Measures the **straight-line distance** between two points.
->
-> 2.  **Manhattan Distance (City Block):**
->     $$\mathbf{d} = \sum_{i=1}^{n} |x_{1i} - x_{2i}|$$
->     * **Calculation:** $$\mathbf{d} = |4 - 1| + |1 - 5| = 3 + 4 = \mathbf{7}$$
->     * **Example:** Measures distance along axes, like **walking on city streets**.
->
-> 3.  **Minkowski Distance (General Form):**
->     $$\mathbf{d} = \left( \sum_{i=1}^{n} |x_{1i} - x_{2i}|^p \right)^{\frac{1}{p}}$$
->     * **Note:** This is the **general formula**. It becomes **Euclidean** when $p=2$ and **Manhattan** when $p=1$.
-
-***
 
 - [ ] 5  
 ### K-Means Clustering – Process and s`sums` – 4/6/8 Marks  
