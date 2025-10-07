@@ -263,7 +263,7 @@ Distance metrics are essential for measuring the similarity between two data poi
 ### K-Medoids – `sums`, Advantages and Disadvantages – 4/6/8 Marks  
 
 ***
--   [ ] 7
+-   [x] 7
     
 
 ### Define Hierarchical Clustering – 4 Marks
