@@ -466,7 +466,7 @@ flowchart LR
 ***
 
 
--   [ ] 2
+-   [x] 2
     
 
 ### Explain Bagging – Working, Benefits, Applications with Suitable Diagram – 4/6 Marks
