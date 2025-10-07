@@ -425,7 +425,7 @@ flowchart TB
 
 ## Chapter 5: Ensemble Learning – CO4 (Marks: 10)  
 
--   [ ] 1
+-   [x] 1
     
 
 ### Explain Ensemble Learning – 4 Marks
