@@ -193,7 +193,7 @@ Clustering algorithms are categorized into two main types based on membership: *
 
 
 ***
--   [ ] 3
+-   [x] 3
     
 
 ### Explain Types of Clustering Methods – 4 Marks #p
