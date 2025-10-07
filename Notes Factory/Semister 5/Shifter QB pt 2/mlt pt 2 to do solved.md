@@ -631,10 +631,10 @@ flowchart LR
 >
 
 ***
-
+```
 - [ ] 7  
 ### `sums` based on Decision Tree Regression – 6/8 Marks  
-
+```
 ***
 -   [ ] 8
     
@@ -727,7 +727,7 @@ flowchart LR
 | n       | All students except Student n | Student n      |
 
 ***
-
+```
 -   [ ] 11
     
 
@@ -765,11 +765,11 @@ flowchart LR
 > 
 > -   **Variance Reduction:** The student studies **many different** practice tests (like **Bagging**) and averages their knowledge. This leads to consistent, good performance on any new, unseen exam.
 >     
-
+```
 ***
 
 - [ ] 12  
-### `Find out Root Node using Standard Deviation Reduction for Regression` – 4/6 Marks  
+### `Find out Root Node using Standard Deviation Reduction for Regression– 4/6 Marks  `   NOT IN EXAM 
 
 ***
 
