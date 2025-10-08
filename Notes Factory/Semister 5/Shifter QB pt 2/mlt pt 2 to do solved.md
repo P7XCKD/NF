@@ -567,7 +567,7 @@ flowchart LR
 ### Difference between Bagging and Subbagging – 4 Marks
 
 ![image](.attachments/e3be5c67a77e06a59e2cdad1e88c1329d428e3a4.png) 
--   [ ] 6
+-   [x] 6
     
 
 ### Explain Working of Random Forest Algorithm with Advantages and Disadvantages – 6 Marks
