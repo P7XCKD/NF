@@ -675,7 +675,7 @@ flowchart LR
 >
 ***
 
-- [ ] 10  
+- [x] 10  
 ### Explain Leave-One-Out Cross-Validation with Example – 4 Marks  
 **Leave-One-Out Cross-Validation (LOOCV)** means the number of test rounds (k) is **equal to the number of data points** (N) in your entire dataset.
 
