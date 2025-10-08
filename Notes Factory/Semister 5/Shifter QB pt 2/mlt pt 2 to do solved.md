@@ -613,7 +613,7 @@ flowchart LR
 ### `sums` based on Decision Tree Regression – 6/8 Marks  
 ```
 ***
--   [ ] 8
+-   [x] 8
     
 
 ### Define Cross Validation. Importance of Cross Validation – 4 Marks
