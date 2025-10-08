@@ -752,7 +752,7 @@ flowchart LR
 
 
 
--   [ ] 13
+-   [x] 13
     
 
 ### Examples of Bagging and Boosting – 4 Marks
