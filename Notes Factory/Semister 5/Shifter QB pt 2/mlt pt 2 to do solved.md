@@ -785,7 +785,7 @@ Bagging and Boosting are two primary techniques in ensemble learning, which comb
 
 ***
 
--   [ ] 14
+-   [x] 14
     
 
 ### Importance of random_state – 4 Marks
