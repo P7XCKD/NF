@@ -561,7 +561,7 @@ flowchart LR
 >
 ***
 
--   [ ] 5
+-   [x] 5
     
 
 ### Difference between Bagging and Subbagging – 4 Marks
