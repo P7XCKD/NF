@@ -81,206 +81,221 @@ Used to look up a value in the first row of a table and return a value from a sp
 **After:** The function returns **12000**, the price of Monitor.
 
 ***
+### XLOOKUP function in Excel
 
-**3. XLOOKUP**
+If you have Excel 365 or Excel 2021, use XLOOKUP instead of [VLOOKUP](https://www.excel-easy.com/examples/vlookup.html). The **XLOOKUP function** is easier to use and has some additional advantages.
 
-**Purpose:**  
-A newer and more flexible lookup function replacing both VLOOKUP and HLOOKUP.  
-It allows lookups both vertically and horizontally without needing column indexes.
+### Exact Match
 
-**Formula Example:**
+By default, the XLOOKUP function in **Excel 365/2021** performs an exact match.
 
-```excel
-=XLOOKUP("P002", A2:A6, D2:D6)
-```
+1. The XLOOKUP function below looks up the value 53 (first argument) in the range B3:B9 (second argument).
 
-**Explanation:**
+![XLOOKUP arguments](https://www.excel-easy.com/examples/images/xlookup/xlookup-arguments.png "XLOOKUP arguments")
 
--   `"P002"` → Lookup value.
-    
--   `A2:A6` → Lookup array (Product IDs).
-    
--   `D2:D6` → Return array (Prices).
-    
+2. Next, it simply returns the value in the same row from the range E3:E9 (third argument).
 
-**Before:** Only have the Product ID.  
-**After:** Returns **800**, which is the price of Mouse.
+![XLOOKUP function in Excel](https://www.excel-easy.com/examples/images/xlookup/xlookup-function.png "XLOOKUP function in Excel")
 
-**Advanced Example (with default return):**
+3. Here's another example. Instead of returning the salary, the XLOOKUP function below returns the last name (replace E3:E9 with D3:D9) of ID 79.
 
-```excel
-=XLOOKUP("P010", A2:A6, D2:D6, "Not Found")
-```
-
-→ Returns **"Not Found"** since P010 doesn’t exist in the dataset.
-
-***
-
-**Summary of Differences**
-
-| Function | Lookup Direction | Needs Column/Row Index | Works with Missing Data | Simplified Syntax |
-| --- | --- | --- | --- | --- |
-| VLOOKUP | Vertical | Yes | No  | No  |
-| HLOOKUP | Horizontal | Yes | No  | No  |
-| XLOOKUP | Both | No  | Yes | Yes |
-
-***
-
-**Practical Insight**
-
-| Task | Formula | Result |
-| --- | --- | --- |
-| Find product name of P003 | `=VLOOKUP("P003", A2:F6, 2, FALSE)` | Keyboard |
-| Find price of P004 | `=HLOOKUP("P004", B1:F3, 3, FALSE)` | 12000 |
-| Find price of P002 using XLOOKUP | `=XLOOKUP("P002", A2:A6, D2:D6)` | 800 |
-
-***
-
-**Before & After Effect**
-
-| Stage | Description |
-| --- | --- |
-| Before | You have a large dataset and manually search for values (time-consuming). |
-| After | Lookup functions instantly fetch related data automatically, improving accuracy and speed. |
-***
+![Exact Match](https://www.excel-easy.com/examples/images/xlookup/exact-match.png "Exact Match")
 
 - [ ] 2.  
 ### Pivot tables in Excel, dashboard and slicer in Excel  
 
+**Pivot tables** are one of **Excel**'s most powerful features. A pivot table allows you to extract the significance from a large, detailed data set.
 
-**How a PivotTable Works**
+Our data set consists of 213 records and 6 fields. Order ID, Product, Category, Amount, Date and Country.
 
-PivotTables summarize large datasets and allow dynamic data analysis. They have **four main components**:
+![Pivot Table Data in Excel](https://www.excel-easy.com/data-analysis/images/pivot-tables/pivot-table-data.png "Pivot Table Data in Excel")
 
-1. **Columns**  
-   - Columns are vertical tabular data.  
-   - The column includes a unique header at the top, defining what data is listed downwards.  
-   - Example: **D5 (Sum of Attack)** is the header.  
-   - Data: `D6 (110), D7 (100), D8 (50), D9 (73)`, etc.  
+### Insert a Pivot Table
 
-   ![Pivot Table Column Highlighted](https://www.w3schools.com/excel/img_excel_pivot_table_column.png)  
+To insert a **pivot table**, execute the following steps.
 
-2. **Rows**  
-   - Rows are horizontal tabular data.  
-   - Data in the same row are related.  
-   - Example: **A8 (Alakazam)** is the Pokémon name.  
-   - Stats: `B8 (500), C8 (55), D8 (50), E8 (45)` correspond to the column headers.  
+1. Click any single cell inside the data set.
 
-   ![Pivot Table Row Highlighted](https://www.w3schools.com/excel/img_excel_table_pivot_row.png)  
+2. On the Insert tab, in the Tables group, click PivotTable.
 
-3. **Filters**  
-   - Filters allow selection of what data you see in the PivotTable.  
-   - Example: Filters **Generation** and **Type 1** set to `Generation 1` and `Type Psychic`.  
-   - Only Pokémon meeting these criteria are displayed.  
+![Insert Excel Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/insert-pivot-table.png "Insert Excel Pivot Table")
 
-   ![Pivot Table Filter Highlighted](https://www.w3schools.com/excel/img_excel_table_pivot_filter.png)  
-   ![Pivot Table Filter view](https://www.w3schools.com/excel/img_excel_table_pivot_filter_view.png)  
+The following dialog box appears. Excel automatically selects the data for you. The default location for a new pivot table is New Worksheet.
 
-4. **Values**  
-   - Values define how the data is presented.  
-   - You can summarize values (Sum, Count, Average, etc.).  
-   - Example: Range `B5:E5` is summarized using **Sum**, displayed in `B14:E14`.  
+3. Click OK.
 
-   ![Pivot Table Value Range Highlighted](https://www.w3schools.com/excel/img_excel_table_pivot_values.png)  
-   ![Values settings view](https://www.w3schools.com/excel/img_excel_table_pivot_values_view.png)  
+![Create PivotTable Dialog Box](https://www.excel-easy.com/data-analysis/images/pivot-tables/create-pivot-table-dialog-box.png "Create PivotTable Dialog Box")
 
----
+### Drag fields
 
-**Fields and Layout**
+The **PivotTable Fields pane** appears. To get the total amount exported of each product, drag the following fields to the different areas.
 
-The PivotTable display is controlled via the **PivotTable Fields panel**. The panel has two main parts: **Fields** and **Layout**.
+1. Product field to the Rows area.
 
-1. **Fields**  
-   - Checkboxes select/unselect which data appears in the PivotTable.  
-   - Example: Selecting **Speed** displays it in the table.  
-   - Arrow next to the field allows changing how the data is summarized.  
+2. Amount field to the Values area.
 
-   ![Fields in panel](https://www.w3schools.com/excel/img_excel_table_pivot_fields_panel.png)  
-   ![Fields properties](https://www.w3schools.com/excel/img_excel_table_pivot_fields_panel_properties.png)  
+3. Country field to the Filters area.
 
-2. **Layout**  
-   - Drag and drop fields into **Filters, Rows, Columns, or Values** boxes to arrange the PivotTable.  
-   - Example: Dragging **Sp. Def** to **Values** adds it to the table.  
+![Drag Fields to Areas](https://www.excel-easy.com/data-analysis/images/pivot-tables/drag-fields-areas.png "Drag Fields to Areas")
 
-   ![Drag and drop to display data](https://www.w3schools.com/excel/img_excel_table_pivot_fields_panel_drag_and_drop.png)  
-   ![Added SP def to table](https://www.w3schools.com/excel/img_excel_table_pivot_fields_added_spdef.png)  
-   ![Change settings layout fields](https://www.w3schools.com/excel/img_excel_table_pivot_settings_layout.png)  
+Below you can find the pivot table. Bananas are our main export product. That's how easy pivot tables can be!
 
----
+![Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/pivot-table.png "Pivot Table")
+
+### Sort a Pivot Table
+
+To get Banana at the top of the list, sort the pivot table.
+
+1. Click any cell inside the Sum of Amount column.
+
+2. Right click and click on Sort, Sort Largest to Smallest.
+
+![Sort Largest to Smallest](https://www.excel-easy.com/data-analysis/images/pivot-tables/sort-largest-to-smallest.png "Sort Largest to Smallest")
+
+Result:
+
+![Sorted Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/sorted-pivot-table.png "Sorted Pivot Table")
+
+### Filter a Pivot Table
+
+Because we added the Country field to the Filters area, we can filter this pivot table by Country. For example, which products do we export the most to France?
+
+1. Click the filter drop-down and select France.
+
+Result: Apples are our main export product to France.
+
+![Filtered Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/filtered-pivot-table.png "Filtered Pivot Table")
+
+Note: you can use the standard filter (triangle next to Row Labels) to only show the amounts of specific products.
+
+### Change Summary Calculation
+
+By default, Excel summarizes your data by either summing or counting the items. To change the type of calculation that you want to use, execute the following steps.
+
+1. Click any cell inside the Sum of Amount column.
+
+2. Right click and click on Value Field Settings.
+
+![Value Field Settings](https://www.excel-easy.com/data-analysis/images/pivot-tables/value-field-settings.png "Value Field Settings")
+
+3. Choose the type of calculation you want to use. For example, click Count.
+
+![Summarize Value Field By](https://www.excel-easy.com/data-analysis/images/pivot-tables/summarize-value-field-by.png "Summarize Value Field By")
+
+4. Click OK.
+
+Result: 16 out of the 28 orders to France were 'Apple' orders.
+
+![Count](https://www.excel-easy.com/data-analysis/images/pivot-tables/count.png "Count")
+
+### Two-dimensional Pivot Table
+
+If you drag a field to the Rows area and Columns area, you can create a two-dimensional pivot table. First, [insert a pivot table](https://www.excel-easy.com/data-analysis/pivot-tables.html#insert-pivot-table). Next, to get the total amount exported to each country, of each product, drag the following fields to the different areas.
+
+1. Country field to the Rows area.
+
+2. Product field to the Columns area.
+
+3. Amount field to the Values area.
+
+4. Category field to the Filters area.
+
+![Create Two-dimensional Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/create-two-dimensional-pivot-table.png "Create Two-dimensional Pivot Table")
+
+Below you can find the two-dimensional pivot table.
+
+![Two-dimensional Pivot Table in Excel](https://www.excel-easy.com/data-analysis/images/pivot-tables/two-dimensional-pivot-table.png "Two-dimensional Pivot Table in Excel")
 
 
-**Practical Tips for Exams**
 
-- **Columns and Rows:** Know which data goes where. Columns are vertical headers (e.g., Product Name, Sales), and Rows are horizontal entries (e.g., Region, Salesperson).  
-- **Filters:** Use filters to view only a subset of data (e.g., specific regions, products, or time periods).  
-- **Values:** Check how the data is summarized: Sum, Count, Average, Max, Min. Always confirm the correct aggregation.  
-- **Fields Panel:** Drag-and-drop fields to Filters, Rows, Columns, or Values to restructure your PivotTable.  
-- **Dynamic Analysis:** Any change in Filters, Rows, Columns, or Values instantly updates the PivotTable.  
+### Creating an Excel Dashboard – Step-by-Step Guide  
 
----
+![image](.attachments/fff4353e7e51d97a8826c91c3dc052a4ca202001.png) 
+data ^
+![image](.attachments/66966288c05478cb75a59abef8369b1ad73bcd50.png) 
+select pivot chart on right side of insert tab 
+rest figure out urself
+![image](.attachments/b476324c7d5a50c39fcf7a2fca2ab0d4ad25d07b.png) 
+***
 
-**Example Practical Task – Sales Dataset**
+### slicer
+Use **slicers in Excel** to quickly and easily filter pivot tables. Connect multiple slicers to multiple pivot tables to create awesome reports.
 
-| Region | Product | Salesperson | Sales | Profit |
-|--------|---------|------------|-------|--------|
-| North  | Laptop  | Ramesh     | 55000 | 5000  |
-| South  | Mouse   | Priya      | 25000 | 4000  |
-| East   | Keyboard| Anil       | 40000 | 3500  |
-| West   | Monitor | Sita       | 70000 | 6000  |
-| North  | Printer | John       | 30000 | 2500  |
+Below you can find a pivot table. Go back to [Pivot Tables](https://www.excel-easy.com/data-analysis/pivot-tables.html) to learn how to create this pivot table.
 
----
+![Pivot Table](https://www.excel-easy.com/examples/images/slicers/pivot-table.png "Pivot Table")
 
-**Step-by-Step Guide**
+To **insert a slicer**, execute the following steps.
 
-1. **Insert PivotTable**  
-   - Select the dataset.  
-   - Go to **Insert → PivotTable → New Worksheet**.  
-   - A blank PivotTable appears with **PivotTable Fields Panel** on the right.  
+1. Click any cell inside the pivot table.
 
-2. **Assign Rows and Columns**  
-   - Drag **Region** to **Rows** → Each region is listed vertically.  
-   - Drag **Product** to **Columns** → Each product forms a column.  
+2. On the PivotTable Analyze tab, in the Filter group, click Insert Slicer.
 
-3. **Add Values**  
-   - Drag **Sales** to **Values** → Shows total sales for each region-product combination.  
-   - Check the aggregation (default is **Sum**). Change if needed via field settings.  
+![Insert Slicer](https://www.excel-easy.com/examples/images/slicers/insert-slicer.png "Insert Slicer")
 
-4. **Apply Filters**  
-   - Drag **Region** or **Salesperson** to **Filters**.  
-   - Example: Filter **Region** to only show North and South → PivotTable now only shows these regions.  
+3. Check Country and click OK.
 
-5. **Add Additional Insight**  
-   - Drag **Profit** into **Values** → Now the PivotTable shows both Sales and Profit per product per region.  
+![Insert Slicers](https://www.excel-easy.com/examples/images/slicers/insert-slicers.png "Insert Slicers")
 
----
+4. Click United States to find out which products we export the most to the United States.
 
-**Result Example Table**
+![Excel Slicer](https://www.excel-easy.com/examples/images/slicers/slicer.png "Excel Slicer")
 
-| Region | Laptop | Mouse | Keyboard | Monitor | Printer | Grand Total |
-|--------|--------|-------|---------|--------|---------|-------------|
-| North  | 55000  |       |         |        | 30000  | 85000       |
-| South  |        | 25000 |         |        |         | 25000       |
-| Grand Total | 55000 | 25000 | 0 | 0 | 30000 | 110000 |
+Conclusion: bananas are our main export product to the United States. The report filter (cell B1) changes to United States.
 
-- Columns = Products  
-- Rows = Regions  
-- Values = Sales & Profit  
-- Filters = Applied to limit data  
+OK, that was pretty easy. Let's insert a second slicer.
 
----
+5. Click any cell inside the pivot table.
 
-**If Something Goes Wrong**  
+6. On the PivotTable Analyze tab, in the Filter group, click Insert Slicer.
 
-- **Blank or missing data:** Check the dataset for empty cells or spelling errors.  
-- **PivotTable not updating:** Click **Refresh** under PivotTable Tools.  
-- **Wrong aggregation:** Click the value → **Value Field Settings** → Change Sum/Count/Average as needed.  
-- **Incorrect rows/columns:** Re-drag fields in the **Fields Panel** to correct position.  
+![Insert Slicer](https://www.excel-easy.com/examples/images/slicers/insert-slicer.png "Insert Slicer")
 
-This ensures your PivotTable is accurate and displays the desired insights clearly.
+7. Check Product and click OK.
 
-### click next 4 more info: [Introduction Excel PivotTable](https://www.w3schools.com/excel/excel_table_pivot_intro.php)
+![Insert Another Slicer](https://www.excel-easy.com/examples/images/slicers/insert-another-slicer.png "Insert Another Slicer")
 
+8. Select the slicer.
+
+9. On the Slicer tab, in the Slicer Styles group, click a slicer style.
+
+![Change Slicer Style](https://www.excel-easy.com/examples/images/slicers/change-slicer-style.png "Change Slicer Style")
+
+10. Use the second slicer. Click the Multi-Select button to select multiple products.
+
+![Multiple Slicers](https://www.excel-easy.com/examples/images/slicers/multiple-slicers.png "Multiple Slicers")
+
+Note: instead of using the Multi-Select button, hold down CTRL to select multiple items.
+
+To really impress your boss, execute the following steps.
+
+11. Insert a second pivot table.
+
+To connect both slicers to this pivot table, execute the following steps.
+
+12. Select the first slicer.
+
+13. On the Slicer tab, in the Slicer group, click Report Connections.
+
+![Click Report Connections](https://www.excel-easy.com/examples/images/slicers/click-report-connections.png "Click Report Connections")
+
+14. Select the second pivot table and click OK.
+
+![Connect Slicer to Pivot Table](https://www.excel-easy.com/examples/images/slicers/connect-slicer-to-pivot-table.png "Connect Slicer to Pivot Table")
+
+15. Repeat steps 12-14 for the second slicer.
+
+16. Use both slicers.
+
+![Multiple Slicers and Pivot Tables](https://www.excel-easy.com/examples/images/slicers/multiple-slicers-pivot-tables.png "Multiple Slicers and Pivot Tables")
+
+Conclusion: the total amount of apples exported to Canada equals $24,867 (6 orders) and the total amount of oranges exported to Canada equals $19,929 (3 orders).
+
+17. Click the icon in the upper-right corner of a slicer to clear the filter.
+
+![Clear Filter](https://www.excel-easy.com/examples/images/slicers/clear-filter.png "Clear Filter")
+
+Note: we didn't export any beans or carrots to Canada. Try it yourself, download the Excel file and use slicers to create awesome reports.
 ***
 
 - [ ] 3.  
