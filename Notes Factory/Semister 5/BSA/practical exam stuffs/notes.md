@@ -1,51 +1,45 @@
 - [ ] 1.  
 ## Data analytics in Excel – Lookup functions (H, V & Xlookup)  
 
+### VLOOKUP function in Excel
 
-**Dataset Example**
+The **VLOOKUP function** is one of the most popular functions in **Excel**. This page contains many easy to follow VLOOKUP examples.
 
-| Product ID | Product Name | Category | Price | Quantity | Region |
-|-------------|---------------|-----------|--------|-----------|---------|
-| P001 | Laptop | Electronics | 60000 | 10 | North |
-| P002 | Mouse | Accessories | 800 | 50 | South |
-| P003 | Keyboard | Accessories | 1500 | 40 | East |
-| P004 | Monitor | Electronics | 12000 | 20 | West |
-| P005 | Printer | Electronics | 7000 | 15 | North |
+#### Exact Match
 
----
+Most of the time you are looking for an exact match when you use the VLOOKUP function in Excel. Let's take a look at the arguments of the VLOOKUP function.
 
-**1. VLOOKUP**
+1. The VLOOKUP function below looks up the value 53 (first argument) in the leftmost column of the red table (second argument).
 
-**Purpose:**  
-Used to look up a value in the first column of a table and return a value in the same row from another column.
+![VLOOKUP arguments](https://www.excel-easy.com/examples/images/vlookup/vlookup-arguments.png "VLOOKUP arguments")
 
-**Formula Example:**  
-```excel
-=VLOOKUP("P003", A2:F6, 2, FALSE)
-````
+2. The value 4 (third argument) tells the VLOOKUP function to return the value in the same row from the fourth column of the red table.
 
-**Explanation:**
+![VLOOKUP result in Excel](https://www.excel-easy.com/examples/images/vlookup/vlookup-result.png "VLOOKUP result in Excel")
 
--   `"P003"` → The lookup value.
-    
--   `A2:F6` → The data table range.
-    
--   `2` → Column index (Product Name).
-    
--   `FALSE` → Exact match.
-    
+Note: the Boolean FALSE (fourth argument) tells the VLOOKUP function to return an exact match. If the VLOOKUP function cannot find the value 53 in the first column, it will return a [#N/A error](https://www.excel-easy.com/examples/vlookup.html#na-error).
 
-**Before:** You only know the Product ID.  
-**After:** You can find that **P003 = Keyboard**.
+3. Here's another example. Instead of returning the salary, the VLOOKUP function below returns the last name (third argument is set to 3) of ID 79.
 
-**Another Example:**
+![Exact Match](https://www.excel-easy.com/examples/images/vlookup/exact-match.png "Exact Match")
 
-```excel
-=VLOOKUP("P005", A2:F6, 4, FALSE)
-```
+#### Approximate Match
 
-→ Returns **7000**, which is the price of Printer.
+Let's take a look at an example of the VLOOKUP function in approximate match mode (fourth argument set to TRUE).
 
+1. The VLOOKUP function below looks up the value 85 (first argument) in the leftmost column of the red table (second argument). There's just one problem. There's no value 85 in the first column.
+
+![VLOOKUP function in Approximate Match Mode](https://www.excel-easy.com/examples/images/vlookup/vlookup-function-approximate-match-mode.png "VLOOKUP function in Approximate Match Mode")
+
+2. Fortunately, the Boolean TRUE (fourth argument) tells the VLOOKUP function to return an approximate match. If the VLOOKUP function cannot find the value 85 in the first column, it will return the largest value smaller than 85. In this example, this will be the value 80.
+
+![Largest Value Smaller than Lookup Value](https://www.excel-easy.com/examples/images/vlookup/largest-value-smaller-than-lookup-value.png "Largest Value Smaller than Lookup Value")
+
+3. The value 2 (third argument) tells the VLOOKUP function to return the value in the same row from the second column of the red table.
+
+![Approximate Match in Excel](https://www.excel-easy.com/examples/images/vlookup/approximate-match.png "Approximate Match in Excel")
+
+Note: always sort the leftmost column of the red table in ascending order if you use the VLOOKUP function in approximate match mode (fourth argument set to TRUE).
 ***
 
 **2. HLOOKUP**
