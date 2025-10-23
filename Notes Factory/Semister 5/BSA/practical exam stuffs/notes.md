@@ -1,7 +1,7 @@
 - [ ] 1.  
 ## Data analytics in Excel – Lookup functions (H, V & Xlookup)  
 
-### ** HLOOKUP**
+### **HLOOKUP**
 
 **Purpose:**  
 Used to look up a value in the first row of a table and return a value from a specified row below it.
