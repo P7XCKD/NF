@@ -1,6 +1,38 @@
 - [ ] 1.  
 ## Data analytics in Excel – Lookup functions (H, V & Xlookup)  
 
+### **1. HLOOKUP**
+
+**Purpose:**  
+Used to look up a value in the first row of a table and return a value from a specified row below it.
+
+**Transposed Example Dataset**
+
+| Product ID | P001 | P002 | P003 | P004 | P005 |
+| --- | --- | --- | --- | --- | --- |
+| Product Name | Laptop | Mouse | Keyboard | Monitor | Printer |
+| Price | 60000 | 800 | 1500 | 12000 | 7000 |
+
+**Formula Example:**
+
+```excel
+=HLOOKUP("P004", B1:F3, 3, FALSE)
+```
+
+**Explanation:**
+
+-   `"P004"` → Lookup value.
+    
+-   `B1:F3` → Table range.
+    
+-   `3` → Row index (Price).
+    
+-   `FALSE` → Exact match.
+    
+
+**Before:** You have only the Product ID.  
+**After:** The function returns **12000**, the price of Monitor.
+
 ### VLOOKUP function in Excel
 
 The **VLOOKUP function** is one of the most popular functions in **Excel**. This page contains many easy to follow VLOOKUP examples.
@@ -41,38 +73,6 @@ Let's take a look at an example of the VLOOKUP function in approximate match mod
 
 Note: always sort the leftmost column of the red table in ascending order if you use the VLOOKUP function in approximate match mode (fourth argument set to TRUE).
 ***
-
-**2. HLOOKUP**
-
-**Purpose:**  
-Used to look up a value in the first row of a table and return a value from a specified row below it.
-
-**Transposed Example Dataset**
-
-| Product ID | P001 | P002 | P003 | P004 | P005 |
-| --- | --- | --- | --- | --- | --- |
-| Product Name | Laptop | Mouse | Keyboard | Monitor | Printer |
-| Price | 60000 | 800 | 1500 | 12000 | 7000 |
-
-**Formula Example:**
-
-```excel
-=HLOOKUP("P004", B1:F3, 3, FALSE)
-```
-
-**Explanation:**
-
--   `"P004"` → Lookup value.
-    
--   `B1:F3` → Table range.
-    
--   `3` → Row index (Price).
-    
--   `FALSE` → Exact match.
-    
-
-**Before:** You have only the Product ID.  
-**After:** The function returns **12000**, the price of Monitor.
 
 ***
 ### XLOOKUP function in Excel
