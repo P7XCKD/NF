@@ -74,7 +74,7 @@ Let's take a look at an example of the VLOOKUP function in approximate match mod
 Note: always sort the leftmost column of the red table in ascending order if you use the VLOOKUP function in approximate match mode (fourth argument set to TRUE).
 ***
 
-***
+
 ### XLOOKUP function in Excel
 
 If you have Excel 365 or Excel 2021, use XLOOKUP instead of [VLOOKUP](https://www.excel-easy.com/examples/vlookup.html). The **XLOOKUP function** is easier to use and has some additional advantages.
@@ -95,8 +95,10 @@ By default, the XLOOKUP function in **Excel 365/2021** performs an exact match.
 
 ![Exact Match](https://www.excel-easy.com/examples/images/xlookup/exact-match.png "Exact Match")
 
+***
+
 - [ ] 2.  
-### Pivot tables in Excel, dashboard and slicer in Excel  
+## Pivot tables in Excel, dashboard and slicer in Excel  
 
 **Pivot tables** are one of **Excel**'s most powerful features. A pivot table allows you to extract the significance from a large, detailed data set.
 
@@ -104,7 +106,7 @@ Our data set consists of 213 records and 6 fields. Order ID, Product, Category, 
 
 ![Pivot Table Data in Excel](https://www.excel-easy.com/data-analysis/images/pivot-tables/pivot-table-data.png "Pivot Table Data in Excel")
 
-### Insert a Pivot Table
+#### Insert a Pivot Table
 
 To insert a **pivot table**, execute the following steps.
 
@@ -120,7 +122,7 @@ The following dialog box appears. Excel automatically selects the data for you. 
 
 ![Create PivotTable Dialog Box](https://www.excel-easy.com/data-analysis/images/pivot-tables/create-pivot-table-dialog-box.png "Create PivotTable Dialog Box")
 
-### Drag fields
+#### Drag fields
 
 The **PivotTable Fields pane** appears. To get the total amount exported of each product, drag the following fields to the different areas.
 
@@ -136,7 +138,7 @@ Below you can find the pivot table. Bananas are our main export product. That's 
 
 ![Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/pivot-table.png "Pivot Table")
 
-### Sort a Pivot Table
+#### Sort a Pivot Table
 
 To get Banana at the top of the list, sort the pivot table.
 
@@ -150,7 +152,7 @@ Result:
 
 ![Sorted Pivot Table](https://www.excel-easy.com/data-analysis/images/pivot-tables/sorted-pivot-table.png "Sorted Pivot Table")
 
-### Filter a Pivot Table
+#### Filter a Pivot Table
 
 Because we added the Country field to the Filters area, we can filter this pivot table by Country. For example, which products do we export the most to France?
 
@@ -162,7 +164,7 @@ Result: Apples are our main export product to France.
 
 Note: you can use the standard filter (triangle next to Row Labels) to only show the amounts of specific products.
 
-### Change Summary Calculation
+#### Change Summary Calculation
 
 By default, Excel summarizes your data by either summing or counting the items. To change the type of calculation that you want to use, execute the following steps.
 
@@ -182,7 +184,10 @@ Result: 16 out of the 28 orders to France were 'Apple' orders.
 
 ![Count](https://www.excel-easy.com/data-analysis/images/pivot-tables/count.png "Count")
 
-### Two-dimensional Pivot Table
+
+> [!attention] below part is not asked  in question but just for info i have added
+
+#### Two-dimensional Pivot Table
 
 If you drag a field to the Rows area and Columns area, you can create a two-dimensional pivot table. First, [insert a pivot table](https://www.excel-easy.com/data-analysis/pivot-tables.html#insert-pivot-table). Next, to get the total amount exported to each country, of each product, drag the following fields to the different areas.
 
@@ -200,16 +205,71 @@ Below you can find the two-dimensional pivot table.
 
 ![Two-dimensional Pivot Table in Excel](https://www.excel-easy.com/data-analysis/images/pivot-tables/two-dimensional-pivot-table.png "Two-dimensional Pivot Table in Excel")
 
+#### Insert Pivot Chart
 
+To insert a pivot chart, execute the following steps.
 
-### Creating an Excel Dashboard – Step-by-Step Guide  
+1. Click any cell inside the pivot table.
 
+2. On the PivotTable Analyze tab, in the Tools group, click PivotChart.
+
+![Click PivotChart](https://www.excel-easy.com/examples/images/pivot-chart/click-pivot-chart.png "Click PivotChart")
+
+The Insert Chart dialog box appears.
+
+3. Click OK.
+
+Below you can find the pivot chart.
+
+![Pivot Chart in Excel](https://www.excel-easy.com/examples/images/pivot-chart/pivot-chart.png "Pivot Chart in Excel")
+
+Note: any changes you make to the pivot chart are immediately reflected in the pivot table and vice versa.
+
+#### Filter Pivot Chart
+
+To filter this pivot chart, execute the following steps.
+
+1. Use the standard filters (triangles next to Product and Country). For example, use the Country filter to only show the total amount of each product exported to the United States.
+
+![Standard Filter](https://www.excel-easy.com/examples/images/pivot-chart/standard-filter.png "Standard Filter")
+
+2. Remove the Country filter.
+
+3. Because we added the Category field to the Filters area, we can filter this pivot chart (and pivot table) by Category. For example, use the Category filter to only show the vegetables exported to each country.
+
+![Report Filter](https://www.excel-easy.com/examples/images/pivot-chart/report-filter.png "Report Filter")
+
+#### Change Pivot Chart Type
+
+You can change to a different type of pivot chart at any time.
+
+1. Select the chart.
+
+2. On the Design tab, in the Type group, click Change Chart Type.
+
+![Change Chart Type](https://www.excel-easy.com/examples/images/pivot-chart/change-chart-type.png "Change Chart Type")
+
+3. Choose Pie.
+
+![Choose Pie](https://www.excel-easy.com/examples/images/pivot-chart/choose-pie.png "Choose Pie")
+
+4. Click OK.
+
+Result:
+
+![New Pivot Chart](https://www.excel-easy.com/examples/images/pivot-chart/new-pivot-chart.png "New Pivot Chart")
+
+Note: pie charts always use one data series (in this case, Beans). To get a pivot chart of a country, swap the data over the axis. First, select the chart. Next, on the Design tab, in the Data group, click Switch Row/Column.
+
+ 
+> [!hint]   same stuffs as above  but fast 
 ![image](.attachments/fff4353e7e51d97a8826c91c3dc052a4ca202001.png) 
 data ^
 ![image](.attachments/66966288c05478cb75a59abef8369b1ad73bcd50.png) 
 select pivot chart on right side of insert tab 
 rest figure out urself
 ![image](.attachments/b476324c7d5a50c39fcf7a2fca2ab0d4ad25d07b.png) 
+
 ***
 
 ### slicer
@@ -237,59 +297,7 @@ To **insert a slicer**, execute the following steps.
 
 Conclusion: bananas are our main export product to the United States. The report filter (cell B1) changes to United States.
 
-OK, that was pretty easy. Let's insert a second slicer.
 
-5. Click any cell inside the pivot table.
-
-6. On the PivotTable Analyze tab, in the Filter group, click Insert Slicer.
-
-![Insert Slicer](https://www.excel-easy.com/examples/images/slicers/insert-slicer.png "Insert Slicer")
-
-7. Check Product and click OK.
-
-![Insert Another Slicer](https://www.excel-easy.com/examples/images/slicers/insert-another-slicer.png "Insert Another Slicer")
-
-8. Select the slicer.
-
-9. On the Slicer tab, in the Slicer Styles group, click a slicer style.
-
-![Change Slicer Style](https://www.excel-easy.com/examples/images/slicers/change-slicer-style.png "Change Slicer Style")
-
-10. Use the second slicer. Click the Multi-Select button to select multiple products.
-
-![Multiple Slicers](https://www.excel-easy.com/examples/images/slicers/multiple-slicers.png "Multiple Slicers")
-
-Note: instead of using the Multi-Select button, hold down CTRL to select multiple items.
-
-To really impress your boss, execute the following steps.
-
-11. Insert a second pivot table.
-
-To connect both slicers to this pivot table, execute the following steps.
-
-12. Select the first slicer.
-
-13. On the Slicer tab, in the Slicer group, click Report Connections.
-
-![Click Report Connections](https://www.excel-easy.com/examples/images/slicers/click-report-connections.png "Click Report Connections")
-
-14. Select the second pivot table and click OK.
-
-![Connect Slicer to Pivot Table](https://www.excel-easy.com/examples/images/slicers/connect-slicer-to-pivot-table.png "Connect Slicer to Pivot Table")
-
-15. Repeat steps 12-14 for the second slicer.
-
-16. Use both slicers.
-
-![Multiple Slicers and Pivot Tables](https://www.excel-easy.com/examples/images/slicers/multiple-slicers-pivot-tables.png "Multiple Slicers and Pivot Tables")
-
-Conclusion: the total amount of apples exported to Canada equals $24,867 (6 orders) and the total amount of oranges exported to Canada equals $19,929 (3 orders).
-
-17. Click the icon in the upper-right corner of a slicer to clear the filter.
-
-![Clear Filter](https://www.excel-easy.com/examples/images/slicers/clear-filter.png "Clear Filter")
-
-Note: we didn't export any beans or carrots to Canada. Try it yourself, download the Excel file and use slicers to create awesome reports.
 ***
 
 - [ ] 3.  
