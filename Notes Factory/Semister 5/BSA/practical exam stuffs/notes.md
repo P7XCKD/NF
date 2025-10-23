@@ -1,5 +1,5 @@
 - [ ] 1.  
-### Data analytics in Excel – Lookup functions (H, V & Xlookup)  
+## Data analytics in Excel – Lookup functions (H, V & Xlookup)  
 
 
 **Dataset Example**
