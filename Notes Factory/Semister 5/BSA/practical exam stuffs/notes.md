@@ -472,6 +472,7 @@ Result: a loan amount of $250,187 produces a monthly payment of $1500.
 - [ ] 4.  
 ### Data structures in R – Vectors, Lists, Arrays, Matrices, Factors, Data Frames  
 
+
 ***
 
 - [ ] 5.  
