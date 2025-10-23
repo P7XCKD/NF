@@ -303,6 +303,170 @@ Conclusion: bananas are our main export product to the United States. The report
 - [ ] 3.  
 ### What if analysis in MS Excel  
 
+**What-If Analysis** in **Excel** allows you to try out different values (scenarios) for formulas. The following example helps you master what-if analysis quickly and easily.
+
+Assume you own a book store and have 100 books in storage. You sell a certain % for the highest price of $50 and a certain % for the lower price of $20.
+
+![Excel What-If Analysis Example](https://www.excel-easy.com/data-analysis/images/what-if-analysis/what-if-analysis-example.png "Excel What-If Analysis Example")
+
+If you sell 60% for the highest price, cell D10 calculates a total profit of 60 * $50 + 40 * $20 = $3800.
+
+### Create Different Scenarios
+
+But what if you sell 70% for the highest price? And what if you sell 80% for the highest price? Or 90%, or even 100%? Each different percentage is a different **scenario**. You can use the Scenario Manager to create these scenarios.
+
+Note: you can simply type in a different percentage into cell C4 to see the corresponding result of a scenario in cell D10. However, what-if analysis enables you to easily compare the results of different scenarios. Read on.
+
+1. On the Data tab, in the Forecast group, click What-If Analysis.
+
+![Click What-If Analysis](https://www.excel-easy.com/data-analysis/images/what-if-analysis/click-what-if-analysis.png "Click What-If Analysis")
+
+2. Click Scenario Manager.
+
+![Click Scenario Manager](https://www.excel-easy.com/data-analysis/images/what-if-analysis/click-scenario-manager.png "Click Scenario Manager")
+
+The Scenario Manager dialog box appears.
+
+3. Add a scenario by clicking on Add.
+
+![Add a Scenario](https://www.excel-easy.com/data-analysis/images/what-if-analysis/add-scenario.png "Add a Scenario")
+
+4. Type a name (60% highest), select cell C4 (% sold for the highest price) for the Changing cells and click on OK.
+
+![Edit a Scenario](https://www.excel-easy.com/data-analysis/images/what-if-analysis/edit-scenario.png "Edit a Scenario")
+
+5. Enter the corresponding value 0.6 and click on OK again.
+
+![Enter a Scenario Value](https://www.excel-easy.com/data-analysis/images/what-if-analysis/scenario-value.png "Enter a Scenario Value")
+
+6. Next, add 4 other scenarios (70%, 80%, 90% and 100%).
+
+Finally, your Scenario Manager should be consistent with the picture below:
+
+![All Scenarios](https://www.excel-easy.com/data-analysis/images/what-if-analysis/all-scenarios.png "All Scenarios")
+
+Note: to see the result of a scenario, select the scenario and click on the Show button. Excel will change the value of cell C4 accordingly for you to see the corresponding result on the sheet.
+
+### Scenario Summary
+
+To easily compare the results of these scenarios, execute the following steps.
+
+1. Click the Summary button in the Scenario Manager.
+
+2. Next, select cell D10 (total profit) for the result cell and click on OK.
+
+![Create a Scenario Summary](https://www.excel-easy.com/data-analysis/images/what-if-analysis/create-scenario-summary.png "Create a Scenario Summary")
+
+Result:
+
+![What-If Analysis Result](https://www.excel-easy.com/data-analysis/images/what-if-analysis/scenario-summary.png "What-If Analysis Result")
+
+Conclusion: if you sell 70% for the highest price, you obtain a total profit of $4100, if you sell 80% for the highest price, you obtain a total profit of $4400, etc. That's how easy what-if analysis in Excel can be.
+
+### Goal Seek
+
+What if you want to know how many books you need to sell for the highest price, to obtain a total profit of exactly $4700? You can use **Excel's Goal Seek** feature to find the answer.
+
+1. On the Data tab, in the Forecast group, click What-If Analysis.
+
+![Click What-If Analysis](https://www.excel-easy.com/data-analysis/images/what-if-analysis/click-what-if-analysis.png "Click What-If Analysis")
+
+2. Click Goal Seek.
+
+![Click Goal Seek](https://www.excel-easy.com/data-analysis/images/what-if-analysis/click-goal-seek.png "Click Goal Seek")
+
+The Goal Seek dialog box appears.
+
+3. Select cell D10.
+
+4. Click in the 'To value' box and type 4700.
+
+5. Click in the 'By changing cell' box and select cell C4.
+
+6. Click OK.
+
+![Goal Seek Parameters](https://www.excel-easy.com/data-analysis/images/what-if-analysis/goal-seek-parameters.png "Goal Seek Parameters")
+
+Result: you need to sell 90% of the books for the highest price to obtain a total profit of exactly $4700.
+
+![Goal Seek in Excel](https://www.excel-easy.com/data-analysis/images/what-if-analysis/goal-seek-result.png "Goal Seek in Excel")
+
+> [!check] more examples below
+> If you know the result you want from a formula, use **Goal Seek** in **Excel** to find the input value that produces this formula result.
+
+### Goal Seek Example 1
+
+Use Goal Seek in Excel to find the grade on the fourth exam that produces a final grade of 70.
+
+1. The formula in cell B7 calculates the final grade.
+
+![Formula Result](https://www.excel-easy.com/examples/images/goal-seek/formula-result.png "Formula Result")
+
+2. The grade on the fourth exam in cell B5 is the input cell.
+
+![Input Cell](https://www.excel-easy.com/examples/images/goal-seek/input-cell.png "Input Cell")
+
+3. On the Data tab, in the Forecast group, click What-If Analysis.
+
+![Click What-If Analysis](https://www.excel-easy.com/examples/images/goal-seek/click-what-if-analysis.png "Click What-If Analysis")
+
+4. Click Goal Seek.
+
+![Click Goal Seek](https://www.excel-easy.com/examples/images/goal-seek/click-goal-seek.png "Click Goal Seek")
+
+The Goal Seek dialog box appears.
+
+5. Select cell B7.
+
+6. Click in the 'To value' box and type 70.
+
+7. Click in the 'By changing cell' box and select cell B5.
+
+8. Click OK.
+
+![Goal Seek Parameters](https://www.excel-easy.com/examples/images/goal-seek/goal-seek-parameters.png "Goal Seek Parameters")
+
+Result: a grade of 90 on the fourth exam produces a final grade of 70.
+
+![Goal Seek Solution](https://www.excel-easy.com/examples/images/goal-seek/goal-seek-solution.png "Goal Seek Solution")
+
+### Goal Seek Example 2
+
+Use Goal Seek in Excel to find the loan amount that produces a monthly payment of $1500.
+
+1. The formula in cell B5 calculates the monthly payment.
+
+![PMT function](https://www.excel-easy.com/examples/images/goal-seek/pmt-function.png "PMT function")
+
+Explanation: the [PMT function](https://www.excel-easy.com/examples/pmt.html) calculates the payment for a loan. If you've never heard of this function before, that's OK. The higher the loan amount, the higher the monthly payment. Assume, you can only afford $1500 a month. What is your maximum loan amount?
+
+2. The loan amount in cell B3 is the input cell.
+
+![Loan Amount](https://www.excel-easy.com/examples/images/goal-seek/loan-amount.png "Loan Amount")
+
+3. On the Data tab, in the Forecast group, click What-If Analysis.
+
+![Click What-If Analysis](https://www.excel-easy.com/examples/images/goal-seek/click-what-if-analysis.png "Click What-If Analysis")
+
+4. Click Goal Seek.
+
+![Click Goal Seek](https://www.excel-easy.com/examples/images/goal-seek/click-goal-seek.png "Click Goal Seek")
+
+The Goal Seek dialog box appears.
+
+5. Select cell B5.
+
+6. Click in the 'To value' box and type -1500 (negative, you are paying out money).
+
+7. Click in the 'By changing cell' box and select cell B3.
+
+8. Click OK.
+
+![Goal Seek Variables](https://www.excel-easy.com/examples/images/goal-seek/goal-seek-variables.png "Goal Seek Variables")
+
+Result: a loan amount of $250,187 produces a monthly payment of $1500.
+
+![Goal Seek Found a Solution](https://www.excel-easy.com/examples/images/goal-seek/goal-seek-found-a-solution.png "Goal Seek Found a Solution")
 ***
 
 - [ ] 4.  
