@@ -79,7 +79,7 @@ Used to look up a value in the first row of a table and return a value from a sp
 
 If you have Excel 365 or Excel 2021, use XLOOKUP instead of [VLOOKUP](https://www.excel-easy.com/examples/vlookup.html). The **XLOOKUP function** is easier to use and has some additional advantages.
 
-### Exact Match
+#### Exact Match
 
 By default, the XLOOKUP function in **Excel 365/2021** performs an exact match.
 
