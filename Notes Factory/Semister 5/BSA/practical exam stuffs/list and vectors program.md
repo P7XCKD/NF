@@ -1,3 +1,4 @@
+### list
 ```R
 # --- CREATE (convert vector → list) ---
 data_vec <- c("PROBZ", 21, "R", "Python", "Data Analytics")
@@ -25,7 +26,13 @@ print(dict_list)
 # --- UNDICTIONARY (flatten list) ---
 un_dict_list <- unlist(dict_list)
 print(un_dict_list)
-[25/10, 7:03 am] Dev: # --- CREATE (convert list → vector) ---
+```
+### Vector
+```R
+
+
+
+# --- CREATE (convert list → vector) ---
 num_list <- as.list(c(10, 20, 30, 40, 50))
 num_vec <- unlist(num_list)     # conversion to vector
 
