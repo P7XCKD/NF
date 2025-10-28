@@ -3,8 +3,7 @@ Q.1 Explain any six factors that influence the choice of a programming language 
 
 
 
-> [!abstract]
-> Key Factors Influencing Language Choice
+> [!abstract]Key Factors Influencing Language Choice
 >  * Project Requirements: The type of application being built is a primary factor. For instance, Python or R are preferred for data science and machine learning, while JavaScript is essential for front-end web development, and Swift or Kotlin are used for native mobile apps.
 >  * Performance: For applications requiring high speed and efficiency, such as game engines or high-frequency trading systems, languages like C++ or Rust are chosen due to their close-to-hardware performance and memory management capabilities.
 >  * Ecosystem and Libraries: A strong ecosystem with a rich set of libraries, frameworks, and tools can drastically speed up development. Languages like Python (with Django, Flask) and JavaScript (with React, Node.js) have vast ecosystems that provide pre-built solutions for common problems.
