@@ -1,6 +1,8 @@
 Q.1 Explain any six factors that influence the choice of a programming language for software development. 6M
 > The selection of a programming language is a critical decision in software development that depends on various technical and business requirements. The right choice can significantly impact development speed, application performance, and long-term maintenance.
-> 
+
+
+
 > [!abstract]
 > Key Factors Influencing Language Choice
 >  * Project Requirements: The type of application being built is a primary factor. For instance, Python or R are preferred for data science and machine learning, while JavaScript is essential for front-end web development, and Swift or Kotlin are used for native mobile apps.
