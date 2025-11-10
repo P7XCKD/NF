@@ -825,7 +825,7 @@ Based on the **number of variables studied**:
 ### Sums based on multiple Linear Regression in Machine Learning — 6/8 marks  
 ***
 
-- [ ] 9  
+- [x] 9  
 ### Explain dummy variable with the help of example — 4/6 marks  
 
 A **dummy variable** is just a number, usually a 0 or a 1, that stands in for text-based data. It's used to help a machine learning model understand things like "City" or "Color" because these models can only work with number.
