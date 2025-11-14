@@ -217,7 +217,7 @@ arr
 (ii) Merge two lists
 (iii) Count number of objects in given list (8m)
 ***
-**Heterogeneous storage**  
+- **Heterogeneous storage**  
   A list can store different data types (numeric, character, logical, vectors, matrices, data frames, other lists).
 
 - **Indexed and named access**  
