@@ -207,7 +207,7 @@ arr
 # [1] 1 2 3 4 5 6 7 8
 
 ```
-
+![image](.attachments/1e62b0eee171f369e45dbcb81b545cc84134c0bf.jpg) 
 
 
 
