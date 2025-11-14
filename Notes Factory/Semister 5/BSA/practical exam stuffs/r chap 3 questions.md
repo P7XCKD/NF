@@ -52,7 +52,7 @@ rel1; rel2
 log1; log2
 num1; num2
 ```
-
+### Explain types of vectors with examples in R programming
 In R, vectors are the most basic data structure, and they store elements of the same data type.
 Here are the main types of vectors with simple explanations and examples:
 
@@ -64,7 +64,7 @@ Stores numeric values (integers or doubles).
 
 num_vec <- c(10, 20, 30)
 print(num_vec)
-# Output: 10 20 30
+> Output: 10 20 30
 
 ---
 
@@ -74,7 +74,7 @@ Created using the L suffix.
 
 int_vec <- c(1L, 2L, 3L)
 print(int_vec)
-# Output: 1 2 3
+> Output: 1 2 3
 
 ---
 
@@ -84,7 +84,7 @@ Stores text strings.
 
 char_vec <- c("apple", "banana", "mango")
 print(char_vec)
-# Output: "apple" "banana" "mango"
+> Output: "apple" "banana" "mango"
 
 ---
 
@@ -94,7 +94,7 @@ Contains TRUE/FALSE values.
 
 log_vec <- c(TRUE, FALSE, TRUE)
 print(log_vec)
-# Output: TRUE FALSE TRUE
+> Output: TRUE FALSE TRUE
 
 ---
 
@@ -104,7 +104,7 @@ Stores complex numbers.
 
 comp_vec <- c(2+3i, 4-1i)
 print(comp_vec)
-# Output: 2+3i 4-1i
+> Output: 2+3i 4-1i
 
 ---
 
@@ -114,11 +114,11 @@ Stores raw bytes (uninterpreted data).
 
 raw_vec <- charToRaw("ABC")
 print(raw_vec)
-# Output: 41 42 43
+> Output: 41 42 43
 
 ---
 
-## Summary Table
+> Summary Table
 
 | Vector Type | Example            |
 |-------------|--------------------|
@@ -130,9 +130,6 @@ print(raw_vec)
 | Raw         | charToRaw("Hi")     |
 
 ---
-
-If you want, I can also explain vector operations, indexing, or mixed-type vectors (coercion).
-
 
 
 
