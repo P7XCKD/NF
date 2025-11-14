@@ -216,6 +216,15 @@ arr
 (i) Update elements
 (ii) Merge two lists
 (iii) Count number of objects in given list (8m)
+***
+Heterogeneous storage
+A list can store different data types (numeric, character, logical, vectors, matrices, data frames, other lists).
+Indexed and named access
+Elements can be accessed using indices (list[[1]]) 
+Dynamic size
+Elements can be added, removed, or modified at any time.
+Nested structures allowed
+A list can contain another list inside it
 
 *** 
 ```r
