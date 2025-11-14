@@ -185,27 +185,26 @@ arr
 # [1] 1 2
 
 
-# Add elements using c()
-arr1 <- c(arr, 3, 4)
-arr1
+# Add using c()
+arr <- c(arr, 3, 4)
+arr
 # Output:
 # [1] 1 2 3 4
 
 
-# Add elements using append()
-arr2 <- append(arr, c(5, 6))
-arr2
+# Add using append()
+arr <- append(arr, c(5, 6))
+arr
 # Output:
-# [1] 1 2 5 6
+# [1] 1 2 3 4 5 6
 
 
-# Add elements using length()
-arr3 <- arr
-length(arr3) <- length(arr3) + 2
-arr3[3:4] <- c(7, 8)
-arr3
+# Add using length()
+length(arr) <- length(arr) + 2
+arr[7:8] <- c(7, 8)
+arr
 # Output:
-# [1] 1 2 7 8
+# [1] 1 2 3 4 5 6 7 8
 
 ```
 
