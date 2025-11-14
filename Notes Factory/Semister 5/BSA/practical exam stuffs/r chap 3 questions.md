@@ -176,6 +176,52 @@ print(date_value)           # 2025-01-20
 
 
 
+### Create array directly
+```r
+a <- c(1, 2)
+arr <- array(a)
+arr
+# Output:
+# [1] 1 2
+
+
+# Add elements using c()
+arr1 <- c(arr, 3, 4)
+arr1
+# Output:
+# [1] 1 2 3 4
+
+
+# Add elements using append()
+arr2 <- append(arr, c(5, 6))
+arr2
+# Output:
+# [1] 1 2 5 6
+
+
+# Add elements using length()
+arr3 <- arr
+length(arr3) <- length(arr3) + 2
+arr3[3:4] <- c(7, 8)
+arr3
+# Output:
+# [1] 1 2 7 8
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
