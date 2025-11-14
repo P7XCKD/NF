@@ -210,7 +210,62 @@ arr
 ![image](.attachments/1e62b0eee171f369e45dbcb81b545cc84134c0bf.jpg) 
 
 
+***
+### State any four features of List data structure in R. Write an R program to create a list containing a vector, a matrixand a list. 
+> Perform: 
+(i) Update elements
+(ii) Merge two lists
+(iii) Count number of objects in given list (8m)
 
+*** 
+```r
+# Create a vector
+v <- c(10, 20, 30)                # vector
+
+# Create a matrix
+m <- matrix(c(1, 2, 3, 4), nrow = 2)   # matrix
+
+# Create an inner list
+inner <- list(5, 15)              # list
+
+# Create main list
+my_list <- list(v, m, inner)
+
+# (i) Update elements using direct index
+my_list[[1]][2] <- 200      # updating vector element
+my_list[[3]][[1]] <- 50     # updating inner list element
+
+# (ii) Merge two lists
+list2 <- list("new element")
+merged_list <- c(my_list, list2)
+
+# (iii) Count number of objects
+count_objects <- length(my_list)
+
+# Output
+print(my_list)
+# [[1]] (vector)
+# [1]  10 200  30
+#
+# [[2]] (matrix)
+#      [,1] [,2]
+# [1,]    1    3
+# [2,]    2    4
+#
+# [[3]] (inner list)
+# [[3]][[1]]
+# [1] 50
+#
+# [[3]][[2]]
+# [1] 15
+
+print(merged_list)
+# Same as my_list plus 4th element "new element"
+
+print(count_objects)
+# [1] 3
+
+```
 
 
 
