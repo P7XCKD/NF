@@ -131,9 +131,48 @@ print(raw_vec)
 
 ---
 
+### Sample Program: Demonstrating Conversion Functions in R
+```r
+# Original values
+num_char <- "50"
+decimal_num <- 12.7
+logic_num <- 1
+char_vec <- c("A", "B", "C")
+num_vec <- c(1, 2, 3)
 
+# Type Conversions
+num_value <- as.numeric(num_char)
+print(num_value)            # 50
 
+int_value <- as.integer(decimal_num)
+print(int_value)            # 12
 
+char_value <- as.character(200)
+print(char_value)           # "200"
+
+log_value <- as.logical(logic_num)
+print(log_value)            # TRUE
+
+complex_value <- as.complex(7)
+print(complex_value)        # 7+0i
+
+# Structure Conversions
+vector_value <- as.vector(num_vec)
+print(vector_value)         # 1 2 3
+
+matrix_value <- as.matrix(num_vec)
+print(matrix_value)         # Converts vector → matrix
+
+list_value <- as.list(num_vec)
+print(list_value)           # List of 3 elements
+
+factor_value <- as.factor(char_vec)
+print(factor_value)         # Factor: A B C
+
+date_value <- as.Date("2025-01-20", "%Y-%m-%d")
+print(date_value)           # 2025-01-20
+
+```
 
 
 
