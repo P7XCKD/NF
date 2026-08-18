@@ -7,20 +7,16 @@ To write a Java program using variables, operators, and decision-making statemen
 ### Objective:
 
 -   To use variables and the `Scanner` class for input.
-    
 -   To apply relational and logical operators.  
 -   To implement `if-else` statements.
--   To compare String values using `.equals()`.
-    
+-   To compare String values using `.equals()`.  
 -   To classify urine test results based on given conditions.
     
 
 ### Software Used:
 
--   **Java Development Kit (JDK)**
-    
+-   **Java Development Kit (JDK)**  
 -   **Visual Studio Code / Command Prompt**
-    
 -   **Java Compiler (`javac`)**
     
 
