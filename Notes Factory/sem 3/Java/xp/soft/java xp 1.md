@@ -1,12 +1,13 @@
-<div style="display:flex; justify-content:space-between; align-items:flex-start;">
-
+<table border="0">
+<tr>
+<td>
 <h2>Experiment 1</h2>
-
-<div style="text-align:right;">
+</td>
+<td align="right">
 <h2>Dev Mandora<br>Roll Number: 62</h2>
-</div>
-
-</div>
+</td>
+</tr>
+</table>
 
 ### Aim:
 
