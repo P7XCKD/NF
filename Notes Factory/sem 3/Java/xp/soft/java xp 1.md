@@ -1,13 +1,6 @@
-<h2 style="float:left;">Experiment 1</h2>
-
-<div style="float:right;">
-    <h2 align="right">Dev Mandora<br>
-    Roll Number: 62</h2>
-</div>
-
-<div style="clear:both;"></div>
-
-<h3>Aim:</h3>
+## Experiment 1
+### Name: Dev Mandora 
+### Roll Number: 64
 ### Aim:
 
 To write a Java program using variables, operators, and decision-making statements to analyze basic urine test parameters and classify the overall test result as **Normal** or **Abnormal**.
