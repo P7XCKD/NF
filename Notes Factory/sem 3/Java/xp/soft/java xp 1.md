@@ -1,10 +1,15 @@
 <div>
-<h2 style="display:inline;">Experiment 1</h2>
-<span style="float:right; text-align:right;">
-<b>Dev Mandora</b><br>
-<b>Roll Number: 62</b>
-</span>
+<h2 style="float:left;">Experiment 1</h2>
+
+<h2 style="float:right; text-align:right;">
+Dev Mandora<br>
+Roll Number: 62
+</h2>
+
+<div style="clear:both;"></div>
 </div>
+
+<h3>Aim:</h3>
 
 ### Aim:
 
