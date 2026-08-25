@@ -1,5 +1,5 @@
-## Experiment 1      
-<div align="right"> <h2>Dev Mandora<br>
+ <div align="right">  <h2>Experiment 1      </h2>
+<h2>Dev Mandora<br>
 Roll Number: 62 </h2> </div>
 
 ### Aim:
