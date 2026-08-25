@@ -5,14 +5,10 @@
 Dev Mandora<br>
 Roll Number: 62
 </h2>
+<h2 style="float:left;">Experiment 1</h2>
 
-<div style="clear:both;"></div>
-</div>
-
-<h3>Aim:</h3<h2 style="float:left;">Experiment 1</h2>
-
-<div style="float:right; text-align:right;">
-    <h2>Dev Mandora<br>
+<div style="float:right;">
+    <h2 align="right">Dev Mandora<br>
     Roll Number: 62</h2>
 </div>
 
