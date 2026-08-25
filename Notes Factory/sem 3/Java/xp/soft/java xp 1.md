@@ -1,14 +1,10 @@
-<table border="0">
-<tr>
-<td>
-<h2>Experiment 1</h2>
-</td>
-<td align="right">
-<h2>Dev Mandora<br>Roll Number: 62</h2>
-</td>
-</tr>
-</table>
-
+<div>
+<h2 style="display:inline;">Experiment 1</h2>
+<span style="float:right; text-align:right;">
+<b>Dev Mandora</b><br>
+<b>Roll Number: 62</b>
+</span>
+</div>
 ### Aim:
 
 To write a Java program using variables, operators, and decision-making statements to analyze basic urine test parameters and classify the overall test result as **Normal** or **Abnormal**.
