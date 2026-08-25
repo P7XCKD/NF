@@ -1,6 +1,6 @@
 ## Experiment 1      
-<div align="right"> Dev Mandora
-Roll Number: 62 </div>
+<div align="right"> <h2>Dev Mandora
+Roll Number: 62 </h2> </div>
 
 ### Aim:
 
