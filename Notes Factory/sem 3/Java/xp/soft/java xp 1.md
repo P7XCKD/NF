@@ -1,6 +1,13 @@
-   <h2>Experiment 1      </h2><div align="right">
-<h2>Dev Mandora<br>
-Roll Number: 62 </h2> </div>
+   <div>
+    <h2 style="display: inline-block;">Experiment 1</h2>
+
+    <div style="float: right; text-align: right;">
+        <h2>
+            Dev Mandora<br>
+            Roll Number: 62
+        </h2>
+    </div>
+</div>
 
 ### Aim:
 
