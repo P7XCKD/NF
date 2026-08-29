@@ -1,24 +1,24 @@
-## Experiment No. 1
+## DSA Experiment No. 1
 
 ### Aim:
 
-To implement a Patient Diagnostic Alert System using Stack operations.
+To implement a **Heatwave Alert System** using Stack operations and an array to generate alerts based on temperature.
 
 ### Objective:
 
-To use stack operations such as Push, Pop, and Display to manage active diagnostic alerts based on patient test results.
+-   To implement a stack using an array.
+-   To use `Push()` and `Pop()` operations for managing heatwave alerts.
+-   To generate Yellow, Orange, and Red alerts based on temperature.
+-   To remove all active alerts when the temperature falls below 40.
 
 ### Software Used:
 
 -   DOSBox
-    
--   Turbo C ++
-    
+-   Turbo C++
 
 ### Theory:
 
-A stack is a linear data structure that follows the **LIFO (Last In First Out)** principle. In this program, abnormal patient test results generate alerts which are stored in a stack using the `Push()` operation. The `Pop()` operation removes the most recent active alert, while `Display()` shows all active alerts. When all test results become normal, all active alerts are removed from the stack.
-
+A stack is a linear data structure that follows the **LIFO (Last In First Out)** principle. In this program, an array is used to implement the stack. Heatwave alerts are stored in the stack using the `Push()` operation. The alert is generated according to the entered temperature: **40 or above gives Yellow Alert, 43 or above gives Orange Alert, and 45 or above gives Red Alert**. When the temperature is below 40, all active alerts are removed using the `Pop()` operation. The program also displays the temperature that triggered each alert.
 ### Program:
 
 ```c
@@ -137,4 +137,4 @@ The Patient Diagnostic Alert System was successfully implemented using stack ope
 
 ### Conclusion:
 
-The program demonstrates the use of Stack, Push, Pop, Display, conditional statements, and user input to manage patient diagnostic alerts.### output
+The program demonstrates the use of Stack, Push, Pop, Display, conditional statements, and user input to manage patient diagnostic alerts.
