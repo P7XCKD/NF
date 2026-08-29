@@ -26,11 +26,13 @@ A stack is a linear data structure that follows the **LIFO (Last In First Out)**
 #include <conio.h>
 
 int stack[100], top = -1;
+int temp_stack[100];
 
-void Push(int alert)
+void Push(int alert, int temperature)
 {
     top++;
     stack[top] = alert;
+    temp_stack[top] = temperature;
 }
 
 void Pop()
@@ -42,11 +44,11 @@ void Pop()
     else
     {
         if(stack[top] == 1)
-            printf("\nPopped: Glucose Alert");
+            printf("\nPopped: Yellow Alert (Temperature: %d)", temp_stack[top]);
         else if(stack[top] == 2)
-            printf("\nPopped: Protein Alert");
+            printf("\nPopped: Orange Alert (Temperature: %d)", temp_stack[top]);
         else if(stack[top] == 3)
-            printf("\nPopped: pH Alert");
+            printf("\nPopped: Red Alert (Temperature: %d)", temp_stack[top]);
 
         top--;
     }
@@ -67,93 +69,60 @@ void Display()
         for(i = top; i >= 0; i--)
         {
             if(stack[i] == 1)
-                printf("\nGlucose Alert");
+                printf("\nYellow Alert (Temperature: %d)", temp_stack[i]);
             else if(stack[i] == 2)
-                printf("\nProtein Alert");
+                printf("\nOrange Alert (Temperature: %d)", temp_stack[i]);
             else if(stack[i] == 3)
-                printf("\npH Alert");
+                printf("\nRed Alert (Temperature: %d)", temp_stack[i]);
         }
     }
 }
 
 void main()
 {
-    int choice;
-    double glucose, protein, ph;
+    int temperature;
 
-    do
+    while(1)
     {
-        printf("\n\nPATIENT DIAGNOSTIC ALERT SYSTEM");
-        printf("\n1. Enter Test Results");
-        printf("\n2. Pop Alert");
-        printf("\n3. Display Alerts");
-        printf("\n4. Exit");
+        printf("\nEnter Temperature: ");
 
-        printf("\nEnter your choice: ");
-        scanf("%d", &choice);
-
-        switch(choice)
+        if(scanf("%d", &temperature) != 1)
         {
-            case 1:
-
-                printf("\nEnter Glucose Level: ");
-                scanf("%lf", &glucose);
-
-                printf("Enter Protein Level: ");
-                scanf("%lf", &protein);
-
-                printf("Enter pH Level: ");
-                scanf("%lf", &ph);
-
-                if(glucose > 50)
-                {
-                    printf("\nGlucose Alert");
-                    Push(1);
-                }
-
-                if(protein > 50)
-                {
-                    printf("\nProtein Alert");
-                    Push(2);
-                }
-
-                if(ph < 5 || ph > 7.5)
-                {
-                    printf("\npH Alert");
-                    Push(3);
-                }
-
-                if(glucose <= 50 && protein <= 50 &&
-                   ph >= 5 && ph <= 7.5)
-                {
-                    printf("\nAll Test Results are Normal");
-                    printf("\nRemoving all active alerts...");
-
-                    while(top != -1)
-                    {
-                        Pop();
-                    }
-                }
-
-                break;
-
-            case 2:
-                Pop();
-                break;
-
-            case 3:
-                Display();
-                break;
-
-            case 4:
-                printf("\nProgram Finished.");
-                break;
-
-            default:
-                printf("\nInvalid Choice.");
+            printf("\nInvalid input. Program Finished.");
+            break;
         }
 
-    } while(choice != 4);
+        if(temperature >= 45)
+        {
+            printf("\nRed Alert");
+            printf("\nTemperature: %d", temperature);
+            Push(3, temperature);
+        }
+        else if(temperature >= 43)
+        {
+            printf("\nOrange Alert");
+            printf("\nTemperature: %d", temperature);
+            Push(2, temperature);
+        }
+        else if(temperature >= 40)
+        {
+            printf("\nYellow Alert");
+            printf("\nTemperature: %d", temperature);
+            Push(1, temperature);
+        }
+        else
+        {
+            printf("\nTemperature < 40");
+            printf("\nRemoving all active alerts...");
+
+            while(top != -1)
+            {
+                Pop();
+            }
+        }
+
+        Display();
+    }
 
     getch();
 }
@@ -161,8 +130,7 @@ void main()
 
 ### Output:
 
-
-![image](.attachments/7973f747706f948014fbb2320a63870bc8bb428a.png) ![image](.attachments/cd66c13b8fe9f56cf98b397ebb9e49c86594887c.png)
+![image](.attachments/5a9d017970e9b373aeac5efff3dbee3170f2c308.png) 
 ### Outcome:
 
 The Patient Diagnostic Alert System was successfully implemented using stack operations. Abnormal test results were stored as active alerts and removed using the Pop operation.
