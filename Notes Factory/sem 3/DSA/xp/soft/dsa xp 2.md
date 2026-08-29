@@ -107,7 +107,10 @@ void deletei()
 
 
 ```
-
+### output
+![image](.attachments/b5153b41d85349f949ac602d6d33f34b1cd17d53.png) 
+![image](.attachments/6d525eb0d9248e81fe590af30666a1569aaf292a.png) 
+![image](.attachments/ff53aa26ca683024c3126c1ecdef1afc0aa929b0.png) 
 ***
 > [!attention] dont use delete as function name
 > certain keywords are reserved using them...will give errors for example delete
