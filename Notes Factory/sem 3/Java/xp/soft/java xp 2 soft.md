@@ -1,6 +1,15 @@
-## Experiment No. 2
-### Name: Dev Mandora
-### Roll number: 62
+<p>
+    <span style="float:left;">
+        <h3> JAVA  Experiment 2
+    </span>
+    <span style="float:right; text-align:right;"> 
+        Name: Dev Mandora<br>
+        Roll Number: 62 <br>
+        Batch: SB4</h3>
+    </span>
+</p>
+
+<br clear="both">
 
 ### Aim:
 
