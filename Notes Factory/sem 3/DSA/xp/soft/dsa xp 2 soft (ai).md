@@ -127,7 +127,7 @@ void main()
 
         if(scanf("%d", &temperature) != 1)
         {
-            printf("\ninvalid input. Program Finished.");
+            printf("\ninvalid inputd.");
             break;
         }
 
