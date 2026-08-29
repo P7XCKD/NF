@@ -43,87 +43,28 @@ A Linear Queue is a linear data structure that follows the **FIFO (First In Firs
 #include<stdio.h>
 #include<conio.h>
 
-int q[10], front = -1, rear = -1, i, n, x, choice;
+int q[10], front = -1, rear = -1;
 
-void insert();
-void deletei();
-void display();
-
-void main()
+void insert(int temperature)
 {
-    printf("enter the size of queue (max = 10): ");
-    scanf("%d",&n);
-
-    do
+    if(rear >= 9)
     {
-        printf("\n q operations:\n");
-        
-        printf("1. insert \t 2. delete \t 3. display \n 4.exit \n");
-        printf("\n enter your choice:");
-        scanf("%d",&choice);
-
-        switch(choice)
-        {
-            case 1:
-                insert();
-                break;
-
-            case 2:
-                deletei();
-                break;
-
-            case 3:
-                display();
-                break;
-
-            case 4:
-                printf("program exit");
-                break;
-
-            default:
-                printf("1. insert \t 2. delete \t 3. display \n 4.exit \n");
-                break;
-        }
-    } while(choice != 4);
-}
-
-void insert()
-{
-    if(rear >= n - 1)
-    {
-        printf("overflow\n");
+        printf("\nqueue overflow");
     }
     else
     {
-        printf("enter the element to insert:");
-        scanf("%d",&x);
-
         rear++;
-        q[rear] = x;
+        q[rear] = temperature;
 
         if(front == -1)
-        {
             front = 0;
-        }
-    }
-}
 
-void display()
-{
-    if(front == -1)
-    {
-        printf("underflow");
-    }
-    else
-    {
-        printf("element in q are\n");
-
-        for(i=front; i<=rear; i++)
-        {
-            printf("%d ",q[i]);
-        }
-
-        printf("\n");
+        if(temperature >= 45)
+            printf("\nEnqueue: Red alert (%d)", temperature);
+        else if(temperature >= 43)
+            printf("\nEnqueue: Orange Alert (%d)", temperature);
+        else
+            printf("\nenqueue: Yellow alert (%d)", temperature);
     }
 }
 
@@ -131,11 +72,17 @@ void deletei()
 {
     if(front == -1)
     {
-        printf("underflow\n");
+        printf("\nno active alerts");
     }
     else
     {
-        printf("deleted element is %d\n",q[front]);
+        if(q[front] >= 45)
+            printf("\nDequeue: Red Alert (%d)", q[front]);
+        else if(q[front] >= 43)
+            printf("\ndequeue: Orange alert (%d)", q[front]);
+        else
+            printf("\nDequeue: Yellow alert (%d)", q[front]);
+
         front++;
 
         if(front > rear)
@@ -145,57 +92,69 @@ void deletei()
         }
     }
 }
+
+void display()
+{
+    int i;
+
+    if(front == -1)
+    {
+        printf("\nno active alerts.");
+    }
+    else
+    {
+        printf("\nActive alerts:");
+
+        for(i = front; i <= rear; i++)
+        {
+            if(q[i] >= 45)
+                printf("\nRed Alert (%d)", q[i]);
+            else if(q[i] >= 43)
+                printf("\norange Alert (%d)", q[i]);
+            else
+                printf("\nyellow alert (%d)", q[i]);
+        }
+    }
+}
+
+void main()
+{
+    int temperature;
+
+    while(1)
+    {
+        printf("\n\nEnter temperature: ");
+
+        if(scanf("%d", &temperature) != 1)
+        {
+            printf("\ninvalid input. Program Finished.");
+            break;
+        }
+
+        if(temperature >= 40)
+        {
+            insert(temperature);
+        }
+        else
+        {
+            printf("\ntemperature < 40");
+            printf("\nRemoving all active alerts");
+
+            while(front != -1)
+            {
+                deletei();
+            }
+        }
+
+        display();
+    }
+
+    getch();
+}
 ```
 
 ### Output:
-
-```text
-enter the size of queue (max = 10): 5
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:1
-enter the element to insert:10
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:1
-enter the element to insert:20
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:3
-element in q are
-10 20
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:2
-deleted element is 10
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:3
-element in q are
-20
-
- q operations:
-1. insert     2. delete     3. display
-4.exit
-
- enter your choice:4
-program exit
-```
+![image](.attachments/16795fc1984ac14b732fe7ac4e9a00dff456e32b.png) 
 ### program (basic queue)
 ```c
 #include<stdio.h>
