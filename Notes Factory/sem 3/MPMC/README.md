@@ -1,7 +1,6 @@
 <p align="center">
 
-![image](.attachments/3eaeb045e75c3a86871c4fead7166129f78549c5.png) 
-
+<a href="https://ibb.co/0y4jv78d"><img src="https://i.ibb.co/8gvDtCTS/image.png" alt="image" border="0"></a>
 </p>
 <div align="center"> <b>
 <u>DEPARTMENT OF INFORMATION TECHNOLOGY</u>
