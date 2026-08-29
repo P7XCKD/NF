@@ -54,4 +54,4 @@ _Runs the assembled program._
 td filename.exe
 ```
 
-_Opens Turbo Debugger to execute instructions step-by-step and observe registers/memory._S
+_Opens Turbo Debugger to execute instructions step-by-step and observe registers/memory._
