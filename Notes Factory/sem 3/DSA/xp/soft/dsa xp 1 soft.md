@@ -142,10 +142,11 @@ void main()
 ### Output:
 
 ![image](.attachments/5a9d017970e9b373aeac5efff3dbee3170f2c308.png) 
+
 ### Outcome:
 
-The Patient Diagnostic Alert System was successfully implemented using stack operations. Abnormal test results were stored as active alerts and removed using the Pop operation.
+The Heatwave Alert System was successfully implemented using a stack and array. The program generated Yellow, Orange, and Red alerts according to the entered temperature and removed all active alerts when the temperature fell below 40.
 
 ### Conclusion:
 
-The program demonstrates the use of Stack, Push, Pop, Display, conditional statements, and user input to manage patient diagnostic alerts.
+The program demonstrates the implementation of a stack using an array and the use of `Push()`, `Pop()`, and `Display()` operations for managing heatwave alerts based on temperature conditions.
