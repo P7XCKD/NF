@@ -1,7 +1,7 @@
 ### XP header (1) 
 <p align="center">
 
-<a href="https://ibb.co/0y4jv78d"><img src="https://i.ibb.co/8gvDtCTS/image.png" alt="image" align="center"></a>
+<a href="https://ibb.co/0y4jv78d" align="center"><img src="https://i.ibb.co/8gvDtCTS/image.png" alt="image" align="center"></a>
 </p>
 <div align="center"> <b>
 <u>DEPARTMENT OF INFORMATION TECHNOLOGY</u>
