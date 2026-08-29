@@ -1,4 +1,15 @@
-## DSA Experiment No. 1
+<p>
+    <span style="float:left;">
+        <h3> DSA  Experiment 1
+    </span>
+    <span style="float:right; text-align:right;"> 
+        Name: Dev Mandora<br>
+        Roll Number: 62 <br>
+        Batch: SB4</h3>
+    </span>
+</p>
+
+<br clear="both">
 
 ### Aim:
 
