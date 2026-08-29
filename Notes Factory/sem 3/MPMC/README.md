@@ -1,4 +1,5 @@
-### XP header (1) 
+### XP header (1)  (COPY THE BELOW BLOCK STRICKLY)
+```
 <div align = "center">
 
 <a href="https://ibb.co/0y4jv78d" align="center"><img src="https://i.ibb.co/8gvDtCTS/image.png" alt="image" align="center"></a>
@@ -10,7 +11,7 @@ Course: Microprocessor and Microcontroller Lab( ITL304)
  B.Tech. (Information Technology) – Semester III
 Academic Year: 2026-27 (ODD Semester) </b>
 </div>
-
+```
 ***
 
 ## 8086 ALP Steps
