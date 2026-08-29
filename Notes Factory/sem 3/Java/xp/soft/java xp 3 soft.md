@@ -222,50 +222,53 @@ public class Main {
 #### Sample Output
 
 ```text
-PS D:\A5EV5C> javac Main.java
-PS D:\A5EV5C> java Main.java
+PS C:\Users\Public\Probz\Code\xp> javac .\Main.java
+PS C:\Users\Public\Probz\Code\xp> java .\Main.java 
+error: can't find main(String[]) method in class: Patient
+PS C:\Users\Public\Probz\Code\xp> java .\Main      
+Error: Could not find or load main class .\Main
+Caused by: java.lang.ClassNotFoundException: /\Main
+PS C:\Users\Public\Probz\Code\xp> java Main
+Enter patient id: 1
+Enter patient name: alex
+Enter age: 20
+Enter strip id: 100
+Enter test date: 29/08/26
+Enter glucose level: 15
+Enter protein level: 25
+Enter device id: 200
+Enter reagent information: gluc
 
-Enter Patient ID: 1
-Enter Patient Name: Alex
-Enter Age: 19
-Enter Strip ID: 101
-Enter Test Date: 26-08-2026
-Enter Glucose Level: 11
-Enter Protein Level: 12
-Enter Device ID: 501
-Enter Reagent Information: Glucose Reagent
-
---- Original Patient ---
+Original Patient:
 Patient ID: 1
-Patient Name: Alex
-Age: 19
+Patient Name: alex
+Age: 20
 
---- Copied Patient ---
+Copied Patient:
 Patient ID: 1
-Patient Name: Alex
-Age: 19
+Patient Name: alex
+Age: 20
 
---- Original Test Strip ---
-Strip ID: 101
-Test Date: 26-08-2026
-Glucose: 11.0
-Protein: 12.0
+Original Test Strip:
+Strip ID: 100
+Test Date: 29/08/26
+Glucose: 15.0
+Protein: 25.0
 
---- Copied Test Strip ---
-Strip ID: 101
-Test Date: 26-08-2026
-Glucose: 11.0
-Protein: 12.0
+Copied Test Strip:
+Strip ID: 100
+Test Date: 29/08/26
+Glucose: 15.0
+Protein: 25.0
 
---- Original Diagnostic Device ---
-Device ID: 501
-Reagent: Glucose Reagent
+Original Diagnostic Device:
+Device ID: 200
+Reagent: gluc
 
---- Copied Diagnostic Device ---
-Device ID: 501
-Reagent: Glucose Reagent
-
-PS D:\A5EV5C>
+Copied Diagnostic Device:
+Device ID: 200
+Reagent: gluc
+PS C:\Users\Public\Probz\Code\xp> 
 ```
 
 ### Outcome:
