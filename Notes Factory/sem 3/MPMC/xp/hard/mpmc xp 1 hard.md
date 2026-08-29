@@ -90,6 +90,3 @@ Thus, we studied 8086 assembly language programming, DOS function `INT 21H`, and
 4.  Implement C programs using the 8051 instruction set.
     
 5.  Implement C programs for interfacing devices with 8051.
-    
-
-**Simple:** This keeps the important theory and steps while removing repetitive explanations and unnecessary details.
