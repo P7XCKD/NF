@@ -50,25 +50,25 @@ class Patient {
     private String patient_name;
     private int age;
 
-    // Default constructor
+    // default
     Patient() {
         patient_id = 0;
-        patient_name = "Unknown";
+        patient_name = "";
         age = 0;
     }
 
-    // Parameterized constructor
+    // parameterized
     Patient(int patient_id, String patient_name, int age) {
         this.patient_id = patient_id;
         this.patient_name = patient_name;
         this.age = age;
     }
 
-    // Copy constructor
+    // copy
     Patient(Patient p) {
-        this.patient_id = p.patient_id;
-        this.patient_name = p.patient_name;
-        this.age = p.age;
+        patient_id = p.patient_id;
+        patient_name = p.patient_name;
+        age = p.age;
     }
 
     public void display_patient() {
@@ -85,15 +85,13 @@ class TestStrip {
     private double glucose;
     private double protein;
 
-    // Default constructor
     TestStrip() {
         strip_id = 0;
-        test_date = "Not Set";
+        test_date = "";
         glucose = 0;
         protein = 0;
     }
 
-    // Parameterized constructor
     TestStrip(int strip_id, String test_date,
               double glucose, double protein) {
         this.strip_id = strip_id;
@@ -102,12 +100,11 @@ class TestStrip {
         this.protein = protein;
     }
 
-    // Copy constructor
     TestStrip(TestStrip t) {
-        this.strip_id = t.strip_id;
-        this.test_date = t.test_date;
-        this.glucose = t.glucose;
-        this.protein = t.protein;
+        strip_id = t.strip_id;
+        test_date = t.test_date;
+        glucose = t.glucose;
+        protein = t.protein;
     }
 
     public void display_test() {
@@ -123,22 +120,19 @@ class DiagnosticDevice {
     private int device_id;
     private String reagent;
 
-    // Default constructor
     DiagnosticDevice() {
         device_id = 0;
-        reagent = "Not Set";
+        reagent = "";
     }
 
-    // Parameterized constructor
     DiagnosticDevice(int device_id, String reagent) {
         this.device_id = device_id;
         this.reagent = reagent;
     }
 
-    // Copy constructor
     DiagnosticDevice(DiagnosticDevice d) {
-        this.device_id = d.device_id;
-        this.reagent = d.reagent;
+        device_id = d.device_id;
+        reagent = d.reagent;
     }
 
     public void display_device() {
@@ -153,40 +147,39 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter Patient ID: ");
+        System.out.print("Enter patient id: ");
         int patient_id = sc.nextInt();
 
         sc.nextLine();
 
-        System.out.print("Enter Patient Name: ");
+        System.out.print("Enter patient name: ");
         String patient_name = sc.nextLine();
 
-        System.out.print("Enter Age: ");
+        System.out.print("Enter age: ");
         int age = sc.nextInt();
 
-        System.out.print("Enter Strip ID: ");
+        System.out.print("Enter strip id: ");
         int strip_id = sc.nextInt();
 
         sc.nextLine();
 
-        System.out.print("Enter Test Date: ");
+        System.out.print("Enter test date: ");
         String test_date = sc.nextLine();
 
-        System.out.print("Enter Glucose Level: ");
+        System.out.print("Enter glucose level: ");
         double glucose = sc.nextDouble();
 
-        System.out.print("Enter Protein Level: ");
+        System.out.print("Enter protein level: ");
         double protein = sc.nextDouble();
 
-        System.out.print("Enter Device ID: ");
+        System.out.print("Enter device id: ");
         int device_id = sc.nextInt();
 
         sc.nextLine();
 
-        System.out.print("Enter Reagent Information: ");
+        System.out.print("Enter reagent information: ");
         String reagent = sc.nextLine();
 
-        // Parameterized objects
         Patient p1 = new Patient(patient_id, patient_name, age);
 
         TestStrip t1 = new TestStrip(
@@ -197,27 +190,26 @@ public class Main {
             device_id, reagent
         );
 
-        // Copy objects
         Patient p2 = new Patient(p1);
         TestStrip t2 = new TestStrip(t1);
         DiagnosticDevice d2 = new DiagnosticDevice(d1);
 
-        System.out.println("\n--- Original Patient ---");
+        System.out.println("\nOriginal Patient:");
         p1.display_patient();
 
-        System.out.println("\n--- Copied Patient ---");
+        System.out.println("\nCopied Patient:");
         p2.display_patient();
 
-        System.out.println("\n--- Original Test Strip ---");
+        System.out.println("\nOriginal Test Strip:");
         t1.display_test();
 
-        System.out.println("\n--- Copied Test Strip ---");
+        System.out.println("\nCopied Test Strip:");
         t2.display_test();
 
-        System.out.println("\n--- Original Diagnostic Device ---");
+        System.out.println("\nOriginal Diagnostic Device:");
         d1.display_device();
 
-        System.out.println("\n--- Copied Diagnostic Device ---");
+        System.out.println("\nCopied Diagnostic Device:");
         d2.display_device();
 
         sc.close();
