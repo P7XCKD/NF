@@ -7,7 +7,7 @@
 <div align="center"> <b>
 <u>DEPARTMENT OF INFORMATION TECHNOLOGY</u>
 
-Course: Microprocessor and Microcontroller Lab( ITL304)
+Course: Microprocessor and Microcontroller Lab (ITL304)
  B.Tech. (Information Technology) – Semester III
 Academic Year: 2026-27 (ODD Semester) </b>
 </div>
