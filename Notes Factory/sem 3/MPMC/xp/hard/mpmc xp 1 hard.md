@@ -2,60 +2,62 @@
 
 ### Aim
 
-To simulate selected instructions and understand the addressing modes and instruction set of the 8086 microprocessor.
+Simulation of selected instructions to understand the addressing modes and instruction set of 8086 microprocessors.
 
 ### Lab Objective
 
-To gain hands-on experience with 8086 Assembly Language Programming and 8051 C programming.
+The lab will cover hands-on experience with Assembly language Programming of 8086b Microprocessor and C language programming of 8051 Microcontroller.
 
-### Theory: Addressing Modes of 8086
+### Theory: ADDRESSING MODES OF 8086
 
-Addressing modes are the different ways used by the 8086 microprocessor to specify the source operand of an instruction.
+The different ways in which a source operand is denoted in an instruction is known as addressing modes.
+
+**Types of Addressing Modes:**
 
 **1. Register Mode:** Both operands are registers.  
 Example: `MOV AX, BX`
 
-**2. Immediate Mode:** The source operand is a constant 8-bit or 16-bit value.  
-Example: `MOV AX, 1234H`
+**2. Immediate Mode:** The source operand is an 8-bit or 16-bit data.  
+Example: `MOV AX, 2000`
 
-**3. Direct Mode:** The memory address is directly specified in the instruction.  
-Example: `MOV AX, [0500H]`
+**3. Displacement or Direct Mode:** The effective address is directly given as displacement.  
+Example: `MOV AX, [0500]`
 
-**4. Register Indirect Mode:** The memory address is stored in BX, SI, or DI.  
+**4. Register Indirect Mode:** The effective address is stored in SI, DI, or BX.  
 Example: `MOV AX, [SI]`
 
-**5. Based Indexed Mode:** Effective address is the sum of a base and index register.  
-Example: `MOV AX, [BX+SI]`
+**5. Based Indexed Mode:** Effective address is the sum of a base register and index register.  
+Example: `MOV AX, [BX+DI]`
 
 **6. Indexed Mode:** Effective address is the sum of an index register and displacement.  
-Example: `MOV AX, [SI+2000H]`
+Example: `MOV AX, [SI+2000]`
 
 **7. Based Mode:** Effective address is the sum of a base register and displacement.  
-Example: `MOV AL, [BP+0100H]`
+Example: `MOV AL, [BP+0100]`
 
 **8. Based Indexed Displacement Mode:** Effective address is the sum of a base register, index register, and displacement.  
-Example: `MOV AL, [SI+BP+2000H]`
+Example: `MOV AL, [SI+BP+2000]`
 
-**9. String Mode:** Used with string instructions; SI and DI are automatically updated.  
+**9. String Mode:** Used with string instructions. SI and DI are automatically incremented or decremented according to the Direction Flag.  
 Example: `MOVSB`, `MOVSW`
 
-**10. Input/Output Mode:** Used for communication with I/O devices.  
+**10. Input/Output Mode:** Used for input/output operations.  
 Example: `IN`, `OUT`
 
-**11. Relative Mode:** The effective address is calculated relative to the Instruction Pointer (IP).  
+**11. Relative Mode:** Effective address is calculated relative to the Instruction Pointer (IP).  
 Example: `JNZ 8-bit address`
 
 ### Algorithm / Steps
 
-1.  Create and save the `.asm` source file.
+1.  Create and save the `.asm` source file using a text editor.
     
-2.  Assemble it using TASM.
+2.  Assemble the program using TASM to check for errors.
     
-3.  Link the `.obj` file using TLINK.
+3.  Link the `.obj` file using TLINK to generate the `.exe` file.
     
 4.  Execute the generated `.exe` file.
     
-5.  Use Turbo Debugger to observe registers and execute instructions step-by-step.
+5.  Use Turbo Debugger to execute instructions step-by-step and observe registers and memory.
     
 
 ### Programs Performed
@@ -70,23 +72,23 @@ Example: `JNZ 8-bit address`
 **Aim:** Transfer data between registers.
 
 **4. Register Indirect Addressing Mode**  
-**Aim:** Access memory using the SI register.
+**Aim:** Access memory using SI register.
 
 **5. Indexed Addressing Mode**  
 **Aim:** Access array elements using an index.
 
 ### Conclusion
 
-Thus, we studied 8086 assembly language programming, DOS function `INT 21H`, and different addressing modes through simulation.
+Thus we studied assembly language programming format and tools. As well DOS function INT21h. And simulated a few instructions.
 
-### Lab Outcomes
+### Lab Outcome:
 
-1.  Execute 8086 programs using arithmetic and logical instructions.
+1.  Execute assembly language programs on microprocessor using arithmetic and logical instructions of 8086 microprocessors
     
-2.  Execute 8086 programs using loop instructions.
+2.  Execute assembly language programs using loop instructions of 8086 microprocessors.
     
-3.  Understand addressing modes of the 8051.
+3.  Execute the selected instructions to understand addressing modes of 8051.
     
-4.  Implement C programs using the 8051 instruction set.
+4.  Implement C language programs using instruction set of 8051.
     
-5.  Implement C programs for interfacing devices with 8051.
+5.  Implement C language programs for interfacing different devices with 8051.
