@@ -17,7 +17,7 @@ Academic Year: 2026-27 (ODD Semester) </b>
         <h3> INSERT_SUB_NAME  Experiment NUM
     </span>
     <span style="float:right; text-align:right;"> 
-        Name: Dev Rakesh Mandora<br>
+        Name: Dev Mandora<br>
         Roll Number: 62 <br>
         Batch: SB4</h3>
     </span>
