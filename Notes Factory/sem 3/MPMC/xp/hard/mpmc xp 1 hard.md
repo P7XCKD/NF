@@ -85,10 +85,3 @@ Thus we studied assembly language programming format and tools. As well DOS func
 
 1.  Execute assembly language programs on microprocessor using arithmetic and logical instructions of 8086 microprocessors
     
-2.  Execute assembly language programs using loop instructions of 8086 microprocessors.
-    
-3.  Execute the selected instructions to understand addressing modes of 8051.
-    
-4.  Implement C language programs using instruction set of 8051.
-    
-5.  Implement C language programs for interfacing different devices with 8051.
