@@ -1,5 +1,6 @@
 ## copy below and save as .xml and import in draw.io
-
+> [!abstract] Output
+> ![image](.attachments/cdf1fe0b2758c77dbdbc556af4e50aad86a78a23.png) 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
