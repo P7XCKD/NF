@@ -6,7 +6,7 @@
 
 <p>
     <span style="float:left;">
-        <h3>DBMS Experiment 1
+        <h3>DBMS Experiment NUMBER
     </span>
     <span style="float:right; text-align:right;"> 
         Name: Dev Rakesh Mandora<br>
