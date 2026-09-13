@@ -46,6 +46,7 @@ The Collections class is used to sort the patient records alphabetically accordi
 ```java
 import java.util.Vector;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 class Patient {
@@ -71,18 +72,21 @@ public class xp5 {
     static Vector<Patient> patients = new Vector<>();
     static Scanner sc = new Scanner(System.in);
 
-    static String input(String msg) {
-        System.out.print(msg);
-        return sc.nextLine();
-    }
-
     static void add_patient() {
-        String id = input("enter patient id: ");
-        String name = input("enter patient name: ");
-        String testHistory = input("enter test history: ");
-        String remarks = input("enter diagnostic remarks: ");
+        System.out.print("enter patient id: ");
+        String id = sc.nextLine();
+
+        System.out.print("enter patient name: ");
+        String name = sc.nextLine();
+
+        System.out.print("enter test history: ");
+        String testHistory = sc.nextLine();
+
+        System.out.print("enter diagnostic remarks: ");
+        String remarks = sc.nextLine();
 
         patients.add(new Patient(id, name, testHistory, remarks));
+
         System.out.println("patient added");
     }
 
@@ -101,11 +105,12 @@ public class xp5 {
     }
 
     static void search_patient() {
-        String search = input("enter patient id or name: ");
+        System.out.print("enter patient id or name: ");
+        String search = sc.nextLine();
 
         for (Patient p : patients) {
             if (p.id.equalsIgnoreCase(search) ||
-                p.name.toLowerCase().contains(search.toLowerCase())) {
+                p.name.equalsIgnoreCase(search)) {
 
                 System.out.println("\nrecord found");
                 p.display_patient();
@@ -117,22 +122,33 @@ public class xp5 {
     }
 
     static void sort_patients() {
-        Collections.sort(patients,
-                (a, b) -> a.name.compareToIgnoreCase(b.name));
+        Collections.sort(patients, new Comparator<Patient>() {
+
+            public int compare(Patient a, Patient b) {
+                return a.name.compareToIgnoreCase(b.name);
+            }
+        });
 
         System.out.println("records sorted");
         display_all();
     }
 
     static void update_patient() {
-        String id = input("enter patient id to update: ");
+        System.out.print("enter patient id to update: ");
+        String id = sc.nextLine();
 
         for (Patient p : patients) {
+
             if (p.id.equalsIgnoreCase(id)) {
 
-                p.name = input("enter new name: ");
-                p.testHistory = input("enter new test history: ");
-                p.remarks = input("enter new remarks: ");
+                System.out.print("enter new name: ");
+                p.name = sc.nextLine();
+
+                System.out.print("enter new test history: ");
+                p.testHistory = sc.nextLine();
+
+                System.out.print("enter new remarks: ");
+                p.remarks = sc.nextLine();
 
                 System.out.println("record updated");
                 return;
@@ -147,10 +163,12 @@ public class xp5 {
         while (true) {
 
             System.out.println("\n1.add 2.display 3.search 4.sort 5.update 6.exit");
+            System.out.print("enter choice: ");
 
-            String choice = input("enter choice: ");
+            String choice = sc.nextLine();
 
             switch (choice) {
+
                 case "1":
                     add_patient();
                     break;
