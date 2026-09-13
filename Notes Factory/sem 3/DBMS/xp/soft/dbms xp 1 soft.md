@@ -46,6 +46,7 @@ The system stores information about different locations, their climate data, use
 The collected climate data such as temperature, humidity, wind speed, and other parameters is analyzed using prediction models. Based on this analysis, the system generates heatwave forecasts and triggers appropriate risk alerts.
 
 ### ER Diagram
+> [!check] Climate Intelligence for Heatwave
 > ![ER Diagram](https://github.com/P7XCKD/NF/raw/main/Notes%20Factory/sem%203/DBMS/xp/soft/.attachments/afa29e5ebbbea7523c5f791ba453f9bd44e0f0c4.png)
 ## i) Entities & Attributes
 
