@@ -136,7 +136,6 @@ public class xp4 {
 
 ### Output:
 
-#### Sample Output
 
 ```text
 PS D:\A5EV5C> javac .\xp4.java
