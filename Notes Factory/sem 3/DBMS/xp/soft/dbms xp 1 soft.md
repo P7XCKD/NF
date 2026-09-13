@@ -73,7 +73,7 @@ The collected climate data such as temperature, humidity, wind speed, and other 
 | **Heatwave Predictor** | `triggers` | **Alert System** | `1 : M` |
 
 
-> ![ER Diagram](https://github.com/P7XCKD/NF/raw/main/Notes%20Factory/sem%203/DBMS/soft/.attachments/afa29e5ebbbea7523c5f791ba453f9bd44e0f0c4.png)
+> ![ER Diagram (https://github.com/P7XCKD/NF/raw/main/Notes%20Factory/sem%203/DBMS/soft/.attachments/afa29e5ebbbea7523c5f791ba453f9bd44e0f0c4.png)
 
 ### Outcome
 
