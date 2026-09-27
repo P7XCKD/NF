@@ -8,13 +8,13 @@ Perform Authorization using GRANT and REVOKE commands.
     
 -   To create a new database user.
     
--   To provide permissions to a user using the GRANT command.
+-   To provide permissions using the GRANT command.
     
--   To perform database operations using the authorized user.
+-   To perform operations using the authorized user.
     
--   To remove selected permissions using the REVOKE command.
+-   To remove permissions using the REVOKE command.
     
--   To verify the effect of authorization and revocation of permissions.
+-   To verify the effect of authorization and revocation.
     
 
 ### SOFTWARE REQUIREMENT
@@ -24,9 +24,7 @@ MySQL Shell 8.0
 
 ### THEORY
 
-Data Control Language (DCL) is used to control access to data stored in a database.
-
-The main DCL commands are:
+Data Control Language (DCL) controls access to database data.
 
 -   **GRANT** – Gives permissions to a user.
     
@@ -35,7 +33,7 @@ The main DCL commands are:
 
 ### GROUP 1 — LOGIN WITH ROOT USER
 
-The root user is used to create a new database user and provide the required permissions.
+The root user creates a new user and grants required permissions.
 
 #### Syntax
 
@@ -55,11 +53,11 @@ TO 'username'@'localhost';
 
 ### GROUP 2 — LOGIN WITH AUTHORIZED USER
 
-The authorized user can perform only the database operations allowed through the granted permissions.
+The authorized user performs operations allowed by the granted permissions.
 
 #### Procedure
 
-Login with the newly created user using the assigned username and password.
+Login with the newly created username and password.
 
 #### Syntax
 
@@ -86,7 +84,7 @@ WHERE condition;
 
 ### GROUP 3 — REVOKING PERMISSIONS USING ROOT USER
 
-The root user can remove selected permissions from an authorized user using the `REVOKE` command.
+The root user removes selected permissions using `REVOKE`.
 
 #### Syntax
 
@@ -98,7 +96,7 @@ FROM 'username'@'localhost';
 
 ### GROUP 4 — VERIFYING REVOKED PERMISSIONS
 
-The authorized user is used again to verify which operations are still allowed after permissions are revoked.
+The authorized user verifies the remaining permissions after revocation.
 
 #### Syntax
 
@@ -116,12 +114,12 @@ DELETE FROM table_name
 WHERE condition;
 ```
 
-After revocation, operations whose permissions were removed are denied, while the remaining authorized operations can still be performed.
+Revoked operations are denied, while remaining permissions continue to work.
 
 ### OUTCOME
 
-Authorization was successfully performed using GRANT and REVOKE commands. User permissions were granted and revoked as required.
+Authorization was successfully performed using GRANT and REVOKE commands.
 
 ### CONCLUSION
 
-Thus, DCL was successfully implemented using GRANT and REVOKE to control database user access.
+Thus, DCL was successfully implemented to control database user access.
