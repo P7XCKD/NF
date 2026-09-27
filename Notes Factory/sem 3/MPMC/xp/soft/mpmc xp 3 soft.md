@@ -1,7 +1,11 @@
 
+<p align="center">
+
+<a href="https://ibb.co/0y4jv78d"><img src="https://i.ibb.co/8gvDtCTS/image.png" alt="image" border="0"></a>
+
 <p>
     <span style="float:left;">
-        <h3> MPMC Experiment 3
+        <h3>MPMC Experiment 3
     </span>
     <span style="float:right; text-align:right;"> 
         Name: Dev Mandora<br>
@@ -12,102 +16,261 @@
 
 <br clear="both">
 
-### AIM
+### Aim:
 
 To implement loop operations using Assembly Language Programming.
 
-### OBJECTIVE
+### Lab Objective:
 
-- To read a list of integers from memory.
-- To determine whether each integer is even or odd.
+a) WAP to convert ASCII value into decimal.
 
-### THEORY
+b) WAP to find whether the number is even or odd.
 
-Assembly Language Programming allows direct control of processor registers and memory. Loop operations are used to repeat a set of instructions for processing data.
+c) WAP to find the number of 1s in a given number.
 
-In this experiment, an 8-bit number is analyzed bit-by-bit using the `RCR` instruction. The number of `1`s and `0`s present in the binary representation is counted using loop operations.
+### Theory:
 
-### ALGORITHM
+#### Assembly Language:
 
-1. Define the data segment and store the input number.
-2. Initialize counters for the number of `1`s and `0`s.
-3. Load the 8-bit number into the `AL` register.
-4. Initialize the loop counter with 8.
-5. Use the `RCR` instruction to check one bit at a time.
-6. If the carry flag is set, increment the counter for `1`.
-7. Otherwise, increment the counter for `0`.
-8. Decrement the loop counter.
-9. Repeat the process until all 8 bits are checked.
-10. Store the final counts of `1`s and `0`s.
+Assembly language provides a low-level way to interact with computer hardware using mnemonics, registers and direct memory manipulation.
 
-### PROGRAM
+The important concepts used in this experiment are:
+
+- **Registers** – Small storage locations inside the CPU used to hold data.
+- **Instructions** – Perform arithmetic, logical and control operations.
+- **Memory** – Stores data and program instructions.
+
+#### Program 1: ASCII to Decimal Conversion
+
+When a number is entered from the keyboard, it is received in ASCII format. The ASCII value of digit `0` is `30H`. By subtracting `30H` from the ASCII value, the corresponding decimal value is obtained.
+
+#### Program 2: Even or Odd Number
+
+The program accepts a single digit, converts it from ASCII to decimal and divides it by `2`.
+
+- If the remainder is `0`, the number is even.
+- If the remainder is not `0`, the number is odd.
+
+#### Program 3: Count Number of 1s
+
+The program analyzes an 8-bit number bit-by-bit using the `RCR` instruction.
+
+- `num` stores the input number.
+- `ones` stores the count of `1` bits.
+- `zeros` stores the count of `0` bits.
+- `RCR` moves each bit into the Carry Flag.
+- If the Carry Flag is `1`, the `ones` counter is increased.
+- Otherwise, the `zeros` counter is increased.
+- The loop continues until all 8 bits are checked.
+
+### Program 1: Convert ASCII to Decimal
+
+The program accepts a digit from the keyboard and converts its ASCII value into its corresponding decimal value.
 
 ```asm
-.MODEL SMALL
-.STACK 100H
+.model small
 
-.DATA
-    num   DB 0A5H
-    ones  DB 0
-    zeros DB 0
+.data
 
-.CODE
+.code
+start:
+    mov ax,@data
+    mov ds,ax
 
-MAIN PROC
+    mov ah,1
+    int 21h
 
-    MOV AX, @DATA
-    MOV DS, AX
+    sub al,30h
+    mov bl,al
 
-    MOV AL, num
-    MOV CL, 8
+    mov ah,4Ch
+    int 21h
 
-    MOV BL, 0
-    MOV BH, 0
-
-    CLC
-
-LOOP1:
-    RCR AL, 1
-
-    JC ONE
-
-    INC BH
-    JMP NEXT
-
-ONE:
-    INC BL
-
-NEXT:
-    DEC CL
-    JNZ LOOP1
-
-    MOV ones, BL
-    MOV zeros, BH
-
-    MOV AH, 4CH
-    INT 21H
-
-MAIN ENDP
-END MAIN
+end start
 ````
 
+### Program Explanation:
 
+-   `MOV AH,1` accepts a character from the keyboard.
+    
+-   The entered digit is stored in `AL` in ASCII form.
+    
+-   `SUB AL,30H` converts the ASCII value into its decimal value.
+    
+-   The converted value is stored in `BL`.
+    
 
-### OUTPUT
+### Output:
 
-For the input number `A5H`:
+![image](.attachments/6eaff95165ed5442a72d0d20724cf493ba7e0f22.png) 
 
-```text
-A5H = 10100101B
+### Program 2: Find Whether the Number is Even or Odd
 
-Number of 1s = 4
-Number of 0s = 4
+```asm
+.model medium
+
+.data
+ev db "Even Number$"
+od db "Odd Number$"
+
+.code
+start:
+    mov ax,@data
+    mov ds,ax
+
+    mov ah,1
+    int 21h
+
+    sub al,30h
+    mov ah,0
+
+    mov bl,2
+    div bl
+
+    cmp ah,0
+    je evennumber
+
+oddnumber:
+    mov ah,2
+    mov dl,13
+    int 21h
+
+    mov ah,9
+    mov dx,offset od
+    int 21h
+
+    jmp exitprog
+
+evennumber:
+    mov ah,2
+    mov dl,13
+    int 21h
+
+    mov ah,9
+    mov dx,offset ev
+    int 21h
+
+exitprog:
+    mov ah,4Ch
+    int 21h
+
+end start
 ```
 
-### OUTCOME
+### Program Explanation:
 
-Loop operations were successfully implemented using 8086 Assembly Language. The given 8-bit number was processed bit-by-bit and the number of `1`s and `0`s was counted.
+-   `MOV AH,1` accepts a character from the keyboard.
+    
+-   `SUB AL,30H` converts the ASCII value into a decimal digit.
+    
+-   `DIV BL` divides the number by `2`.
+    
+-   The remainder is stored in `AH`.
+    
+-   `CMP AH,0` checks the remainder.
+    
+-   If the remainder is `0`, the number is even.
+    
+-   Otherwise, the number is odd.
+    
+-   The corresponding message is displayed.
+    
 
-### CONCLUSION
+### Output:
 
-Thus, the experiment successfully demonstrated the use of loop and conditional instructions in Assembly Language to analyze an 8-bit number.
+![image](.attachments/d20f7d0cd4fb6f2fcc66971b1cb5e9cf7d585b83.png) 
+
+### Program 3: Find the Number of 1s in a Given Number
+
+We take an 8-bit number and count the number of `1`s present in its binary representation.
+
+For example:
+
+```text
+F3H = 11110011B
+
+Number of 1s = 6
+```
+***
+```asm
+.model small
+.stack 100h
+
+.data
+    num db 0F3h
+    ones db 0
+    zeros db 0
+    msg db 'Number of 1s :$'
+
+.code
+
+main:
+    mov ax,@data
+    mov ds,ax
+
+    mov al,num
+    mov cl,8
+
+count_loop:
+    rcr al,1
+    jc is_one
+
+    inc zeros
+    jmp next_bit
+
+is_one:
+    inc ones
+
+next_bit:
+    dec cl
+    jnz count_loop
+
+    mov dx,offset msg
+    mov ah,09h
+    int 21h
+
+    mov al,ones
+    add al,'0'
+    mov dl,al
+
+    mov ah,02h
+    int 21h
+
+    mov ah,4Ch
+    int 21h
+
+end main
+```
+
+### Program Explanation:
+
+-   `MOV AL,num` loads the 8-bit number into `AL`.
+    
+-   `MOV CL,8` sets the loop counter to 8.
+    
+-   `RCR AL,1` rotates the number through the Carry Flag.
+    
+-   `JC is_one` checks whether the current bit is `1`.
+    
+-   `INC ones` increases the count of `1`s.
+    
+-   `INC zeros` increases the count of `0`s.
+    
+-   `DEC CL` decreases the loop counter.
+    
+-   `JNZ count_loop` repeats the process until all 8 bits are checked.
+    
+-   The number of `1`s is displayed.
+    
+
+### Output:
+
+![image](.attachments/9df547657842abf4518af33837049c55f0a51abd.png) 
+
+### Outcome:
+
+The required ASCII conversion, even/odd checking and bit-counting operations were successfully performed using 8086 Assembly Language.
+
+### Conclusion:
+
+Thus, the experiment successfully demonstrated ASCII conversion, arithmetic operations, conditional instructions and loop operations in Assembly Language.
