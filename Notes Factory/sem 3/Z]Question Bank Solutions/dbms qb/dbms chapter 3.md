@@ -2758,14 +2758,14 @@ Write the RA expression
 > **σ = rows, π = columns, ρ = rename, ∪ = either, ∩ = both, − = first not second, × = combinations, ⋈ = join, ÷ = every.**
 
 ---
-
 # Practice — Relational Algebra
 
 The goal of every question is to write the **SQL query first**, then convert the same query into **Relational Algebra**.
 
-## Sample Data
+The practice set is organized **operation-wise**. Each operation contains only the tables needed for that group, so you do not need to keep scrolling back to one giant sample-data section.
+# 1. Selection $\sigma$
 
-Use these small relations for most questions.
+## Tables Used
 
 ### STUDENT
 
@@ -2776,23 +2776,6 @@ Use these small relations for most questions.
 | S3 | Neha | IT |
 | S4 | Priya | EXTC |
 
-### COURSE
-
-| Course_id | Course_Name | Dept |
-|---|---|---|
-| C1 | DBMS | IT |
-| C2 | DSA | CS |
-| C3 | COA | IT |
-
-### ENROLL
-
-| Ssn | Course_id | Grade |
-|---|---|---|
-| S1 | C1 | A |
-| S1 | C3 | B |
-| S2 | C2 | A |
-| S3 | C1 | A |
-
 ### EMPLOYEE
 
 | Emp_ID | Name | Dept_ID | Salary |
@@ -2801,41 +2784,7 @@ Use these small relations for most questions.
 | E2 | Ravi | D2 | 60000 |
 | E3 | Neha | D1 | 70000 |
 
-### DEPARTMENT
-
-| Dept_ID | Dept_Name |
-|---|---|
-| D1 | IT |
-| D2 | HR |
-
-### PART
-
-| Part_ID | Part_Name | Color |
-|---|---|---|
-| P1 | Bolt | Red |
-| P2 | Nut | Green |
-| P3 | Screw | Yellow |
-
-### DEALER
-
-| Dealer_ID | Dealer_Name |
-|---|---|
-| D1 | ABC |
-| D2 | XYZ |
-
-### SUPPLIES
-
-| Dealer_ID | Part_ID |
-|---|---|
-| D1 | P1 |
-| D1 | P2 |
-| D1 | P3 |
-| D2 | P1 |
-| D2 | P2 |
-
 ---
-
-# 1. Selection $\sigma$
 
 ### Q1
 **Problem:** Find students from the IT department.
@@ -2899,7 +2848,38 @@ WHERE Salary = 50000;
 
 ---
 
+
+---
 # 2. Projection $\pi$
+
+## Tables Used
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+---
 
 ### Q1
 **Problem:** Display only student names.
@@ -2959,7 +2939,38 @@ FROM COURSE;
 
 ---
 
+
+---
 # 3. Rename $\rho$
+
+## Tables Used
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+---
 
 ### Q1
 **Problem:** Rename `STUDENT` as `S`.
@@ -3019,7 +3030,52 @@ FROM COURSE;
 
 ---
 
+
+---
 # 4. Union $\cup$
+
+## Tables Used
+
+### IT_STUDENTS
+
+| Name |
+|---|
+| Amit |
+| Neha |
+
+### CS_STUDENTS
+
+| Name |
+|---|
+| Ravi |
+
+### IT_COURSES
+
+| Name |
+|---|
+| DBMS |
+| COA |
+
+### CS_COURSES
+
+| Name |
+|---|
+| DSA |
+
+### EMP_A
+
+| Name |
+|---|
+| Amit |
+| Ravi |
+
+### EMP_B
+
+| Name |
+|---|
+| Neha |
+
+---
 
 Union needs **union-compatible relations**.
 
@@ -3104,7 +3160,69 @@ EMP_A ∪ EMP_B
 
 ---
 
+
+---
 # 5. Intersection $\cap$
+
+## Tables Used
+
+### IT_STUDENTS
+
+| Name |
+|---|
+| Amit |
+| Neha |
+
+### CS_STUDENTS
+
+| Name |
+|---|
+| Ravi |
+| Neha |
+
+### EMP_A
+
+| Name |
+|---|
+| Amit |
+| Ravi |
+
+### EMP_B
+
+| Name |
+|---|
+| Ravi |
+| Neha |
+
+### COURSE_A
+
+| Name |
+|---|
+| DBMS |
+| DSA |
+
+### COURSE_B
+
+| Name |
+|---|
+| DSA |
+| COA |
+
+### ENROLL_A
+
+| Ssn |
+|---|
+| S1 |
+| S2 |
+
+### ENROLL_B
+
+| Ssn |
+|---|
+| S2 |
+| S3 |
+
+---
 
 ### Q1
 **Problem:** Find students who are in both IT and CS lists.
@@ -3174,7 +3292,69 @@ ENROLL_A ∩ ENROLL_B
 
 ---
 
+
+---
 # 6. Difference $-$
+
+## Tables Used
+
+### IT_STUDENTS
+
+| Name |
+|---|
+| Amit |
+| Neha |
+
+### CS_STUDENTS
+
+| Name |
+|---|
+| Ravi |
+| Neha |
+
+### EMP_A
+
+| Name |
+|---|
+| Amit |
+| Ravi |
+
+### EMP_B
+
+| Name |
+|---|
+| Ravi |
+| Neha |
+
+### COURSE_A
+
+| Name |
+|---|
+| DBMS |
+| DSA |
+
+### COURSE_B
+
+| Name |
+|---|
+| DSA |
+| COA |
+
+### ENROLL_A
+
+| Ssn |
+|---|
+| S1 |
+| S2 |
+
+### ENROLL_B
+
+| Ssn |
+|---|
+| S2 |
+| S3 |
+
+---
 
 ### Q1
 **Problem:** Find students in IT but not in CS.
@@ -3238,7 +3418,60 @@ ENROLL_A − ENROLL_B
 
 ---
 
+
+---
 # 7. Cartesian Product $\times$
+
+## Tables Used
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### DEALER
+
+| Dealer_ID | Dealer_Name |
+|---|---|
+| D1 | ABC |
+| D2 | XYZ |
+
+### PART
+
+| Part_ID | Part_Name | Color |
+|---|---|---|
+| P1 | Bolt | Red |
+| P2 | Nut | Green |
+| P3 | Screw | Yellow |
+
+---
 
 ### Q1
 **Problem:** Generate every possible student-course combination.
@@ -3302,7 +3535,28 @@ STUDENT × EMPLOYEE
 
 ---
 
+
+---
 # 8. Theta Join $\bowtie_{\theta}$
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+---
 
 Theta Join allows a **general condition** such as `<`, `>`, `<=`, `>=`, `=` or `!=`.
 
@@ -3372,7 +3626,54 @@ EMPLOYEE ⋈ Employee.Emp_ID > Department.Dept_ID DEPARTMENT
 
 ---
 
+
+---
 # 9. Equi Join $\bowtie_{=}$
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+---
 
 Equi Join uses **equality only**.
 
@@ -3448,7 +3749,46 @@ ON C.Course_id = E.Course_id;
 
 ---
 
+
+---
 # 10. Natural Join $\bowtie$
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+---
 
 Natural Join automatically matches **same-name common attributes**.
 
@@ -3514,7 +3854,62 @@ NATURAL JOIN ENROLL;
 
 ---
 
+
+---
 # 11. Left Outer Join ⟕
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+### PART
+
+| Part_ID | Part_Name | Color |
+|---|---|---|
+| P1 | Bolt | Red |
+| P2 | Nut | Green |
+| P3 | Screw | Yellow |
+
+---
 
 ### Q1
 **Problem:** Show all employees, even if they have no matching department.
@@ -3582,7 +3977,72 @@ COURSE ⟕_{COURSE.Course_id = ENROLL.Course_id} ENROLL
 
 ---
 
+
+---
 # 12. Right Outer Join ⟖
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### PART
+
+| Part_ID | Part_Name | Color |
+|---|---|---|
+| P1 | Bolt | Red |
+| P2 | Nut | Green |
+| P3 | Screw | Yellow |
+
+### SUPPLIES
+
+| Dealer_ID | Part_ID |
+|---|---|
+| D1 | P1 |
+| D1 | P2 |
+| D1 | P3 |
+| D2 | P1 |
+| D2 | P2 |
+
+---
 
 ### Q1
 **Problem:** Show all departments, even if no employee belongs to them.
@@ -3650,7 +4110,71 @@ SUPPLIES ⟖_{SUPPLIES.Part_ID = PART.Part_ID} PART
 
 ---
 
+
+---
 # 13. Full Outer Join ⟗
+
+## Tables Used
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+### DEPARTMENT
+
+| Dept_ID | Dept_Name |
+|---|---|
+| D1 | IT |
+| D2 | HR |
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+### COURSE
+
+| Course_id | Course_Name | Dept |
+|---|---|---|
+| C1 | DBMS | IT |
+| C2 | DSA | CS |
+| C3 | COA | IT |
+
+### DEALER
+
+| Dealer_ID | Dealer_Name |
+|---|---|
+| D1 | ABC |
+| D2 | XYZ |
+
+### SUPPLIES
+
+| Dealer_ID | Part_ID |
+|---|---|
+| D1 | P1 |
+| D1 | P2 |
+| D1 | P3 |
+| D2 | P1 |
+| D2 | P2 |
+
+---
 
 ### Q1
 **Problem:** Show all employees and all departments, including unmatched rows.
@@ -3718,7 +4242,53 @@ DEALER ⟗_{DEALER.Dealer_ID = SUPPLIES.Dealer_ID} SUPPLIES
 
 ---
 
+
+---
 # 14. Division $\div$
+
+## Tables Used
+
+### SUPPLIES
+
+| Dealer_ID | Part_ID |
+|---|---|
+| D1 | P1 |
+| D1 | P2 |
+| D1 | P3 |
+| D2 | P1 |
+| D2 | P2 |
+
+### REQUIRED_PART
+
+| Part_ID |
+|---|
+| P1 |
+| P2 |
+
+### DEALER
+
+| Dealer_ID | Dealer_Name |
+|---|---|
+| D1 | ABC |
+| D2 | XYZ |
+
+### ENROLL
+
+| Ssn | Course_id | Grade |
+|---|---|---|
+| S1 | C1 | A |
+| S1 | C3 | B |
+| S2 | C2 | A |
+| S3 | C1 | A |
+
+### REQUIRED_COURSE
+
+| Course_id |
+|---|
+| C1 |
+| C2 |
+
+---
 
 Division is used when the question contains **ALL / EVERY**.
 
@@ -3817,7 +4387,30 @@ REQUIRED_PART
 
 ---
 
+
+---
 # 15. Aggregate Functions
+
+## Tables Used
+
+### STUDENT
+
+| Ssn | Name | Dept |
+|---|---|---|
+| S1 | Amit | IT |
+| S2 | Ravi | CS |
+| S3 | Neha | IT |
+| S4 | Priya | EXTC |
+
+### EMPLOYEE
+
+| Emp_ID | Name | Dept_ID | Salary |
+|---|---|---|---:|
+| E1 | Amit | D1 | 50000 |
+| E2 | Ravi | D2 | 60000 |
+| E3 | Neha | D1 | 70000 |
+
+---
 
 Aggregate operations produce summary values.
 
@@ -3877,6 +4470,8 @@ GROUP BY Dept;
 ```text
 GROUP BY Dept, COUNT(Ssn) → Total (STUDENT)
 ```
+
+---
 
 ---
 
