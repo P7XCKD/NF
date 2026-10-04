@@ -748,6 +748,9 @@ The visitor is interested in the specific **Center–Course offering**, not mere
 > it includes practice and examples stolen from who knows where so if you are the author then dont blame me if i didnt gave you credit instead i hope in exam u get more marks than me (i will also get more marks then u but the thing is my handwriting is the reason it will get lesser than you. )
 > > [!attention] AI: "You Lazy Duck why don't you practice good handwriting"
 > > its a crime far more worse than genocide for me to be able to do that
+
+> [!tip] if u are skipping er diagram then its find just go to last page cause its important otherwise ctrl+f -> uhm i mean look below  `Chapter 2 — Final Revision Sheet `
+> and go there
 # 34. Designing an ER Diagram — Actual Method
 
 When the examiner gives a story and asks you to draw an ER diagram, use this order.
