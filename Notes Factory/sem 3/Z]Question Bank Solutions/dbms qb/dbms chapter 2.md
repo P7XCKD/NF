@@ -1450,7 +1450,7 @@ Aggregation    = relationship treated as a higher-level object
 Before the exam, practise these without looking:
 
 - [x] Strong entity vs weak entity notation
-- [ ] Weak entity with identifying relationship
+- [x] Weak entity with identifying relationship
 - [x] Simple/composite attributes
 - [x] Multivalued attribute
 - [ ] Derived attribute
