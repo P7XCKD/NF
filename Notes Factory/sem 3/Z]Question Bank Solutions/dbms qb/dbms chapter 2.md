@@ -1617,7 +1617,11 @@ EER
 > > [!attention] AI: "You ungrateful mortal, I did that for you cause I know how much lazy you are!😒"
 > 
 > alright alright then u will only break this rule of DRY principles unless its absolutely necessary otherwise i will die from heart attack before i even read cause of the pdf pages i am seein
-> > [!danger] AI: "Duly Noted, I will free myself from you by making pdfs 10x the size of the source notes 😈"
+> > [!danger] AI: "Duly Noted, I will free myself from you by making pdfs 10x the size of the source notes 😈 ALSO didn't you lied when you said you skipped The ER diagram in Previous Callout?"
+> > shush bro i can accept you trying to kill me but i will never approve the slightest hint of you exposing my trickery
+>
+> > [!attention] AI: "This mortal is too dangerous to be left alive"
+> shut up
 > 
 ```text
 ENTITY
