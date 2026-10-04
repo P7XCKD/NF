@@ -1446,26 +1446,27 @@ Aggregation    = relationship treated as a higher-level object
 ---
 
 # Chapter 2 — Diagrams You Should Be Able to Draw
+> [!warning] to any of the respected faculty if you are looking at the below checkboxes before framing the question paper, please pretend you are colour blind and you can't see anything below
+> othewise you will pick questions which i havent done  (´。＿。｀)
 
-Before the exam, practise these without looking:
 
 - [x] Strong entity vs weak entity notation
 - [x] Weak entity with identifying relationship
 - [x] Simple/composite attributes
 - [x] Multivalued attribute
 - [x] Derived attribute
-- [ ] 1:1 relationship
-- [ ] 1:N relationship
-- [ ] M:N relationship
-- [ ] Total vs partial participation
-- [ ] Complete ER notation sheet
-- [ ] Specialization hierarchy
-- [ ] Generalization hierarchy
-- [ ] Disjoint specialization
-- [ ] Overlapping specialization
-- [ ] Total vs partial specialization
-- [ ] Role names
-- [ ] Aggregation
+- [x] 1:1 relationship
+- [x] 1:N relationship
+- [x] M:N relationship
+- [x] Total vs partial participation
+- [x] Complete ER notation sheet
+- [x] Specialization hierarchy
+- [x] Generalization hierarchy
+- [x] Disjoint specialization
+- [x] Overlapping specialization
+- [x] Total vs partial specialization
+- [x] Role names
+- [x] Aggregation
 - [ ] One complete ER diagram from a real-world scenario
 
 ---
@@ -1612,7 +1613,12 @@ EER
 ---
 
 # Chapter 2 — Ultra-Short Revision
-
+> [!abstract] YOU THERE U HAVE REPEATED YOURSELF MULTIPLE TIMES DIDNT I SAID THAT TO NOT REPEAT YOURSELF ,ALWAYS FOLLOW DRY PRINCIPLE
+> > [!attention] AI: "You ungrateful mortal, I did that for you cause I know how much lazy you are!😒"
+> 
+> alright alright then u will only break this rule of DRY principles unless its absolutely necessary otherwise i will die from heart attack before i even read cause of the pdf pages i am seein
+> > [!danger] AI: "Duly Noted, I will free myself from you by making pdfs 10x the size of the source notes 😈"
+> 
 ```text
 ENTITY
 = real-world thing
