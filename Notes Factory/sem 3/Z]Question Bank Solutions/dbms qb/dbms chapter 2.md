@@ -744,7 +744,10 @@ The visitor is interested in the specific **Center–Course offering**, not mere
 > **Aggregation = relationship gets promoted to “thing-like” status.**
 ![image](.attachments/95d07e14f61db720b288f326759bc393b348afd1.png) ![image](.attachments/d078891f3d36272e296302b5fd1803f4727a041b.png) ![image](.attachments/b3fd3dd684cf548af8a80870db03ecef9d9553b5.png) 
 ---
-
+> [!abstract] now the below part is all about ER diagrams and a bit of EER 
+> it includes practice and examples stolen from who knows where so if you are the author then dont blame me if i didnt gave you credit instead i hope in exam u get more marks than me (i will also get more marks then u but the thing is my handwriting is the reason it will get lesser than you. )
+> > [!attention] AI: "You Lazy Duck why don't you practice good handwriting"
+> > its a crime far more worse than genocide for me to be able to do that
 # 34. Designing an ER Diagram — Actual Method
 
 When the examiner gives a story and asks you to draw an ER diagram, use this order.
