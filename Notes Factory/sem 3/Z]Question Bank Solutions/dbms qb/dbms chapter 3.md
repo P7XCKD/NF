@@ -1486,7 +1486,7 @@ HR
 > [!hint] Memory trick
 > **Projection = columns**
 >
-> $\pi$ = columns**
+> $\pi$ = columns
 
 ---
 
