@@ -1453,7 +1453,7 @@ Before the exam, practise these without looking:
 - [x] Weak entity with identifying relationship
 - [x] Simple/composite attributes
 - [x] Multivalued attribute
-- [ ] Derived attribute
+- [x] Derived attribute
 - [ ] 1:1 relationship
 - [ ] 1:N relationship
 - [ ] M:N relationship
