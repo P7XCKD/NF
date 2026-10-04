@@ -76,7 +76,7 @@ The relational model has the following important characteristics:
 2. Tables consist of **rows and columns**.
 3. Each column represents an **attribute**.
 4. Each row represents a **tuple/record**.
-5. Every cell contains a single **atomic value**.
+5. Every cell contains a single **atomic value**. ![image](.attachments/b3bf0dc4ac098933f89a70cc8252cf843dec1192.png) 
 6. Each attribute has a specific **domain/data type**.
 7. A key is used to uniquely identify tuples.
 8. Tables can be related using common attributes/keys.
