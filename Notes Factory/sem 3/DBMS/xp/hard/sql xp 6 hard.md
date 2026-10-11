@@ -200,81 +200,257 @@ SELECT *
 FROM table_name
 WHERE column_name IS NOT NULL;
 ```
+  
+  ### GROUP 9 — ORDER BY
+  
+  `ORDER BY` is used to arrange query results in ascending or descending order.
+  
+  #### Syntax
+  
+  ```sql
+  SELECT *
+  FROM table_name
+  ORDER BY column_name ASC;
+  
+  SELECT *
+  FROM table_name
+  ORDER BY column_name DESC;
+  ```
+  
+  ### GROUP 10 — DISTINCT
+  
+  `DISTINCT` is used to display only unique values or unique combinations.
+  
+  #### Syntax
+  
+  ```sql
+  SELECT DISTINCT column_name
+  FROM table_name;
+  
+  SELECT DISTINCT column1, column2
+  FROM table_name;
+  ```
+  
+  ### GROUP 11 — GROUP BY
+  
+  `GROUP BY` groups records based on a column and is commonly used with aggregate functions.
+  
+  #### Syntax
+  
+  ```sql
+  SELECT column_name, aggregate_function(column_name)
+  FROM table_name
+  GROUP BY column_name;
+  ```
+  
+  ### GROUP 12 — HAVING
+  
+  `HAVING` is used to apply conditions to grouped records.
+  
+  #### Syntax
+  
+  ```sql
+  SELECT column_name, aggregate_function(column_name)
+  FROM table_name
+  GROUP BY column_name
+  HAVING aggregate_function(column_name) operator value;
+  ```
+  
+  ### GROUP 13 — COMBINED QUERY
+  
+  A combined query uses multiple clauses such as `GROUP BY`, `HAVING` and `ORDER BY` together.
+  
+  #### Syntax
+  
+  ```sql
+  SELECT column_name,
+         aggregate_function(column_name)
+  FROM table_name
+  GROUP BY column_name
+  HAVING condition
+  ORDER BY column_name DESC;
+  ```
+> [!abstract] 6B
+### GROUP 1 — INNER JOIN
 
-### GROUP 9 — ORDER BY
+`INNER JOIN` displays records that have matching values in both tables.
 
-`ORDER BY` is used to arrange query results in ascending or descending order.
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+INNER JOIN table2
+ON table1.column = table2.column;
+```
+
+### GROUP 2 — LEFT JOIN
+
+`LEFT JOIN` displays all records from the left table and matching records from the right table. Unmatched records contain NULL values.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+LEFT JOIN table2
+ON table1.column = table2.column;
+```
+
+### GROUP 3 — RIGHT JOIN
+
+`RIGHT JOIN` displays all records from the right table and matching records from the left table. Unmatched records contain NULL values.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+RIGHT JOIN table2
+ON table1.column = table2.column;
+```
+
+### GROUP 4 — FULL OUTER JOIN
+
+`FULL OUTER JOIN` displays all matching and unmatched records from both tables.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+LEFT JOIN table2
+ON table1.column = table2.column
+
+UNION
+
+SELECT columns
+FROM table1
+RIGHT JOIN table2
+ON table1.column = table2.column;
+```
+
+### GROUP 5 — CROSS JOIN
+
+`CROSS JOIN` generates all possible combinations of records from two tables.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+CROSS JOIN table2;
+```
+
+### GROUP 6 — SELF JOIN
+
+`SELF JOIN` joins a table with itself to compare records within the same table.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1 A
+JOIN table1 B
+ON A.column = B.column
+WHERE A.column > B.column;
+```
+
+### GROUP 7 — JOIN BETWEEN THREE TABLES
+
+A three-table join combines related records from three tables using matching columns.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+JOIN table2
+ON table1.column = table2.column
+JOIN table3
+ON table2.column = table3.column;
+```
+
+### GROUP 8 — NESTED QUERY USING SELECT
+
+A nested query uses one query inside another query to retrieve records based on the result of the inner query.
 
 #### Syntax
 
 ```sql
 SELECT *
 FROM table_name
-ORDER BY column_name ASC;
+WHERE column_name > (
+    SELECT AVG(column_name)
+    FROM table_name
+);
+```
 
+### GROUP 9 — NESTED QUERY USING IN
+
+`IN` checks whether a value matches any value returned by the nested query.
+
+#### Syntax
+
+```sql
+SELECT columns
+FROM table1
+WHERE column_name IN (
+    SELECT column_name
+    FROM table2
+);
+```
+
+### GROUP 10 — INSERT WITH SELECT
+
+`INSERT WITH SELECT` inserts records returned by a SELECT query into another table.
+
+#### Syntax
+
+```sql
+INSERT INTO new_table
 SELECT *
 FROM table_name
-ORDER BY column_name DESC;
+WHERE column_name > (
+    SELECT AVG(column_name)
+    FROM table_name
+);
 ```
 
-### GROUP 10 — DISTINCT
+### GROUP 11 — UPDATE WITH SELECT
 
-`DISTINCT` is used to display only unique values or unique combinations.
+`UPDATE WITH SELECT` modifies records based on conditions returned by a nested query.
 
 #### Syntax
 
 ```sql
-SELECT DISTINCT column_name
-FROM table_name;
-
-SELECT DISTINCT column1, column2
-FROM table_name;
+UPDATE table_name
+SET column_name = 'new_value'
+WHERE column_name IN (
+    SELECT column_name
+    FROM another_table
+    WHERE condition
+);
 ```
 
-### GROUP 11 — GROUP BY
+### GROUP 12 — DELETE WITH SELECT
 
-`GROUP BY` groups records based on a column and is commonly used with aggregate functions.
+`DELETE WITH SELECT` deletes records based on conditions returned by a nested query.
 
 #### Syntax
 
 ```sql
-SELECT column_name, aggregate_function(column_name)
-FROM table_name
-GROUP BY column_name;
-```
-
-### GROUP 12 — HAVING
-
-`HAVING` is used to apply conditions to grouped records.
-
-#### Syntax
-
-```sql
-SELECT column_name, aggregate_function(column_name)
-FROM table_name
-GROUP BY column_name
-HAVING aggregate_function(column_name) operator value;
-```
-
-### GROUP 13 — COMBINED QUERY
-
-A combined query uses multiple clauses such as `GROUP BY`, `HAVING` and `ORDER BY` together.
-
-#### Syntax
-
-```sql
-SELECT column_name,
-       aggregate_function(column_name)
-FROM table_name
-GROUP BY column_name
-HAVING condition
-ORDER BY column_name DESC;
+DELETE FROM table_name
+WHERE column_name NOT IN (
+    SELECT column_name
+    FROM another_table
+);
 ```
 
 ### OUTCOME
 
-Simple and complex SQL queries were successfully performed using different operators, clauses and aggregate functions.
+Various SQL joins and nested queries were successfully implemented to retrieve, compare, insert, update, and delete climate-related records.
 
 ### CONCLUSION
 
-Thus, SQL queries were successfully implemented to retrieve, filter, sort and group climate-related data.
+Thus, SQL joins and nested queries were successfully implemented for heatwave monitoring, prediction, and early warning. Different joins were used to combine related tables, while nested queries were used to filter records and perform data manipulation operations.
