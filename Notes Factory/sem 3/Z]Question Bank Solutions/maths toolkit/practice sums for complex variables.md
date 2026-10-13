@@ -36,8 +36,10 @@ $$
 ## Step 2 — Write the Cauchy–Riemann equations
 
 For analyticity, we check:
-
+$$
 \frac{\partial v}{\partial y}  
+$$
+
 $$
 
 -\frac{\partial v}{\partial x}  
@@ -56,7 +58,7 @@ u=x^3-3xy^2+2xy
 $$
 
 Differentiate with respect to x. Treat y as a constant.
-
+$$
 3x^2-3y^2+2y  
 $$
 
@@ -85,6 +87,7 @@ $$
 
 Differentiate with respect to y. Treat x as a constant.
 
+$$
 0-6xy+2x  
 $$
 
@@ -113,6 +116,7 @@ $$
 
 Differentiate with respect to x.
 
+$$
 6xy-2x+0-0  
 $$
 
@@ -132,6 +136,7 @@ $$
 
 Differentiate with respect to y.
 
+$$
 3x^2+0+2y-3y^2  
 $$
 
@@ -153,6 +158,7 @@ $$
 
 Substitute the values:
 
+$$
 3x^2+2y-3y^2  
 $$
 
@@ -290,12 +296,13 @@ $$
 $$
 
 Add them:
-
+$$
 3x^2-3y^2+6ixy+2y-2ix  
 $$
 
 Group the real and imaginary parts:
 
+$$
 (3x^2-3y^2+2y)+i(6xy-2x)  
 $$
 
