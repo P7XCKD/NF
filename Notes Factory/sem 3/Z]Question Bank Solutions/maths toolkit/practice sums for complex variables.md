@@ -1,335 +1,276 @@
-# Q1. Prove that f(z) is analytic and find f'(z) in terms of z
 
-**Given:**
 
-$$  
-f(z)=(x^3-3xy^2+2xy)+i(3x^2y-x^2+y^2-y^3)  
-$$
+### **Q1. Prove that $f(z) = (x^3 - 3xy^2 + 2xy) + i(3x^2y - x^2 + y^2 - y^3)$ is analytic and find $f'(z)$ in terms of $z$.**
 
-## Step 1 — Separate the real and imaginary parts
+To prove the function is analytic, we must show that its real and imaginary parts satisfy the Cauchy-Riemann equations ($u_x = v_y$ and $u_y = -v_x$).
 
-The standard form is:
+  
 
-$$  
-f(z)=u(x,y)+iv(x,y)  
-$$
+Let $f(z) = u + iv$:
 
-Comparing with the given function:
+  
 
-$$  
-u=x^3-3xy^2+2xy  
-$$
-
-$$  
-v=3x^2y-x^2+y^2-y^3  
-$$
-
-> [!hint] What are u and v?
-> 
-> -   u = the real part (before i).
->     
-> -   v = the imaginary part (after i).
->     
-> 
-> **Trick:** Split the expression at +i.
-
-## Step 2 — Write the Cauchy–Riemann equations
-
-For analyticity, we check:
-$$
-\frac{\partial v}{\partial y}  
-$$
-
-$$
-
--\frac{\partial v}{\partial x}  
-$$
-
-We need four partial derivatives: uₓ, uᵧ, vₓ and vᵧ.
-
-## Step 3 — Calculate the four partial derivatives
-
-### A. Find uₓ
-
-Given:
-
-$$  
-u=x^3-3xy^2+2xy  
-$$
-
-Differentiate with respect to x. Treat y as a constant.
-$$
-3x^2-3y^2+2y  
-$$
-
-Therefore:
-
-$$  
-u_x=3x^2-3y^2+2y  
-$$
-
-> [!hint] Why?
-> 
-> -   x³ becomes 3x².
->     
-> -   -3xy² becomes -3y² because y is treated as a constant.
->     
-> -   2xy becomes 2y.
->     
-
-### B. Find uᵧ
-
-Use the same expression:
-
-$$  
-u=x^3-3xy^2+2xy  
-$$
-
-Differentiate with respect to y. Treat x as a constant.
-
-$$
-0-6xy+2x  
-$$
-
-Therefore:
-
-$$  
-u_y=-6xy+2x  
-$$
-
-Why?
-
--   x³ becomes 0 because there is no y.
+-   $u = x^3 - 3xy^2 + 2xy$
     
--   -3xy² becomes -6xy.
+      
     
--   2xy becomes 2x.
+      
+    
+-   $v = 3x^2y - x^2 + y^2 - y^3$
+    
+      
+    
+      
     
 
-### C. Find vₓ
+Differentiating with respect to $x$ and $y$:
 
-Given:
+  
 
-$$  
-v=3x^2y-x^2+y^2-y^3  
-$$
-
-Differentiate with respect to x.
-
-$$
-6xy-2x+0-0  
-$$
-
-Therefore:
-
-$$  
-v_x=6xy-2x  
-$$
-
-### D. Find vᵧ
-
-Use:
-
-$$  
-v=3x^2y-x^2+y^2-y^3  
-$$
-
-Differentiate with respect to y.
-
-$$
-3x^2+0+2y-3y^2  
-$$
-
-Therefore:
-
-$$  
-v_y=3x^2+2y-3y^2  
-$$
-
-## Step 4 — Verify the Cauchy–Riemann equations
-
-### First equation
-
-Formula:
-
-$$  
-u_x=v_y  
-$$
-
-Substitute the values:
-
-$$
-3x^2+2y-3y^2  
-$$
-
-Both sides are equal. The first equation is satisfied.
-
-### Second equation
-
-Formula:
-
-$$  
-u_y=-v_x  
-$$
-
-Substitute the values:
-
-$$  
--6xy+2x=-(6xy-2x)  
-$$
-
-Remove the brackets:
-
-$$  
--6xy+2x=-6xy+2x  
-$$
-
-Both sides are equal. The second equation is satisfied.
-
-> [!hint] Conclusion  
-> Both Cauchy–Riemann equations hold everywhere. All the partial derivatives are polynomials and are continuous everywhere.
-> 
-> Therefore, the function is analytic everywhere.
-
-**Conclusion:**
-
-$$  
-f(z)\text{ is analytic everywhere}  
-$$
-
-## Step 5 — Find f'(z) in terms of z
-
-For an analytic function, use:
-
-$$  
-f'(z)=u_x+i,v_x  
-$$
-
-Substitute the derivatives calculated earlier:
-
-$$  
-f'(z)=(3x^2-3y^2+2y)+i(6xy-2x)  
-$$
-
-We must convert this expression into z.
-
-### A. Start with the definition of z
-
-$$  
-z=x+iy  
-$$
-
-Square both sides:
-
-$$  
-z^2=(x+iy)^2  
-$$
-
-Expand:
-
-$$  
-z^2=x^2+2ixy+i^2y^2  
-$$
-
-Use the identity:
-
-$$  
-i^2=-1  
-$$
-
-Therefore:
-
-$$  
-z^2=x^2-y^2+2ixy  
-$$
-
-Multiply by 3:
-
-$$  
-3z^2=3x^2-3y^2+6ixy  
-$$
-
-### B. Find -2iz
-
-Start with:
-
-$$  
-z=x+iy  
-$$
-
-Multiply both sides by -2i:
-
-$$  
--2iz=-2i(x+iy)  
-$$
-
-Expand:
-
-$$  
--2iz=-2ix-2i^2y  
-$$
-
-Since i² = -1:
-
-$$  
--2iz=-2ix+2y  
-$$
-
-Rearrange:
-
-$$  
--2iz=2y-2ix  
-$$
-
-### C. Add the two results
-
-We have:
-
-$$  
-3z^2=3x^2-3y^2+6ixy  
-$$
-
-And:
-
-$$  
--2iz=2y-2ix  
-$$
-
-Add them:
-$$
-3x^2-3y^2+6ixy+2y-2ix  
-$$
-
-Group the real and imaginary parts:
-
-$$
-(3x^2-3y^2+2y)+i(6xy-2x)  
-$$
-
-This matches the expression for f'(z) found earlier.
-
-**Final answer:**
-
-$$  
-f'(z)=3z^2-2iz  
-$$
-
-## Final exam checklist
-
-1.  Write f(z) = u + iv.
+-   $\frac{\partial u}{\partial x} = 3x^2 - 3y^2 + 2y$
     
-2.  Find uₓ, uᵧ, vₓ and vᵧ.
+      
     
-3.  Verify uₓ = vᵧ.
+      
     
-4.  Verify uᵧ = -vₓ.
+-   $\frac{\partial u}{\partial y} = -6xy + 2x$
     
-5.  State that f(z) is analytic everywhere.
+      
     
-6.  Use f'(z) = uₓ + ivₓ.
+      
     
-7.  Convert the answer into terms of z.
+-   $\frac{\partial v}{\partial x} = 6xy - 2x$
+    
+      
+    
+      
+    
+-   $\frac{\partial v}{\partial y} = 3x^2 + 2y - 3y^2$
+    
+      
+    
+      
     
 
-> [!important] Exam tip  
-> If the question says **“prove analytic”**, show both Cauchy–Riemann checks. If it also asks for f'(z), show the derivative formula and the conversion into z.
+Comparing the partial derivatives:
+
+  
+
+$$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} = 3x^2 - 3y^2 + 2y$$
+
+$$\frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x} = -6xy + 2x$$
+
+Since the Cauchy-Riemann equations are satisfied and the partial derivatives are continuous, $f(z)$ is analytic.
+
+  
+
+**Finding $f'(z)$:**
+
+Using $f'(z) = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}$:
+
+  
+
+$$f'(z) = (3x^2 - 3y^2 + 2y) + i(6xy - 2x)$$
+
+  
+
+Applying the Milne-Thomson method by substituting $x = z$ and $y = 0$:
+
+  
+
+$$f'(z) = 3z^2 - 3(0)^2 + 2(0) + i(6(z)(0) - 2(z))$$
+
+  
+
+$$f'(z) = 3z^2 - 2iz$$
+
+  
+
+### **Q2. Find an analytic function whose imaginary part is $v = e^{-x}(y \sin y + x \cos y)$.**
+
+Given the imaginary part:
+
+  
+
+-   $v = y e^{-x} \sin y + x e^{-x} \cos y$
+    
+      
+    
+      
+    
+
+Calculate the partial derivatives of $v$:
+
+  
+
+-   $\frac{\partial v}{\partial x} = -y e^{-x} \sin y + e^{-x} \cos y - x e^{-x} \cos y = e^{-x}(\cos y - y \sin y - x \cos y)$
+    
+      
+    
+      
+    
+-   $\frac{\partial v}{\partial y} = e^{-x}(\sin y + y \cos y) - x e^{-x} \sin y = e^{-x}(\sin y + y \cos y - x \sin y)$
+    
+      
+    
+      
+    
+
+By the Cauchy-Riemann equations, we know $f'(z) = \frac{\partial v}{\partial y} + i\frac{\partial v}{\partial x}$:
+
+  
+
+$$f'(z) = e^{-x}(\sin y + y \cos y - x \sin y) + i[e^{-x}(\cos y - y \sin y - x \cos y)]$$
+
+  
+
+Applying the Milne-Thomson method ($x=z, y=0$):
+
+  
+
+$$f'(z) = e^{-z}(0 + 0 - 0) + i[e^{-z}(1 - 0 - z)]$$
+
+$$f'(z) = i(1-z)e^{-z}$$
+
+Integrating $f'(z)$ with respect to $z$:
+
+  
+
+$$f(z) = \int i(1-z)e^{-z} dz$$
+
+$$f(z) = i \left( \int e^{-z} dz - \int z e^{-z} dz \right)$$
+
+$$f(z) = i \left( -e^{-z} - [z(-e^{-z}) - \int -e^{-z} dz] \right)$$
+
+$$f(z) = i \left( -e^{-z} + ze^{-z} - e^{-z} \right) + c$$
+
+$$f(z) = ize^{-z} + C$$
+
+  
+
+### **Q3. If $f(z) = u + iv$ is analytic and $u - v = e^x(\cos y - \sin y)$, find $f(z)$ in terms of $z$.**
+
+To solve this, we construct a new function. Since $f(z) = u + iv$, we have $if(z) = -v + iu$. Adding these together gives $(1+i)f(z) = (u-v) + i(u+v)$. Let $F(z) = (1+i)f(z) = U + iV$, where the real part is $U = u - v = e^x(\cos y - \sin y)$.
+
+  
+
+Calculate the partial derivatives of $U$:
+
+  
+
+-   $\frac{\partial U}{\partial x} = e^x(\cos y - \sin y)$
+    
+      
+    
+      
+    
+-   $\frac{\partial U}{\partial y} = e^x(-\sin y - \cos y)$
+    
+      
+    
+      
+    
+
+We can find $F'(z)$ using $F'(z) = \frac{\partial U}{\partial x} - i\frac{\partial U}{\partial y}$:
+
+  
+
+$$F'(z) = e^x(\cos y - \sin y) - i[e^x(-\sin y - \cos y)]$$
+
+  
+
+Using the Milne-Thomson method ($x=z, y=0$):
+
+  
+
+$$F'(z) = e^z(\cos 0 - \sin 0) - i[e^z(-\sin 0 - \cos 0)]$$
+
+  
+
+$$F'(z) = e^z(1) - i[e^z(-1)]$$
+
+  
+
+$$F'(z) = e^z + ie^z = e^z(1+i)$$
+
+  
+
+Substitute back $F'(z) = (1+i)f'(z)$:
+
+  
+
+$$(1+i)f'(z) = (1+i)e^z$$
+
+$$f'(z) = e^z$$
+
+  
+
+Integrating $f'(z)$ with respect to $z$:
+
+  
+
+$$f(z) = \int e^z dz$$
+
+  
+
+$$f(z) = e^z + C$$
+
+  
+
+### **Q4. Check whether $u = x + e^{xy} + y + e^{-xy}$ is Harmonic. If yes, find the corresponding Harmonic conjugates.**
+
+For a function to be harmonic, it must satisfy Laplace's equation: $\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$.
+
+  
+
+Given $u = x + e^{xy} + y + e^{-xy}$:
+
+  
+
+First, find the second-order partial derivative with respect to $x$:
+
+  
+
+-   $\frac{\partial u}{\partial x} = 1 + ye^{xy} - ye^{-xy}$
+    
+      
+    
+      
+    
+-   $\frac{\partial^2 u}{\partial x^2} = y^2e^{xy} + y^2e^{-xy}$
+    
+      
+    
+      
+    
+
+Next, find the second-order partial derivative with respect to $y$:
+
+  
+
+-   $\frac{\partial u}{\partial y} = xe^{xy} + 1 - xe^{-xy}$
+    
+      
+    
+      
+    
+-   $\frac{\partial^2 u}{\partial y^2} = x^2e^{xy} + x^2e^{-xy}$
+    
+      
+    
+      
+    
+
+Now, check Laplace's equation:
+
+  
+
+$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = (y^2e^{xy} + y^2e^{-xy}) + (x^2e^{xy} + x^2e^{-xy})$$
+
+  
+
+Since $(y^2e^{xy} + y^2e^{-xy}) + (x^2e^{xy} + x^2e^{-xy}) \neq 0$, the function fails to satisfy Laplace's equation.
+
+  
+
+Therefore, $u$ is **not a Harmonic function**, and consequently, it has no harmonic conjugate.
