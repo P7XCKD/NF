@@ -216,6 +216,7 @@ $$f(z) = \int e^z dz$$
 $$f(z) = e^z + C$$
 
   
+![image](.attachments/6bd623280f221299e508e13021f54bded2beacaf.png) 
 
 ### **Q4. Check whether $u = x + e^{xy} + y + e^{-xy}$ is Harmonic. If yes, find the corresponding Harmonic conjugates.**
 
