@@ -309,7 +309,3 @@ A Binary Search Tree was implemented successfully. Nodes were inserted, and Inor
 ### Conclusion:
 
 Thus, Binary Tree insertion and traversal techniques were implemented successfully, demonstrating their use in organizing data and supporting simple decision-making applications.
-
-```
-
-```
