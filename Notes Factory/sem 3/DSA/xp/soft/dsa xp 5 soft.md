@@ -51,7 +51,7 @@ This program simulates an AI-assisted heatwave alert system. It stores temperatu
 - Temperature from 43°C to below 45°C: Orange Alert
 - Temperature of 45°C or above: Red Alert
 
-**Note:** This is a rule-based simulation of an AI use case, not a trained AI model.
+
 
 ```c
 #include <stdio.h>
@@ -66,71 +66,13 @@ typedef struct node
 
 node *head = NULL;
 
-void createList()
-{
-    node *p, *last = NULL;
-    int n, i, temp;
-
-    printf("Enter number of readings: ");
-    scanf("%d", &n);
-
-    for(i = 0; i < n; i++)
-    {
-        printf("Enter temperature: ");
-        scanf("%d", &temp);
-
-        p = (node *)malloc(sizeof(node));
-        p->temperature = temp;
-        p->next = NULL;
-
-        if(head == NULL)
-            head = p;
-        else
-            last->next = p;
-
-        last = p;
-    }
-}
-
-void insertBeg()
-{
-    node *p;
-    int temp;
-
-    printf("Enter temperature: ");
-    scanf("%d", &temp);
-
-    p = (node *)malloc(sizeof(node));
-    p->temperature = temp;
-    p->next = head;
-    head = p;
-
-    printf("Reading added successfully.\n");
-}
-
-void deleteBeg()
-{
-    node *p;
-
-    if(head == NULL)
-    {
-        printf("No readings available.\n");
-        return;
-    }
-
-    p = head;
-    printf("Deleted temperature: %d\n", p->temperature);
-    head = head->next;
-    free(p);
-}
-
 void display()
 {
     node *p;
 
     if(head == NULL)
     {
-        printf("No readings available.\n");
+        printf("\nNo readings available.\n");
         return;
     }
 
@@ -151,6 +93,74 @@ void display()
     }
 }
 
+void createList()
+{
+    node *p, *last = NULL;
+    int n, i, temp;
+
+    printf("Enter number of readings: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++)
+    {
+        printf("Enter temperature: ");
+        scanf("%d", &temp);
+
+        p = (node *)malloc(sizeof(node));
+
+        p->temperature = temp;
+        p->next = NULL;
+
+        if(head == NULL)
+            head = p;
+        else
+            last->next = p;
+
+        last = p;
+    }
+
+    display();
+}
+
+void insertBeg()
+{
+    node *p;
+    int temp;
+
+    printf("Enter temperature: ");
+    scanf("%d", &temp);
+
+    p = (node *)malloc(sizeof(node));
+
+    p->temperature = temp;
+    p->next = head;
+    head = p;
+
+    printf("Reading added successfully.\n");
+
+    display();
+}
+
+void deleteBeg()
+{
+    node *p;
+
+    if(head == NULL)
+    {
+        printf("No readings available.\n");
+        return;
+    }
+
+    p = head;
+
+    printf("Deleted temperature: %d\n", p->temperature);
+
+    head = head->next;
+    free(p);
+
+    display();
+}
+
 void main()
 {
     int choice;
@@ -160,8 +170,7 @@ void main()
         printf("\n1. Create Readings");
         printf("\n2. Add Reading");
         printf("\n3. Delete First Reading");
-        printf("\n4. Display Alert Report");
-        printf("\n5. Exit");
+        printf("\n4. Exit");
         printf("\nEnter choice: ");
         scanf("%d", &choice);
 
@@ -170,22 +179,24 @@ void main()
             case 1:
                 createList();
                 break;
+
             case 2:
                 insertBeg();
                 break;
+
             case 3:
                 deleteBeg();
                 break;
+
             case 4:
-                display();
-                break;
-            case 5:
                 printf("Program exited.");
                 break;
+
             default:
                 printf("Invalid choice.");
         }
-    } while(choice != 5);
+
+    } while(choice != 4);
 
     getch();
 }
@@ -193,32 +204,20 @@ void main()
 
 ### Output:
 
-Sample output:
 
-```
-1. Create Readings
-2. Add Reading
-3. Delete First Reading
-4. Display Alert Report
-5. Exit
 
-Enter choice: 1
-Enter number of readings: 3
-Enter temperature: 38
-Enter temperature: 43
-Enter temperature: 46
 
-Enter choice: 4
+![image](.attachments/862c62b4d198404539bf05ecc93e4b86fc3ff8df.png) 
 
-Heatwave Alert Report:
-Temperature: 38 C - Normal
-Temperature: 43 C - Orange Alert
-Temperature: 46 C - Red Alert
-```
+![image](.attachments/a91165c65aa4387b6d56069e82aeaec932418c92.png) 
 
 ### Program 2: Basic Singly Linked List
+> [!attention] Limitations
+delete operation only deletes the element at the begining
+> likewise for insert operation
+> 
 
-```
+```c
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -347,36 +346,11 @@ void main()
 
 ### Output:
 
-Sample output:
 
-```
-1. Create a List
-2. Insert a Node
-3. Delete a Node
-4. Print the Existing List
-5. Exit
 
-Enter your choice: 1
-Enter number of nodes: 3
-Enter data: 10
-Enter data: 20
-Enter data: 30
-
-Enter your choice: 4
-Linked List: 10 20 30
-
-Enter your choice: 2
-Enter data to insert: 5
-
-Enter your choice: 4
-Linked List: 5 10 20 30
-
-Enter your choice: 3
-Deleted element: 5
-
-Enter your choice: 4
-Linked List: 10 20 30
-```
+![image](.attachments/54c01fbe38e6772ef670d4a0cba505cbb30518a0.png) 
+![image](.attachments/3df1cd9e4401ec174a4237b09ed22f66bc8e872e.png) 
+![image](.attachments/83cc4453b3697dde1f6cfeef22176248d4c61a9d.png) 
 
 ### Outcome:
 
@@ -386,6 +360,3 @@ The singly linked list was implemented successfully. Node creation, insertion, d
 
 Thus, the implementation of a Singly Linked List was studied successfully. The practical demonstrated dynamic memory allocation, pointer-based connections, and basic linked-list operations, along with a real-world heatwave alert management use case.
 
-```
-
-```
