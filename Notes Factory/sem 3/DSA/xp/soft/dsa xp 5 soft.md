@@ -6,7 +6,7 @@
 
 <p>
     <span style="float:left;">
-        <h3> DSA  Experiment 5
+        <h3> DSA Experiment 5
     </span>
     <span style="float:right; text-align:right;"> 
         Name: Dev Mandora<br>
