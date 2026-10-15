@@ -130,11 +130,8 @@ void main()
     do
     {
         printf("\nHEATWAVE RISK MENU");
-        printf("\n1. Insert Temperature");
-        printf("\n2. Preorder Report");
-        printf("\n3. Inorder Report");
-        printf("\n4. Postorder Report");
-        printf("\n5. Exit");
+        printf("\n1. Add Temperature");
+        printf("\n2. Exit");
         printf("\nEnter choice: ");
         scanf("%d", &choice);
 
@@ -143,26 +140,23 @@ void main()
             case 1:
                 printf("Enter temperature: ");
                 scanf("%d", &temp);
+
                 root = insert(root, temp);
-                printf("Temperature added.\n");
+
+                printf("\nTemperature added successfully.\n");
+
+                printf("\nPreorder Heatwave Report:\n");
+                preorder(root);
+
+                printf("\nInorder Heatwave Report:\n");
+                inorder(root);
+
+                printf("\nPostorder Heatwave Report:\n");
+                postorder(root);
+
                 break;
 
             case 2:
-                printf("\nPreorder Heatwave Report:\n");
-                preorder(root);
-                break;
-
-            case 3:
-                printf("\nInorder Heatwave Report:\n");
-                inorder(root);
-                break;
-
-            case 4:
-                printf("\nPostorder Heatwave Report:\n");
-                postorder(root);
-                break;
-
-            case 5:
                 printf("Program exited.\n");
                 break;
 
@@ -170,58 +164,17 @@ void main()
                 printf("Invalid choice.\n");
         }
 
-    } while(choice != 5);
+    } while(choice != 2);
 
     getch();
 }
 ````
 
 ### Output:
+![image](.attachments/611ae459420eb9eed8b6b36f840cc98ba697962c.png) 
+![image](.attachments/b9fb558b74b4e822a6d3977d41209f535749a123.png) 
+![image](.attachments/5a69e8fc2aec2b557d37a7d9998c34341f163b13.png) 
 
-```
-HEATWAVE RISK MENU
-1. Insert Temperature
-2. Preorder Report
-3. Inorder Report
-4. Postorder Report
-5. Exit
-Enter choice: 1
-Enter temperature: 43
-Temperature added.
-
-HEATWAVE RISK MENU
-1. Insert Temperature
-2. Preorder Report
-3. Inorder Report
-4. Postorder Report
-5. Exit
-Enter choice: 1
-Enter temperature: 38
-Temperature added.
-
-HEATWAVE RISK MENU
-1. Insert Temperature
-2. Preorder Report
-3. Inorder Report
-4. Postorder Report
-5. Exit
-Enter choice: 1
-Enter temperature: 46
-Temperature added.
-
-HEATWAVE RISK MENU
-1. Insert Temperature
-2. Preorder Report
-3. Inorder Report
-4. Postorder Report
-5. Exit
-Enter choice: 3
-
-Inorder Heatwave Report:
-38 C - Normal
-43 C - Orange Alert
-46 C - Red Alert
-```
 
 ### Program 2: Basic Binary Search Tree and Traversal
 
