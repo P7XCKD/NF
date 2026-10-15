@@ -14,18 +14,18 @@
         Batch: SB4</h3>
     </span>
 </p>
-          
+ 
+
 ### Aim:
 
 To Implement Binary Tree and its Traversal for real-world application.
 
 ### Objective:
 
-- To understand the concept and structure of a Binary Tree.
-- To learn how nodes are created and connected.
-- To implement Inorder, Preorder, and Postorder traversal.
-- To understand the applications of binary trees in real-world scenarios.
-- To implement a simple decision-support use case using a binary tree.
+- To understand the structure of a Binary Tree.
+- To create and insert nodes into a Binary Search Tree.
+- To perform Inorder, Preorder, and Postorder traversal.
+- To demonstrate a real-world application using a binary tree.
 
 ### Software Used:
 
@@ -34,20 +34,17 @@ To Implement Binary Tree and its Traversal for real-world application.
 
 ### Theory:
 
-A **Binary Tree** is a non-linear data structure in which each node can have at most two children: left and right. The topmost node is called the root, and nodes without children are called leaf nodes.
-
-Tree traversal is the process of visiting every node in a specific order.
+A **Binary Tree** is a non-linear data structure in which each node can have at most two children: left and right.
 
 - **Inorder:** Left, Root, Right
 - **Preorder:** Root, Left, Right
 - **Postorder:** Left, Right, Root
 
-Binary trees are used in decision-making systems, file-system hierarchies, expression evaluation, and searching. A Binary Search Tree stores smaller values on the left and larger values on the right.
+A Binary Search Tree stores smaller values on the left and larger values on the right. Binary trees are used in searching, decision-making systems, and hierarchical data storage.
 
-### Program 1: AI Use Case – Heatwave Risk Classification Using Binary Tree
+### Program 1: AI Use Case – Heatwave Risk Classification
 
-This program uses a Binary Search Tree to store temperature readings and classify them into heatwave alert levels using predefined rules. It demonstrates a simple rule-based decision-support application.
-
+This program stores temperature readings in a Binary Search Tree and classifies them into heatwave alert levels using predefined rules. It is a rule-based simulation, not a trained AI model.
 
 ```c
 #include <stdio.h>
@@ -57,27 +54,21 @@ This program uses a Binary Search Tree to store temperature readings and classif
 struct node
 {
     int temperature;
-    struct node *left;
-    struct node *right;
+    struct node *left, *right;
 };
-
-struct node* createNode(int temp)
-{
-    struct node *p;
-
-    p = (struct node *)malloc(sizeof(struct node));
-
-    p->temperature = temp;
-    p->left = NULL;
-    p->right = NULL;
-
-    return p;
-}
 
 struct node* insert(struct node *root, int temp)
 {
+    struct node *p;
+
     if(root == NULL)
-        return createNode(temp);
+    {
+        p = (struct node *)malloc(sizeof(struct node));
+        p->temperature = temp;
+        p->left = NULL;
+        p->right = NULL;
+        return p;
+    }
 
     if(temp < root->temperature)
         root->left = insert(root->left, temp);
@@ -87,7 +78,7 @@ struct node* insert(struct node *root, int temp)
     return root;
 }
 
-void displayRisk(int temp)
+void display(int temp)
 {
     printf("%d C - ", temp);
 
@@ -101,34 +92,34 @@ void displayRisk(int temp)
         printf("Normal\n");
 }
 
-void preorder(struct node *root)
-{
-    if(root == NULL)
-        return;
-
-    displayRisk(root->temperature);
-    preorder(root->left);
-    preorder(root->right);
-}
-
 void inorder(struct node *root)
 {
-    if(root == NULL)
-        return;
+    if(root != NULL)
+    {
+        inorder(root->left);
+        display(root->temperature);
+        inorder(root->right);
+    }
+}
 
-    inorder(root->left);
-    displayRisk(root->temperature);
-    inorder(root->right);
+void preorder(struct node *root)
+{
+    if(root != NULL)
+    {
+        display(root->temperature);
+        preorder(root->left);
+        preorder(root->right);
+    }
 }
 
 void postorder(struct node *root)
 {
-    if(root == NULL)
-        return;
-
-    postorder(root->left);
-    postorder(root->right);
-    displayRisk(root->temperature);
+    if(root != NULL)
+    {
+        postorder(root->left);
+        postorder(root->right);
+        display(root->temperature);
+    }
 }
 
 void main()
@@ -138,7 +129,7 @@ void main()
 
     do
     {
-        printf("\n HEATWAVE RISK MENU ");
+        printf("\nHEATWAVE RISK MENU");
         printf("\n1. Insert Temperature");
         printf("\n2. Preorder Report");
         printf("\n3. Inorder Report");
@@ -157,47 +148,26 @@ void main()
                 break;
 
             case 2:
-                if(root == NULL)
-                    printf("Tree is empty.\n");
-                else
-                {
-                    printf("\nPreorder Heatwave Report:\n");
-                    preorder(root);
-                }
+                printf("\nPreorder Heatwave Report:\n");
+                preorder(root);
                 break;
 
             case 3:
-                if(root == NULL)
-                    printf("Tree is empty.\n");
-                else
-                {
-                    printf("\nInorder Heatwave Report:\n");
-                    inorder(root);
-                }
+                printf("\nInorder Heatwave Report:\n");
+                inorder(root);
                 break;
 
             case 4:
-                if(root == NULL)
-                    printf("Tree is empty.\n");
-                else
-                {
-                    printf("\nPostorder Heatwave Report:\n");
-                    postorder(root);
-                }
+                printf("\nPostorder Heatwave Report:\n");
+                postorder(root);
                 break;
 
             case 5:
-                printf("Exiting...");
+                printf("Program exited.\n");
                 break;
 
             default:
-                printf("Invalid choice.");
-        }
-
-        if(choice != 5)
-        {
-            printf("\nPress any key to continue...");
-            getch();
+                printf("Invalid choice.\n");
         }
 
     } while(choice != 5);
@@ -208,10 +178,8 @@ void main()
 
 ### Output:
 
-Sample output:
-
 ```
- HEATWAVE RISK MENU 
+HEATWAVE RISK MENU
 1. Insert Temperature
 2. Preorder Report
 3. Inorder Report
@@ -221,14 +189,32 @@ Enter choice: 1
 Enter temperature: 43
 Temperature added.
 
+HEATWAVE RISK MENU
+1. Insert Temperature
+2. Preorder Report
+3. Inorder Report
+4. Postorder Report
+5. Exit
 Enter choice: 1
 Enter temperature: 38
 Temperature added.
 
+HEATWAVE RISK MENU
+1. Insert Temperature
+2. Preorder Report
+3. Inorder Report
+4. Postorder Report
+5. Exit
 Enter choice: 1
 Enter temperature: 46
 Temperature added.
 
+HEATWAVE RISK MENU
+1. Insert Temperature
+2. Preorder Report
+3. Inorder Report
+4. Postorder Report
+5. Exit
 Enter choice: 3
 
 Inorder Heatwave Report:
@@ -237,7 +223,7 @@ Inorder Heatwave Report:
 46 C - Red Alert
 ```
 
-### Program 2: Basic Binary Tree and Traversal
+### Program 2: Basic Binary Search Tree and Traversal
 
 ```c
 #include <stdio.h>
@@ -247,27 +233,21 @@ Inorder Heatwave Report:
 struct node
 {
     int data;
-    struct node *left;
-    struct node *right;
+    struct node *left, *right;
 };
-
-struct node* createNode(int value)
-{
-    struct node *p;
-
-    p = (struct node *)malloc(sizeof(struct node));
-
-    p->data = value;
-    p->left = NULL;
-    p->right = NULL;
-
-    return p;
-}
 
 struct node* insert(struct node *root, int value)
 {
+    struct node *p;
+
     if(root == NULL)
-        return createNode(value);
+    {
+        p = (struct node *)malloc(sizeof(struct node));
+        p->data = value;
+        p->left = NULL;
+        p->right = NULL;
+        return p;
+    }
 
     if(value < root->data)
         root->left = insert(root->left, value);
@@ -279,32 +259,32 @@ struct node* insert(struct node *root, int value)
 
 void preorder(struct node *root)
 {
-    if(root == NULL)
-        return;
-
-    printf("%d ", root->data);
-    preorder(root->left);
-    preorder(root->right);
+    if(root != NULL)
+    {
+        printf("%d ", root->data);
+        preorder(root->left);
+        preorder(root->right);
+    }
 }
 
 void inorder(struct node *root)
 {
-    if(root == NULL)
-        return;
-
-    inorder(root->left);
-    printf("%d ", root->data);
-    inorder(root->right);
+    if(root != NULL)
+    {
+        inorder(root->left);
+        printf("%d ", root->data);
+        inorder(root->right);
+    }
 }
 
 void postorder(struct node *root)
 {
-    if(root == NULL)
-        return;
-
-    postorder(root->left);
-    postorder(root->right);
-    printf("%d ", root->data);
+    if(root != NULL)
+    {
+        postorder(root->left);
+        postorder(root->right);
+        printf("%d ", root->data);
+    }
 }
 
 void main()
@@ -314,7 +294,7 @@ void main()
 
     do
     {
-        printf("\n BINARY TREE MENU ");
+        printf("\nBINARY TREE MENU");
         printf("\n1. Insert a Node");
         printf("\n2. Preorder Traversal");
         printf("\n3. Inorder Traversal");
@@ -332,47 +312,29 @@ void main()
                 break;
 
             case 2:
-                if(root == NULL)
-                    printf("Tree is empty.");
-                else
-                {
-                    printf("Preorder: ");
-                    preorder(root);
-                }
+                printf("Preorder: ");
+                preorder(root);
+                printf("\n");
                 break;
 
             case 3:
-                if(root == NULL)
-                    printf("Tree is empty.");
-                else
-                {
-                    printf("Inorder: ");
-                    inorder(root);
-                }
+                printf("Inorder: ");
+                inorder(root);
+                printf("\n");
                 break;
 
             case 4:
-                if(root == NULL)
-                    printf("Tree is empty.");
-                else
-                {
-                    printf("Postorder: ");
-                    postorder(root);
-                }
+                printf("Postorder: ");
+                postorder(root);
+                printf("\n");
                 break;
 
             case 5:
-                printf("Exiting...");
+                printf("Program exited.\n");
                 break;
 
             default:
-                printf("Invalid choice.");
-        }
-
-        if(choice != 5)
-        {
-            printf("\nPress any key to continue...");
-            getch();
+                printf("Invalid choice.\n");
         }
 
     } while(choice != 5);
@@ -382,42 +344,19 @@ void main()
 ```
 
 ### Output:
-
-Sample output:
-
-```
- BINARY TREE MENU 
-1. Insert a Node
-2. Preorder Traversal
-3. Inorder Traversal
-4. Postorder Traversal
-5. Exit
-Enter choice: 1
-Enter value to insert: 32
-
-Enter choice: 1
-Enter value to insert: 52
-
-Enter choice: 1
-Enter value to insert: 21
-
-Enter choice: 2
-Preorder: 32 21 52
-
-Enter choice: 3
-Inorder: 21 32 52
-
-Enter choice: 4
-Postorder: 21 52 32
-
-Enter choice: 5
-Exiting...
-```
+![image](.attachments/8f6c8d6422c2691ded89d3d6431c37e3e4a02c92.png) 
+![image](.attachments/9a8f289f4df33b871fc3cd967b41e9db997faf72.png) 
+![image](.attachments/10cbc825adc75113e2b805028b2e74024cb3dcef.png) 
+![image](.attachments/65820d437a0fc696d540005f2f8b227ef5b81b00.png) 
 
 ### Outcome:
 
-The Binary Tree was implemented successfully. Nodes were inserted, and Preorder, Inorder, and Postorder traversal techniques were performed. A rule-based heatwave risk classification application was also demonstrated.
+A Binary Search Tree was implemented successfully. Nodes were inserted, and Inorder, Preorder, and Postorder traversals were performed. A rule-based heatwave risk classification application was also demonstrated.
 
 ### Conclusion:
 
-Thus, binary tree construction and traversal techniques were implemented successfully. The practical demonstrated how binary trees organize data and support traversal and simple decision-support applications.
+Thus, Binary Tree insertion and traversal techniques were implemented successfully, demonstrating their use in organizing data and supporting simple decision-making applications.
+
+```
+
+```
