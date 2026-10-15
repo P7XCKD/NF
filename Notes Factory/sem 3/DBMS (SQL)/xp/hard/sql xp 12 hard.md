@@ -1,3 +1,4 @@
+
 <p>
     <span style="float:left;">
         <h3>SQL Experiment 12</h3>
@@ -18,8 +19,8 @@ Implementation and demonstration of transaction and concurrency control techniqu
 ### OBJECTIVE
 
 - To understand shared and exclusive locks.
-- To demonstrate locks using two MySQL sessions.
-- To understand transaction control using AUTOCOMMIT set to 0.
+- To demonstrate concurrency control using two MySQL sessions.
+- To understand transaction management using locks.
 
 ### SOFTWARE REQUIRED
 
@@ -27,20 +28,37 @@ MySQL Server 8.0
 
 ### THEORY
 
-Locks are used to control concurrent access to database records.
+Locks control simultaneous access to database records.
 
-- **Shared Lock (S Lock):** Allows multiple sessions to read the same record simultaneously.
-- **Exclusive Lock (X Lock):** Allows a session to modify a record and prevents conflicting locks from other sessions.
+- **Shared Lock:** Allows multiple sessions to read the same record.
+- **Exclusive Lock:** Allows a session to modify a record and prevents conflicting access.
 
 ### SYNTAX
 
-**Shared Lock**
-
+Shared Lock
 ```sql
-START TRANSACTION;
-
 SELECT * FROM Temperature
-WHERE ID = 1
-FOR SHARE;
+WHERE ID = 1 FOR SHARE;
+````
 
+Exclusive Lock
+
+```
+SELECT * FROM Temperature
+WHERE ID = 1 FOR UPDATE;
+```
+
+Transaction Control
+
+```
+START TRANSACTION;
 COMMIT;
+```
+
+### OUTCOME
+
+Shared and exclusive locks were demonstrated successfully using two MySQL sessions.
+
+### CONCLUSION
+
+Thus, transaction and concurrency control using locks were implemented successfully
