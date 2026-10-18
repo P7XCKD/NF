@@ -1,4 +1,4 @@
-# COA Assignment No. 2 — Answers (4 Marks Each)
+# COA Assignment No. 2 — 
 
 ## Q1. Draw and explain the block diagram of the 8051 Microcontroller with its registers.
 ![image](.attachments/c66e539c63956d1a238475dba5b17084e63229a1.jpg) 
