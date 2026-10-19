@@ -45,98 +45,128 @@ JOIN DEPARTMENT D ON P.Dnum = D.Dnumber
 JOIN EMPLOYEE E ON D.Mgr_ssn = E.Ssn
 WHERE E.Lname = 'Smith';
 ```
-# Q2 (a) What is the highest normal form for the \(R_3\) relation? (2 Marks)
+
+# Q2 (a) What is the highest normal form for the R₃ relation? (2 Marks)
 
 Given:
 
-\[ R_3 = \{A,B,C,D\},\quad F=\{A\to C,\; CD\to B\} \]
+$$
+R_3 = \{A, B, C, D\}
+$$
 
-Step 1: Find candidate key
+$$
+F = \{A \rightarrow C,\; CD \rightarrow B\}
+$$
 
-Find the closure of \(AD\):
+**Step 1: Find the candidate key**
 
-\[ (AD)^+ = \{A,D\} \]
+Find the closure of AD:
 
-Using \(A\to C\), add \(C\):
+$$
+(AD)^+ = \{A, D\}
+$$
 
-\[ (AD)^+ = \{A,C,D\} \]
+Using A → C, add C:
 
-Using \(CD\to B\), add \(B\):
+$$
+(AD)^+ = \{A, C, D\}
+$$
 
-\[ (AD)^+ = \{A,B,C,D\} \]
+Using CD → B, add B:
 
-Therefore, AD is a candidate key.
+$$
+(AD)^+ = \{A, B, C, D\}
+$$
 
-Step 2: Check normal form
+Therefore, **AD is a candidate key**.
 
--   \(A\to C\): A is not a superkey, and C is a non-prime attribute.
-    
--   Therefore, the relation violates 3NF.
-    
+**Step 2: Check the normal form**
 
-Answer: Highest normal form is 2NF, assuming no other functional dependencies exist.
+- A → C violates 3NF because A is not a superkey and C is a non-prime attribute.
+- There is no partial dependency of a non-prime attribute on a proper subset of the candidate key AD.
+
+**Answer: Highest normal form is 2NF**, assuming no other functional dependencies exist.
+
+---
 
 # Q2 (b) Demonstrate redundancy in a 3NF relation and normalize it to BCNF. (3 Marks)
 
-Consider relation:
+Consider:
 
-\[ R(A,B,C),\quad F=\{AB\to C,\;C\to B\} \]
+$$
+R(A, B, C)
+$$
 
-Step 1: Find candidate keys
+$$
+F = \{AB \rightarrow C,\; C \rightarrow B\}
+$$
 
--   \(AB^+=ABC\), so AB is a candidate key.
-    
--   \(AC^+=ABC\), because \(C\to B\), so AC is also a candidate key.
-    
+**Step 1: Find candidate keys**
 
-Step 2: Check BCNF
+For AB:
 
-The dependency \(C\to B\) violates BCNF because C is not a superkey.
+$$
+(AB)^+ = \{A, B, C\}
+$$
 
-Step 3: Decompose into BCNF
+Therefore, AB is a candidate key.
 
-Decompose \(R(A,B,C)\) into:
+For AC:
 
--   \(R_1(C,B)\)
-    
--   \(R_2(A,C)\)
-    
+$$
+(AC)^+ = \{A, C\}
+$$
+
+Given C → B, add B:
+
+$$
+(AC)^+ = \{A, B, C\}
+$$
+
+Therefore, AC is also a candidate key.
+
+**Step 2: Check BCNF**
+
+The dependency C → B violates BCNF because C is not a superkey.
+
+**Step 3: Decompose into BCNF**
+
+Decompose R into:
+
+$$
+R_1(C, B)
+$$
+
+$$
+R_2(A, C)
+$$
 
 Both relations are in BCNF.
 
+---
+
 # Q3 Discuss the deferred update technique of recovery. State its advantages, disadvantages, and why it is called NO-UNDO/REDO. (5 Marks)
 
-Deferred Update Technique: Database updates are postponed until the transaction reaches its commit point. Changes are recorded in the log first and applied to the database after commit.
+**Deferred Update Technique:**
 
-Working:
+Database updates are postponed until the transaction reaches its commit point. Changes are recorded in the log first and applied to the database after commit.
 
-1.  Record transaction operations in the log.
-    
-2.  Write the commit record to the log.
-    
-3.  Apply the changes to the database.
-    
-4.  After a crash, redo committed transactions if necessary.
-    
+**Working:**
+1. Record transaction operations in the log.
+2. Write the commit record to the log.
+3. Apply changes to the database.
+4. After a crash, redo committed transactions if necessary.
 
-Advantages:
+**Advantages:**
+- No need to undo uncommitted transactions.
+- Maintains database consistency.
+- Simplifies recovery.
 
--   No need to undo uncommitted transactions.
-    
--   Maintains database consistency.
-    
--   Simplifies recovery.
-    
+**Disadvantages:**
+- Recovery may take longer because committed transactions may need to be redone.
+- Updates are delayed until commit.
 
-Disadvantages:
+**Why NO-UNDO/REDO?**
 
--   Recovery may take longer because committed transactions may need to be redone.
-    
--   Updates are delayed until commit.
-    
-
-Why NO-UNDO/REDO?
-
--   NO-UNDO: Uncommitted changes are not written to the database.
-    
--   REDO: Committed changes may need to be reapplied after a crash.
+- **NO-UNDO:** Uncommitted changes are not written to the database.
+- **REDO:** Committed changes may need to be reapplied after a crash.
