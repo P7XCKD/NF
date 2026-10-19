@@ -312,8 +312,11 @@ Exiting.
 
 Space Complexity: O(n)
 
-# Assignment 2 — Student Recommendation System Using Sorting and Searching
-
+# Assignment 2 
+> [!question] Student Recommendation System Using Sorting and Searching
+> - Develop and evaluate a Student Recommendation System in C/C++ using appropriate sorting and searching algorithms. The system should manage student records and rank students based on a given recommendation score.  
+> - Implement suitable sorting techniques to arrange student records according to their scores and searching techniques to efficiently retrieve a specific student record. Compare the performance of the implemented algorithms for different dataset sizes based on execution time and number of comparisons, and prepare a comparison table showing the performance of each algorithm.  
+> - Based on the experimental results, determine the most suitable sorting and searching algorithms for the system.  
 ## 1. C Program
 
 ```c
