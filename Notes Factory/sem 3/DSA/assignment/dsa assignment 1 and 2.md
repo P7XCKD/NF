@@ -130,7 +130,7 @@ int main() {
 }
 ````
 ## output
-```c
+```text
 1.Enqueue 2.Dequeue 3.Peek 4.Display
 5.Search 6.Count 7.Queue Status 0.Exit
 Enter choice: 1
