@@ -36,7 +36,7 @@ USE climate_form_db;
 
 2. Create Table
 
-```
+```sql
 CREATE TABLE Weather_Observation (
     Observation_ID INT AUTO_INCREMENT PRIMARY KEY,
     Station_ID INT,
