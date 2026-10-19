@@ -144,29 +144,29 @@ $$
 Both relations are in BCNF.
 
 ---
+# Q3. Discuss the deferred update technique of recovery. State its advantages, disadvantages, and why it is called NO-UNDO/REDO. (5 Marks)
 
-# Q3 Discuss the deferred update technique of recovery. State its advantages, disadvantages, and why it is called NO-UNDO/REDO. (5 Marks)
+## Deferred Update Technique
 
-**Deferred Update Technique:**
+Deferred update is a database recovery technique in which database changes are postponed until a transaction commits. Changes are first recorded in the log and then applied to the database.
 
-Database updates are postponed until the transaction reaches its commit point. Changes are recorded in the log first and applied to the database after commit.
+## Working
+1. **Start transaction:** Begin the transaction.
+2. **Record changes:** Store the transaction's update operations in the log.
+3. **Commit:** Write the commit record to the log after successful execution.
+4. **Update database:** Apply the changes to the database.
+5. **Recovery:** After a system failure, redo committed transactions if their updates were not saved to the database. Ignore uncommitted transactions.
 
-**Working:**
-1. Record transaction operations in the log.
-2. Write the commit record to the log.
-3. Apply changes to the database.
-4. After a crash, redo committed transactions if necessary.
-
-**Advantages:**
+## Advantages
 - No need to undo uncommitted transactions.
-- Maintains database consistency.
-- Simplifies recovery.
+- Maintains database consistency during recovery.
+- Makes the recovery process simpler.
 
-**Disadvantages:**
-- Recovery may take longer because committed transactions may need to be redone.
-- Updates are delayed until commit.
+## Disadvantages
+- Committed transactions may need to be redone after a crash.
+- Database updates are delayed until the transaction commits.
+- Recovery may take additional time to redo transactions.
 
-**Why NO-UNDO/REDO?**
-
-- **NO-UNDO:** Uncommitted changes are not written to the database.
-- **REDO:** Committed changes may need to be reapplied after a crash.
+## Why is it called NO-UNDO/REDO?
+- **NO-UNDO:** Uncommitted changes are not applied to the database, so undo is unnecessary.
+- **REDO:** Committed changes may need to be applied again after a system failure.
