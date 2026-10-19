@@ -23,17 +23,13 @@ Binary Search is used in applications that require efficient searching of sorted
 ### ALGORITHM:
 
 1. Start.
-2. Read the number of temperature readings.
-3. Input the temperature readings into an array.
-4. Sort the array in ascending order.
-5. Read the temperature to be searched.
-6. Initialize `low = 0` and `high = n - 1`.
-7. Calculate the middle index using `mid = (low + high) / 2`.
-8. If the middle element matches the target, display its position.
-9. If the target is smaller, set `high = mid - 1`; otherwise, set `low = mid + 1`.
-10. Repeat steps 7–9 while `low <= high`.
-11. If the element is not found, display an appropriate message.
-12. Stop.
+2. Input a sorted array and the element to search.
+3. Initialize `low = 0` and `high = n - 1`.
+4. Calculate the middle index.
+5. If the middle element matches the key, display its position.
+6. If the key is smaller, search the left half; otherwise, search the right half.
+7. Repeat until the element is found or `low > high`.
+8. Stop.
 
 ### OUTCOME:
 
