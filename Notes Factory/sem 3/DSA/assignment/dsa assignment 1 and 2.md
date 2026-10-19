@@ -129,7 +129,174 @@ int main() {
     return 0;
 }
 ````
+## output
+```c
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Enter ID, location, timestamp, temperature and humidity:
+1
+delhi
+19/10/2026
+45
+69
+Observation added.
 
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Enter ID, location, timestamp, temperature and humidity:
+2
+mumbai
+19/10/2026
+38.5
+65
+Observation added.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Enter ID, location, timestamp, temperature and humidity:
+3
+pune
+19/10/2026
+36.2
+58
+Observation added.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 4
+1 delhi 19/10/2026 45.0 C 69.0%
+2 mumbai 19/10/2026 38.5 C 65.0%
+3 pune 19/10/2026 36.2 C 58.0%
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 3
+Front observation: ID=1, Location=delhi, Temperature=45.0 C
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 5
+Enter observation ID to search: 2
+Observation found at location mumbai
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 6
+Count = 3
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 7
+Queue is not full.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Removed observation ID: 1
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 4
+2 mumbai 19/10/2026 38.5 C 65.0%
+3 pune 19/10/2026 36.2 C 58.0%
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 5
+Enter observation ID to search: 9
+Observation not found.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Enter ID, location, timestamp, temperature and humidity:
+4
+surat
+19/10/2026
+39.4
+62
+Observation added.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Enter ID, location, timestamp, temperature and humidity:
+5
+nashik
+19/10/2026
+35.8
+55
+Observation added.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 1
+Queue is full.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 7
+Queue is full.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Removed observation ID: 2
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Removed observation ID: 3
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Removed observation ID: 4
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Removed observation ID: 5
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 2
+Queue is empty.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 3
+Queue is empty.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 4
+Queue is empty.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 6
+Count = 0
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 7
+Queue is empty.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 9
+Invalid choice.
+
+1.Enqueue 2.Dequeue 3.Peek 4.Display
+5.Search 6.Count 7.Queue Status 0.Exit
+Enter choice: 0
+Exiting.
+
+```
 ## 2. Time and Space Complexity
 
 | Operation | Time Complexity |
