@@ -6,96 +6,137 @@
 **Roll Number:** 62
 
 ---
+![image](.attachments/b7edf53a33c1e0bbb79604e9b31b10b8e64c6280.png) 
 
-## Q2 (a). What is the highest normal form for the R3 relation?
+## a) Select all EMPLOYEE SSNs and all combinations of EMPLOYEE SSN and DEPARTMENT Dname.
+
+```sql
+SELECT Ssn
+FROM EMPLOYEE;
+
+SELECT E.Ssn, D.Dname
+FROM EMPLOYEE E, DEPARTMENT D;
+```
+
+## b) Retrieve every employee's salary and all distinct salary values.
+
+```sql
+SELECT Salary
+FROM EMPLOYEE;
+
+SELECT DISTINCT Salary
+FROM EMPLOYEE;
+```
+
+## c) List all project numbers involving an employee whose last name is Smith, either as a worker or as the manager of the department controlling the project.
+
+```sql
+SELECT DISTINCT P.Pnumber
+FROM PROJECT P
+JOIN WORKS_ON W ON P.Pnumber = W.Pno
+JOIN EMPLOYEE E ON W.Essn = E.Ssn
+WHERE E.Lname = 'Smith'
+
+UNION
+
+SELECT DISTINCT P.Pnumber
+FROM PROJECT P
+JOIN DEPARTMENT D ON P.Dnum = D.Dnumber
+JOIN EMPLOYEE E ON D.Mgr_ssn = E.Ssn
+WHERE E.Lname = 'Smith';
+```
+# Q2 (a) What is the highest normal form for the \(R_3\) relation? (2 Marks)
 
 Given:
 
-`R3(A, B, C, D)` and functional dependencies `{A → C, CD → B}`.
+\[ R_3 = \{A,B,C,D\},\quad F=\{A\to C,\; CD\to B\} \]
 
-### Candidate key
+Step 1: Find candidate key
 
-- `A+ = {A, C}`, so A is not a key.
-- `(AD)+ = {A, D, C, B}`, using `A → C` and `CD → B`.
-- Therefore, **AD is the candidate key**.
-- Prime attributes: A, D. Non-prime attributes: B, C.
+Find the closure of \(AD\):
 
-### Normal form
+\[ (AD)^+ = \{A,D\} \]
 
-Assuming all attributes contain atomic values, the relation is in 1NF. However, `A → C` is a partial dependency because A is a proper subset of the candidate key AD and C is non-prime. Therefore, it violates 2NF.
+Using \(A\to C\), add \(C\):
 
-**Answer: The highest normal form is 1NF.**
+\[ (AD)^+ = \{A,C,D\} \]
 
----
+Using \(CD\to B\), add \(B\):
 
-## Q2 (b). Consider a relation in 3NF but not in BCNF. Demonstrate redundancy with a suitable instance and normalize the relation to BCNF.
+\[ (AD)^+ = \{A,B,C,D\} \]
 
-Consider `R(A, B, C)` with functional dependencies `{AB → C, C → B}`.
+Therefore, AD is a candidate key.
 
-The candidate keys are **AB** and **AC**. Hence, A, B, and C are all prime attributes.
+Step 2: Check normal form
 
-- The relation is in **3NF** because in `C → B`, B is a prime attribute.
-- It is **not in BCNF** because C is not a superkey.
+-   \(A\to C\): A is not a superkey, and C is a non-prime attribute.
+    
+-   Therefore, the relation violates 3NF.
+    
 
-### Example showing redundancy
+Answer: Highest normal form is 2NF, assuming no other functional dependencies exist.
 
-| A | B | C |
-|---|---|---|
-| 1 | 10 | X |
-| 2 | 10 | X |
-| 3 | 20 | Y |
+# Q2 (b) Demonstrate redundancy in a 3NF relation and normalize it to BCNF. (3 Marks)
 
-Since `C → B`, C value X determines B value 10. This fact is repeated for multiple A values, causing redundancy.
+Consider relation:
 
-### BCNF decomposition
+\[ R(A,B,C),\quad F=\{AB\to C,\;C\to B\} \]
 
-Decompose using the violating dependency `C → B`:
+Step 1: Find candidate keys
 
-**R1(C, B)** — Primary key: C
+-   \(AB^+=ABC\), so AB is a candidate key.
+    
+-   \(AC^+=ABC\), because \(C\to B\), so AC is also a candidate key.
+    
 
-| C | B |
-|---|---|
-| X | 10 |
-| Y | 20 |
+Step 2: Check BCNF
 
-**R2(A, C)** — Primary key: (A, C)
+The dependency \(C\to B\) violates BCNF because C is not a superkey.
 
-| A | C |
-|---|---|
-| 1 | X |
-| 2 | X |
-| 3 | Y |
+Step 3: Decompose into BCNF
 
-Both relations are in **BCNF**, and the decomposition is lossless.
+Decompose \(R(A,B,C)\) into:
 
----
+-   \(R_1(C,B)\)
+    
+-   \(R_2(A,C)\)
+    
 
-## Q3. Discuss the deferred update technique of recovery. What are its advantages and disadvantages? Why is it called the NO-UNDO/REDO method?
+Both relations are in BCNF.
 
-### Deferred Update Technique
+# Q3 Discuss the deferred update technique of recovery. State its advantages, disadvantages, and why it is called NO-UNDO/REDO. (5 Marks)
 
-In deferred update, a transaction's changes are recorded in the log but are not applied to the database until the transaction commits.
+Deferred Update Technique: Database updates are postponed until the transaction reaches its commit point. Changes are recorded in the log first and applied to the database after commit.
 
-### Working
+Working:
 
-1. Record update operations in the log.
-2. When the transaction commits, record the commit in the log.
-3. Apply the logged updates to the database.
-4. After a failure, redo committed transactions if necessary and ignore uncommitted transactions.
+1.  Record transaction operations in the log.
+    
+2.  Write the commit record to the log.
+    
+3.  Apply the changes to the database.
+    
+4.  After a crash, redo committed transactions if necessary.
+    
 
-### Advantages
+Advantages:
 
-- Uncommitted changes do not reach the database.
-- Recovery is simpler because uncommitted transactions do not need to be undone.
-- The log can be used to restore committed changes.
+-   No need to undo uncommitted transactions.
+    
+-   Maintains database consistency.
+    
+-   Simplifies recovery.
+    
 
-### Disadvantages
+Disadvantages:
 
-- Committed updates may need to be redone after a failure.
-- The log must be maintained and stored reliably.
-- Reapplying updates during recovery can increase restart time.
+-   Recovery may take longer because committed transactions may need to be redone.
+    
+-   Updates are delayed until commit.
+    
 
-### Why is it called NO-UNDO/REDO?
+Why NO-UNDO/REDO?
 
-- **NO-UNDO:** Uncommitted transactions have not updated the database, so their changes do not need to be undone.
-- **REDO:** Updates of committed transactions may need to be applied again after a failure.
+-   NO-UNDO: Uncommitted changes are not written to the database.
+    
+-   REDO: Committed changes may need to be reapplied after a crash.
