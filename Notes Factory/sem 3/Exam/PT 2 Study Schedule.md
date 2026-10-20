@@ -1,4 +1,4 @@
-![image](.attachments/4070d488e8b84494bc2ff9cef0f5c6e68b150ace.png) # PT 2 Study Schedule
+# PT 2 Study Schedule
 
 ## Preparation — 21 to 25 October 2026
 
