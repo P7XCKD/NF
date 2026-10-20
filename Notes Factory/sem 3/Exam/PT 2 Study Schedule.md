@@ -1,4 +1,4 @@
-# PT 2 Study Schedule
+![image](.attachments/4070d488e8b84494bc2ff9cef0f5c6e68b150ace.png) # PT 2 Study Schedule
 
 ## Preparation — 21 to 25 October 2026
 
@@ -12,35 +12,25 @@ sequenceDiagram
     participant SAT as Saturday<br/>24 Oct
     participant SUN as Sunday<br/>25 Oct
 
-    Note over WED: WEDNESDAY — DBMS DAY
+    Note over WED: WEDNESDAY — DBMS
 
-    WED->>WED: Morning<br/>DBMS — Concepts
-    WED->>WED: Afternoon<br/>DBMS — Important Questions + Practice
-    WED->>WED: Evening<br/>DBMS — Revision
+    WED->>WED: Study Concepts + Important Questions + Practice
 
-    Note over THU: THURSDAY — DSA DAY
+    Note over THU: THURSDAY — DSA
 
-    THU->>THU: Morning<br/>DSA — Concepts
-    THU->>THU: Afternoon<br/>DSA — Algorithms + Problems
-    THU->>THU: Evening<br/>DSA — Revision
+    THU->>THU: Study Concepts + Algorithms + Problems
 
-    Note over FRI: FRIDAY — SE DAY
+    Note over FRI: FRIDAY — SE
 
-    FRI->>FRI: Morning<br/>SE — Concepts + Theory
-    FRI->>FRI: Afternoon<br/>SE — Important Questions
-    FRI->>FRI: Evening<br/>SE — Revision
+    FRI->>FRI: Study Concepts + Theory + Important Questions
 
-    Note over SAT: SATURDAY — COA DAY
+    Note over SAT: SATURDAY — COA
 
-    SAT->>SAT: Morning<br/>COA — Concepts
-    SAT->>SAT: Afternoon<br/>COA — Important Problems + Diagrams
-    SAT->>SAT: Evening<br/>COA — Revision
+    SAT->>SAT: Study Concepts + Problems + Diagrams
 
-    Note over SUN: SUNDAY — MATHS DAY
+    Note over SUN: SUNDAY — MATHS
 
-    SUN->>SUN: Morning<br/>Maths — Concepts + Formulas
-    SUN->>SUN: Afternoon<br/>Maths — Solved Examples + Practice
-    SUN->>SUN: Evening<br/>Maths — Revision + Mock Questions
+    SUN->>SUN: Study Concepts + Formulas + Solved Examples + Practice
 ```
 
 ## Exam Week — 26 to 30 October 2026
@@ -64,25 +54,25 @@ sequenceDiagram
 
     MON->>MATHS: 9:30 AM — Exam Starts
     MATHS-->>MON: 10:30 AM — Exam Ends
-    MON->>MON: After Exam<br/>COA — Preparation Only
+    MON->>MON: After Exam — Study COA Only
 
     Note over TUE,COA: TUESDAY — COA EXAM
 
     TUE->>COA: 9:30 AM — Exam Starts
     COA-->>TUE: 10:30 AM — Exam Ends
-    TUE->>TUE: After Exam<br/>SE — Preparation Only
+    TUE->>TUE: After Exam — Study SE Only
 
     Note over WED,SE: WEDNESDAY — SE EXAM
 
     WED->>SE: 9:30 AM — Exam Starts
     SE-->>WED: 10:30 AM — Exam Ends
-    WED->>WED: After Exam<br/>DSA — Preparation Only
+    WED->>WED: After Exam — Study DSA Only
 
     Note over THU,DSA: THURSDAY — DSA EXAM
 
     THU->>DSA: 9:30 AM — Exam Starts
     DSA-->>THU: 10:30 AM — Exam Ends
-    THU->>THU: After Exam<br/>DBMS — Preparation Only
+    THU->>THU: After Exam — Study DBMS Only
 
     Note over FRI,DBMS: FRIDAY — DBMS EXAM
 
