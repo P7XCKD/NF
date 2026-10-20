@@ -39,45 +39,25 @@ sequenceDiagram
 sequenceDiagram
     autonumber
 
-    participant MON as Monday<br/>26 Oct 2026
-    participant MATHS as Maths Exam
-    participant TUE as Tuesday<br/>27 Oct 2026
-    participant COA as COA Exam
-    participant WED as Wednesday<br/>28 Oct 2026
-    participant SE as SE Exam
-    participant THU as Thursday<br/>29 Oct 2026
-    participant DSA as DSA Exam
-    participant FRI as Friday<br/>30 Oct 2026
-    participant DBMS as DBMS Exam
+    participant MON as Mon 26 Oct
+    participant TUE as Tue 27 Oct
+    participant WED as Wed 28 Oct
+    participant THU as Thu 29 Oct
+    participant FRI as Fri 30 Oct
 
-    Note over MON,MATHS: MONDAY — MATHS EXAM
+    MON->>MON: 9:30–10:30 AM — Maths Exam
+    MON->>MON: After Exam — Study COA
 
-    MON->>MATHS: 9:30 AM — Exam Starts
-    MATHS-->>MON: 10:30 AM — Exam Ends
-    MON->>MON: After Exam — Study COA Only
+    TUE->>TUE: 9:30–10:30 AM — COA Exam
+    TUE->>TUE: After Exam — Study SE
 
-    Note over TUE,COA: TUESDAY — COA EXAM
+    WED->>WED: 9:30–10:30 AM — SE Exam
+    WED->>WED: After Exam — Study DSA
 
-    TUE->>COA: 9:30 AM — Exam Starts
-    COA-->>TUE: 10:30 AM — Exam Ends
-    TUE->>TUE: After Exam — Study SE Only
+    THU->>THU: 9:30–10:30 AM — DSA Exam
+    THU->>THU: After Exam — Study DBMS
 
-    Note over WED,SE: WEDNESDAY — SE EXAM
-
-    WED->>SE: 9:30 AM — Exam Starts
-    SE-->>WED: 10:30 AM — Exam Ends
-    WED->>WED: After Exam — Study DSA Only
-
-    Note over THU,DSA: THURSDAY — DSA EXAM
-
-    THU->>DSA: 9:30 AM — Exam Starts
-    DSA-->>THU: 10:30 AM — Exam Ends
-    THU->>THU: After Exam — Study DBMS Only
-
-    Note over FRI,DBMS: FRIDAY — DBMS EXAM
-
-    FRI->>DBMS: 9:30 AM — Exam Starts
-    DBMS-->>FRI: 10:30 AM — Exam Ends
+    FRI->>FRI: 9:30–10:30 AM — DBMS Exam
 
     Note over MON,FRI: TERM TEST II COMPLETE
 ```
