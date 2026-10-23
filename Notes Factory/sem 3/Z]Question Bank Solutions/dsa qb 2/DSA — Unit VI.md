@@ -220,16 +220,25 @@ After Pass 6:
 4. Shift larger elements one position right.
 5. Insert the selected element in the correct position.
 6. Repeat until all elements are sorted.
+![image](.attachments/c4882c0bcc443c25190010bf9c4fced2640ee7f0.png) 
+### Worked example from the PDF
 
-### Worked example
-Sort `[5, 2, 4, 1]`.
+Sort `39, 9, 45, 63, 18, 81, 108, 54, 72, 36` using Insertion Sort. The first element is initially treated as sorted. On each pass, take the first unsorted element and insert it into the correct place in the sorted portion.
 
-| Pass | Key inserted | Array |
+| Pass | Key selected | Array after insertion |
 |---|---:|---|
-| Initial | — | `5, 2, 4, 1` |
-| 1 | `2` | `2, 5, 4, 1` |
-| 2 | `4` | `2, 4, 5, 1` |
-| 3 | `1` | `1, 2, 4, 5` |
+| Initial | — | 39, 9, 45, 63, 18, 81, 108, 54, 72, 36 |
+| 1 | `9` | `9`, `39`, 45, 63, 18, 81, 108, 54, 72, 36 |
+| 2 | `45` | 9, 39, `45`, 63, 18, 81, 108, 54, 72, 36 |
+| 3 | `63` | 9, 39, 45, `63`, 18, 81, 108, 54, 72, 36 |
+| 4 | `18` | 9, `18`, 39, 45, 63, 81, 108, 54, 72, 36 |
+| 5 | `81` | 9, 18, 39, 45, 63, `81`, 108, 54, 72, 36 |
+| 6 | `108` | 9, 18, 39, 45, 63, 81, `108`, 54, 72, 36 |
+| 7 | `54` | 9, 18, 39, 45, `54`, 63, 81, 108, 72, 36 |
+| 8 | `72` | 9, 18, 39, 45, 54, 63, `72`, 81, 108, 36 |
+| 9 | `36` | 9, 18, `36`, 39, 45, 54, 63, 72, 81, 108 |
+
+**Final sorted array:** `9, 18, 36, 39, 45, 54, 63, 72, 81, 108`.
 
 **Advantages**
 - Simple to implement.
@@ -253,16 +262,30 @@ Sort `[5, 2, 4, 1]`.
 3. Find the minimum in the remaining unsorted portion.
 4. Swap it into the next position.
 5. Continue until the array is sorted.
+![image](.attachments/9d2f277fdc12e345630ad5b0feb356a689c123aa.png)
+ ![image](.attachments/98e239eef45b30994befdb6caac2ab39cb62a4df.webp) 
+![image](.attachments/23fd48f0fbbd5d4c63d5237f1056c115c102fb48.webp) 
+![image](.attachments/e3988f2038ec593d35a6df97ef24cdd585339fba.webp)![image](.attachments/330f7458fe19afa3e8c5a9b9e451254db4a37aa0.webp) 
+![image](.attachments/38c49de7ee94fb655eff25acaf1345a99fc84c5b.webp) 
+![image](.attachments/4ebe50f9841ba7f138c7644b414edbd8545a4d95.webp) 
 
-### Worked example
-Sort `[64, 25, 12, 22, 11]`.
+***
+### Worked example from the PDF
 
-| Pass | Minimum selected | Array after pass |
-|---|---:|---|
-| 1 | `11` | `11, 25, 12, 22, 64` |
-| 2 | `12` | `11, 12, 25, 22, 64` |
-| 3 | `22` | `11, 12, 22, 25, 64` |
-| 4 | `25` | `11, 12, 22, 25, 64` |
+Sort `39, 9, 81, 45, 90, 27, 72, 18` using Selection Sort. In each pass, find the minimum in the unsorted portion and swap it with the first element of that portion. `POS` is the zero-based position of the minimum selected in the original pass table.
+
+| Pass | POS | Array after the swap |
+|---:|---:|---|
+| Initial | — | 39, 9, 81, 45, 90, 27, 72, 18 |
+| 1 | 1 | `9`, `39`, 81, 45, 90, 27, 72, 18 |
+| 2 | 7 | 9, `18`, 81, 45, 90, 27, 72, `39` |
+| 3 | 5 | 9, 18, `27`, 45, 90, `81`, 72, 39 |
+| 4 | 7 | 9, 18, 27, `39`, 90, 81, 72, `45` |
+| 5 | 7 | 9, 18, 27, 39, `45`, 81, 72, `90` |
+| 6 | 6 | 9, 18, 27, 39, 45, `72`, `81`, 90 |
+| 7 | 6 | 9, 18, 27, 39, 45, 72, `81`, `90` |
+
+**Final sorted array:** `9, 18, 27, 39, 45, 72, 81, 90`.
 
 **Advantages**
 - Simple and easy to implement.
@@ -287,15 +310,35 @@ Sort `[64, 25, 12, 22, 11]`.
 1. **Divide:** Split the array into halves until each subarray contains one element.
 2. **Conquer:** Sort the subarrays recursively.
 3. **Merge:** Combine sorted subarrays by comparing their elements.
+ ![arr_](https://media.geeksforgeeks.org/wp-content/uploads/20250923102849709166/arr_.webp)
+![image](.attachments/9fa2ed9a382b595b32958f3f4b0e9b0c1232a31e.webp) ![image](.attachments/002dbf314d1adf0c2884f623a392464828a28d4c.webp) ![image](.attachments/d1f3c68e394004d65c0633b54b6b5f14640c2dae.webp) ![image](.attachments/e7ec1067bc81b6793bcef3bd3fe7e2864a25662f.webp) 
+### Worked example from the PDF
 
-### Worked example
-Sort `[38, 27, 43, 3]`.
+Sort `[38, 27, 43, 3, 9, 82, 10]` using Merge Sort.
 
-**Divide:** `[38, 27]` and `[43, 3]`, then `[38]`, `[27]`, `[43]`, `[3]`.
+**Step 1 — Divide:** Split the array into smaller subarrays until each subarray contains one element.
 
-**Merge:** `[27, 38]` and `[3, 43]`.
+`[38, 27, 43, 3, 9, 82, 10]`
 
-**Final merge:** `[3, 27, 38, 43]`.
+`[38, 27, 43, 3]` and `[9, 82, 10]`
+
+`[38, 27]`, `[43, 3]`, `[9, 82]`, and `[10]`
+
+`[38]`, `[27]`, `[43]`, `[3]`, `[9]`, `[82]`, `[10]`
+
+**Step 2 — Merge sorted small parts:**
+
+| Merge operation | Result |
+|---|---|
+| Merge `[38]` and `[27]` | `[27, 38]` |
+| Merge `[43]` and `[3]` | `[3, 43]` |
+| Merge `[9]` and `[82]` | `[9, 82]` |
+| Merge `[27, 38]` and `[3, 43]` | `[3, 27, 38, 43]` |
+| Merge `[9, 82]` and `[10]` | `[9, 10, 82]` |
+
+**Step 3 — Final merge:** Merge `[3, 27, 38, 43]` and `[9, 10, 82]` by repeatedly taking the smaller front element.
+
+**Final sorted array:** `[3, 9, 10, 27, 38, 43, 82]`.
 
 **Advantages**
 - Predictable `O(n log n)` time in best, average, and worst cases.
@@ -322,11 +365,23 @@ Sort `[38, 27, 43, 3]`.
 3. The pivot reaches its final position.
 4. Recursively sort the left and right subarrays.
 5. Stop when a subarray has zero or one element.
+![image](.attachments/1f11712cbe3280a1340165b24aecde97e428333a.webp) 
+### Worked example from the PDF
 
-### Worked example
-For `[27, 10, 36, 18, 25, 45]`, choose `27` as the pivot. After partitioning, values smaller than `27` are placed before it and values greater than `27` after it. Then apply Quick Sort to both sides until the whole array is sorted.
+Sort `[27, 10, 36, 18, 25, 45]` using Quick Sort. The PDF example chooses the first element, `27`, as the pivot. The two scanning pointers are `left` and `right`; `loc` marks the pivot's current position.
 
-One possible final sorted result is `[10, 18, 25, 27, 36, 45]`.
+| Step | Operation | Array |
+|---|---|---|
+| Initial | Pivot is `27`; `loc = 0`, `left = 0`, `right = 5` | `[27, 10, 36, 18, 25, 45]` |
+| 1 | Scan from right. `27` is not greater than `45`, so continue leftwards until a value smaller than `27` is found. | `[27, 10, 36, 18, 25, 45]` |
+| 2 | `27 > 25`, so interchange pivot and `25`; set `loc = right`. | `[25, 10, 36, 18, 27, 45]` |
+| 3 | Scan from left. `27` is greater than `10`, so continue until a value greater than the pivot is found. | `[25, 10, 36, 18, 27, 45]` |
+| 4 | `27 < 36`, so interchange `36` and the pivot; set `loc = left`. | `[25, 10, 27, 18, 36, 45]` |
+| 5 | Scan from right. `27` is not greater than `18`; interchange `18` and the pivot. | `[25, 10, 18, 27, 36, 45]` |
+
+The pivot `27` is now in its correct position. Then sort the left subarray `[25, 10, 18]` and right subarray `[36, 45]` in the same way.
+
+**Final sorted array:** `[10, 18, 25, 27, 36, 45]`.
 
 **Advantages**
 - Average-case performance is `O(n log n)`.
@@ -454,8 +509,6 @@ Array: `[10, 20, 30, 40, 50, 60, 70, 80, 90]`; search key: `70`.
 
 > [!hint] Memory trick
 > **Unsorted or tiny list? Linear is simple. Sorted and large? Binary is usually faster.**
-
-## 12. Hashing and Hash Functions
 
 ## 12. Hashing and Hash Functions
 
