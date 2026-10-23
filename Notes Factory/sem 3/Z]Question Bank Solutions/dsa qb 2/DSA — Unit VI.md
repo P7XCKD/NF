@@ -5,14 +5,16 @@
 
 **Sorting** means arranging elements in a particular order, usually ascending or descending.
 
-**Example:** Given `A = [21, 34, 11, 9, 1, 0, 22]`, ascending order is `[0, 1, 9, 11, 21, 22, 34]`.
+**Example:** Given `A = [21, 34, 11, 9, 1, 0, 22]`,
+ascending order is `[0, 1, 9, 11, 21, 22, 34]`.
 
 ### Types of sorting
 - **Internal sorting:** Sorts data stored in the computer's main memory.
 - **External sorting:** Sorts data stored in files; useful when the data is too large to fit in memory.
 
 > [!hint] Memory trick
-> **Internal = inside memory; External = external files/storage.**
+> **Internal = inside memory;
+> External = external files/storage.**
 
 ## 2. Bubble Sort
 
@@ -49,7 +51,164 @@ The largest element reaches its correct position at the end of each pass.
 
 > [!attention] AI
 > Bubble Sort swaps adjacent elements only when they are out of order. It does not jump the largest element directly to the end.
+***
+### Bubble Sort — Solved Example
 
+**Example:** Consider an array `A[]` containing the following elements:
+
+`A[] = {30, 52, 29, 87, 63, 27, 19, 54}`
+
+### Pass 1
+
+**(a)** Compare `30` and `52`. Since `30 < 52`, no swapping is done.
+
+`30`, `52`, 29, 87, 63, 27, 19, 54
+
+**(b)** Compare `52` and `29`. Since `52 > 29`, swapping is done.
+
+30, `29`, `52`, 87, 63, 27, 19, 54
+
+**(c)** Compare `52` and `87`. Since `52 < 87`, no swapping is done.
+
+52 and 87 remain in their current positions.
+
+**(d)** Compare `87` and `63`. Since `87 > 63`, swapping is done.
+
+30, 29, 52, `63`, `87`, 27, 19, 54
+
+**(e)** Compare `87` and `27`. Since `87 > 27`, swapping is done.
+
+30, 29, 52, 63, `27`, `87`, 19, 54
+
+**(f)** Compare `87` and `19`. Since `87 > 19`, swapping is done.
+
+30, 29, 52, 63, 27, `19`, `87`, 54
+
+**(g)** Compare `87` and `54`. Since `87 > 54`, swapping is done.
+
+30, 29, 52, 63, 27, 19, `54`, `87`
+
+**Observation:** After Pass 1, the largest element, `87`, is placed at the highest index of the array. All the other elements are still unsorted.
+
+### Pass 2
+
+**(a)** Compare `30` and `29`. Since `30 > 29`, swapping is done.
+
+`29`, `30`, 52, 63, 27, 19, 54, 87
+
+**(b)** Compare `30` and `52`. Since `30 < 52`, no swapping is done.
+
+30 and 52 remain in their current positions.
+
+**(c)** Compare `52` and `63`. Since `52 < 63`, no swapping is done.
+
+52 and 63 remain in their current positions.
+
+**(d)** Compare `63` and `27`. Since `63 > 27`, swapping is done.
+
+29, 30, 52, `27`, `63`, 19, 54, 87
+
+**(e)** Compare `63` and `19`. Since `63 > 19`, swapping is done.
+
+29, 30, 52, 27, `19`, `63`, 54, 87
+
+**(f)** Compare `63` and `54`. Since `63 > 54`, swapping is done.
+
+29, 30, 52, 27, 19, `54`, `63`, 87
+
+### Pass 3
+
+**(a)** Compare `29` and `30`. Since `29 < 30`, no swapping is done.
+
+29 and 30 remain in their current positions.
+
+**(b)** Compare `30` and `52`. Since `30 < 52`, no swapping is done.
+
+30 and 52 remain in their current positions.
+
+**(c)** Compare `52` and `27`. Since `52 > 27`, swapping is done.
+
+29, 30, `27`, `52`, 19, 54, 63, 87
+
+**(d)** Compare `52` and `19`. Since `52 > 19`, swapping is done.
+
+29, 30, 27, `19`, `52`, 54, 63, 87
+
+**(e)** Compare `52` and `54`. Since `52 < 54`, no swapping is done.
+
+52 and 54 remain in their current positions.
+
+After Pass 3:
+
+29, 30, 27, 19, 52, 54, 63, 87
+
+### Pass 4
+
+**(a)** Compare `29` and `30`. Since `29 < 30`, no swapping is done.
+
+29 and 30 remain in their current positions.
+
+**(b)** Compare `30` and `27`. Since `30 > 27`, swapping is done.
+
+29, `27`, `30`, 19, 52, 54, 63, 87
+
+**(c)** Compare `30` and `19`. Since `30 > 19`, swapping is done.
+
+29, 27, `19`, `30`, 52, 54, 63, 87
+
+**(d)** Compare `30` and `52`. Since `30 < 52`, no swapping is done.
+
+30 and 52 remain in their current positions.
+
+After Pass 4:
+
+29, 27, 19, 30, 52, 54, 63, 87
+
+### Pass 5
+
+**(a)** Compare `29` and `27`. Since `29 > 27`, swapping is done.
+
+`27`, `29`, 19, 30, 52, 54, 63, 87
+
+**(b)** Compare `29` and `19`. Since `29 > 19`, swapping is done.
+
+27, `19`, `29`, 30, 52, 54, 63, 87
+
+**(c)** Compare `29` and `30`. Since `29 < 30`, no swapping is done.
+
+29 and 30 remain in their current positions.
+
+After Pass 5:
+
+27, 19, 29, 30, 52, 54, 63, 87
+
+### Pass 6
+
+**(a)** Compare `27` and `19`. Since `27 > 19`, swapping is done.
+
+`19`, `27`, 29, 30, 52, 54, 63, 87
+
+**(b)** Compare `27` and `29`. Since `27 < 29`, no swapping is done.
+
+27 and 29 remain in their current positions.
+
+After Pass 6:
+
+19, 27, 29, 30, 52, 54, 63, 87
+
+### Pass 7
+
+**(a)** Compare `19` and `27`. Since `19 < 27`, no swapping is done.
+
+19 and 27 remain in their current positions.
+
+### Final Sorted Array
+
+`A[] = {19, 27, 29, 30, 52, 54, 63, 87}`
+
+**Conclusion:** Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. After each pass, the largest remaining unsorted element moves to its correct position at the end of the array.
+
+***
 ## 3. Insertion Sort
 
 **Insertion Sort** builds a sorted portion one element at a time by inserting each new element into its correct position. It works like arranging playing cards in your hand.
