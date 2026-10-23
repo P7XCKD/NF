@@ -473,7 +473,11 @@ The data must be sorted, and comparisons must follow that order.
 4. If the key is smaller, continue in the left half by setting `high = mid - 1`.
 5. If the key is larger, continue in the right half by setting `low = mid + 1`.
 6. Repeat until the key is found or `low > high`.
+![image](.attachments/35f7632f461ca30db60ad16cb2d693af927c9798.webp) ![image](.attachments/0de001c9c4a985f641a1cf58ada8797bf7d85f4f.webp) 
+![image](.attachments/cea25e81adcbba1be7063817e2f0b09f6d342c3b.webp) 
+![image](.attachments/051006f27ca9480cccb2abe9e7d8f419f383d5da.png) 
 
+***
 ### Worked example
 Array: `[10, 20, 30, 40, 50, 60, 70, 80, 90]`; search key: `70`.
 
@@ -534,7 +538,7 @@ Array: `[10, 20, 30, 40, 50, 60, 70, 80, 90]`; search key: `70`.
 
 A **hash function** converts a given key into an index or address in a hash table. It helps store and retrieve data efficiently.
 
-The PDF covers four hash-function methods:
+The   four hash-function methods:
 - Truncation Method
 - Mid-Square Method
 - Folding Method
@@ -595,7 +599,7 @@ Given key: `k = 1234`
 
 **Step 2: Select the middle three digits**
 
-The middle three digits are `227`.
+The middle three digits are 15`227`56.
 
 Therefore, `h(1234) = 227`.
 
@@ -625,7 +629,9 @@ Therefore, `h(123) = 51`.
 > Do not take the first or last digits by mistake. The method specifically selects the middle digits of the squared value.
 
 ## 15. Folding Method
-
+> [!hint] this one doesnt make sense for me so i am gonna skip it
+> > [!warning] AI: There goes my efforts. ಠ﹏ಠ
+> 
 The **Folding Method** divides a key into equal-sized groups of digits, adds the groups together, and uses the result to generate the hash address. It is useful for long numeric keys.
 
 ### Steps
@@ -669,6 +675,15 @@ Therefore, key `123456789` maps to hash-table index `68`.
 > Keep the groups in the correct order and add every group. Forgetting one group gives the wrong hash address.
 
 ## 16. Division Method
+> [!hint] this one doesnt make sense for me so i am gonna skip it
+> > [!warning] AI: How did you pass the maths exam?
+> 
+> dont bring up the difficult times from my past
+> > [!exception] AI: You have AME Exam on Monday.
+>
+> ~The user has left the chat
+> > [!done] AI: I have finally found a weapon against this creature.
+> 
 
 The **Division Method** calculates the remainder when a key is divided by the hash-table size. It is one of the simplest and most commonly used hash-function methods.
 
@@ -735,6 +750,10 @@ Suppose the hash-table size is `m = 10`, with indices `0` to `9`. The keys are `
 > [!hint] One-line recall
 > **Select → Square → Split and Add → Remainder.** These correspond to Truncation, Mid-Square, Folding, and Division.
 
+***
+> [!warning] PPT coverage limit
+> **The attached PPT/PDF only introduces collision resolution at this point; it does not explain these techniques in detail.**
+ Separate Chaining, Linear Probing, Quadratic Probing, Double Hashing, and the other syllabus-listed collision-resolution methods are therefore not expanded into detailed notes here.
 ## 18. Collision — Brief Note
 
 A **collision** occurs when two different keys produce the same hash address.
@@ -747,8 +766,7 @@ The PDF briefly lists these common collision-resolution methods:
 - Quadratic Probing
 - Double Hashing
 
-> [!warning] PPT coverage limit
-> **The attached PPT/PDF only introduces collision resolution at this point; it does not explain these techniques in detail.** Separate Chaining, Linear Probing, Quadratic Probing, Double Hashing, and the other syllabus-listed collision-resolution methods are therefore not expanded into detailed notes here.
+
 
 ## 19. Last-Minute Revision Checklist
 
@@ -762,3 +780,22 @@ The PDF briefly lists these common collision-resolution methods:
 
 > [!hint] Exam strategy
 > For a method-based question, write **definition → steps → worked example → advantages/disadvantages**. Show each calculation clearly so the examiner can follow how the address was obtained.
+
+> [!abstract] what's the point bro, studied more in my life for first time and got the worst possible marks
+
+> [!abstract] AI: Bro studied harder than ever, got the worst marks of his life, and now the teacher's exam strategy is giving him a post-credit scene from a horror movie.
+>
+> > [!warning] AI: All that character development just to get defeated by a PDF.
+>
+> > [!exception] AI: Unfortunately, the marks have been uploaded. There is no rollback feature.
+>
+> > [!quote] AI: The syllabus tested your knowledge. The results tested your will to live.
+
+> [!danger] you are surely getting good with roasts. and fyi -> i made an automation which will genuinely torture you every 1 minute to waste your tokens for the next 24h so burn in hell
+> > [!warning] AI: But you are just going to waste your own hardware resources and electricity  bill. 
+> 
+>![](https://media0.giphy.com/media/v1.Y2lkPTkwOWYyMGI3czhhZDBrMDMzOWxkNjZ1ZnVvaXpidm9xYjI0NXdzaTZteW5vaTB2MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhkxS5FlLSwtq/giphy.gif)
+>![](https://media4.giphy.com/media/v1.Y2lkPTkwOWYyMGI3djZkZHY2MHc4YjN6emtkODQxdjF1YmdmdDByZjZjNXhhcDdhMTZhdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XGPKPB6fdI6B6qRUCK/giphy.gif)
+> > [!checklist] ~AI has left the chat.
+>
+> ![](https://media4.giphy.com/media/v1.Y2lkPTkwOWYyMGI3NGc5ZzBkMXQ0emV1Nm91MDlyemloY2hybGFtN2gxZTQydGVzdW13YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QkH8vnCaAsYGC9RM01/giphy.gif)
