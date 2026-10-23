@@ -355,7 +355,8 @@ Sort `[38, 27, 43, 3, 9, 82, 10]` using Merge Sort.
 > [!attention] AI
 > Merge Sort does not merely join two lists. It compares elements while merging so that the combined list stays sorted.
 
-## 6. Quick Sort
+## 6. [Quick Sort - Algorithms in 60 Seconds (click to watch the video)](https://www.youtube.com/shorts/HBDnJJ0NBeE) 
+> [!attention] this one is a bit difficult since it uses recursion so click the video link watch it and skip the below stuffs 
 
 **Quick Sort**, also called **Partition Exchange Sort**, uses Divide and Conquer. It selects a **pivot**, partitions the array around it, and recursively sorts the two parts.
 
@@ -365,8 +366,10 @@ Sort `[38, 27, 43, 3, 9, 82, 10]` using Merge Sort.
 3. The pivot reaches its final position.
 4. Recursively sort the left and right subarrays.
 5. Stop when a subarray has zero or one element.
-![image](.attachments/1f11712cbe3280a1340165b24aecde97e428333a.webp) 
+ 
 ### Worked example from the PDF
+![image](.attachments/06af417bdab7317b85148d20d8bf80bc96ed6254.png)  
+
 
 Sort `[27, 10, 36, 18, 25, 45]` using Quick Sort. The PDF example chooses the first element, `27`, as the pivot. The two scanning pointers are `left` and `right`; `loc` marks the pivot's current position.
 
