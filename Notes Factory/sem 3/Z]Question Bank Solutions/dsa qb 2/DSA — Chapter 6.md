@@ -1,4 +1,4 @@
-# DSA — Unit VI: Sorting, Searching, and Hashing (Exam-Oriented Notes)
+# DSA — Chapter 6: Sorting, Searching, and Hashing (Exam-Oriented Notes)
 
 
 ## 1. Introduction to Sorting
