@@ -699,7 +699,9 @@ Where:
 - `k` = key
 - `m` = size of the hash table (is given in the question)
 - `mod` = remainder operator
-
+> [!TIP] IN EXAM IF M is not given then you can assume like this
+> if number of digit is 2 then take 10, if number of digits is 3 then take 100 and so on
+> 
 ### Example
 Suppose the hash-table size is `m = 10`, with indices `0` to `9`. The keys are `23`, `45`, `12`, `34`, and `25`.
 
