@@ -519,6 +519,8 @@ Array: `[10, 20, 30, 40, 50, 60, 70, 80, 90]`; search key: `70`.
 > [!hint] Memory trick
 > **Unsorted or tiny list? Linear is simple. Sorted and large? Binary is usually faster.**
 
+> [!danger] DONT STUDY BELOW THIS FOR UT 2 
+
 ## 12. Hashing and Hash Functions
 
 **Hashing** is a technique used to store and retrieve data efficiently by converting a key into an index or address in a hash table. The conversion is performed by a **hash function**.
@@ -695,7 +697,7 @@ The **Division Method** calculates the remainder when a key is divided by the ha
 
 Where:
 - `k` = key
-- `m` = size of the hash table
+- `m` = size of the hash table (is given in the question)
 - `mod` = remainder operator
 
 ### Example
