@@ -355,6 +355,8 @@ Sort `[38, 27, 43, 3, 9, 82, 10]` using Merge Sort.
 > [!attention] AI
 > Merge Sort does not merely join two lists. It compares elements while merging so that the combined list stays sorted.
 
+> [!danger] QUICK SORT IS NOT IN PT 2
+
 ## 6. [Quick Sort - Algorithms in 60 Seconds (click to watch the video)](https://www.youtube.com/shorts/HBDnJJ0NBeE) 
 > [!attention] this one is a bit difficult since it uses recursion so click the video link watch it and skip the below stuffs 
 
