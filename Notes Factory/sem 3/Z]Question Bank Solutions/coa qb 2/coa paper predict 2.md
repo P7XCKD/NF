@@ -5,76 +5,102 @@
 **Total Marks:** 20  
 **Time:** 1 Hour
 
-**Basis:** Predicted using the available Module 4, Module 5 and Module 6 question bank. These are predictions, not a confirmed examination paper.
+**Basis:** Available Module 4, Module 5, and Module 6 question bank, along with the provided module-wise weightage. These are predictions, not a confirmed examination paper.
+
+## Module-Wise Weightage
+
+| Module | Topics | Expected Weightage |
+|---|---|---:|
+| Module 5 | I/O Organization | 8 Marks |
+| Module 6 | 8051 Microcontroller | 8 Marks |
+| Module 4 | Memory Organization | 4 Marks |
+| **Total** | | **20 Marks** |
 
 ---
 
-## GROUP 1 — CHAPTER 4 / MODULE 4
-**Memory Organization**  
-**Expected Weightage:** To be confirmed from the UT 2 pattern.
+## GROUP 1 — MODULE 5: I/O ORGANIZATION
 
-**Prepare these 3 predicted questions first:**
+**Expected Weightage: 8 Marks**
 
-1. Design the memory hierarchy and explain its characteristics.
-2. Compare Contiguous Memory Allocation and Non-Contiguous Memory Allocation.
-3. Mention the need for cache and explain Cache Hit and Cache Miss with a proper diagram.
+### Prepare These Questions First
 
-**Backup Questions:**
-- Compare Primary Memory and Secondary Memory.
-- Compare SRAM and DRAM.
-- Explain Direct Mapping in Cache Memory mapping technique.
+1. Explain the concept of Direct Memory Access (DMA) with a neat diagram.
+2. Describe the I/O module structure with the help of a neat diagram.
+3. Compare programmed I/O and interrupt-driven I/O data transfer.
 
----
+### Backup Questions
 
-## GROUP 2 — CHAPTER 5 / MODULE 5
-**I/O Organization**
-
-**Prepare these 3 predicted questions first:**
-
-1. Explain the concept of the Direct Memory Access technique (DMA), with a neat diagram.
-2. Describe the I/O Module Structure with the help of a neat diagram.
-3. Compare Programmed I/O and Interrupt-Driven I/O Data Transfer.
-
-**Backup Questions:**
-- Differentiate between Programmed I/O and DMA I/O Data Transfer.
+- Differentiate between programmed I/O and DMA data transfer.
 - Explain the functions of an I/O module.
 - Explain the working of a DMA controller.
 
+**Preparation Strategy:** Prioritise DMA and I/O module diagrams, followed by the comparison between programmed and interrupt-driven I/O.
+
 ---
 
-## GROUP 3 — CHAPTER 6 / MODULE 6
-**Overview of 8051 Microcontroller**
+## GROUP 2 — MODULE 6: 8051 MICROCONTROLLER
 
-**Prepare these 3 predicted questions first:**
+**Expected Weightage: 8 Marks**
 
-1. Explain the pin diagram of the 8051 microcontroller and the functions of its pins with reference to an AI-based agricultural monitoring system that interfaces with soil moisture, temperature and humidity sensors.
-2. Implement an embedded C program to perform addition of two 16-bit numbers using the 8051 microcontroller.
+### Prepare These Questions First
+
+1. Explain the pin diagram of the 8051 microcontroller and the functions of its pins with reference to an AI-based agricultural monitoring system interfacing with soil moisture, temperature, and humidity sensors.
+2. Write an embedded C program to add two 16-bit numbers using the 8051 microcontroller.
 3. List the Special Function Registers (SFRs) and explain any one.
 
-**Backup Questions:**
-- Differentiate between a microcontroller and a microprocessor with reference to their applications in an AI-based weather monitoring system.
-- Implement an embedded C program to transfer a block of data from one memory location to another.
+### Backup Questions
+
+- Differentiate between a microcontroller and a microprocessor with reference to an AI-based weather monitoring system.
+- Write an embedded C program to transfer a block of data from one memory location to another.
 - Explain the PSW register.
-- Write an 8051 C program to send values 00H–FFH to Port P1.
+- Write an 8051 C program to send values `00H` to `FFH` to Port P1.
+
+### Additional Question
+
+**Explain the architecture of the 8051 microcontroller with a neat diagram.**
+
+Prepare the block diagram and functions of the CPU, ROM, RAM, I/O ports, timers/counters, serial port, interrupt control, and oscillator.
+
+**Preparation Strategy:** Prioritise the pin diagram, 16-bit addition program, SFRs, and PSW register. Practise writing the programs without referring to notes.
 
 ---
 
-## EXTRA QUESTION — GUT FEELING
+## GROUP 3 — MODULE 4: MEMORY ORGANIZATION
 
-**My gut feeling says this question can also be asked:**
+**Expected Weightage: 4 Marks**
 
-Explain the Architecture of the 8051 Microcontroller with a Neat Diagram.
+**Attempt only ONE question from this group.**
 
-**Preparation tip:** Learn the block diagram and the functions of the CPU, ROM, RAM, I/O ports, timers/counters, serial port, interrupt control and oscillator.
+### Prepare These Questions First
+
+1. Design the memory hierarchy and explain its characteristics.
+2. Compare contiguous memory allocation and non-contiguous memory allocation.
+3. Explain the need for cache memory and describe cache hit and cache miss with a proper diagram.
+
+### Backup Questions
+
+- Compare primary memory and secondary memory.
+- Compare SRAM and DRAM.
+- Explain direct mapping in cache memory.
+
+**Preparation Strategy:** Prepare all three main questions, but expect to attempt only one. Focus on clear definitions, comparison tables, and diagrams wherever required.
 
 ---
 
-## Preparation Strategy
+## Final Preparation Strategy
 
-1. Prepare the predicted questions first, including all required diagrams and programs.
-2. Practise the comparison questions using six clear differences in sentence format.
-3. For programming questions, learn the code, explanation and expected output.
-4. Revise the backup questions after completing the predicted shortlist.
-5. Review all three module question banks because the exact UT 2 paper pattern and question selection are not confirmed.
+| Priority | Group | Module | Weightage |
+|---|---|---|---:|
+| 1 | Group 1 | Module 5 — I/O Organization | 8 Marks |
+| 2 | Group 2 | Module 6 — 8051 Microcontroller | 8 Marks |
+| 3 | Group 3 | Module 4 — Memory Organization | 4 Marks |
 
-**Important:** The UT 1 predictions reportedly matched your exam paper, but that does not guarantee the same accuracy for UT 2. The shortlist above is an estimate based on the available question banks, not verified knowledge of the upcoming paper.
+### Important Instructions
+
+1. Prepare Modules 5 and 6 thoroughly because together they account for 16 out of 20 marks.
+2. Practise diagrams for DMA, the I/O module, memory hierarchy, and the 8051 microcontroller.
+3. For comparison questions, prepare clear differences in a table.
+4. For programming questions, practise the code, explanation, and expected output where applicable.
+5. Revise Module 4 as well, even though its weightage is lower.
+
+**Note:** The module-wise weightage is based on the information provided. The exact questions and internal choice pattern cannot be confirmed.
