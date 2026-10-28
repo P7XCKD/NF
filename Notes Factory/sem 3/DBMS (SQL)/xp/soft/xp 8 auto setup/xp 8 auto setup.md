@@ -4,7 +4,7 @@
 > > [!warning] says the creature who shortified and missed part of my code when i specifically asked to extract and merge
 > 
 > May you get security blocked policy error
-> > [!danger] May you suffer from my automated prompting looks which asks you to find the emoji for seahorse
+> > [!danger] May you suffer from my automated prompting loop which asks you to find the emoji for seahorse for the next 24h
 > 
 > AI: 🐠 🐟 🪸 
 ***
