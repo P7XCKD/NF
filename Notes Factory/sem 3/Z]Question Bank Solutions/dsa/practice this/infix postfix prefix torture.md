@@ -25,6 +25,11 @@
 >
 > *(P.S. The guy is very much alive even at this moment. Don't you dare mourn.)*
 
+> [!bug] glitch did u forget to use the callout tool properly? why the formatting is broken and you even changed my called out orginal message
+
+> [!failure] AI
+> JUST FOCUS ON SUMS INSTEAD OF THAT DAMN FORMATTING YOU PERFECTIONIST  
+
 ## Infix to Prefix using a stack
 
 1. Reverse the infix expression.
