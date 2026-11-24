@@ -82,7 +82,7 @@
 - [ ] 2. Draw the pin diagram of the 8051 Microcontroller and explain the function of each pin in detail.
 - [x] 3. Draw the block diagram of the 8051 Microcontroller.
 - [x] 4. Implement an Embedded C Program for 8051 to transfer the letter "A" serially at 9600 baud continuously. Use 8-bit data and 1-stop bit.
-- [ ] 5. Write an 8051 C Program to display the temperature level (0–9) detected by a climate monitoring system on a 7-segment display. Use a suitable delay to periodically update the temperature reading, representing different heatwave intensity levels.
+- [x] 5. Write an 8051 C Program to display the temperature level (0–9) detected by a climate monitoring system on a 7-segment display. Use a suitable delay to periodically update the temperature reading, representing different heatwave intensity levels.
 - [x] 6. Differentiate between Microcontroller and Microprocessor.
 - [ ] 7. Explain the TMOD and TCON Special Function Registers (SFRs) of the 8051.
 - [ ] 8. List Various Special Function Registers of 8051 and explain any one in detail.
