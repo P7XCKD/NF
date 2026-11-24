@@ -61,7 +61,7 @@
 - [x] 8. Explain the need for DMA. How does a DMA transfer work?
 - [ ] 9. A byte-addressable main memory of 1 MB has a 16 KB cache with a 64-byte block size. Find the address format for Direct, Fully Associative and 4-way Set-Associative Mapping.
 - [ ] 10. A byte-addressable main memory of 64 MB uses a 128 KB cache with a block size of 32 bytes. Find the address format (Tag, Index/Set, and Block Offset bits) for Direct, Fully Associative and 8-way Set-Associative Mapping.
-- [ ] 11. Compare Direct Mapping, Fully Associative Mapping and Set-Associative Mapping.
+- [x] 11. Compare Direct Mapping, Fully Associative Mapping and Set-Associative Mapping.
 
 ## Module 5 -> 10m
 
