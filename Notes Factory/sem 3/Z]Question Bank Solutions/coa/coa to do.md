@@ -78,7 +78,7 @@
 
 ## Module 6
 
-- [ ] 1. Draw and explain the block diagram of the 8051 Microcontroller in detail with all registers.
+- [x] 1. Draw and explain the block diagram of the 8051 Microcontroller in detail with all registers.
 - [ ] 2. Draw the pin diagram of the 8051 Microcontroller and explain the function of each pin in detail.
 - [ ] 3. Draw the block diagram of the 8051 Microcontroller.
 - [ ] 4. Implement an Embedded C Program for 8051 to transfer the letter "A" serially at 9600 baud continuously. Use 8-bit data and 1-stop bit.
