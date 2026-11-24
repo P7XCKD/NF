@@ -70,7 +70,7 @@
 - [ ] 3. Differentiate between Memory-Mapped I/O and Isolated (I/O-Mapped) I/O.
 - [x] 4. Explain the concept of the Direct Memory Access Technique (DMA).
 - [x] 5. Draw the working diagram of the DMA Controller and discuss the working of DMA.
-- [ ] 6. Describe I/O Module Structure with the help of a neat diagram.
+- [x] 6. Describe I/O Module Structure with the help of a neat diagram.
 - [ ] 7. What are the primary functions of an I/O Module? Explain why an I/O Module is needed.
 - [ ] 8. Explain the role of Tri-State Buffers and Latches in I/O Module Interfacing. (4 Marks)
 - [ ] 9. What are the major functions of an I/O Module?
