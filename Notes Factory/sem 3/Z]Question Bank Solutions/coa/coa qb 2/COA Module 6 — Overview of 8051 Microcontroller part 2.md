@@ -248,62 +248,73 @@ Both are 8-bit bidirectional I/O ports on the classic 8051.
 
 ## Q13. Explain any five 8051 Addressing Modes with examples
 
+
+
 Addressing modes specify how an instruction accesses its operand.
 
-### 1. Immediate addressing
+### **1. Immediate Addressing**
+
 The data is included directly in the instruction. `#` indicates immediate data.
 
-```asm
+```
 MOV A, #25H
 ```
-Loads `25H` into A.
 
-### 2. Register addressing
-The operand is in a CPU register.
+Loads `25H` into accumulator A.
 
-```asm
+### **2. Register Addressing**
+
+The operand is stored in a CPU register.
+
+```
 MOV A, R2
 ```
+
 Copies the contents of R2 into A.
 
-### 3. Direct addressing
+### **3. Direct Addressing**
+
 The instruction specifies the internal RAM or SFR address.
 
-```asm
+```
 MOV A, 30H
 ```
+
 Copies the contents of internal RAM address `30H` into A.
 
-### 4. Register indirect addressing
-A register holds the address of the operand. R0 or R1 is used for internal RAM indirect addressing.
+### **4. Implied Addressing**
 
-```asm
-MOV R0, #30H
-MOV A, @R0
+The operand is automatically understood from the instruction. No operand is specified separately.
+
 ```
-R0 holds address `30H`; the data at that address is copied into A.
-
-### 5. Indexed addressing
-The effective code-memory address is formed using A plus DPTR or PC. It is useful for lookup tables.
-
-```asm
-MOV DPTR, #TABLE
-MOV A, #02H
-MOVC A, @A+DPTR
-
-TABLE: DB 10H, 20H, 30H, 40H
+CPL A
 ```
-DPTR points to the table and A contains offset `02H`; the third table byte (`30H`) is read into A.
+
+Complements (inverts) all bits of accumulator A.
+
+### **5. Relative Addressing**
+
+The address is calculated using the current program counter and a signed offset. It is mainly used in conditional jumps.
+
+```
+JNZ LOOP
+```
+
+If A is not zero, the program jumps to `LOOP`.
+
+### **Summary Table**
 
 | Mode | Operand location | Example |
-|---|---|---|
+| --- | --- | --- |
 | Immediate | Data in instruction | `MOV A, #25H` |
 | Register | CPU register | `MOV A, R2` |
 | Direct | Specified RAM/SFR address | `MOV A, 30H` |
-| Register indirect | Address held in R0/R1 | `MOV A, @R0` |
-| Indexed | Code-memory table using A + DPTR/PC | `MOVC A, @A+DPTR` |
+| Implied | Operand understood automatically | `CPL A` |
+| Relative | Address calculated using PC and offset | `JNZ LOOP` |
 
----
+**Note:** All five are valid 8051 addressing modes, but check whether your teacher accepts implied and relative instead of the commonly taught register indirect and indexed modes.
+
+**Easy trick:** Remember the examples: `#25H`, `R2`, `30H`, `CPL A`, `JNZ LOOP`.
 
 ## Extra coverage for Q1: 8051 registers to add to the block diagram answer
 
