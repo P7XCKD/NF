@@ -7,7 +7,7 @@
 - [ ] 3. Explain the three metrics of Performance Measures of Computer Architecture.
 - [x] 4. A Program ABCD has 15000 instructions and is executed on a system whose clock frequency is 3.3 GHz and the design facilitates average Cycles per Instruction of 12. Calculate the CPU time utilized to execute Program ABCD.
 - [x] 5. Draw the Flag Register of 8086 Microprocessors and explain all flags.
-- [ ] 6. Explain any two Assembler Directives of 8086 (DB, DW, DD, or EQU).
+- [x] 6. Explain any two Assembler Directives of 8086 (DB, DW, DD, or EQU).
 - [ ] 7. Explain the interrupt pins of 8086.
 - [ ] 8. What is the purpose of the ALE, BHE and DEN and DT/R' pins of 8086?
 - [ ] 9. List Minimum and Maximum pins of 8086 and explain any two in detail.
