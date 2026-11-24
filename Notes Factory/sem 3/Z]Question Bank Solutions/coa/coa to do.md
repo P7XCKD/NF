@@ -55,7 +55,7 @@
 - [ ] 2. Explain the classification of Primary Memory in a computer system. Your answer should cover all the subcategories, mentioning their characteristics, advantages and disadvantages.
 - [ ] 3. Explain the Direct Memory Mapping technique in Cache Memory in detail. Draw and explain a 3-level Cache Memory diagram and describe its working.
 - [ ] 4. Explain ROM Memory and its types: PROM, EPROM and EEPROM.
-- [ ] 5. Explain Memory Hierarchy and its characteristics in detail.
+- [x] 5. Explain Memory Hierarchy and its characteristics in detail.
 - [ ] 6. Mention the need for Cache, and explain Cache HIT and MISS with a proper diagram.
 - [ ] 7. Explain Memory Segmentation in 8086.
 - [ ] 8. Explain the need for DMA. How does a DMA transfer work?
