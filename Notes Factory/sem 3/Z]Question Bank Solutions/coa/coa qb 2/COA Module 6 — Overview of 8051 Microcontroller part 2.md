@@ -33,7 +33,7 @@ void main(void)
 
 The example below cycles through digits 0–9 as simulated readings. It assumes a common-cathode display connected to P2, with bit 0 = segment a through bit 6 = segment g.
 ***
-```
+
 Group them based on the common ending:
 
 ### **Group 1 – Ends with F**
@@ -69,7 +69,7 @@ Digits: **1, 4**
 Digits: **2, 7**
 
 **Memory trick:** First remember the four groups, then associate each value with its digit. This is easier than memorizing all ten values in sequence.
-```
+
 ***
 ```c
 #include <reg51.h>
