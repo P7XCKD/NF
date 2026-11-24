@@ -67,7 +67,7 @@
 
 - [x] 1. Differentiate between Programmed and DMA I/O Data Transfer.
 - [x] 2. Differentiate between Programmed and Interrupt-Driven I/O Data Transfer Techniques and explain DMA.
-- [ ] 3. Differentiate between Memory-Mapped I/O and Isolated (I/O-Mapped) I/O.
+- [x] 3. Differentiate between Memory-Mapped I/O and Isolated (I/O-Mapped) I/O.
 - [x] 4. Explain the concept of the Direct Memory Access Technique (DMA).
 - [x] 5. Draw the working diagram of the DMA Controller and discuss the working of DMA.
 - [x] 6. Describe I/O Module Structure with the help of a neat diagram.
