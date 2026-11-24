@@ -2,7 +2,7 @@
 
 ## Module 1 ->10m
 
-- [ ] 1. Draw and explain the Architecture of the 8086 microprocessor.
+- [x] 1. Draw and explain the Architecture of the 8086 microprocessor.
 - [x] 2. Explain the difference between Computer Architecture and Organisation.
 - [ ] 3. Explain the three metrics of Performance Measures of Computer Architecture.
 - [x] 4. A Program ABCD has 15000 instructions and is executed on a system whose clock frequency is 3.3 GHz and the design facilitates average Cycles per Instruction of 12. Calculate the CPU time utilized to execute Program ABCD.
