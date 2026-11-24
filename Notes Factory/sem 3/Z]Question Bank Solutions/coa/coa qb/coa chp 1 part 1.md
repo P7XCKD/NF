@@ -815,26 +815,7 @@ For `RCL CL, 1`:
 - The old most-significant bit of CL moves into CF.
 - The old CF moves into the least-significant bit of CL.
 
-### Example
-Assume:
-- `CL = 10010110B`
-- `CF = 0`
 
-Before:
-```text
-CF |       CL
- 0 | 1 0 0 1 0 1 1 0
-```
-
-After rotating left through carry by 1:
-```text
-new CF = old bit 7 = 1
-new CL = 0 0 1 0 1 1 0 0 = 00101100B
-```
-
-So:
-- `CL = 2CH`
-- `CF = 1`
 
 ![image](.attachments/f39763898dc042fbc9d23c2bafeef4c4c3eb3014.png) 
 
