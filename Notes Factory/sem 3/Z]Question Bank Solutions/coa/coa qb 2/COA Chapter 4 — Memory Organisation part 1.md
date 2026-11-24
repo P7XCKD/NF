@@ -56,8 +56,8 @@ A computer uses several kinds of memory because no single memory type can be sim
 **Memory hierarchy** is the arrangement of memory types according to speed, cost and capacity. Faster memory is closer to the CPU, while slower, larger memory is farther away.
 
 ### Diagram
-![image](.attachments/63f9c41aa3bd92c0b8a437d7b2acc7580628be59.png) 
 
+![image](.attachments/1bab64fdb0701841dad2fd157d7df64254b6384a.png) 
 
 ### Characteristics
 
