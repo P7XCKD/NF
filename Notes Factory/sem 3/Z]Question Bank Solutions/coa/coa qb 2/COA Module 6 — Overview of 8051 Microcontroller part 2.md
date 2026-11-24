@@ -32,7 +32,45 @@ void main(void)
 ## Q5. 8051 C: Display temperature levels 0–9 on a 7-segment display
 
 The example below cycles through digits 0–9 as simulated readings. It assumes a common-cathode display connected to P2, with bit 0 = segment a through bit 6 = segment g.
+***
+```
+Group them based on the common ending:
 
+### **Group 1 – Ends with F**
+
+```
+3F, 4F, 7F, 6F
+```
+
+Digits: **0, 3, 8, 9**
+
+### **Group 2 – Ends with D**
+
+```
+6D, 7D
+```
+
+Digits: **5, 6**
+
+### **Group 3 – Ends with 6**
+
+```
+06, 66
+```
+
+Digits: **1, 4**
+
+### **Group 4 – Remaining values**
+
+```
+5B, 07
+```
+
+Digits: **2, 7**
+
+**Memory trick:** First remember the four groups, then associate each value with its digit. This is easier than memorizing all ten values in sequence.
+```
+***
 ```c
 #include <reg51.h>
 
