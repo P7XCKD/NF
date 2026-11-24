@@ -16,7 +16,7 @@
 ## Module 2 -> 15m
 
 - [x] 1. Explain block diagram of Basic Instruction Cycle with Interrupt Processing.
-- [ ] 2. Explain six-stage instruction pipelines.
+- [x] 2. Explain six-stage instruction pipelines.
 - [ ] 3. Explain the concept of Pipelining in 8086. State its advantages.
 - [ ] 4. Explain the difference between Softwired and Hardwired Control Units.
 - [ ] 5. Illustrate the 6-stage Pipelining.
