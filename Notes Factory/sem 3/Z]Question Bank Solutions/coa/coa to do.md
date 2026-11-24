@@ -56,7 +56,7 @@
 - [ ] 3. Explain the Direct Memory Mapping technique in Cache Memory in detail. Draw and explain a 3-level Cache Memory diagram and describe its working.
 - [ ] 4. Explain ROM Memory and its types: PROM, EPROM and EEPROM.
 - [x] 5. Explain Memory Hierarchy and its characteristics in detail.
-- [ ] 6. Mention the need for Cache, and explain Cache HIT and MISS with a proper diagram.
+- [x] 6. Mention the need for Cache, and explain Cache HIT and MISS with a proper diagram.
 - [ ] 7. Explain Memory Segmentation in 8086.
 - [x] 8. Explain the need for DMA. How does a DMA transfer work?
 - [ ] 9. A byte-addressable main memory of 1 MB has a 16 KB cache with a 64-byte block size. Find the address format for Direct, Fully Associative and 4-way Set-Associative Mapping.
