@@ -86,7 +86,7 @@
 - [x] 6. Differentiate between Microcontroller and Microprocessor.
 - [ ] 7. Explain the TMOD and TCON Special Function Registers (SFRs) of the 8051.
 - [ ] 8. List Various Special Function Registers of 8051 and explain any one in detail.
-- [ ] 9. Write a short note on Program Status Word in 8051.
+- [x] 9. Write a short note on Program Status Word in 8051.
 - [ ] 10. Draw and explain the SCON (Serial Control) Register of the 8051.
 - [x] 11. Explain the role of the Stack and Stack Pointer (SP) in the 8051.
 - [ ] 12. Explain the structure and operation of Port 0 and Port 1 of the 8051.
