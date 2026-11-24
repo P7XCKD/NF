@@ -11,7 +11,7 @@
 - [x] 7. Explain the interrupt pins of 8086.
 - [ ] 8. What is the purpose of the ALE, BHE and DEN and DT/R' pins of 8086?
 - [ ] 9. List Minimum and Maximum pins of 8086 and explain any two in detail.
-- [ ] 10. Explain common control pins of 8086.
+- [x] 10. Explain common control pins of 8086.
 
 ## Module 2 -> 15m
 
