@@ -36,34 +36,50 @@ The example below cycles through digits 0–9 as simulated readings. It assumes 
 ```c
 #include <reg51.h>
 
-unsigned char code digit[10] =
+void delay()
 {
-    0x3F, 0x06, 0x5B, 0x4F, 0x66,
-    0x6D, 0x7D, 0x07, 0x7F, 0x6F
-};
-
-void delay(void)
-{
-    unsigned int i, j;
-    for (i = 0; i < 200; i++)
-        for (j = 0; j < 250; j++);
+    int i, j;
+    for(i = 0; i < 200; i++)
+        for(j = 0; j < 250; j++);
 }
 
-void main(void)
+void main()
 {
-    unsigned char temp;
-
-    while (1)
+    while(1)
     {
-        for (temp = 0; temp <= 9; temp++)
-        {
-            P2 = digit[temp];
-            delay();
-        }
+        P2 = 0x3F;  // 0
+        delay();
+
+        P2 = 0x06;  // 1
+        delay();
+
+        P2 = 0x5B;  // 2
+        delay();
+
+        P2 = 0x4F;  // 3
+        delay();
+
+        P2 = 0x66;  // 4
+        delay();
+
+        P2 = 0x6D;  // 5
+        delay();
+
+        P2 = 0x7D;  // 6
+        delay();
+
+        P2 = 0x07;  // 7
+        delay();
+
+        P2 = 0x7F;  // 8
+        delay();
+
+        P2 = 0x6F;  // 9
+        delay();
     }
 }
-```
 
+```
 **Explanation:** The array stores the segment pattern for each digit. The loop sends each pattern to Port 2, and the delay keeps the digit visible before updating it. Use current-limiting resistors. For a common-anode display, use inverted patterns. In a real monitoring system, replace the counter with the actual sensor reading.
 
 ## Q7. Explain TMOD and TCON Special Function Registers
