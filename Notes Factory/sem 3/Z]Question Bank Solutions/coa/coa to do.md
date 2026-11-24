@@ -51,7 +51,7 @@
 
 ## Module 4 -> 15m
 
-- [ ] 1. Explain the Direct Memory Mapping technique in Cache Memory in detail.
+- [x] 1. Explain the Direct Memory Mapping technique in Cache Memory in detail.
 - [ ] 2. Explain the classification of Primary Memory in a computer system. Your answer should cover all the subcategories, mentioning their characteristics, advantages and disadvantages.
 - [ ] 3. Explain the Direct Memory Mapping technique in Cache Memory in detail. Draw and explain a 3-level Cache Memory diagram and describe its working.
 - [ ] 4. Explain ROM Memory and its types: PROM, EPROM and EEPROM.
