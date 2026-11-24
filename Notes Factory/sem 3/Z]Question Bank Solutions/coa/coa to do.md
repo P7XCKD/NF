@@ -17,7 +17,7 @@
 
 - [x] 1. Explain block diagram of Basic Instruction Cycle with Interrupt Processing.
 - [x] 2. Explain six-stage instruction pipelines.
-- [ ] 3. Explain the concept of Pipelining in 8086. State its advantages.
+- [x] 3. Explain the concept of Pipelining in 8086. State its advantages.
 - [ ] 4. Explain the difference between Softwired and Hardwired Control Units.
 - [x] 5. Illustrate the 6-stage Pipelining.
 - [x] 6. Classify and explain the computers according to the type of Parallelism (Flynn's Taxonomy). Mention the Advantages, Disadvantages and Uses.
