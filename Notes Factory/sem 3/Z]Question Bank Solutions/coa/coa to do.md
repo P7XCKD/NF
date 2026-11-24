@@ -21,7 +21,7 @@
 - [ ] 4. Explain the difference between Softwired and Hardwired Control Units.
 - [ ] 5. Illustrate the 6-stage Pipelining.
 - [ ] 6. Classify and explain the computers according to the type of Parallelism (Flynn's Taxonomy). Mention the Advantages, Disadvantages and Uses.
-- [ ] 7. Explain the Instruction Cycle in detail with a neatly labelled state diagram and describe each phase of the cycle, such as Fetch, Decode, Execute, Memory Access, and Write-Back.
+- [x] 7. Explain the Instruction Cycle in detail with a neatly labelled state diagram and describe each phase of the cycle, such as Fetch, Decode, Execute, Memory Access, and Write-Back.
 - [ ] 8. Explain the Physical Address Calculation in 8086 with an Example.
 
 ## Module 3 -> 20m
