@@ -74,7 +74,7 @@
 - [x] 7. What are the primary functions of an I/O Module? Explain why an I/O Module is needed.
 - [ ] 8. Explain the role of Tri-State Buffers and Latches in I/O Module Interfacing. (4 Marks)
 - [x] 9. What are the major functions of an I/O Module?
-- [ ] 10. Explain how DMA (Direct Memory Access) works and describe its modes of operation.
+- [x] 10. Explain how DMA (Direct Memory Access) works and describe its modes of operation.
 
 ## Module 6
 
