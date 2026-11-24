@@ -90,4 +90,4 @@
 - [ ] 10. Draw and explain the SCON (Serial Control) Register of the 8051.
 - [x] 11. Explain the role of the Stack and Stack Pointer (SP) in the 8051.
 - [ ] 12. Explain the structure and operation of Port 0 and Port 1 of the 8051.
-- [ ] 13. Explain any five Addressing Modes of the 8051 Microcontroller with suitable examples.
+- [x] 13. Explain any five Addressing Modes of the 8051 Microcontroller with suitable examples.
